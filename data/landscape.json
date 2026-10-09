@@ -1,0 +1,206 @@
+{
+ "checked": "2026-10-10",
+ "headline": "Ballotpedia(2026-09-28 갱신) 기준, 2026년 11월 하원선거에서 2024년과 다른 새 연방하원 지도를 쓰는 주는 9개(AL·CA·FL·LA·NC·OH·TN·TX·UT)다. 기준선(6/15)의 10개 중 미주리가 빠졌다. 미주리는 2025 지도로 예비선거를 치렀으나 9월 판결로 본선거는 2022 지도(2024년과 같은 지도)로 치른다. 6월 이후 새 지도를 채택한 주는 확인되지 않았다.",
+ "states": [
+  {
+   "state": "TX",
+   "name": "텍사스",
+   "status_2026": "새 지도 사용",
+   "summary": "2025년 주의회 통과 지도. Ballotpedia는 연방대법원이 2026년 사용을 허용했다고 기재(잠재 효과 +5 R). 세부는 TX 담당 조사 참조.",
+   "net_effect_d": -5,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "CA",
+   "name": "캘리포니아",
+   "status_2026": "새 지도 사용",
+   "summary": "2025-11-04 주민투표(Prop 50)로 가결(65%-35%, Ballotpedia). 잠재 효과 +5 D.",
+   "net_effect_d": 5,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "FL",
+   "name": "플로리다",
+   "status_2026": "새 지도 사용",
+   "summary": "2026-05-04 디샌티스 주지사 서명. 잠재 효과 +4 R(Ballotpedia).",
+   "net_effect_d": -4,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "OH",
+   "name": "오하이오",
+   "status_2026": "새 지도 사용",
+   "summary": "주법상 재획정 의무. 2025-10-31 재획정위원회 만장일치 승인. 잠재 효과 +2 R(Ballotpedia).",
+   "net_effect_d": -2,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "MO",
+   "name": "미주리",
+   "status_2026": "구 지도 복귀",
+   "summary": "2025년 새 지도로 2026 예비선거를 치렀으나, 주대법원이 2026-09-03 거부권 주민투표 대상이라고 판결해 2022 지도 사용을 명령. 8순회법원이 2026-09-21 새 지도 사용을 명했으나 연방대법원이 2026-09-25 이를 정지시키며 '주법상 2022 지도를 2026 선거에 써야 한다'고 결정. 본선거는 2022·2024와 같은 지도(공화 우세 6·민주 우세 2 구조 유지). 기준선과 달라진 핵심 변화.",
+   "net_effect_d": 0,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "NC",
+   "name": "노스캐롤라이나",
+   "status_2026": "새 지도 사용",
+   "summary": "2025-10-22 주의회 통과. 잠재 효과 +1 R(Ballotpedia).",
+   "net_effect_d": -1,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "TN",
+   "name": "테네시",
+   "status_2026": "새 지도 사용",
+   "summary": "Callais 판결 후 특별회기에서 2026-05-07 통과·리 주지사 서명(멤피스 기반 9구 재획정). 잠재 효과 +1 R. Voting Rights Lab(2026-08-19)은 소송 진행 중이라고 기재 — 10월 현재 사용 중단 보도는 찾지 못함.",
+   "net_effect_d": -1,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "LA",
+   "name": "루이지애나",
+   "status_2026": "새 지도 사용",
+   "summary": "Callais 판결 후 2026-05-29 랜드리 주지사 서명. 잠재 효과 +1 R(Ballotpedia). 예비선거를 연기해 새 지도로 선거 시행(Voting Rights Lab).",
+   "net_effect_d": -1,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "AL",
+   "name": "앨라배마",
+   "status_2026": "새 지도 사용",
+   "summary": "연방대법원이 2026-06-02 하급심 금지명령을 해제해 주의회 2023 지도 사용 허용(2024년 법원 지도와 다름). 잠재 효과 +1 R(Ballotpedia). PBS는 8월에 새 지도로 예비선거를 다시 치렀다고 보도.",
+   "net_effect_d": -1,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "UT",
+   "name": "유타",
+   "status_2026": "새 지도 사용",
+   "summary": "주법원(기브슨 판사)이 2025-11-10 원고 측 지도를 채택. 민주 우세 1석 신설, 잠재 효과 +1 D(Ballotpedia).",
+   "net_effect_d": 1,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "VA",
+   "name": "버지니아",
+   "status_2026": "차단",
+   "summary": "2026년 4월 주민투표 가결 후 주대법원이 2026-05-08 절차 위반으로 무효화, 연방대법원이 2026-05-15 정지 신청 기각. 기존 지도 사용.",
+   "net_effect_d": 0,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "NY",
+   "name": "뉴욕",
+   "status_2026": "차단",
+   "summary": "주법원의 NY-11 재획정 명령(2026-01-21)을 연방대법원이 막아 기존(2024) 지도를 2026년에 사용.",
+   "net_effect_d": 0,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "IN",
+   "name": "인디애나",
+   "status_2026": "부결",
+   "summary": "주하원 2025-12-05 통과, 주상원 2025-12-11 31-19로 부결.",
+   "net_effect_d": 0,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "MD",
+   "name": "메릴랜드",
+   "status_2026": "부결",
+   "summary": "주하원은 2026-02-02 8석 모두 민주 우세 지도 통과, 주상원은 표결하지 않음(PBS 2026-04-22).",
+   "net_effect_d": 0,
+   "source_url": "https://www.pbs.org/newshour/politics/a-state-by-state-look-at-the-narrowing-redistricting-battle-for-the-u-s-house"
+  },
+  {
+   "state": "SC",
+   "name": "사우스캐롤라이나",
+   "status_2026": "부결",
+   "summary": "주하원 2026-05-20 74-37 통과, 주상원 2026-05-26 토론종결 표결 24-20 부결 후 예비선거 이후로 휴회 → 2026년 새 지도 없음.",
+   "net_effect_d": 0,
+   "source_url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections"
+  },
+  {
+   "state": "KS",
+   "name": "캔자스",
+   "status_2026": "부결",
+   "summary": "특별회기 소집 청원이 2025년 11월 철회(PBS).",
+   "net_effect_d": 0,
+   "source_url": "https://www.pbs.org/newshour/politics/a-state-by-state-look-at-the-narrowing-redistricting-battle-for-the-u-s-house"
+  },
+  {
+   "state": "IL",
+   "name": "일리노이",
+   "status_2026": "부결",
+   "summary": "민주당 주의회가 조치하지 않음(PBS 2026-04-22). 정식 부결 표결은 아니며 '추진 무산'.",
+   "net_effect_d": 0,
+   "source_url": "https://www.pbs.org/newshour/politics/a-state-by-state-look-at-the-narrowing-redistricting-battle-for-the-u-s-house"
+  },
+  {
+   "state": "GA",
+   "name": "조지아",
+   "status_2026": "부결",
+   "summary": "주의회가 새 지도 작성을 거부(Voting Rights Lab 2026-08-19). 기존 지도 관련 VRA 소송은 계속 중이나 Ballotpedia상 2026년 지도 변경 없음.",
+   "net_effect_d": 0,
+   "source_url": "https://votingrightslab.org/2026/08/19/an-emerging-trend-mid-decade-redistricting/"
+  },
+  {
+   "state": "MS",
+   "name": "미시시피",
+   "status_2026": "부결",
+   "summary": "Voting Rights Lab(2026-08-19)은 미시시피를 '2026년 새 지도 미채택' 주로 분류하고 2026년 8월에야 재획정 검토를 시작했다고 기재. 검색 결과 요약상 리브스 주지사가 2026-05-13 특별회기를 취소하고 연방하원 재획정을 2027년 선거 전으로 미뤘다는 보도가 있음(해당 기사 원문은 열지 않음). 2026년 지도 변경 없음.",
+   "net_effect_d": 0,
+   "source_url": "https://votingrightslab.org/2026/08/19/an-emerging-trend-mid-decade-redistricting/"
+  }
+ ],
+ "national_trackers": [
+  {
+   "name": "Ballotpedia — Redistricting ahead of the 2026 elections",
+   "date": "2026-09-28 (페이지 최종 갱신일)",
+   "net_estimate": "공화 +9석 (9개 주 '잠재 효과' 합산: R +15, D +6; 미주리 제외)",
+   "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+   "quote": "As of September 2026, nine states — Alabama, California, Florida, Louisiana, North Carolina, Ohio, Tennessee, Texas, and Utah — had new congressional maps. … Net +9 R"
+  },
+  {
+   "name": "NPR",
+   "date": "2026-09-25",
+   "net_estimate": "공화 쪽으로 약 9~10개 구 기울임(미주리 5구 포함 — 미주리 복귀 이전 기준 표현)",
+   "url": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
+   "quote": "The redistricting battle set off by Trump ended with the GOP besting the Democrats by tilting about nine or 10 more districts, including Missouri's 5th District, their way."
+  },
+  {
+   "name": "NBC News",
+   "date": "2026-06-03",
+   "net_estimate": "최대 공화 16석 대 민주 6석 (미주리 포함 10개 주 기준, 6월 시점)",
+   "url": "https://www.nbcnews.com/politics/2026-election/house-redistricting-gop-democrats-2026-midterm-elections-rcna348110",
+   "quote": "Republicans are in position to gain as many as 16 House seats this fall, compared with six for Democrats."
+  }
+ ],
+ "new_states_since_june": [],
+ "changes_vs_baseline": [
+  "미주리: 기준선 '사용(주민투표 분쟁)' → 2026 본선거는 2022 지도 사용(구 지도 복귀). 주대법원 2026-09-03, 연방대법원 2026-09-25 결정. 새 지도 사용 주는 10개 → 9개.",
+  "조지아·미시시피: 기준선에 없던 주. 둘 다 2026년 새 지도 없음 확인.",
+  "6/15 이후 새 지도를 채택했거나 법원이 새 지도를 명령한 추가 주는 찾지 못함(Ballotpedia 9/28 갱신본 기준)."
+ ],
+ "unverified": [
+  "Cook Political Report 재획정 트래커 최신 순증 추정치: 페이지가 403으로 막혀 원문 확인 실패. 검색 요약에는 '공화 약 4석 순증'이라는 문구가 있으나 원문 미확인이므로 쓰지 않음.",
+  "Sabato's Crystal Ball 9월 기사('GOP Redistricting Edge Blunted by Missouri Reverting to Old Map…'): Cloudflare 차단으로 원문 수치 미확인(검색 요약상 '공화 2~6석' 언급 있으나 출처 문장 미확인).",
+  "Axios 2026-10-06 'House GOP leaders admit redistricting fell short': 403, 내용 미확인.",
+  "NYT·270toWin 재획정 트래커: 현재 순증 추정치 페이지를 찾지 못함.",
+  "Ballotpedia 'Net +9 R'은 각 주 지도의 '잠재 효과'를 단순 합산한 값이며 실제 선거 결과 예측이 아님.",
+  "테네시·플로리다 등 진행 중 소송이 10월 이후 2026 사용을 뒤집었다는 보도는 찾지 못함(부재 확인이지 완전 검증은 아님). 주별 상세는 각 담당 에이전트 조사 참조.",
+  "Missouri Independent 2026-09-25 기사는 403으로 직접 열지 못함. 미주리 사실관계는 Ballotpedia·ABC News(2026-09-25)·PBS(2026-09-10)로 확인.",
+  "미시시피 주지사 특별회기 취소(2026-05-13) 세부는 검색 결과 요약으로만 확인, 원문(Mississippi Free Press 등) 미열람."
+ ],
+ "sources": [
+  "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+  "https://votingrightslab.org/2026/08/19/an-emerging-trend-mid-decade-redistricting/",
+  "https://www.pbs.org/newshour/politics/a-state-by-state-look-at-the-narrowing-redistricting-battle-for-the-u-s-house",
+  "https://www.pbs.org/newshour/politics/missouri-is-poised-to-revert-to-former-districts-after-supreme-court-rejects-trump-backed-map",
+  "https://abcnews.com/Politics/supreme-court-shuts-missouri-redistricting-saga-final-rebuff/story?id=136768817",
+  "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
+  "https://www.nbcnews.com/politics/2026-election/house-redistricting-gop-democrats-2026-midterm-elections-rcna348110"
+ ]
+}

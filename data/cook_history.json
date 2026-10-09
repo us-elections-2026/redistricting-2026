@@ -1,0 +1,2004 @@
+{
+ "source_label": "Cook Political Report — 270toWin 재게시판을 사이트 us-elections-2026이 자동 취득한 스냅샷(git 이력)",
+ "source_url": "https://www.270towin.com/2026-house-election/index_show_table.php?map_title=cook-political-report-2026-house-ratings",
+ "dates": [
+  "2026-07-16",
+  "2026-08-13",
+  "2026-08-25",
+  "2026-09-11",
+  "2026-09-25"
+ ],
+ "districts": {
+  "AL-01": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "AL-02": {
+   "party": "R",
+   "incumbent": "Figures",
+   "ratings": {
+    "2026-07-16": "Likely R",
+    "2026-08-13": "Likely R",
+    "2026-08-25": "Likely R",
+    "2026-09-11": "Likely R",
+    "2026-09-25": "Likely R"
+   }
+  },
+  "AL-03": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "AL-04": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "AL-05": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "AL-06": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "AL-07": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-01": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-02": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-03": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-04": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-05": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "CA-06": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-07": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-08": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-09": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-10": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-11": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-12": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-13": {
+   "party": "D",
+   "incumbent": "Gray",
+   "ratings": {
+    "2026-07-16": "Lean D",
+    "2026-08-13": "Lean D",
+    "2026-08-25": "Lean D",
+    "2026-09-11": "Lean D",
+    "2026-09-25": "Lean D"
+   }
+  },
+  "CA-14": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-15": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-16": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-17": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-18": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-19": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-20": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "CA-21": {
+   "party": "D",
+   "incumbent": "Costa",
+   "ratings": {
+    "2026-07-16": "Likely D",
+    "2026-08-13": "Likely D",
+    "2026-08-25": "Likely D",
+    "2026-09-11": "Likely D",
+    "2026-09-25": "Likely D"
+   }
+  },
+  "CA-22": {
+   "party": "T",
+   "incumbent": "Valadao",
+   "ratings": {
+    "2026-07-16": "Toss-up",
+    "2026-08-13": "Toss-up",
+    "2026-08-25": "Toss-up",
+    "2026-09-11": "Toss-up",
+    "2026-09-25": "Toss-up"
+   }
+  },
+  "CA-23": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "CA-24": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-25": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-26": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-27": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-28": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-29": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-30": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-31": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-32": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-33": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-34": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-35": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-36": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-37": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-38": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-39": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-40": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "CA-41": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-42": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-43": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-44": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-45": {
+   "party": "D",
+   "incumbent": "Tran",
+   "ratings": {
+    "2026-07-16": "Likely D",
+    "2026-08-13": "Likely D",
+    "2026-08-25": "Likely D",
+    "2026-09-11": "Likely D",
+    "2026-09-25": "Likely D"
+   }
+  },
+  "CA-46": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-47": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-48": {
+   "party": "D",
+   "incumbent": "OPEN",
+   "ratings": {
+    "2026-07-16": "Lean D",
+    "2026-08-13": "Lean D",
+    "2026-08-25": "Lean D",
+    "2026-09-11": "Lean D",
+    "2026-09-25": "Lean D"
+   }
+  },
+  "CA-49": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-50": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-51": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "CA-52": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "FL-01": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-02": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-03": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-04": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-05": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-06": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-07": {
+   "party": "R",
+   "incumbent": "Mills",
+   "ratings": {
+    "2026-07-16": "Likely R",
+    "2026-08-13": "Likely R",
+    "2026-08-25": "Likely R",
+    "2026-09-11": "Likely R",
+    "2026-09-25": "Likely R"
+   }
+  },
+  "FL-08": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-09": {
+   "party": "R",
+   "incumbent": "Soto",
+   "ratings": {
+    "2026-07-16": "Likely R",
+    "2026-08-13": "Likely R",
+    "2026-08-25": "Likely R",
+    "2026-09-11": "Likely R",
+    "2026-09-25": "Likely R"
+   }
+  },
+  "FL-10": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "FL-11": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-12": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-13": {
+   "party": "R",
+   "incumbent": "Luna",
+   "ratings": {
+    "2026-07-16": "Likely R",
+    "2026-08-13": "Likely R",
+    "2026-08-25": "Likely R",
+    "2026-09-11": "Likely R",
+    "2026-09-25": "Lean R"
+   }
+  },
+  "FL-14": {
+   "party": "R",
+   "incumbent": "Castor",
+   "ratings": {
+    "2026-07-16": "Lean R",
+    "2026-08-13": "Lean R",
+    "2026-08-25": "Toss-up",
+    "2026-09-11": "Toss-up",
+    "2026-09-25": "Toss-up"
+   }
+  },
+  "FL-15": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-16": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-17": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-18": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-19": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-20": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "FL-21": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-22": {
+   "party": "R",
+   "incumbent": "Frankel",
+   "ratings": {
+    "2026-07-16": "Lean R",
+    "2026-08-13": "Lean R",
+    "2026-08-25": "Lean R",
+    "2026-09-11": "Lean R",
+    "2026-09-25": "Toss-up"
+   }
+  },
+  "FL-23": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "FL-24": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "FL-25": {
+   "party": "T",
+   "incumbent": "Moskowitz",
+   "ratings": {
+    "2026-07-16": "Toss-up",
+    "2026-08-13": "Toss-up",
+    "2026-08-25": "Toss-up",
+    "2026-09-11": "Toss-up",
+    "2026-09-25": "Toss-up"
+   }
+  },
+  "FL-26": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "FL-27": {
+   "party": "R",
+   "incumbent": "Salazar",
+   "ratings": {
+    "2026-07-16": "Likely R",
+    "2026-08-13": "Likely R",
+    "2026-08-25": "Likely R",
+    "2026-09-11": "Likely R",
+    "2026-09-25": "Lean R"
+   }
+  },
+  "FL-28": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "LA-01": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "LA-02": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "LA-03": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "LA-04": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "LA-05": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "LA-06": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "MO-01": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "MO-02": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Likely R",
+    "2026-09-25": "Likely R"
+   }
+  },
+  "MO-03": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "MO-04": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "MO-05": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "MO-06": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "MO-07": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "MO-08": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "NC-01": {
+   "party": "R",
+   "incumbent": "Davis",
+   "ratings": {
+    "2026-07-16": "Lean R",
+    "2026-08-13": "Lean R",
+    "2026-08-25": "Lean R",
+    "2026-09-11": "Lean R",
+    "2026-09-25": "Lean R"
+   }
+  },
+  "NC-02": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "NC-03": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "NC-04": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "NC-05": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "NC-06": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "NC-07": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "NC-08": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "NC-09": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "NC-10": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "NC-11": {
+   "party": "R",
+   "incumbent": "Edwards",
+   "ratings": {
+    "2026-07-16": "Lean R",
+    "2026-08-13": "Lean R",
+    "2026-08-25": "Lean R",
+    "2026-09-11": "Lean R",
+    "2026-09-25": "Toss-up"
+   }
+  },
+  "NC-12": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "NC-13": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "NC-14": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "OH-01": {
+   "party": "D",
+   "incumbent": "Landsman",
+   "ratings": {
+    "2026-07-16": "Lean D",
+    "2026-08-13": "Lean D",
+    "2026-08-25": "Lean D",
+    "2026-09-11": "Lean D",
+    "2026-09-25": "Lean D"
+   }
+  },
+  "OH-02": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "OH-03": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "OH-04": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "OH-05": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "OH-06": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "OH-07": {
+   "party": "R",
+   "incumbent": "Miller",
+   "ratings": {
+    "2026-07-16": "Likely R",
+    "2026-08-13": "Toss-up",
+    "2026-08-25": "Toss-up",
+    "2026-09-11": "Toss-up",
+    "2026-09-25": "Toss-up"
+   }
+  },
+  "OH-08": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "OH-09": {
+   "party": "T",
+   "incumbent": "Kaptur",
+   "ratings": {
+    "2026-07-16": "Toss-up",
+    "2026-08-13": "Toss-up",
+    "2026-08-25": "Toss-up",
+    "2026-09-11": "Toss-up",
+    "2026-09-25": "Toss-up"
+   }
+  },
+  "OH-10": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Likely R",
+    "2026-08-25": "Likely R",
+    "2026-09-11": "Likely R",
+    "2026-09-25": "Likely R"
+   }
+  },
+  "OH-11": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "OH-12": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "OH-13": {
+   "party": "D",
+   "incumbent": "Sykes",
+   "ratings": {
+    "2026-07-16": "Likely D",
+    "2026-08-13": "Likely D",
+    "2026-08-25": "Likely D",
+    "2026-09-11": "Likely D",
+    "2026-09-25": "Likely D"
+   }
+  },
+  "OH-14": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "OH-15": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Likely R",
+    "2026-08-25": "Likely R",
+    "2026-09-11": "Likely R",
+    "2026-09-25": "Likely R"
+   }
+  },
+  "TN-01": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TN-02": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TN-03": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TN-04": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TN-05": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TN-06": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TN-07": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TN-08": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TN-09": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-01": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-02": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-03": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-04": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-05": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-06": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-07": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "TX-08": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-09": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Likely R"
+   }
+  },
+  "TX-10": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-11": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-12": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-13": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-14": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-15": {
+   "party": "R",
+   "incumbent": "De La Cruz",
+   "ratings": {
+    "2026-07-16": "Lean R",
+    "2026-08-13": "Lean R",
+    "2026-08-25": "Lean R",
+    "2026-09-11": "Lean R",
+    "2026-09-25": "Toss-up"
+   }
+  },
+  "TX-16": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "TX-17": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-18": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "TX-19": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-20": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "TX-21": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-22": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-23": {
+   "party": "R",
+   "incumbent": "OPEN",
+   "ratings": {
+    "2026-07-16": "Likely R",
+    "2026-08-13": "Likely R",
+    "2026-08-25": "Likely R",
+    "2026-09-11": "Likely R",
+    "2026-09-25": "Likely R"
+   }
+  },
+  "TX-24": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-25": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-26": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-27": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-28": {
+   "party": "D",
+   "incumbent": "Cuellar",
+   "ratings": {
+    "2026-07-16": "Lean D",
+    "2026-08-13": "Lean D",
+    "2026-08-25": "Lean D",
+    "2026-09-11": "Lean D",
+    "2026-09-25": "Lean D"
+   }
+  },
+  "TX-29": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "TX-30": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "TX-31": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-32": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-33": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "TX-34": {
+   "party": "T",
+   "incumbent": "Gonzalez",
+   "ratings": {
+    "2026-07-16": "Toss-up",
+    "2026-08-13": "Toss-up",
+    "2026-08-25": "Toss-up",
+    "2026-09-11": "Toss-up",
+    "2026-09-25": "Toss-up"
+   }
+  },
+  "TX-35": {
+   "party": "R",
+   "incumbent": "OPEN (Casar)",
+   "ratings": {
+    "2026-07-16": "Likely R",
+    "2026-08-13": "Likely R",
+    "2026-08-25": "Likely R",
+    "2026-09-11": "Likely R",
+    "2026-09-25": "Lean R"
+   }
+  },
+  "TX-36": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "TX-37": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "TX-38": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "UT-01": {
+   "party": "D",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid D",
+    "2026-08-13": "Solid D",
+    "2026-08-25": "Solid D",
+    "2026-09-11": "Solid D",
+    "2026-09-25": "Solid D"
+   }
+  },
+  "UT-02": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "UT-03": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  },
+  "UT-04": {
+   "party": "R",
+   "incumbent": null,
+   "ratings": {
+    "2026-07-16": "Solid R",
+    "2026-08-13": "Solid R",
+    "2026-08-25": "Solid R",
+    "2026-09-11": "Solid R",
+    "2026-09-25": "Solid R"
+   }
+  }
+ }
+}

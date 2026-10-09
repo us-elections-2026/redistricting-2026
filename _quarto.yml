@@ -1,0 +1,67 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - data/geo/*.geojson
+    - assets/maps.js
+  render:
+    - "*.qmd"
+    - "states/*.qmd"
+    - "!README.md"
+
+lang: ko
+
+website:
+  title: "2026 재획정 상세 트래커"
+  description: "2026 미국 하원 선거 중간 재획정 — 주별 지도 변화와 영향 지역구 추세"
+  site-url: "https://us-elections-2026.github.io/redistricting-2026"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 개요
+      - text: 주별 분석
+        menu:
+          - href: states/tx.qmd
+            text: "텍사스 (TX)"
+          - href: states/ca.qmd
+            text: "캘리포니아 (CA)"
+          - href: states/fl.qmd
+            text: "플로리다 (FL)"
+          - href: states/oh.qmd
+            text: "오하이오 (OH)"
+          - href: states/nc.qmd
+            text: "노스캐롤라이나 (NC)"
+          - href: states/tn.qmd
+            text: "테네시 (TN)"
+          - href: states/la.qmd
+            text: "루이지애나 (LA)"
+          - href: states/al.qmd
+            text: "앨라배마 (AL)"
+          - href: states/ut.qmd
+            text: "유타 (UT)"
+      - href: trends.qmd
+        text: 지역구 추세
+      - href: methodology.qmd
+        text: 출처·방법
+    right:
+      - text: "← 본 사이트(중간선거 브리핑)"
+        href: https://us-elections-2026.github.io/
+  page-footer:
+    center: "수치는 출처 링크가 달린 값만 싣습니다. 확인하지 못한 값은 '미확인'으로 둡니다."
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;600&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+    theme:
+      - litera
+      - theme/custom.scss
+      - theme/site.scss
+    toc: true
+    toc-title: 목차
+    smooth-scroll: true

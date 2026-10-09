@@ -1,0 +1,493 @@
+{
+ "state": "TX",
+ "name": "텍사스",
+ "checked": "2026-10-10",
+ "in_use_2026": true,
+ "status_summary": "공화당 주의회가 2025년 8월 제2차 특별회기에서 연방하원 지도(PLANC2333, HB 4)를 통과시키고 애벗 주지사가 2025-08-29 서명했다. 연방지법(엘패소, LULAC v. Abbott)이 2025-11-18 인종적 게리맨더링으로 가처분 금지했으나 연방대법원이 2025-12-04 6대3으로 집행정지, 2026-04-27 하급심 판결을 정식 파기해 2026년 선거에 새 지도가 확정 사용된다. 민주 현역 5개 구(TX-9·28·32·34·35)를 공화 우세로 바꾸는 설계다.",
+ "timeline": [
+  {
+   "date": "2025-07-09",
+   "event": "애벗 주지사 특별회기 소집",
+   "source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting"
+  },
+  {
+   "date": "2025-07-30",
+   "event": "주하원 공화당 초안 공개 — 민주 5석 겨냥",
+   "source_url": "https://www.texastribune.org/2025/07/30/texas-redistricting-congressional-maps-house-republicans/"
+  },
+  {
+   "date": "2025-08-03",
+   "event": "주하원 민주당 의원 다수 주 이탈로 정족수 붕괴",
+   "source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting"
+  },
+  {
+   "date": "2025-08-20",
+   "event": "주하원 통과(88-52)",
+   "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026"
+  },
+  {
+   "date": "2025-08-23",
+   "event": "주상원 통과(18-8)",
+   "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026"
+  },
+  {
+   "date": "2025-08-29",
+   "event": "애벗 주지사 서명",
+   "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026"
+  },
+  {
+   "date": "2025-11-18",
+   "event": "연방지법(W.D. Tex., LULAC v. Abbott) 인종적 게리맨더링으로 가처분 금지",
+   "source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting"
+  },
+  {
+   "date": "2025-12-04",
+   "event": "연방대법원 6-3 집행정지 — 2026년 새 지도 사용 허용",
+   "source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting"
+  },
+  {
+   "date": "2025-12-08",
+   "event": "연방하원 후보 등록 마감",
+   "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026"
+  },
+  {
+   "date": "2026-03-03",
+   "event": "예비선거",
+   "source_url": "https://www.texastribune.org/2026/03/17/texas-32nd-congressional-district-jace-yarbrough-ryan-binkley-gop-primary/"
+  },
+  {
+   "date": "2026-04-27",
+   "event": "연방대법원 하급심 판결 정식 파기(6-3), 2026년 사용 확정",
+   "source_url": "https://www.texastribune.org/2026/04/27/texas-redistricting-map-ruling-us-supreme-court-upheld-2026-midterms/"
+  },
+  {
+   "date": "2026-05-26",
+   "event": "예비선거 결선(TX-18 Menefee 대 Green, TX-33 Allred 대 Johnson 등)",
+   "source_url": "https://www.texastribune.org/2026/03/17/texas-32nd-congressional-district-jace-yarbrough-ryan-binkley-gop-primary/"
+  }
+ ],
+ "seats_total": 38,
+ "seats_2024_result": {
+  "D": 13,
+  "R": 25,
+  "source_url": "https://www.texastribune.org/2025/07/30/texas-redistricting-congressional-maps-house-republicans/"
+ },
+ "expected_seats_new_map": {
+  "D": 8,
+  "R": 30,
+  "basis": "신 경계 2024 대선 기준 트럼프 승리구 30개·해리스 승리구 8개(Wikipedia 표의 DRA 집계를 직접 셈). Texas Tribune 2025-07-30은 초기안 기준 '30개 구가 모두 트럼프 10p 이상'이라 보도. 실제 평가기관은 TX-28을 Lean D, TX-34를 Toss Up/Lean D로 봄.",
+  "source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting"
+ },
+ "net_effect_d": -5,
+ "net_effect_source_url": "https://www.texastribune.org/2026/04/27/texas-redistricting-map-ruling-us-supreme-court-upheld-2026-midterms/",
+ "mechanism": "민주당 우세 대도시권을 쪼개 공화 우세 교외·농촌과 결합(cracking)하고 남은 민주 표는 소수 구에 몰아넣었다(packing). 댈러스 북부 교외의 TX-32를 동텍사스 농촌까지 늘이고, 휴스턴의 TX-9를 흑인 지역에서 동부 히스패닉 지역+리버티 카운티로 옮겼으며, 오스틴~샌안토니오 TX-35를 샌안토니오 남·동부와 농촌 카운티로 이동시켰다. 오스틴 민주 표는 TX-37, 휴스턴 흑인 표는 TX-18로 packing했고 2024년 히스패닉 유권자의 우경화를 전제로 남텍사스 TX-28·34의 공화 마진을 키웠다.",
+ "litigation": "LULAC v. Abbott(W.D. Tex. 3:21-cv-00259): 연방지법이 2025-11-18 '인종적 게리맨더링의 상당한 증거'를 들어 가처분 금지(Jeff Brown 판사) → 연방대법원 2025-12-04 6-3 집행정지(25A608), 2026-04-27 하급심 판결 정식 파기(25-845). 2026년 선거 사용에 대한 법적 장애는 없음. 본안 후속 절차 상황은 미확인.",
+ "maps": {
+  "old_map_url": "https://ballotpedia.org/Redistricting_in_Texas_after_the_2020_census",
+  "new_map_url": "https://capitol.texas.gov/tlodocs/892/districtplanrpts/pdf/HB00004S_PLANC2333.pdf",
+  "new_map_shapefile_url": null,
+  "plan_id": "PLANC2333 (구 지도 PLANC2193)"
+ },
+ "districts": [
+  {
+   "district": "TX-09",
+   "impact": "R방향",
+   "incumbent": "Al Green",
+   "incumbent_party": "D",
+   "incumbent_2026": "다른 구 출마(TX-18) → 민주 결선에서 Menefee에 패배",
+   "nominees_2026": {
+    "D": "Leticia Gutierrez",
+    "R": "Alex Mealer"
+   },
+   "old_pres_margin_2024": 44.05,
+   "new_pres_margin_2024": -19.88,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": "휴스턴 남부·미주리시티 기반의 흑인 중심 민주 구를 동부 휴스턴·패서디나·베이타운·디어파크·채널뷰·크로스비 등 히스패닉 다수 지역(VAP 58.6% 히스패닉)과 리버티 카운티 전체로 이전.",
+   "rating_now": "Cook·Inside Elections·Sabato 모두 Likely R(공화 탈환) — Cook 2026-09-25, Sabato 2026-09-22, IE 2026-09-17 (Wikipedia 집계); Texas Tribune 2026-09-30도 Cook 'Likely Republican' 인용",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "개방 선거구. 공화 결선에서 Mealer가 Briscoe Cain을 꺾음. 신 마진은 Texas Tribune(트럼프 +20)·The Texan(+15→+20, 위원회 수정안 기준)과 일치. 기준선의 신 마진 -15.0은 초기안 수치로 보임 → 최종안 -19.88로 정정."
+  },
+  {
+   "district": "TX-28",
+   "impact": "R방향",
+   "incumbent": "Henry Cuellar",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Henry Cuellar",
+    "R": "Tano Tijerina"
+   },
+   "old_pres_margin_2024": -7.27,
+   "new_pres_margin_2024": -10.37,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": "라레도 기반 유지, 남쪽으로 리오그란데밸리의 매캘런까지, 북쪽으로 샌안토니오권 아타스코사 카운티까지 확장.",
+   "rating_now": "Cook Lean D(Wikipedia상 2025-12-09 지정, Cook 인쇄판 2026-09-25 검색 요약에서도 Lean D·PVI R+3), Sabato Lean D(2025-12-10), IE Tilt D(2025-08-28)",
+   "rating_source_url": "https://www.cookpolitical.com/print/ratings/races/house",
+   "notes": "Texas Tribune 2026-09-30: 신 경계 트럼프 54.8% vs 해리스 44.4%(+10). 트럼프가 2024년에 이미 이긴 민주 현역구. 공화 목표 5석 중 하나지만 평가기관은 여전히 민주 우세로 봄."
+  },
+  {
+   "district": "TX-32",
+   "impact": "R방향",
+   "incumbent": "Julie Johnson",
+   "incumbent_party": "D",
+   "incumbent_2026": "다른 구 출마(TX-33) → 민주 결선에서 Colin Allred에 패배",
+   "nominees_2026": {
+    "D": "Dan Barrios",
+    "R": "Jace Yarbrough"
+   },
+   "old_pres_margin_2024": 23.61,
+   "new_pres_margin_2024": -17.71,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": "댈러스 북부 교외(캐럴턴·애디슨·리처드슨·갈랜드/롤렛 북부, 댈러스 극북부)에 록월 카운티와 헌트·레인스·우드·캠프·업셔 등 동텍사스 농촌 카운티를 결합.",
+   "rating_now": "Cook Solid R(2025-08-23), Sabato Safe R(2025-08-29), IE Solid R(2025-08-28) — 공화 탈환 (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "Texas Tribune 2026-03-17: 해리스 약 24p 우세 → 트럼프 약 18p 우세로 전환. Trump 지지 Yarbrough 공천(Binkley 결선 사퇴). 현역 Johnson은 TX-33에서 Allred와 동족대결 끝에 낙선."
+  },
+  {
+   "district": "TX-34",
+   "impact": "R방향",
+   "incumbent": "Vicente Gonzalez",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Vicente Gonzalez",
+    "R": "Eric Flores"
+   },
+   "old_pres_margin_2024": -4.42,
+   "new_pres_margin_2024": -10.13,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": "브라운스빌(캐머런 카운티 전체)에서 걸프 연안을 따라 코퍼스크리스티(누에시스 대부분)까지. 매캘런 주변 민주 지역을 내주고 코퍼스크리스티 주변 공화 지역을 편입 — 1982~2010년 구 27구의 재현.",
+   "rating_now": "Cook Toss Up(2026-01-15; Cook 인쇄판 2026-09-25 검색 요약도 Toss Up·PVI R+3), Sabato Lean D(2026-09-10), IE Toss-up(2025-08-28)",
+   "rating_source_url": "https://www.cookpolitical.com/print/ratings/races/house",
+   "notes": "Texas Tribune 2026-09-30: 신 경계 트럼프 54.6% vs 해리스 44.5%(+10). 2020년 바이든 +3 지역."
+  },
+  {
+   "district": "TX-35",
+   "impact": "R방향",
+   "incumbent": "Greg Casar",
+   "incumbent_party": "D",
+   "incumbent_2026": "다른 구 출마(TX-37)",
+   "nominees_2026": {
+    "D": "Johnny Garcia",
+    "R": "Carlos De La Cruz"
+   },
+   "old_pres_margin_2024": 33.49,
+   "new_pres_margin_2024": -10.44,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": "샌안토니오 동부~오스틴 남동부를 잇던 I-35 회랑 구를 남·동쪽으로 이동: 샌안토니오 남부·북동부, 라이브오크·컨버스·엘멘도프, 과달루페(세귄·셔츠)·윌슨·카네스 카운티. 오스틴 부분은 TX-37로.",
+   "rating_now": "Cook Lean R(2025-09-25), IE Lean R(2026-09-03), Sabato Lean R(2026-05-27) — 공화 탈환 (Wikipedia 집계); Texas Tribune 2026-09-30도 Cook 'Lean Republican' 인용",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "Texas Tribune 2026-09-30: 신 경계 트럼프 54.6% vs 해리스 44.2%(+10), 히스패닉 약 57%. 민주 결선에서 반유대주의 발언 논란의 Maureen Galindo를 Johnny Garcia가 꺾음. 개방 선거구."
+  },
+  {
+   "district": "TX-18",
+   "impact": "D방향",
+   "incumbent": "Christian Menefee",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마(동족대결 승리)",
+   "nominees_2026": {
+    "D": "Christian Menefee",
+    "R": "Ronald Whitfield"
+   },
+   "old_pres_margin_2024": 39.77,
+   "new_pres_margin_2024": 54.9,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": "휴스턴 도심·이스트다운타운·미드타운·서드워드·피프스워드·텍사스메디컬센터에서 남·남서 휴스턴, 포트벤드 북부(미주리시티·스태퍼드·프레즈노)까지 — 구 TX-9의 흑인 다수 지역을 흡수(VAP 흑인 45%, 히스패닉 32.2%).",
+   "rating_now": "Cook Solid D / Sabato Safe D (Wikipedia 집계, 초기 등급 유지)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "민주 현역 2명(Menefee, 구 TX-9의 Al Green)이 같은 구에서 대결, 결선에서 Menefee 승리. 해리스 76.7%(Wikipedia). packing."
+  },
+  {
+   "district": "TX-37",
+   "impact": "D방향",
+   "incumbent": "Lloyd Doggett",
+   "incumbent_party": "D",
+   "incumbent_2026": "은퇴",
+   "nominees_2026": {
+    "D": "Greg Casar",
+    "R": "Lauren Peña"
+   },
+   "old_pres_margin_2024": 49.0,
+   "new_pres_margin_2024": 56.23,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": "트래비스 카운티 단독, 오스틴 서단 제외 거의 전역. 구 TX-35의 오스틴 민주 표를 흡수.",
+   "rating_now": "Cook Solid D / Sabato Safe D (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "Doggett는 2025-08-21 불출마 발표, Casar(구 TX-35)가 이 구로 이동. 해리스 76.8%로 신 지도 최고(Wikipedia). packing."
+  },
+  {
+   "district": "TX-29",
+   "impact": "D방향",
+   "incumbent": "Sylvia Garcia",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Sylvia Garcia",
+    "R": "Martha Fierro"
+   },
+   "old_pres_margin_2024": 20.39,
+   "new_pres_margin_2024": 30.42,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid D / Sabato Safe D (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨. 휴스턴 민주 표 packing 효과로 추정(추정, 미확인)."
+  },
+  {
+   "district": "TX-20",
+   "impact": "D방향",
+   "incumbent": "Joaquin Castro",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Joaquin Castro",
+    "R": "Edgardo Baez"
+   },
+   "old_pres_margin_2024": 21.21,
+   "new_pres_margin_2024": 28.44,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid D / Sabato Safe D (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨. 샌안토니오 민주 표 packing 효과로 추정(추정, 미확인)."
+  },
+  {
+   "district": "TX-03",
+   "impact": "R방향",
+   "incumbent": "Keith Self",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Evan Hunt",
+    "R": "Keith Self"
+   },
+   "old_pres_margin_2024": -19.98,
+   "new_pres_margin_2024": -23.34,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨."
+  },
+  {
+   "district": "TX-04",
+   "impact": "D방향",
+   "incumbent": "Pat Fallon",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Jason Pearce",
+    "R": "Pat Fallon"
+   },
+   "old_pres_margin_2024": -32.48,
+   "new_pres_margin_2024": -24.63,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨. 공화 안전구가 민주 표를 나눠 받아 마진 축소(cracking의 수용구)."
+  },
+  {
+   "district": "TX-05",
+   "impact": "D방향",
+   "incumbent": "Lance Gooden",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Chelsey Hockett",
+    "R": "Lance Gooden"
+   },
+   "old_pres_margin_2024": -27.01,
+   "new_pres_margin_2024": -21.55,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨."
+  },
+  {
+   "district": "TX-06",
+   "impact": "D방향",
+   "incumbent": "Jake Ellzey",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Danny Minton",
+    "R": "Jake Ellzey"
+   },
+   "old_pres_margin_2024": -28.45,
+   "new_pres_margin_2024": -22.87,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨."
+  },
+  {
+   "district": "TX-08",
+   "impact": "D방향",
+   "incumbent": "Morgan Luttrell",
+   "incumbent_party": "R",
+   "incumbent_2026": "은퇴",
+   "nominees_2026": {
+    "D": "Laura Jones",
+    "R": "Jessica Steinmann"
+   },
+   "old_pres_margin_2024": -33.87,
+   "new_pres_margin_2024": -27.63,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": "휴스턴 북부·북서부 교외(콘로·윌리스·매그놀리아 등)와 서부 휴스턴 일부(브라이어포리스트, 에너지 코리도 서단, 베어크릭·애딕스) 포함(Wikipedia 서술).",
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨. 개방 선거구(Luttrell 은퇴)."
+  },
+  {
+   "district": "TX-11",
+   "impact": "D방향",
+   "incumbent": "August Pfluger",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Claire Reynolds",
+    "R": "August Pfluger"
+   },
+   "old_pres_margin_2024": -45.38,
+   "new_pres_margin_2024": -34.3,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨."
+  },
+  {
+   "district": "TX-14",
+   "impact": "D방향",
+   "incumbent": "Randy Weber",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Thurman Bill Bartie",
+    "R": "Randy Weber"
+   },
+   "old_pres_margin_2024": -34.02,
+   "new_pres_margin_2024": -24.27,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨."
+  },
+  {
+   "district": "TX-17",
+   "impact": "D방향",
+   "incumbent": "Pete Sessions",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Casey Shepard",
+    "R": "Pete Sessions"
+   },
+   "old_pres_margin_2024": -29.2,
+   "new_pres_margin_2024": -21.59,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨."
+  },
+  {
+   "district": "TX-25",
+   "impact": "D방향",
+   "incumbent": "Roger Williams",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Dione Sims",
+    "R": "Roger Williams"
+   },
+   "old_pres_margin_2024": -36.3,
+   "new_pres_margin_2024": -24.06,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨. 민주 현역 Marc Veasey(구 TX-33)의 포트워스 거주지가 이 구로 편입되었다고 Wikipedia 서술 — Veasey 은퇴."
+  },
+  {
+   "district": "TX-27",
+   "impact": "D방향",
+   "incumbent": "Michael Cloud",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Tanya Lloyd",
+    "R": "Michael Cloud"
+   },
+   "old_pres_margin_2024": -29.63,
+   "new_pres_margin_2024": -21.17,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨."
+  },
+  {
+   "district": "TX-36",
+   "impact": "D방향",
+   "incumbent": "Brian Babin",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Rhonda Hart",
+    "R": "Brian Babin"
+   },
+   "old_pres_margin_2024": -36.77,
+   "new_pres_margin_2024": -24.93,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+   "geography_change": null,
+   "rating_now": "Cook Solid R / Sabato Safe R (Wikipedia 집계)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+   "notes": "안전구 유지. 구·신 마진은 Wikipedia 표(DRA 집계 인용)에서만 확인 — 1차 출처 교차확인 안 됨."
+  }
+ ],
+ "changes_vs_baseline": [
+  "TX-09 신 마진: 기준선 -15.0 → 최종 지도 기준 -19.88(Wikipedia/DRA), Texas Tribune 2026-09-30 '트럼프 +20'. 기준선 값은 위원회 수정 전 초기안 수치로 추정(The Texan 2025-08-18: +15→+20).",
+  "TX-09 구 마진: 기준선 null → +44.05(D) 확인.",
+  "TX-35 구 마진: 기준선 null → +33.49(D) 확인. 신 마진 -10.44.",
+  "TX-28: 기준선 -7.0/-10.0 → -7.27/-10.37 (소수점 정밀화, 방향 동일).",
+  "TX-34: 기준선 -4.5/-10.0 → -4.42/-10.13 (정밀화).",
+  "TX-32 추가: +23.61 → -17.71.",
+  "기준선 이후 진행: 2026-03-03 예비선거·05-26 결선 완료. 민주 현역 Al Green(TX-18 결선)·Julie Johnson(TX-33 결선) 낙선, Doggett 은퇴, Casar는 TX-37로 이동.",
+  "2026-04-27 연방대법원 정식 파기로 지도 영구 사용은 기준선과 동일."
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2025_Texas_redistricting",
+  "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+  "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+  "https://www.texastribune.org/2026/09/30/texas-congress-house-elections-2026-midterms/",
+  "https://www.texastribune.org/2026/03/17/texas-32nd-congressional-district-jace-yarbrough-ryan-binkley-gop-primary/",
+  "https://www.texastribune.org/2026/04/27/texas-redistricting-map-ruling-us-supreme-court-upheld-2026-midterms/",
+  "https://www.texastribune.org/2025/07/30/texas-redistricting-congressional-maps-house-republicans/",
+  "https://thetexan.news/state/legislature/texas-state-house-news/new-texas-congressional-map-substitute-adding-five-gop-seats-passes-house-committee/article_ef12ab67-34e0-44b7-bdb4-96adc7205ea0.html",
+  "https://www.cookpolitical.com/print/ratings/races/house",
+  "https://ballotpedia.org/Redistricting_in_Texas_after_the_2020_census",
+  "https://capitol.texas.gov/tlodocs/892/districtplanrpts/pdf/HB00004S_PLANC2333.pdf"
+ ],
+ "unverified": [
+  "지역구별 구·신 2024 대선 마진의 1차 출처(Texas Legislative Council 선거 보고서 RED-206 등): data.capitol.texas.gov가 Cloudflare 403으로 차단되어 열람 불가. 받은 PLANC2333 PDF는 인구(Red-100T 등) 보고서로 대선 결과 미포함. 마진은 Wikipedia 표(DRA 인용)를 주 출처로 쓰고, TX-9·28·34·35 신 마진은 Texas Tribune 2026-09-30, TX-32는 Texas Tribune 2026-03-17로 교차확인. 안전구 15개는 Wikipedia 단독 근거.",
+  "공식 shapefile/GeoJSON 다운로드 URL(data.capitol.texas.gov/dataset/planc2333로 추정, 접근 차단으로 미확인).",
+  "Cook/Sabato/Inside Elections 원 페이지 직접 열람 실패(403). 등급과 날짜는 Wikipedia 집계표 기준, TX-28·34 Cook 등급은 검색 요약(Cook 인쇄판 2026-09-25)으로 보강.",
+  "안전구(TX-3·4·5·6·11·14·17·20·25·27·29·36)의 구체적 경계 변경 내용.",
+  "LULAC v. Abbott 본안의 이후 진행 상황.",
+  "경계 변화가 3p 미만인 경합구 TX-15(-17.84→-17.86), TX-23(-15.50→-14.79)은 수록하지 않음. 두 구 모두 Cook Toss Up/Likely R 경합구이나 재획정 효과는 작음."
+ ],
+ "trend_districts": [
+  "TX-09",
+  "TX-15",
+  "TX-23",
+  "TX-28",
+  "TX-32",
+  "TX-34",
+  "TX-35"
+ ]
+}

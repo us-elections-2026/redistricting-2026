@@ -1,0 +1,345 @@
+{
+ "state": "FL",
+ "name": "플로리다",
+ "checked": "2026-10-10",
+ "in_use_2026": true,
+ "status_summary": "주의회가 2026-04-29 DeSantis 주지사안(HB 1-D, Plan EOGPCRP2026)을 통과시켰고(하원 83-28, 상원 21-17) 주지사가 5-04 서명했다. 레온 카운티 순회법원(Hawkes 판사)이 5-26 가처분을 기각하고 주대법원이 6-10 긴급청원을 기각해 2026 선거에 새 지도를 쓴다. Fair Districts 조항 위반 본안 소송은 계속 중이다(9-03 배심재판 신청 기각).",
+ "timeline": [
+  {
+   "date": "2026-01-07",
+   "event": "DeSantis, 4월 재획정 특별회기 소집 발표",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting"
+  },
+  {
+   "date": "2026-04-27",
+   "event": "DeSantis, 민주 현역 4명(Castor·Soto·Frankel·Wasserman Schultz) 지역구를 겨냥한 24-4 지도 제안",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting"
+  },
+  {
+   "date": "2026-04-29",
+   "event": "주하원 83-28, 주상원 21-17로 통과(같은 날 연방대법원 Louisiana v. Callais 판결)",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting"
+  },
+  {
+   "date": "2026-05-04",
+   "event": "DeSantis 서명(HB 1-D)",
+   "source_url": "https://news.ballotpedia.org/2026/05/11/new-congressional-maps-in-florida-tennessee-aim-to-shift-five-more-districts-to-republicans-ahead-of-2026-midterms/"
+  },
+  {
+   "date": "2026-05-26",
+   "event": "레온 카운티 Joshua Hawkes 판사, Purcell 원칙 등을 들어 가처분 기각",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting"
+  },
+  {
+   "date": "2026-06-10",
+   "event": "주대법원, 긴급청원 기각 → 2026 선거에 새 지도 사용 확정(Labarga 대법관 단독 반대)",
+   "source_url": "https://www.nbcnews.com/politics/2026-election/florida-supreme-court-rejects-challenge-new-gop-drawn-congressional-ma-rcna349602"
+  },
+  {
+   "date": "2026-08-18",
+   "event": "새 지도로 예비선거 실시(Moskowitz FL-25, Wasserman Schultz FL-20, Frankel FL-23로 이동 출마)",
+   "source_url": "https://www.nbcnews.com/politics/2026-election/two-trump-backed-candidates-lose-debbie-wasserman-schultz-wins-tuesday-rcna592392"
+  },
+  {
+   "date": "2026-09-03",
+   "event": "Hawkes 판사, 원고 측 배심재판 신청 기각. 본안 소송 계속",
+   "source_url": "https://thecapitolist.com/judge-florida-congressional-map-wont-be-decided-by-jury/"
+  }
+ ],
+ "seats_total": 28,
+ "seats_2024_result": {
+  "D": 8,
+  "R": 20,
+  "source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting"
+ },
+ "expected_seats_new_map": {
+  "D": 4,
+  "R": 24,
+  "basis": "2024 대선 기준 신 경계에서 해리스 승리구 4·트럼프 승리구 24(DRA 집계, 위키 표; WUSF도 '해리스 과반 4개, 트럼프 24개'로 보도)",
+  "source_url": "https://www.wusf.org/politics-issues/2026-05-06/breakdown-changes-for-florida-new-congressional-map"
+ },
+ "net_effect_d": -4,
+ "net_effect_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+ "mechanism": "탬파(FL-14)·올랜도권(FL-9)·남동부 팜비치~브로워드(FL-22·FL-25)의 민주 우세 지역을 쪼개(cracking) 인접 공화 안전구(FL-12·FL-8·FL-18·FL-26 등)의 공화 표와 섞었다. 남은 민주 표는 FL-20·23·24·10에 몰아넣었다(packing). 주지사실 직원이 당파 데이터로 지도를 그렸다고 증언했다(4-28).",
+ "litigation": "Equal Ground Education Fund, Common Cause FL, LWV FL, LULAC 등이 주헌법 Fair Districts 조항(제3조 20항) 위반으로 레온 카운티 법원에 제소. 가처분은 5-26 기각, 주대법원 6-10 긴급청원 기각(Tanenbaum 보충의견: 본안은 선거 후 '적절한 때' 진행). 9-03 배심재판 신청 기각. 본안 계속 중, 2026 선거에는 영향 없음.",
+ "maps": {
+  "old_map_url": "https://en.wikipedia.org/wiki/Florida%27s_congressional_districts",
+  "new_map_url": "https://www.edr.state.fl.us/Content/redistricting/2026redistricting/CongressPlanEOGPCRP2026_8x11.pdf",
+  "new_map_shapefile_url": "https://www.edr.state.fl.us/Content/redistricting/2026redistricting/EOGPCRP2026.zip",
+  "plan_id": "EOGPCRP2026 (HB 1-D)"
+ },
+ "districts": [
+  {
+   "district": "FL-09",
+   "impact": "R방향",
+   "incumbent": "Darren Soto",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Darren Soto",
+    "R": "Dan Green"
+   },
+   "old_pres_margin_2024": 3.5,
+   "new_pres_margin_2024": -17.71,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "올랜도권(오렌지·오세올라) 중심에서 인디언리버·오키초비·하이랜즈·글레이즈 등 농촌 카운티로 확장. 신 경계 2024 트럼프 58-41, 2020 트럼프 53-46(WUSF).",
+   "rating_now": "Inside Elections: Likely Republican (2026-08 예비선거 후) / Sabato: Leans R→Likely R (2026-05-06)",
+   "rating_source_url": "https://insideelections.com/2026-florida-primary-results/",
+   "notes": "공화 예비선거(8/18) Dan Green 25.5% vs Ben Butler 24.2% 초박빙(600표 미만 차) 끝에 Green 승리 보도(Floridian Press). 재검표 여부 미확인."
+  },
+  {
+   "district": "FL-14",
+   "impact": "R방향",
+   "incumbent": "Kathy Castor",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Kathy Castor",
+    "R": "Mike Beltran"
+   },
+   "old_pres_margin_2024": 7.64,
+   "new_pres_margin_2024": -10.47,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "힐스버러 카운티 안에서 남·서쪽으로 이동(탬파 민주 지역 분할). 신 경계 2024 트럼프 55-44, 2020 트럼프 51-48(WUSF).",
+   "rating_now": "Inside Elections: Lean Republican (2026-08 예비선거 후) / Sabato: Leans D→Leans R (2026-05-06)",
+   "rating_source_url": "https://insideelections.com/2026-florida-primary-results/",
+   "notes": "DeSantis 지도가 겨냥한 4개 민주 현역구 중 하나.",
+   "margin_note": "원표(Wikipedia, Dave's Redistricting 인용)에서 FL-14·FL-22 신 마진이 같은 값(10.47)으로 실려 있음 — DRA 원본 미대조"
+  },
+  {
+   "district": "FL-22",
+   "impact": "R방향",
+   "incumbent": "Lois Frankel",
+   "incumbent_party": "D",
+   "incumbent_2026": "다른 구 출마(FL-23)",
+   "nominees_2026": {
+    "D": "Pia Dandiya",
+    "R": "Casey Askar"
+   },
+   "old_pres_margin_2024": 5.55,
+   "new_pres_margin_2024": -10.47,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "팜비치 해안부에서 내륙 웰링턴·파크랜드로 옮기고 헨드리·콜리어까지 연장. 신 경계 2024 트럼프 55-44, 2020 바이든 51-48(WUSF).",
+   "rating_now": "Inside Elections: Tilt Republican (2026-08 예비선거 후) / Sabato: Leans D→Leans R (2026-05-06)",
+   "rating_source_url": "https://insideelections.com/2026-florida-primary-results/",
+   "notes": "현역 Frankel은 신 FL-23으로 옮겨 출마. 신 마진 -10.47은 FL-14와 같은 값으로 위키 표에 기재됨(원자료 DRA, 원표 직접 확인 안 함).",
+   "margin_note": "원표(Wikipedia, Dave's Redistricting 인용)에서 FL-14·FL-22 신 마진이 같은 값(10.47)으로 실려 있음 — DRA 원본 미대조"
+  },
+  {
+   "district": "FL-25",
+   "impact": "R방향",
+   "incumbent": "Debbie Wasserman Schultz",
+   "incumbent_party": "D",
+   "incumbent_2026": "다른 구 출마(FL-20)",
+   "nominees_2026": {
+    "D": "Jared Moskowitz",
+    "R": "Scott Singer"
+   },
+   "old_pres_margin_2024": 5.31,
+   "new_pres_margin_2024": -9.11,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "브로워드 단독 지역구에서 팜비치 해안(델레이비치·보카러턴)~브로워드~마이애미데이드(마이애미비치) 해안 띠로 재편. 신 경계 2024 트럼프 54-45, 2020 바이든 52-47(WUSF).",
+   "rating_now": "Inside Elections: Toss-up (2026-08 예비선거 후) / Sabato: Leans D→Toss-up (2026-05-06)",
+   "rating_source_url": "https://insideelections.com/2026-florida-primary-results/",
+   "notes": "구 FL-23 현역 Moskowitz가 이 구로 옮겨 민주 예비선거에서 Oliver Larkin을 64-37로 꺾음. 현역 DWS는 FL-20으로 이동. 검색 요약상 Sabato가 10/8 Leans D로 상향했다는 내용이 있었으나 원문 확인 실패(미확인)."
+  },
+  {
+   "district": "FL-23",
+   "impact": "D방향",
+   "incumbent": "Jared Moskowitz",
+   "incumbent_party": "D",
+   "incumbent_2026": "다른 구 출마(FL-25)",
+   "nominees_2026": {
+    "D": "Lois Frankel",
+    "R": "Deborah Adeimy"
+   },
+   "old_pres_margin_2024": 1.9,
+   "new_pres_margin_2024": 13.77,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "팜비치 카운티 단독 지역구로 정리, Moskowitz 거주지 코럴스프링스(브로워드) 제외(WUSF).",
+   "rating_now": null,
+   "rating_source_url": null,
+   "notes": "Frankel이 민주 예비선거 75%로 승리, 공화 Deborah Adeimy(WLRN). 사실상 민주 안전구로 전환(packing)."
+  },
+  {
+   "district": "FL-20",
+   "impact": "소폭",
+   "incumbent": "공석(Sheila Cherfilus-McCormick 사임)",
+   "incumbent_party": "D",
+   "incumbent_2026": "미확인",
+   "nominees_2026": {
+    "D": "Debbie Wasserman Schultz",
+    "R": null
+   },
+   "old_pres_margin_2024": 39.49,
+   "new_pres_margin_2024": 37.06,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "여러 카운티에 걸친 '손가락' 형태에서 브로워드 카운티 단독으로 재편(WUSF).",
+   "rating_now": "Inside Elections: Solid Democratic",
+   "rating_source_url": "https://insideelections.com/2026-florida-primary-results/",
+   "notes": "전통적 흑인 대표 지역구에 DWS가 출마해 민주 예비선거에서 전 의원 Cherfilus-McCormick, Dale Holness 등을 꺾음(NBC). 마진 변화 2.4p로 기준 미만이나 동족대결·대표성 쟁점으로 수록."
+  },
+  {
+   "district": "FL-24",
+   "impact": "D방향",
+   "incumbent": "Frederica Wilson",
+   "incumbent_party": "D",
+   "incumbent_2026": "은퇴",
+   "nominees_2026": {
+    "D": "Oliver Gilbert",
+    "R": null
+   },
+   "old_pres_margin_2024": 29.95,
+   "new_pres_margin_2024": 38.62,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "브로워드 비중 확대, 마이애미데이드(마이애미·마이애미가든스)로 확장, 마이애미비치 제외(WUSF).",
+   "rating_now": "Inside Elections: Solid Democratic",
+   "rating_source_url": "https://insideelections.com/2026-florida-primary-results/",
+   "notes": "민주 예비선거에서 Oliver Gilbert가 주상원의원 Shevrin Jones를 근소하게 이김(NBC). 민주 표 집중(packing)."
+  },
+  {
+   "district": "FL-10",
+   "impact": "소폭",
+   "incumbent": "Maxwell Frost",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": null,
+    "R": null
+   },
+   "old_pres_margin_2024": 22.62,
+   "new_pres_margin_2024": 23.89,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "오렌지 카운티 동부를 잃고 카운티 내부로 집약(WUSF).",
+   "rating_now": null,
+   "rating_source_url": null,
+   "notes": "재출마는 WUSF의 '같은 구 출마 예상' 보도 기준. 민주 표 집중 성격."
+  },
+  {
+   "district": "FL-08",
+   "impact": "D방향",
+   "incumbent": "Mike Haridopolos",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": null,
+    "R": null
+   },
+   "old_pres_margin_2024": -22.24,
+   "new_pres_margin_2024": -16.14,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "인디언리버 카운티를 떼고 서쪽 오렌지 카운티로 확장(약 16만 명 편입, WUSF).",
+   "rating_now": null,
+   "rating_source_url": null,
+   "notes": "공화 안전구에서 공화 표를 덜어 인접 민주구 쪼개기에 사용. 재출마는 WUSF '예상' 기준."
+  },
+  {
+   "district": "FL-12",
+   "impact": "D방향",
+   "incumbent": "Gus Bilirakis",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": null,
+    "R": null
+   },
+   "old_pres_margin_2024": -34.46,
+   "new_pres_margin_2024": -15.33,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "파스코 일부 유지, 시트러스·에르난도를 떼고 힐스버러 편입(WUSF).",
+   "rating_now": null,
+   "rating_source_url": null,
+   "notes": "탬파권 민주 표를 흡수해 FL-14를 공화 우세로 바꾸는 데 쓰인 구."
+  },
+  {
+   "district": "FL-15",
+   "impact": "R방향",
+   "incumbent": "Laurel Lee",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": null,
+    "R": null
+   },
+   "old_pres_margin_2024": -11.15,
+   "new_pres_margin_2024": -19.77,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "에르난도·시트러스 전체와 파스코·힐스버러 일부(구 FL-12 지역) 편입. 신 경계 2024 트럼프 59-39(WUSF).",
+   "rating_now": null,
+   "rating_source_url": null,
+   "notes": null
+  },
+  {
+   "district": "FL-18",
+   "impact": "D방향",
+   "incumbent": "Scott Franklin",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": null,
+    "R": null
+   },
+   "old_pres_margin_2024": -29.31,
+   "new_pres_margin_2024": -16.9,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "농촌 다(多)카운티 구에서 폴크 중심 + 오세올라 일부로 이동(WUSF).",
+   "rating_now": null,
+   "rating_source_url": null,
+   "notes": "재출마는 WUSF '예상' 기준."
+  },
+  {
+   "district": "FL-26",
+   "impact": "D방향",
+   "incumbent": "Mario Díaz-Balart",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": null,
+    "R": null
+   },
+   "old_pres_margin_2024": -34.86,
+   "new_pres_margin_2024": -18.32,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+   "geography_change": "콜리어 카운티를 떼고 브로워드 펨브로크파인스 일부 편입(WUSF).",
+   "rating_now": null,
+   "rating_source_url": null,
+   "notes": null
+  }
+ ],
+ "changes_vs_baseline": [
+  "기준선(2026-05-04 서명, net -4)과 핵심 내용 동일. 이후 갱신: 주대법원 6-10 긴급청원 기각으로 2026 사용 확정, 본안 소송은 계속(9-03 배심재판 신청 기각)."
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Florida_redistricting",
+  "https://www.wusf.org/politics-issues/2026-05-06/breakdown-changes-for-florida-new-congressional-map",
+  "https://insideelections.com/2026-florida-primary-results/",
+  "https://www.nbcnews.com/politics/2026-election/two-trump-backed-candidates-lose-debbie-wasserman-schultz-wins-tuesday-rcna592392",
+  "https://sabatoscrystalball.substack.com/p/house-rating-changes-17-shifts-in",
+  "https://news.ballotpedia.org/2026/05/11/new-congressional-maps-in-florida-tennessee-aim-to-shift-five-more-districts-to-republicans-ahead-of-2026-midterms/",
+  "https://www.nbcnews.com/politics/2026-election/florida-supreme-court-rejects-challenge-new-gop-drawn-congressional-ma-rcna349602",
+  "https://thecapitolist.com/judge-florida-congressional-map-wont-be-decided-by-jury/",
+  "https://floridianpress.com/2026/08/dan-green-wins-9th-congressional-district-republican-primary/",
+  "https://www.wlrn.org/government-politics/2026-08-18/lois-frankel-wins-victoria-doyle-florida-23-primary",
+  "https://www.edr.state.fl.us/Content/redistricting/2026redistricting/index.cfm",
+  "https://davesredistricting.org/maps#viewmap::560765fd-df34-4264-ab24-ad04eb7a850d"
+ ],
+ "unverified": [
+  "신·구 대선 마진은 위키 표(원자료 Dave's Redistricting 인용)에서 읽음. DRA 원표 직접 확인 못 함. WUSF 반올림 득표율(FL-9 58-41, FL-14 55-44, FL-22 55-44, FL-25 54-45)과는 대체로 일치.",
+  "FL-14와 FL-22 신 마진이 둘 다 -10.47로 위키에 기재됨. 우연인지 전기 오류인지 미확인.",
+  "Cook 최신 등급 미확인(유료). 등급은 Inside Elections 예비선거 후 기사와 Sabato 5-06 변경 기준.",
+  "Sabato가 10-08 FL-25를 Leans D로 바꿨다는 검색 요약 내용은 원문 접근 실패(403)로 미확인.",
+  "FL-9 공화 예비선거 재검표·인증 여부 미확인(Dan Green 승리 보도만 확인).",
+  "FL-20 공화 후보, FL-10·8·12·15·18·26 양당 후보 미조사.",
+  "FL-23 등급 미확인."
+ ],
+ "trend_districts": [
+  "FL-07",
+  "FL-09",
+  "FL-13",
+  "FL-14",
+  "FL-22",
+  "FL-23",
+  "FL-25",
+  "FL-27"
+ ]
+}

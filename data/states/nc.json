@@ -1,0 +1,128 @@
+{
+ "state": "NC",
+ "name": "노스캐롤라이나",
+ "checked": "2026-10-10",
+ "in_use_2026": true,
+ "status_summary": "공화당 주의회가 2025년 10월(상원 10/21, 하원 10/22) 상원법안 249로 NC-01(돈 데이비스)과 NC-03(그렉 머피) 두 구만 고친 새 지도를 통과시켰다(주지사 거부권 없음). 연방 3인 재판부가 11/26 가처분을 기각했고, 원고들이 2026년 1월 소송을 '재소 불가(with prejudice)'로 취하해 2026 선거에 새 지도가 쓰인다.",
+ "timeline": [
+  {
+   "date": "2025-10-13",
+   "event": "공화 지도부, 새 연방하원 지도 표결 계획 발표",
+   "source_url": "https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2025-10-21",
+   "event": "주상원 통과(26-20)",
+   "source_url": "https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2025-10-22",
+   "event": "주하원 통과(66-48)로 법률 확정(주지사 서명·거부권 대상 아님)",
+   "source_url": "https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2025-11-26",
+   "event": "연방 3인 재판부, 가처분 신청 기각 — 2026 선거에 새 지도 사용 허용",
+   "source_url": "https://nsjonline.com/?p=103637"
+  },
+  {
+   "date": "2026-01",
+   "event": "Williams v. Hall·NAACP v. Berger 원고들이 재소 불가 조건으로 소송 취하",
+   "source_url": "https://nsjonline.com/?p=103637"
+  },
+  {
+   "date": "2026-03-03",
+   "event": "예비선거: NC-01 공화 후보 로리 벅하웃 선출(39.5%)",
+   "source_url": "https://news.ballotpedia.org/?p=46238"
+  }
+ ],
+ "seats_total": 14,
+ "seats_2024_result": {
+  "D": 4,
+  "R": 10,
+  "source_url": "https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections"
+ },
+ "expected_seats_new_map": {
+  "D": 3,
+  "R": 11,
+  "basis": "Ballotpedia: 새 지도로 10R-4D에서 11R-3D로 바뀔 수 있음(NC-01 공화 전환 목표)",
+  "source_url": "https://news.ballotpedia.org/2025/10/24/north-carolina-the-third-state-to-redraw-congressional-districts-ahead-of-the-2026-elections/"
+ },
+ "net_effect_d": -1,
+ "net_effect_source_url": "https://news.ballotpedia.org/2025/10/24/north-carolina-the-third-state-to-redraw-congressional-districts-ahead-of-the-2026-elections/",
+ "mechanism": "NC-01과 NC-03 사이에서 약 50만 명을 맞바꿨다. 공화 성향 해안 카운티(카터렛·크레이븐·데어·하이드·팜리코 등)를 NC-01에 붙이고, 흑인·민주 성향 내륙 카운티(그린·르누아·웨인·윌슨)를 NC-03으로 보내 NC-01의 민주 표를 NC-03에 흡수(packing)시켰다.",
+ "litigation": "2026 사용 확정. 연방 3인 재판부가 2025-11-26 가처분을 기각(인종차별 의도 입증 부족, 중간 재획정 인구편차 주장도 배척)했고, 원고들이 2026년 1월 재소 불가 조건으로 소송을 취하해 계류 중인 소송 없음.",
+ "maps": {
+  "old_map_url": "https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections",
+  "new_map_url": "https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections",
+  "new_map_shapefile_url": null,
+  "plan_id": "Senate Bill 249 (2025)"
+ },
+ "districts": [
+  {
+   "district": "NC-01",
+   "impact": "R방향",
+   "incumbent": "Don Davis",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Don Davis",
+    "R": "Laurie Buckhout"
+   },
+   "old_pres_margin_2024": -3.0,
+   "new_pres_margin_2024": -11.0,
+   "margin_source_url": "https://nsjonline.com/?p=103058",
+   "geography_change": "그린·르누아·웨인·윌슨 카운티를 NC-03으로 내주고 카터렛·크레이븐·데어·하이드·팜리코 등 공화 성향 해안 카운티를 받음. 데이비스의 자택(스노힐, 그린카운티)은 NC-03에 속하게 되어 NC-01로 이사 의사 표명.",
+   "rating_now": "Cook Toss Up (2026-10-09), Sabato Toss-up (2026-07-30), Inside Elections Tilt R (2026-09-17) — Wikipedia 집계",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina",
+   "notes": "벅하웃은 2024년 데이비스에게 2%p 미만 차로 진 후보로 리턴매치. 신경계 마진은 출처마다 트럼프 +11(North State Journal)~+12(AP 계열 보도)로 다름. CBS 분석 기준 해리스 득표율 48%→44%. Cook은 2025-12 Lean R로 옮긴 뒤 현재 Toss Up."
+  },
+  {
+   "district": "NC-03",
+   "impact": "D방향",
+   "incumbent": "Greg Murphy",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Raymond Smith Jr.",
+    "R": "Greg Murphy"
+   },
+   "old_pres_margin_2024": null,
+   "new_pres_margin_2024": -14.0,
+   "margin_source_url": "https://www.rockymounttelegram.com/news/state/democrats-gear-up-to-challenge-murphy-for-reshaped-3rd-district/article_6aa0d531-d458-4e22-a2f7-65b79c51e184.html",
+   "geography_change": "동부 해안 지역을 NC-01에 넘기고 그린·르누아·웨인·윌슨 카운티를 받음.",
+   "rating_now": "Cook Solid R (2025-10-22), Sabato Likely R (2026-09-29) — Wikipedia 집계",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina",
+   "notes": "CBS 분석 기준 해리스 득표율 39%→43%. 구경계 트럼프 마진은 검색 요약에서 '22점'으로 보였으나 원문을 확인하지 못해 null로 둠."
+  }
+ ],
+ "changes_vs_baseline": [
+  "기준선 NC-01 신경계 마진 -12.0(Cook) — North State Journal은 트럼프 +11(-11.0), 일부 보도는 +12. 구경계는 트럼프 +3",
+  "연방 소송 2026년 1월 재소 불가 조건 취하 → 법적 분쟁 종료(기준선 '연방법원 유지 2025-11-26'과 합치)",
+  "NC-01 등급이 Cook Lean R(2025-12) → Toss Up(2026-10-09)으로 이동(Wikipedia 집계, Cook 원문 미열람)"
+ ],
+ "sources": [
+  "https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections",
+  "https://news.ballotpedia.org/2025/10/24/north-carolina-the-third-state-to-redraw-congressional-districts-ahead-of-the-2026-elections/",
+  "https://nsjonline.com/?p=103058",
+  "https://nsjonline.com/?p=103637",
+  "https://www.rockymounttelegram.com/news/state/democrats-gear-up-to-challenge-murphy-for-reshaped-3rd-district/article_6aa0d531-d458-4e22-a2f7-65b79c51e184.html",
+  "https://www.yahoo.com/news/articles/n-c-republicans-redrew-gop-120204436.html",
+  "https://news.ballotpedia.org/2026/02/11/asa-buck-r-laurie-buckhout-r-robert-hanig-r-eric-rouse-r-and-ashley-nicole-russell-r-are-running-in-the-republican-primary-for-north-carolinas-1st-congressional-district-on-march-3-20/",
+  "https://news.ballotpedia.org/?p=46238",
+  "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina",
+  "https://www.nbcnews.com/politics/2026-election/federal-court-allows-north-carolina-use-new-republican-drawn-map-2026-rcna246156",
+  "https://ncnewsline.com/briefs/two-north-carolina-us-house-races-are-now-toss-ups-top-forecaster-says/"
+ ],
+ "unverified": [
+  "NC-03 구경계 2024 대선 정확한 마진(원문 미확인)",
+  "NC-01 신경계 마진 소수점 값(출처는 반올림된 11 또는 12)",
+  "Cook 최신 등급 원문(cookpolitical.com 접근 차단, Wikipedia·NC Newsline 검색 요약으로만 확인)",
+  "공식 shapefile 주소(ncleg.gov)"
+ ],
+ "trend_districts": [
+  "NC-01",
+  "NC-03",
+  "NC-11"
+ ]
+}

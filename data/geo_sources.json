@@ -1,0 +1,11 @@
+{
+ "TX": {"path": "~/code/_geo_dl/new_tx/tx_planc2333.geojson", "col": "District", "src": "https://giswebe.tlc.texas.gov/ArcGIS/rest/services/plan_shaded/MapServer/0", "label": "Texas Legislative Council — PLANC2333"},
+ "CA": {"path": "~/code/_geo_dl/new_ca/AB604 2025-08-16.shp", "col": "DISTRICT", "src": "https://statewidedatabase.org/pub/data/d25/AB604%202025-08-16.zip", "label": "Statewide Database — AB 604(Prop 50)"},
+ "FL": {"path": "~/code/_geo_dl/new_fl/EOGPCRP2026.shp", "col": "DISTRICT", "src": "https://www.edr.state.fl.us/Content/redistricting/2026redistricting/EOGPCRP2026.zip", "label": "Florida EDR — EOGPCRP2026"},
+ "OH": {"path": "~/code/_geo_dl/new_oh/oh_cong_2025.geojson", "col": "district", "src": "https://maps.ohio.gov/arcgis/rest/services/Hosted/Districts_2025_11_03_SHP/FeatureServer/0", "label": "Ohio OGRIP — 2026–2032 연방하원 선거구"},
+ "NC": {"path": "~/code/_geo_dl/new_nc/nc_cong_2025_sl2025-95.geojson", "col": "District", "src": "https://services5.arcgis.com/gRcZqepTaRC6tVZL/arcgis/rest/services/NCGA_Congress_2025/FeatureServer/0", "label": "NC General Assembly — S.L. 2025-95"},
+ "TN": {"path": "~/code/_geo_dl/new_tn/tn_cong_2026.geojson", "col": "DISTRICT", "src": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/CONGRESSIONAL_DISTRICTS/FeatureServer/2", "label": "State of Tennessee STS GIS — 2026 선거구"},
+ "LA": {"path": "~/code/_geo_dl/new_la/Act_2_(2026_RS).shp", "col": "DISTRICT_I", "src": "https://redist.legis.la.gov/2026_Files/Act2Congress/Shapefile/Shapefile%20-%20Act_2_(2026_RS).zip", "label": "Louisiana Legislature — Act 2 (2026 RS)"},
+ "AL": {"path": "~/code/_geo_dl/new_al/al_cong_2023_livingston3.geojson", "col": "DISTRICT", "src": "https://services7.arcgis.com/jF2q3LPxL7PETdYk/arcgis/rest/services/2023_CONG_LEGISLATIVE_PLAN/FeatureServer/0", "label": "Alabama GeoHub — 2023 주의회안(Livingston Plan 3)"},
+ "UT": {"path": "~/code/_geo_dl/new_ut/ut_cong_2026_2032.geojson", "col": "DISTRICT", "src": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/political_us_congress_districts_2026_to_2032/FeatureServer/0", "label": "Utah UGRC — 2026–2032 연방하원 선거구"}
+}

@@ -1,0 +1,163 @@
+{
+ "state": "UT",
+ "name": "유타",
+ "checked": "2026-10-10",
+ "in_use_2026": true,
+ "status_summary": "유타 제3지방법원 디아나 깁슨 판사가 2025-11-10 주의회 지도가 주민발의 4호(Prop 4)의 기준을 어겼다며 원고(유타 여성유권자연맹 등) 제출안 'Map 1'을 부과했다. 주대법원(2026-02)과 연방 3인 재판부(2026-02-23)가 모두 지도 변경 요청을 기각해 2026년 선거에 이 지도가 쓰인다. 솔트레이크카운티 대부분을 묶은 민주 우세 1구가 새로 생겼다.",
+ "timeline": [
+  {
+   "date": "2025-08-25",
+   "event": "지방법원, 2021년 지도 무효 판단 후 30일 내 재작성 명령",
+   "source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Utah"
+  },
+  {
+   "date": "2025-10-11",
+   "event": "주의회 새 지도 통과(공화 근소 우세 경합구 2곳 구성)",
+   "source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Utah"
+  },
+  {
+   "date": "2025-11-10",
+   "event": "깁슨 판사, 주의회안 배척하고 원고안 Map 1 부과",
+   "source_url": "https://news.ballotpedia.org/2026/04/24/nate-blouin-d-ben-mcadams-d-and-four-other-candidates-are-running-in-the-democratic-primary-for-utahs-1st-congressional-district-on-june-23-2026/"
+  },
+  {
+   "date": "2026-02-20",
+   "event": "유타 주대법원, 주의회 항소 기각(제기 시한 경과)",
+   "source_url": "https://www.kuer.org/politics-government/2026-02-20/utah-supreme-court-redistricting-new-utah-map"
+  },
+  {
+   "date": "2026-02-23",
+   "event": "연방 3인 재판부, Owens·Maloy 의원 등의 지도 교체 요청 기각(Purcell 원칙)",
+   "source_url": "https://www.deseret.com/politics/2026/02/23/utah-federal-court-denies-gop-request-on-state-maps/"
+  },
+  {
+   "date": "2026-03-28",
+   "event": "Prop 4 폐지 주민발의, 서명 철회로 11월 투표 부의 실패",
+   "source_url": "https://news.ballotpedia.org/2026/03/28/utah-redistricting-initiative-to-repeal-proposition-4-will-not-be-on-the-2026-ballot-after-enough-voters-withdraw-their-signatures/"
+  },
+  {
+   "date": "2026-06-23",
+   "event": "예비선거. 1구 민주 Ben McAdams 승리",
+   "source_url": "https://news.ballotpedia.org/2026/06/24/ben-mcadams-d-defeated-nate-blouin-d-michael-farrell-d-and-liban-mohamed-d-in-the-democratic-primary-for-utahs-1st-congressional-district/"
+  }
+ ],
+ "seats_total": 4,
+ "seats_2024_result": {
+  "D": 0,
+  "R": 4,
+  "source_url": "https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/"
+ },
+ "expected_seats_new_map": {
+  "D": 1,
+  "R": 3,
+  "basis": "신 경계 2024 대선 기준 해리스 승리구는 1구(+24) 하나. 2~4구는 Inside Elections Baseline R+38·R+47·R+42",
+  "source_url": "https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/"
+ },
+ "net_effect_d": 1,
+ "net_effect_source_url": "https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/",
+ "mechanism": "솔트레이크카운티를 4개 구로 쪼개 모두 공화 우세로 만든 2021년 지도(효율성 격차 R+28)를 대체해, 솔트레이크시티·웨스트밸리·밀크리크 등 카운티 대부분을 1구 하나로 묶었다(효율성 격차 R+6). 나머지 북부(2구), 동·남부(3구), 서부·남부 솔트레이크(4구)는 공화 안전구.",
+ "litigation": "주대법원(2026-02-20)과 연방 3인 재판부(2026-02-23)가 지도 변경 요청 기각. Owens·Maloy 의원 등이 낸 연방 소송 항소가 계류 중이라는 보도가 있으나 2026년 선거에는 영향 없음. Prop 4 폐지 주민발의는 부의 실패.",
+ "maps": {
+  "old_map_url": null,
+  "new_map_url": null,
+  "new_map_shapefile_url": null,
+  "plan_id": "Map 1 (원고 제출안, 법원 부과)"
+ },
+ "districts": [
+  {
+   "district": "UT-01",
+   "impact": "신설",
+   "incumbent": null,
+   "incumbent_party": null,
+   "incumbent_2026": "미확인",
+   "nominees_2026": {
+    "D": "Ben McAdams",
+    "R": "Riley Owen"
+   },
+   "old_pres_margin_2024": null,
+   "new_pres_margin_2024": 24.0,
+   "margin_source_url": "https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/",
+   "geography_change": "솔트레이크카운티 대부분(솔트레이크시티·웨스트밸리·밀크리크 등)을 하나의 구로 묶음. 현역 없는 사실상 신설 민주 우세구.",
+   "rating_now": "Inside Elections Solid D(2025-11-11). Cook Solid D·Sabato Safe D(민주 탈환, 2025-11-11, 위키백과 기재)",
+   "rating_source_url": "https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/",
+   "notes": "구 1구 현역 Blake Moore(R)는 신 2구로 이동. McAdams(전 4구 하원의원·전 솔트레이크카운티장)가 6/23 민주 예비선거에서 Blouin·Farrell·Mohamed를 꺾음. Inside Elections Baseline D+14. 공화 후보 Riley Owen은 검색 요약과 위키백과 기재."
+  },
+  {
+   "district": "UT-02",
+   "impact": "소폭",
+   "incumbent": "Blake Moore",
+   "incumbent_party": "R",
+   "incumbent_2026": "다른 구 출마(구 UT-01→신 UT-02)",
+   "nominees_2026": {
+    "D": "Peter Crosby",
+    "R": "Blake Moore"
+   },
+   "old_pres_margin_2024": null,
+   "new_pres_margin_2024": null,
+   "margin_source_url": null,
+   "geography_change": "웨버·데이비스 중심 북부 유타. 2024 투표자의 95%가 구 1구 출신(사실상 구 1구 후신).",
+   "rating_now": "Inside Elections Solid R(2025-11-11)",
+   "rating_source_url": "https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/",
+   "notes": "Baseline R+38. 위키백과는 트럼프 +29라 적었으나 인용 출처(Inside Elections)에 해당 수치가 없어 채택하지 않음. 민주 후보는 위키백과 기재."
+  },
+  {
+   "district": "UT-03",
+   "impact": "소폭",
+   "incumbent": "Celeste Maloy",
+   "incumbent_party": "R",
+   "incumbent_2026": "다른 구 출마(구 UT-02→신 UT-03)",
+   "nominees_2026": {
+    "D": "Kent Udell",
+    "R": "Celeste Maloy"
+   },
+   "old_pres_margin_2024": null,
+   "new_pres_margin_2024": null,
+   "margin_source_url": null,
+   "geography_change": "동부 유타에 남서부(시더시티·세인트조지)를 결합. 투표자 76%가 구 3구, 21%가 구 2구 출신.",
+   "rating_now": "Inside Elections Solid R(2025-11-11)",
+   "rating_source_url": "https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/",
+   "notes": "Baseline R+47. Kennedy(구 3구)는 4구로 옮겨 현역 대결 회피. 위키백과의 트럼프 +41은 인용 출처에서 확인 안 돼 미채택. 후보는 위키백과 기재."
+  },
+  {
+   "district": "UT-04",
+   "impact": "소폭",
+   "incumbent": "Burgess Owens",
+   "incumbent_party": "R",
+   "incumbent_2026": "은퇴",
+   "nominees_2026": {
+    "D": "Jonny Larsen",
+    "R": "Mike Kennedy"
+   },
+   "old_pres_margin_2024": null,
+   "new_pres_margin_2024": null,
+   "margin_source_url": null,
+   "geography_change": "서부 농촌 카운티와 남부 솔트레이크·북부 유타카운티. 투표자 53%가 구 2구, 44%가 구 4구 출신.",
+   "rating_now": "Inside Elections Solid R(2025-11-11)",
+   "rating_source_url": "https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/",
+   "notes": "Baseline R+42. Owens 2026-03 불출마 발표, 구 3구 현역 Mike Kennedy가 출마. 위키백과의 트럼프 +32는 출처 확인 안 돼 미채택."
+  }
+ ],
+ "changes_vs_baseline": [
+  "기준선과 일치(법원 부과 지도, net +1). 보충: 주대법원·연방법원 모두 2월에 변경 요청 기각, Prop 4 폐지안 부의 실패, Owens 은퇴, Moore·Maloy·Kennedy 지역구 이동."
+ ],
+ "sources": [
+  "https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/",
+  "https://news.ballotpedia.org/2026/04/24/nate-blouin-d-ben-mcadams-d-and-four-other-candidates-are-running-in-the-democratic-primary-for-utahs-1st-congressional-district-on-june-23-2026/",
+  "https://news.ballotpedia.org/2026/06/24/ben-mcadams-d-defeated-nate-blouin-d-michael-farrell-d-and-liban-mohamed-d-in-the-democratic-primary-for-utahs-1st-congressional-district/",
+  "https://www.deseret.com/politics/2026/02/23/utah-federal-court-denies-gop-request-on-state-maps/",
+  "https://www.kuer.org/politics-government/2026-02-20/utah-supreme-court-redistricting-new-utah-map",
+  "https://www.ksl.com/article/51460049/heres-who-is-running-for-each-of-utahs-4-congressional-seats",
+  "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Utah",
+  "https://news.ballotpedia.org/2026/03/28/utah-redistricting-initiative-to-repeal-proposition-4-will-not-be-on-the-2026-ballot-after-enough-voters-withdraw-their-signatures/"
+ ],
+ "unverified": [
+  "구 지도(2021) 각 구의 2024 대선 마진",
+  "신 UT-02·03·04의 2024 대선 마진(위키백과 수치는 인용 출처와 불일치해 미채택)",
+  "Cook/Sabato 등급 원문(위키백과 기재값만 확인)",
+  "공식 shapefile 주소",
+  "Owens·Maloy 등 연방 항소의 최신 상태"
+ ],
+ "trend_districts": [
+  "UT-01"
+ ]
+}

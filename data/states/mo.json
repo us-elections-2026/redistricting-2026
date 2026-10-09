@@ -1,0 +1,156 @@
+{
+ "state": "MO",
+ "name": "미주리",
+ "checked": "2026-10-10",
+ "in_use_2026": false,
+ "status_summary": "주의회가 2025년 9월 캔자스시티 MO-05(클리버)를 공화 우세구로 바꾸는 새 지도를 통과시키고 9/28 주지사가 서명했으나, 시민 거부 주민투표(Proposition A)가 성립했다. 새 지도는 8/4 예비선거에 쓰였지만 주대법원이 9/3 '새 지도는 발효된 적 없다'고 판결했고, 연방대법원이 9/10에 이어 9/25 제8순회항소법원(9/21) 결정을 정지시키며 2026 본선에는 2022 지도(6R-2D)를 쓰라고 명령했다. 2025 지도의 장래 효력은 11/3 Proposition A 투표로 결정된다.",
+ "timeline": [
+  {
+   "date": "2025-08-29",
+   "event": "케호 주지사, 재획정 특별회기 소집 발표",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2025-09-09",
+   "event": "주하원 새 지도 통과(90-65)",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2025-09-12",
+   "event": "주상원 새 지도 통과(21-11)",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2025-09-28",
+   "event": "케호 주지사 서명(HB 1)",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2025-12-09",
+   "event": "People Not Politicians, 거부 주민투표 서명 30만 건 이상 제출",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2026-08-04",
+   "event": "2025 지도로 예비선거 실시. 같은 날 호스킨스 국무장관이 주민투표 인증 거부",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2026-08-19",
+   "event": "콜카운티 법원, 인증 거부 적법 판결(재획정은 주민투표 대상 아님)",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2026-09-03",
+   "event": "주대법원, 주민투표를 11/3 투표지에 올리라고 판결 — 2025 지도는 발효된 적 없으므로 본선은 2022 지도 사용",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2026-09-08",
+   "event": "캐버노 대법관, 주 측 신청 기각. 같은 날 연방지법(Clark 판사)은 새 지도 유지 결정",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2026-09-10",
+   "event": "연방대법원, 연방지법 결정 정지 — 최종 결론까지 2022 지도 적용, 호스킨스 수용",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2026-09-21",
+   "event": "제8순회항소법원, 본선에 새 지도를 쓰라고 명령(1주 유예)",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2026-09-25",
+   "event": "연방대법원, 항소법원·지법 결정 정지: '주법상 2026 선거에는 2022 지도를 써야 한다'(무이견). 부재자 투표 이미 시작",
+   "source_url": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri"
+  },
+  {
+   "date": "2026-11-03",
+   "event": "Proposition A(2025 지도 승인 여부) 주민투표 예정 — 가결 시 이후 선거부터 2025 지도, 부결 시 2022 지도 유지",
+   "source_url": "https://www.kcur.org/podcast/up-to-date/2026-09-29/missouri-proposition-a-congressional-map-2026-election"
+  }
+ ],
+ "seats_total": 8,
+ "seats_2024_result": {
+  "D": 2,
+  "R": 6,
+  "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+ },
+ "expected_seats_new_map": {
+  "D": 2,
+  "R": 6,
+  "basis": "2026 본선은 2022 지도(2024 선거와 동일 경계)로 치러지므로 현 6R-2D 구도가 기준. 2025 지도가 쓰였다면 공화 1석 순증(7R-1D) 목표였음",
+  "source_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections"
+ },
+ "net_effect_d": 0,
+ "net_effect_source_url": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
+ "mechanism": "(미적용 지도) 2025 지도는 캔자스시티를 MO-04·05·06 세 구로 쪼개(시 인구의 약 40%만 MO-05에 잔류) MO-05를 동쪽 200마일 가까이 농촌 카운티(오세이지·매리스 등)까지 늘리는 cracking 방식이었다. MO-02는 세인트찰스 교외를 떼고 남쪽의 더 붉은 카운티를 붙여 강화했다.",
+ "litigation": "주 법원: 주대법원 9/3 판결로 2025 지도 '미발효' 확정. 연방: 공화 측(브래틴·온더 등) 소송에서 연방지법·제8순회항소법원이 새 지도 사용을 명령했으나 연방대법원이 9/10·9/25 두 차례 정지(9/25 명령은 무이견). 별도로 9/18 콜카운티 법원에 MO-05 공화 후보 브래틴(2025 지도 경계로 선출)의 후보 자격 박탈·재지명을 요구하는 소송 제기(결과 미확인).",
+ "maps": {
+  "old_map_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections",
+  "new_map_url": "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections",
+  "new_map_shapefile_url": null,
+  "plan_id": "HB 1 (2025 Second Extraordinary Session) — 미적용"
+ },
+ "districts": [
+  {
+   "district": "MO-05",
+   "impact": "소폭",
+   "incumbent": "Emanuel Cleaver",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Emanuel Cleaver",
+    "R": "Rick Brattin"
+   },
+   "old_pres_margin_2024": null,
+   "new_pres_margin_2024": -18.0,
+   "margin_source_url": "https://www.rasmussenreports.com/public_content/political_commentary/commentary_by_j_miles_coleman/rating_the_new_missouri_house_map",
+   "geography_change": "2026 본선은 2022 경계(캔자스시티 중심) 그대로. 미적용된 2025 지도에서는 캔자스시티를 3분하고 동쪽 농촌 카운티를 붙여 트럼프 58-40 구로 바꿀 예정이었다(new 값은 미적용 2025 지도 기준).",
+   "rating_now": "Cook Solid D (2026-09-11), Sabato Safe D (2026-09-10) — Wikipedia 집계",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Missouri",
+   "notes": "브래틴은 2025 지도 경계로 치러진 8/4 예비선거에서 승리(약 45%). 그는 2022 경계 MO-05를 '사실상 이길 수 없는 구'라고 말함(KCUR). 9/18 경쟁 후보들이 브래틴 후보 자격 박탈·재지명 소송 제기."
+  },
+  {
+   "district": "MO-02",
+   "impact": "소폭",
+   "incumbent": "Ann Wagner",
+   "incumbent_party": "R",
+   "incumbent_2026": "미확인",
+   "nominees_2026": {
+    "D": null,
+    "R": null
+   },
+   "old_pres_margin_2024": -8.0,
+   "new_pres_margin_2024": -11.0,
+   "margin_source_url": "https://www.rasmussenreports.com/public_content/political_commentary/commentary_by_j_miles_coleman/rating_the_new_missouri_house_map",
+   "geography_change": "2026 본선은 2022 경계 그대로. 미적용 2025 지도에서는 세인트찰스 교외를 떼고 남쪽의 더 붉은 카운티 4곳(전부 또는 일부)을 MO-03에서 받을 예정이었다.",
+   "rating_now": null,
+   "rating_source_url": null,
+   "notes": "new 값은 미적용 2025 지도 기준이며 출처 표현은 '11점을 약간 넘는' 트럼프 우세."
+  }
+ ],
+ "changes_vs_baseline": [
+  "기준선은 '사용 (주민투표 분쟁)', net_d -1, '주대법원 도전 기각 2026-03'으로 기록 — 실제로는 주대법원 9/3 판결과 연방대법원 9/10·9/25 명령으로 2026 본선은 2022 지도 사용. in_use_2026=false, 2026 실효 net_d=0으로 수정",
+  "2025 지도는 8/4 예비선거에만 쓰였고, 11/3 Proposition A로 장래 효력이 결정됨",
+  "사용자 메모의 '9/21 항소법원 명령'은 제8순회항소법원이 새 지도 사용을 명령한 것으로, 연방대법원이 9/25 이를 정지시킴"
+ ],
+ "sources": [
+  "https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections",
+  "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
+  "https://www.stlpr.org/government-politics-issues/2026-09-25/congressional-map-missouri-8th-circle-appeal",
+  "https://www.kcur.org/podcast/up-to-date/2026-09-29/missouri-proposition-a-congressional-map-2026-election",
+  "https://www.kcur.org/politics-elections-and-government/2026-09-05/missouri-supreme-court-redistricting-maps-5th-district-cleaver-voting",
+  "https://www.rasmussenreports.com/public_content/political_commentary/commentary_by_j_miles_coleman/rating_the_new_missouri_house_map",
+  "https://spectrumlocalnews.com/mo/kansas-city/news/2026/09/18/gop-candidates-suing-to-have-new-candidate-chosen-for-missouri-s-fifth",
+  "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Missouri"
+ ],
+ "unverified": [
+  "MO-05 2022 경계(현행)의 2024 대선 정확한 마진(출처에는 해리스 약 60% 수준으로만 기술)",
+  "MO-02 앤 와그너의 2026 재출마 여부와 양당 후보, 최신 등급",
+  "MO-04·MO-06이 미적용 2025 지도에서 얼마나 덜 붉어졌는지 수치(출처는 '몇 포인트 덜 붉어짐'으로만 기술)",
+  "9/18 브래틴 후보 자격 소송의 결과",
+  "2025 지도 공식 shapefile 주소"
+ ]
+}

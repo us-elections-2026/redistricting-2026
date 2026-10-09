@@ -1,0 +1,112 @@
+---
+title: "앨라배마 (AL)"
+subtitle: "지도 변화와 영향 지역구"
+---
+<!-- scripts/build.py 생성 파일 — 직접 수정 금지 -->
+
+<p class="as-of">조사 기준 2026-10-10 · Cook 등급 스냅샷 2026-09-25 · FEC 2026-10-10 · 일일 브리핑 2026-10-09까지</p>
+
+::: {.lead}
+Callais 판결 뒤 아이비 주지사가 특별회기를 소집해 기존 금지명령이 풀리면 2023년 주의회 지도(Livingston Congressional Plan 3)를 쓰도록 법을 마련했다. 연방대법원이 5월 11일 중간 재획정 제한을 풀었고, 연방 3인 재판부가 5월 26일 다시 막았으나 대법원이 6월 2일(6-3) 이를 뒤집어 2023년 지도 사용을 허용했다. 1·2·6·7구는 8월 11일 특별 예비선거를 치렀고 11월 3일 새 지도로 본선을 치른다.
+:::
+
+<div class="kpis">
+<div class="kpi"><div class="k">의석</div><div class="v">7</div><div class="s"></div></div>
+<div class="kpi"><div class="k">2024 결과</div><div class="v">D 2 · R 5</div><div class="s">pbs.org</div></div>
+<div class="kpi"><div class="k">신 지도 기대치</div><div class="v">D 1 · R 6</div><div class="s">2024 대선 재집계 기준</div></div>
+<div class="kpi"><div class="k">순효과(D)</div><div class="v">-1</div><div class="s">nbcnews.com</div></div>
+</div>
+
+<p class="note">신 지도 기대치 근거: 신 경계 2024 대선 기준 해리스 승리구는 AL-07 하나(AL-02는 트럼프 57-42). AL-01·03·04·05·06은 수치 미확인이나 모든 평가기관이 공화 안전구로 분류 <a href="https://www.pbs.org/newshour/politics/live-results-alabama-midterm-u-s-house-primaries-after-redistricting" target="_blank" rel="noopener">출처</a></p>
+
+## 지도 비교 {#maps}
+
+<div class="mappair" data-st="al" data-base="../"><div><h4>구 지도 (2024 선거)</h4><div class="map map-old"></div></div><div><h4>신 지도 (2026 선거)</h4><div class="map map-new"></div></div></div>
+<script src="../assets/maps.js"></script>
+
+<p class="figlegend">색 = 2024 대선 마진(<span class="md">파랑=민주</span>·<span class="mr">빨강=공화</span>, 진할수록 큼). 회색 = 마진 미수집. 검은 테두리 = 추세 추적 대상 구. 두 지도는 함께 움직인다. 구 지도 경계: Census 2024 cartographic boundary(119대 의회 선거구). 신 지도 경계: <a href="https://services7.arcgis.com/jF2q3LPxL7PETdYk/arcgis/rest/services/2023_CONG_LEGISLATIVE_PLAN/FeatureServer/0" target="_blank" rel="noopener">Alabama GeoHub — 2023 주의회안(Livingston Plan 3)</a>.</p>
+
+## 어떻게 그렸나 {#mechanism}
+
+2024년 선거에 쓰인 특별관리관 작성 법원 지도(2구 흑인 VAP 48.7%)를 버리고 2023년 주의회 지도로 돌아갔다. 모빌에서 블랙벨트 남부를 거쳐 조지아 경계까지 이어지던 2구의 흑인 비율을 약 50%에서 약 40%로 낮춰(cracking) 공화 우세구로 바꾸고, 7구(시웰)만 흑인 근소 다수구로 남겼다.
+
+## 영향 지역구 {#districts}
+
+<div class="figwrap"><svg class="dumbbell" viewBox="0 0 640 76" role="img" aria-label="2024 대선 마진 신·구 비교"><line x1="92.0" y1="20" x2="92.0" y2="70" class="grid"/><text x="92.0" y="16" class="tick">D+40</text><line x1="157.5" y1="20" x2="157.5" y2="70" class="grid"/><text x="157.5" y="16" class="tick">D+30</text><line x1="223.0" y1="20" x2="223.0" y2="70" class="grid"/><text x="223.0" y="16" class="tick">D+20</text><line x1="288.5" y1="20" x2="288.5" y2="70" class="grid"/><text x="288.5" y="16" class="tick">D+10</text><line x1="354.0" y1="20" x2="354.0" y2="70" class="axis0"/><text x="354.0" y="16" class="tick">0</text><line x1="419.5" y1="20" x2="419.5" y2="70" class="grid"/><text x="419.5" y="16" class="tick">R+10</text><line x1="485.0" y1="20" x2="485.0" y2="70" class="grid"/><text x="485.0" y="16" class="tick">R+20</text><line x1="550.5" y1="20" x2="550.5" y2="70" class="grid"/><text x="550.5" y="16" class="tick">R+30</text><line x1="616.0" y1="20" x2="616.0" y2="70" class="grid"/><text x="616.0" y="16" class="tick">R+40</text><a href="#al-02"><text x="84" y="40.0" class="lab">AL-02</text></a><line x1="308.1" y1="36.0" x2="452.2" y2="36.0" class="bar tor"/><circle cx="308.1" cy="36.0" r="4" class="old"><title>AL-02 구 지도 +7.0</title></circle><circle cx="452.2" cy="36.0" r="5" class="new r"><title>AL-02 신 지도 -15.0</title></circle><a href="#al-07"><text x="84" y="60.0" class="lab">AL-07</text></a><line x1="203.3" y1="56.0" x2="242.6" y2="56.0" class="bar tor"/><circle cx="203.3" cy="56.0" r="4" class="old"><title>AL-07 구 지도 +23.0</title></circle><circle cx="242.6" cy="56.0" r="5" class="new d"><title>AL-07 신 지도 +17.0</title></circle></svg><p class="figlegend"><span class="dot old"></span> 구 지도 &nbsp; <span class="dot new"></span> 신 지도 (2024 대선 표를 각 경계로 다시 집계한 마진, 왼쪽=민주 우위)</p></div>
+
+| 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
+|-------|-----------|----------------|------:|------:|---------|--------|
+| [AL-01](#al-01) | Barry Moore (R) | 다른 선거 출마(연방상원) | <span class="na">미확인</span> | <span class="na">미확인</span> | — | <span class="rt rt-solid_r">Solid R</span> |
+| [AL-02](#al-02) ★ | Shomari Figures (D) | 재출마 | <span class="md">D+7</span> | <span class="mr">R+15</span> | <span class="mr">R 쪽 22.0p</span> | <span class="rt rt-likely_r">Likely R</span> |
+| [AL-07](#al-07) | Terri Sewell (D) | 재출마 | <span class="md">D+23</span> | <span class="md">D+17</span> | <span class="mr">R 쪽 6.0p</span> | <span class="rt rt-solid_d">Solid D</span> |
+
+<p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
+
+## 지역구별 상세 {#detail}
+
+### AL-01 — 소폭 {#al-01}
+
+<p class="dmeta">2024 대선 <span class="na">미확인</span> → <span class="na">미확인</span> </p>
+
+- **경계 변화** 2023년 지도로 경계 재조정(세부 미확인).
+- **현역** Barry Moore (R) — 다른 선거 출마(연방상원)
+- **2026 후보** 민주 Clyde Jones · 공화 Jerry Carl
+- **등급** Cook Solid R(2025-06-30), Sabato Safe R(2025-07-10) — 위키백과 기재 <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama" target="_blank" rel="noopener">en.wikipedia.org</a>
+- **메모** 전 의원 Jerry Carl이 공화 후보(위키백과 기재, 교차확인 미흡). 안전 공화구.
+
+### AL-02 — R방향 {#al-02}
+
+<p class="dmeta">2024 대선 <span class="md">D+7</span> → <span class="mr">R+15</span> <a href="https://www.pbs.org/newshour/politics/live-results-alabama-midterm-u-s-house-primaries-after-redistricting" target="_blank" rel="noopener">pbs.org</a> · <a href="../trends.html#al-02">추세 보기 →</a></p>
+
+- **경계 변화** 흑인 인구 비율이 약 50%에서 약 40%로 낮아짐. 2023년 계획 기준 흑인 VAP 39.93%(구 법원 지도 48.7%).
+- **현역** Shomari Figures (D) — 재출마
+- **2026 후보** 민주 Shomari Figures · 공화 Rhett Marques
+- **등급** Cook Likely R(공화 탈환, 2026-06-18), Sabato Lean R(공화 탈환, 2026-09-10) — 위키백과 기재; Sabato의 Likely→Lean 조정은 9월 보도로 교차 확인 <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama" target="_blank" rel="noopener">en.wikipedia.org</a>
+- **메모** 마진은 AP 정리 수치(반올림 %): 구 경계 해리스 53-46, 신 경계 트럼프 57-42. 공화 후보 Marques(주하원의원, 트럼프 지지 받음)는 8/11 특별 예비선거 50.0%로 승리. DCCC 의뢰 Impact Research 조사(6/22~25) Marques 45%, Figures 44%(검색 요약에서 본 값, 원문 미확인).
+
+### AL-07 — R방향 {#al-07}
+
+<p class="dmeta">2024 대선 <span class="md">D+23</span> → <span class="md">D+17</span> <a href="https://www.pbs.org/newshour/politics/live-results-alabama-midterm-u-s-house-primaries-after-redistricting" target="_blank" rel="noopener">pbs.org</a></p>
+
+- **경계 변화** 흑인 주민이 근소한 다수로 남는 수준으로 조정.
+- **현역** Terri Sewell (D) — 재출마
+- **2026 후보** 민주 Terri Sewell · 공화 Ammie Akin
+- **등급** Cook Solid D(2025-02-06), Sabato Safe D(2025-07-15) — 위키백과 기재 <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama" target="_blank" rel="noopener">en.wikipedia.org</a>
+- **메모** 마진은 AP 수치(구 경계 해리스 61-38, 신 경계 58-41). 6p 이동이지만 안전 민주구 유지. 공화 후보 Akin은 위키백과 기재(PBS는 Akin·David Perry를 예비선거 후보로 언급).
+
+## 경과 {#timeline}
+
+- **2023-07-21** 주의회, Livingston Congressional Plan 3 통과(2구 흑인 VAP 39.93%) <a href="https://alabamareflector.com/2023/07/21/alabama-legislature-passes-controversial-congressional-map/" target="_blank" rel="noopener">출처</a>
+- **2026-04-29** 연방대법원 Louisiana v. Callais 판결 <a href="https://alarise.org/blog-posts/what-you-need-to-know-about-alabamas-aug-11-special-primary-election/" target="_blank" rel="noopener">출처</a>
+- **2026-05-11** 연방대법원, 중간 재획정 제한(금지명령) 해제 <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama" target="_blank" rel="noopener">출처</a>
+- **2026-05-12** 아이비 주지사, 1·2·6·7구 8/11 특별 예비선거 공고(5/19 예비선거 결과는 무효 처리) <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama" target="_blank" rel="noopener">출처</a>
+- **2026-05-26** 연방 3인 재판부, 새 지도 차단 <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama" target="_blank" rel="noopener">출처</a>
+- **2026-06-02** 연방대법원 6-3으로 차단 결정 뒤집고 2023년 지도 사용 허용 <a href="https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-alabama-congress-map-eliminate-black-district-rcna346920" target="_blank" rel="noopener">출처</a>
+- **2026-08-11** 1·2·6·7구 특별 예비선거(결선 없음). 2구 공화 Rhett Marques 50.0%로 승리 <a href="https://www.nbcnews.com/politics/2026-primary-special-elections/alabama-us-house-district-2-results" target="_blank" rel="noopener">출처</a>
+- **2026-11-03** 본선 <a href="https://alarise.org/blog-posts/what-you-need-to-know-about-alabamas-aug-11-special-primary-election/" target="_blank" rel="noopener">출처</a>
+
+## 소송 {#litigation}
+
+Allen v. Milligan 계열 소송에서 연방 3인 재판부가 5/26 새 지도를 막았으나 연방대법원이 6/2(6-3) 효력을 정지해 2026년 사용이 확정됐다. 다수의견은 주가 '최종적으로 승소할 가능성이 높다'고 밝혔고, 소토마요르 대법관은 반대의견을 냈다. 본안 소송은 계속 중(최종 판단 미확인).
+
+::: {.callout-note collapse="true" title="6월 기준선 대비 바뀐 점"}
+- 기준선과 일치(2026-06-02 가처분 해제, net -1). 보충: 대법원이 5/11 1차로 제한을 풀었고, 5/26 3인 재판부 재차단을 6/2에 뒤집은 2단계 경과임. 2026년 지도는 새로 그린 것이 아니라 2023년 주의회 지도(Livingston Plan 3).
+:::
+
+::: {.callout-warning collapse="true" title="확인하지 못한 항목"}
+- AL-01·06의 구·신 경계 2024 대선 마진
+- 마진은 AP의 반올림 득표율로 계산한 값(소수점 정밀값 미확인)
+- Cook 등급 원문(사이트 403), 등급은 위키백과 기재값
+- 신 지도 공식 shapefile·지도 주소
+- Impact Research 조사 원문
+:::
+
+## 출처 {#sources}
+
+- <a href="https://www.pbs.org/newshour/politics/live-results-alabama-midterm-u-s-house-primaries-after-redistricting" target="_blank" rel="noopener">https://www.pbs.org/newshour/politics/live-results-alabama-midterm-u-s-house-primaries-after-redistricting</a>
+- <a href="https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-alabama-congress-map-eliminate-black-district-rcna346920" target="_blank" rel="noopener">https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-alabama-congress-map-eliminate-black-district-rcna346920</a>
+- <a href="https://alarise.org/blog-posts/what-you-need-to-know-about-alabamas-aug-11-special-primary-election/" target="_blank" rel="noopener">https://alarise.org/blog-posts/what-you-need-to-know-about-alabamas-aug-11-special-primary-election/</a>
+- <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama</a>
+- <a href="https://www.nbcnews.com/politics/2026-primary-special-elections/alabama-us-house-district-2-results" target="_blank" rel="noopener">https://www.nbcnews.com/politics/2026-primary-special-elections/alabama-us-house-district-2-results</a>
+- <a href="https://alabamareflector.com/2023/07/21/alabama-legislature-passes-controversial-congressional-map/" target="_blank" rel="noopener">https://alabamareflector.com/2023/07/21/alabama-legislature-passes-controversial-congressional-map/</a>
+- <a href="https://gambling911.com/node/82563" target="_blank" rel="noopener">https://gambling911.com/node/82563</a>

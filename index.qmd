@@ -1,0 +1,78 @@
+---
+title: "2026 재획정 상세 트래커"
+subtitle: "주별 지도 변화와 영향 지역구"
+toc: false
+---
+<!-- scripts/build.py 생성 파일 — 직접 수정 금지 -->
+
+<p class="as-of">조사 기준 2026-10-10 · Cook 등급 스냅샷 2026-09-25 · FEC 2026-10-10 · 일일 브리핑 2026-10-09까지</p>
+
+
+::: {.lead}
+2026년 11월 하원 선거에서 **새 선거구 지도를 쓰는 주는 9곳**이다. 이 사이트는 그 9개 주에서 지도가 어떻게 바뀌었는지, 어느 지역구가 어떤 영향을 받았는지를 지역구 단위로 정리하고, 영향 지역구의 등급·모금·현지 동향을 추적한다. 제도·배경 설명은 [본 사이트 재획정 페이지](https://us-elections-2026.github.io/redistricting.html)에 있다.
+:::
+
+<div class="kpis">
+<div class="kpi"><div class="k">새 지도 사용 주</div><div class="v">9</div><div class="s">미주리는 구 지도 복귀</div></div>
+<div class="kpi"><div class="k">집계 지역구</div><div class="v">79</div><div class="s">당파 성향이 바뀐 구 중심</div></div>
+<div class="kpi"><div class="k">우위 정당이 뒤집힌 구</div><div class="v">17</div><div class="s">공화 쪽 11 · 민주 쪽 6 (2024 대선 기준)</div></div>
+<div class="kpi"><div class="k">지도 합산 순효과</div><div class="v">R +9</div><div class="s">Ballotpedia 2026-09-28 · 선거 예측 아님</div></div>
+</div>
+
+<p class="note">순효과 출처: <a href="https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections" target="_blank" rel="noopener">Ballotpedia — Redistricting ahead of the 2026 elections</a> — "공화 +9석 (9개 주 &#x27;잠재 효과&#x27; 합산: R +15, D +6; 미주리 제외)". 각 지도의 잠재 효과를 더한 값이며 의석 예측이 아니다.</p>
+
+## 주별 요약 {#states}
+
+| 주 | 그린 주체·현재 상태 | 2024 결과 | 신 지도 기대치 | 순효과(D) | 뒤집힌 구 | 소송 |
+|--------|------------------------------|--------|--------|-----:|----------|--------------------|
+| [텍사스](states/tx.qmd) | 공화당 주의회가 2025년 8월 제2차 특별회기에서 연방하원 지도(PLANC2333, HB 4)를 통과시키고 애벗 주지사가 2025-08-29 서명했다. | D 13 · R 25 | D 8 · R 30 | -5 | TX-09, TX-32, TX-35 | LULAC v. Abbott(W.D. Tex. 3:21-cv-00259): 연방지법이 20… |
+| [캘리포니아](states/ca.qmd) | 민주당 주의회가 마련한 새 하원 지도(AB 604)를 주민투표 Prop 50으로 2025-11-04 가결(찬성 64.42%)했다. | D 43 · R 9 | D 47 · R 5 | +5 | CA-01, CA-03, CA-41, CA-48, CA-09, CA-13 | (1) 캘리포니아 공화당·18인(+연방 법무부) 인종 게리맨더링 소송: 연방 3인 재판부 … |
+| [플로리다](states/fl.qmd) | 주의회가 2026-04-29 DeSantis 주지사안(HB 1-D, Plan EOGPCRP2026)을 통과시켰고(하원 83-28, 상원 21-17) 주지사가 5-04 서명했다. | D 8 · R 20 | D 4 · R 24 | -4 | FL-09, FL-14, FL-22, FL-25 | Equal Ground Education Fund, Common Cause FL, LWV … |
+| [오하이오](states/oh.qmd) | 주헌법상 2022 지도가 두 번의 선거에만 유효해 재획정이 의무였다. | D 5 · R 10 | D 3 · R 12 | -2 | OH-01 | 없음(Statehouse News 2025-12 '제기된 법적 도전 없음'). 위원회 양당… |
+| [노스캐롤라이나](states/nc.qmd) | 공화당 주의회가 2025년 10월(상원 10/21, 하원 10/22) 상원법안 249로 NC-01(돈 데이비스)과 NC-03(… | D 4 · R 10 | D 3 · R 11 | -1 | — | 2026 사용 확정. 연방 3인 재판부가 2025-11-26 가처분을 기각(인종차별 의도 … |
+| [테네시](states/tn.qmd) | 연방대법원 Louisiana v. Callais 판결(4/29) 직후 리 주지사가 특별회기를 소집했고, 주의회가 5/7 멤피스를 3개 구로 쪼갠 새 지도를 통과시켜 같은 날 서명됐다. | D 1 · R 8 | D 0 · R 9 | -1 | TN-09 | NAACP 테네시 지부·ACLU 측 원고 소송(인종차별적 표 희석)에서 연방 3인 재판부가… |
+| [루이지애나](states/la.qmd) | 연방대법원 Louisiana v. Callais 판결(2026-04-29)로 흑인 다수 2개 구를 둔 2024년 지도가 위헌 … | D 2 · R 4 | D 1 · R 5 | -1 | LA-06 | Callais 원고(백인 유권자)가 서부지구 연방법원에 SB 121도 인종을 구조적으로 제… |
+| [앨라배마](states/al.qmd) | Callais 판결 뒤 아이비 주지사가 특별회기를 소집해 기존 금지명령이 풀리면 2023년 주의회 지도(Livingston Congressional Plan 3)를 쓰도록 법을 마련했다. | D 2 · R 5 | D 1 · R 6 | -1 | AL-02 | Allen v. Milligan 계열 소송에서 연방 3인 재판부가 5/26 새 지도를 막았… |
+| [유타](states/ut.qmd) | 유타 제3지방법원 디아나 깁슨 판사가 2025-11-10 주의회 지도가 주민발의 4호(Prop 4)의 기준을 어겼다며 원고(유타 여성유권자연맹 등) 제출안 'Map 1'을 부과했다. | D 0 · R 4 | D 1 · R 3 | +1 | — | 주대법원(2026-02-20)과 연방 3인 재판부(2026-02-23)가 지도 변경 요청 … |
+
+<p class="note">신 지도 기대치 = 2024 대선 표를 새 경계로 다시 집계했을 때 각 당 후보가 이긴 구 수(주별 페이지에 근거 표기). 순효과는 주별 조사에서 인용한 출처 값.</p>
+
+## 우위 정당이 뒤집힌 지역구 {#flips}
+
+<div class="figwrap"><svg class="dumbbell" viewBox="0 0 640 376" role="img" aria-label="2024 대선 마진 신·구 비교"><line x1="92.0" y1="20" x2="92.0" y2="370" class="grid"/><text x="92.0" y="16" class="tick">D+50</text><line x1="144.4" y1="20" x2="144.4" y2="370" class="grid"/><text x="144.4" y="16" class="tick">D+40</text><line x1="196.8" y1="20" x2="196.8" y2="370" class="grid"/><text x="196.8" y="16" class="tick">D+30</text><line x1="249.2" y1="20" x2="249.2" y2="370" class="grid"/><text x="249.2" y="16" class="tick">D+20</text><line x1="301.6" y1="20" x2="301.6" y2="370" class="grid"/><text x="301.6" y="16" class="tick">D+10</text><line x1="354.0" y1="20" x2="354.0" y2="370" class="axis0"/><text x="354.0" y="16" class="tick">0</text><line x1="406.4" y1="20" x2="406.4" y2="370" class="grid"/><text x="406.4" y="16" class="tick">R+10</text><line x1="458.8" y1="20" x2="458.8" y2="370" class="grid"/><text x="458.8" y="16" class="tick">R+20</text><line x1="511.2" y1="20" x2="511.2" y2="370" class="grid"/><text x="511.2" y="16" class="tick">R+30</text><line x1="563.6" y1="20" x2="563.6" y2="370" class="grid"/><text x="563.6" y="16" class="tick">R+40</text><line x1="616.0" y1="20" x2="616.0" y2="370" class="grid"/><text x="616.0" y="16" class="tick">R+50</text><a href="states/tx.html#tx-09"><text x="84" y="40.0" class="lab">TX-09</text></a><line x1="123.2" y1="36.0" x2="458.2" y2="36.0" class="bar tor"/><circle cx="123.2" cy="36.0" r="4" class="old"><title>TX-09 구 지도 +44.0</title></circle><circle cx="458.2" cy="36.0" r="5" class="new r"><title>TX-09 신 지도 -19.9</title></circle><a href="states/tn.html#tn-09"><text x="84" y="60.0" class="lab">TN-09</text></a><line x1="130.5" y1="56.0" x2="464.8" y2="56.0" class="bar tor"/><circle cx="130.5" cy="56.0" r="4" class="old"><title>TN-09 구 지도 +42.7</title></circle><circle cx="464.8" cy="56.0" r="5" class="new r"><title>TN-09 신 지도 -21.1</title></circle><a href="states/la.html#la-06"><text x="84" y="80.0" class="lab">LA-06</text></a><line x1="275.4" y1="76.0" x2="521.7" y2="76.0" class="bar tor"/><circle cx="275.4" cy="76.0" r="4" class="old"><title>LA-06 구 지도 +15.0</title></circle><circle cx="521.7" cy="76.0" r="5" class="new r"><title>LA-06 신 지도 -32.0</title></circle><a href="states/tx.html#tx-35"><text x="84" y="100.0" class="lab">TX-35</text></a><line x1="178.5" y1="96.0" x2="408.7" y2="96.0" class="bar tor"/><circle cx="178.5" cy="96.0" r="4" class="old"><title>TX-35 구 지도 +33.5</title></circle><circle cx="408.7" cy="96.0" r="5" class="new r"><title>TX-35 신 지도 -10.4</title></circle><a href="states/tx.html#tx-32"><text x="84" y="120.0" class="lab">TX-32</text></a><line x1="230.3" y1="116.0" x2="446.8" y2="116.0" class="bar tor"/><circle cx="230.3" cy="116.0" r="4" class="old"><title>TX-32 구 지도 +23.6</title></circle><circle cx="446.8" cy="116.0" r="5" class="new r"><title>TX-32 신 지도 -17.7</title></circle><a href="states/al.html#al-02"><text x="84" y="140.0" class="lab">AL-02</text></a><line x1="317.3" y1="136.0" x2="432.6" y2="136.0" class="bar tor"/><circle cx="317.3" cy="136.0" r="4" class="old"><title>AL-02 구 지도 +7.0</title></circle><circle cx="432.6" cy="136.0" r="5" class="new r"><title>AL-02 신 지도 -15.0</title></circle><a href="states/fl.html#fl-09"><text x="84" y="160.0" class="lab">FL-09</text></a><line x1="335.7" y1="156.0" x2="446.8" y2="156.0" class="bar tor"/><circle cx="335.7" cy="156.0" r="4" class="old"><title>FL-09 구 지도 +3.5</title></circle><circle cx="446.8" cy="156.0" r="5" class="new r"><title>FL-09 신 지도 -17.7</title></circle><a href="states/fl.html#fl-14"><text x="84" y="180.0" class="lab">FL-14</text></a><line x1="314.0" y1="176.0" x2="408.9" y2="176.0" class="bar tor"/><circle cx="314.0" cy="176.0" r="4" class="old"><title>FL-14 구 지도 +7.6</title></circle><circle cx="408.9" cy="176.0" r="5" class="new r"><title>FL-14 신 지도 -10.5</title></circle><a href="states/fl.html#fl-22"><text x="84" y="200.0" class="lab">FL-22</text></a><line x1="324.9" y1="196.0" x2="408.9" y2="196.0" class="bar tor"/><circle cx="324.9" cy="196.0" r="4" class="old"><title>FL-22 구 지도 +5.5</title></circle><circle cx="408.9" cy="196.0" r="5" class="new r"><title>FL-22 신 지도 -10.5</title></circle><a href="states/fl.html#fl-25"><text x="84" y="220.0" class="lab">FL-25</text></a><line x1="326.2" y1="216.0" x2="401.7" y2="216.0" class="bar tor"/><circle cx="326.2" cy="216.0" r="4" class="old"><title>FL-25 구 지도 +5.3</title></circle><circle cx="401.7" cy="216.0" r="5" class="new r"><title>FL-25 신 지도 -9.1</title></circle><a href="states/oh.html#oh-01"><text x="84" y="240.0" class="lab">OH-01</text></a><line x1="317.3" y1="236.0" x2="369.7" y2="236.0" class="bar tor"/><circle cx="317.3" cy="236.0" r="4" class="old"><title>OH-01 구 지도 +7.0</title></circle><circle cx="369.7" cy="236.0" r="5" class="new r"><title>OH-01 신 지도 -3.0</title></circle><a href="states/ca.html#ca-13"><text x="84" y="260.0" class="lab">CA-13</text></a><line x1="382.3" y1="256.0" x2="351.4" y2="256.0" class="bar tod"/><circle cx="382.3" cy="256.0" r="4" class="old"><title>CA-13 구 지도 -5.4</title></circle><circle cx="351.4" cy="256.0" r="5" class="new d"><title>CA-13 신 지도 +0.5</title></circle><a href="states/ca.html#ca-09"><text x="84" y="280.0" class="lab">CA-09</text></a><line x1="363.4" y1="276.0" x2="293.7" y2="276.0" class="bar tod"/><circle cx="363.4" cy="276.0" r="4" class="old"><title>CA-09 구 지도 -1.8</title></circle><circle cx="293.7" cy="276.0" r="5" class="new d"><title>CA-09 신 지도 +11.5</title></circle><a href="states/ca.html#ca-03"><text x="84" y="300.0" class="lab">CA-03</text></a><line x1="373.9" y1="296.0" x2="300.6" y2="296.0" class="bar tod"/><circle cx="373.9" cy="296.0" r="4" class="old"><title>CA-03 구 지도 -3.8</title></circle><circle cx="300.6" cy="296.0" r="5" class="new d"><title>CA-03 신 지도 +10.2</title></circle><a href="states/ca.html#ca-48"><text x="84" y="320.0" class="lab">CA-48</text></a><line x1="434.2" y1="316.0" x2="337.8" y2="316.0" class="bar tod"/><circle cx="434.2" cy="316.0" r="4" class="old"><title>CA-48 구 지도 -15.3</title></circle><circle cx="337.8" cy="316.0" r="5" class="new d"><title>CA-48 신 지도 +3.1</title></circle><a href="states/ca.html#ca-41"><text x="84" y="340.0" class="lab">CA-41</text></a><line x1="384.9" y1="336.0" x2="279.1" y2="336.0" class="bar tod"/><circle cx="384.9" cy="336.0" r="4" class="old"><title>CA-41 구 지도 -5.9</title></circle><circle cx="279.1" cy="336.0" r="5" class="new d"><title>CA-41 신 지도 +14.3</title></circle><a href="states/ca.html#ca-01"><text x="84" y="360.0" class="lab">CA-01</text></a><line x1="485.0" y1="356.0" x2="290.1" y2="356.0" class="bar tod"/><circle cx="485.0" cy="356.0" r="4" class="old"><title>CA-01 구 지도 -25.0</title></circle><circle cx="290.1" cy="356.0" r="5" class="new d"><title>CA-01 신 지도 +12.2</title></circle></svg><p class="figlegend"><span class="dot old"></span> 구 지도 &nbsp; <span class="dot new"></span> 신 지도 (2024 대선 표를 각 경계로 다시 집계한 마진, 왼쪽=민주 우위)</p></div>
+
+## 미주리 — 새 지도를 만들었지만 본선에서는 쓰지 않는다 {#mo}
+
+주의회가 2025년 9월 캔자스시티 MO-05(클리버)를 공화 우세구로 바꾸는 새 지도를 통과시키고 9/28 주지사가 서명했으나, 시민 거부 주민투표(Proposition A)가 성립했다. 새 지도는 8/4 예비선거에 쓰였지만 주대법원이 9/3 '새 지도는 발효된 적 없다'고 판결했고, 연방대법원이 9/10에 이어 9/25 제8순회항소법원(9/21) 결정을 정지시키며 2026 본선에는 2022 지도(6R-2D)를 쓰라고 명령했다. 2025 지도의 장래 효력은 11/3 Proposition A 투표로 결정된다.
+
+
+::: {.callout-note collapse="true" title="미주리 경과"}
+
+- **2025-08-29** 케호 주지사, 재획정 특별회기 소집 발표 <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2025-09-09** 주하원 새 지도 통과(90-65) <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2025-09-12** 주상원 새 지도 통과(21-11) <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2025-09-28** 케호 주지사 서명(HB 1) <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2025-12-09** People Not Politicians, 거부 주민투표 서명 30만 건 이상 제출 <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2026-08-04** 2025 지도로 예비선거 실시. 같은 날 호스킨스 국무장관이 주민투표 인증 거부 <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2026-08-19** 콜카운티 법원, 인증 거부 적법 판결(재획정은 주민투표 대상 아님) <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2026-09-03** 주대법원, 주민투표를 11/3 투표지에 올리라고 판결 — 2025 지도는 발효된 적 없으므로 본선은 2022 지도 사용 <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2026-09-08** 캐버노 대법관, 주 측 신청 기각. 같은 날 연방지법(Clark 판사)은 새 지도 유지 결정 <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2026-09-10** 연방대법원, 연방지법 결정 정지 — 최종 결론까지 2022 지도 적용, 호스킨스 수용 <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2026-09-21** 제8순회항소법원, 본선에 새 지도를 쓰라고 명령(1주 유예) <a href="https://ballotpedia.org/Redistricting_in_Missouri_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2026-09-25** 연방대법원, 항소법원·지법 결정 정지: '주법상 2026 선거에는 2022 지도를 써야 한다'(무이견). 부재자 투표 이미 시작 <a href="https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri" target="_blank" rel="noopener">출처</a>
+- **2026-11-03** Proposition A(2025 지도 승인 여부) 주민투표 예정 — 가결 시 이후 선거부터 2025 지도, 부결 시 2022 지도 유지 <a href="https://www.kcur.org/podcast/up-to-date/2026-09-29/missouri-proposition-a-congressional-map-2026-election" target="_blank" rel="noopener">출처</a>
+:::
+
+## 시도했으나 무산된 주 {#failed}
+
+| 주 | 상태 | 요약 |
+|---|---|---|
+| 버지니아 | 차단 | 2026년 4월 주민투표 가결 후 주대법원이 2026-05-08 절차 위반으로 무효화, 연방대법원이 2026-05-15 정지 신청 기각. 기존 지도 사용. <a href="https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a> |
+| 뉴욕 | 차단 | 주법원의 NY-11 재획정 명령(2026-01-21)을 연방대법원이 막아 기존(2024) 지도를 2026년에 사용. <a href="https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a> |
+| 인디애나 | 부결 | 주하원 2025-12-05 통과, 주상원 2025-12-11 31-19로 부결. <a href="https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a> |
+| 메릴랜드 | 부결 | 주하원은 2026-02-02 8석 모두 민주 우세 지도 통과, 주상원은 표결하지 않음(PBS 2026-04-22). <a href="https://www.pbs.org/newshour/politics/a-state-by-state-look-at-the-narrowing-redistricting-battle-for-the-u-s-house" target="_blank" rel="noopener">출처</a> |
+| 사우스캐롤라이나 | 부결 | 주하원 2026-05-20 74-37 통과, 주상원 2026-05-26 토론종결 표결 24-20 부결 후 예비선거 이후로 휴회 → 2026년 새 지도 없음. <a href="https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a> |
+| 캔자스 | 부결 | 특별회기 소집 청원이 2025년 11월 철회(PBS). <a href="https://www.pbs.org/newshour/politics/a-state-by-state-look-at-the-narrowing-redistricting-battle-for-the-u-s-house" target="_blank" rel="noopener">출처</a> |
+| 일리노이 | 부결 | 민주당 주의회가 조치하지 않음(PBS 2026-04-22). 정식 부결 표결은 아니며 '추진 무산'. <a href="https://www.pbs.org/newshour/politics/a-state-by-state-look-at-the-narrowing-redistricting-battle-for-the-u-s-house" target="_blank" rel="noopener">출처</a> |
+| 조지아 | 부결 | 주의회가 새 지도 작성을 거부(Voting Rights Lab 2026-08-19). 기존 지도 관련 VRA 소송은 계속 중이나 Ballotpedia상 2026년 지도 변경 없음. <a href="https://votingrightslab.org/2026/08/19/an-emerging-trend-mid-decade-redistricting/" target="_blank" rel="noopener">출처</a> |
+| 미시시피 | 부결 | Voting Rights Lab(2026-08-19)은 미시시피를 '2026년 새 지도 미채택' 주로 분류하고 2026년 8월에야 재획정 검토를 시작했다고 기재. 검색 결과 요약상 리브스 주지사가 2026-05-13 특별회기를 취소하고 연방하원 재획정을 2027년 선거 전으로 미뤘다는 보도가 있음(해당 기사 원문은 열지 않음). 2026년 지도 변경 없음. <a href="https://votingrightslab.org/2026/08/19/an-emerging-trend-mid-decade-redistricting/" target="_blank" rel="noopener">출처</a> |

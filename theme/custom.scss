@@ -1,0 +1,544 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "IBM Plex Sans KR", -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+$primary: #1f3a5f;
+/* 정당 컬러 토큰 — 새 컴포넌트는 반드시 이 변수를 쓸 것 (하드코딩 금지) */
+$dem: #1971c2;
+$rep: #c92a2a;
+$dem-bg: #dbeafe;
+$dem-fg: #1e40af;
+$rep-bg: #fee2e2;
+$rep-fg: #991b1b;
+$tossup-bg: #fff3bf;
+$tossup-fg: #92400e;
+$link-color: #1f3a5f;
+$body-color: #1a1a1a;
+$font-size-root: 17px;
+$line-height-base: 1.7;
+$h1-font-size: 2.0rem;
+$h2-font-size: 1.45rem;
+$h3-font-size: 1.15rem;
+
+/*-- scss:rules --*/
+/* ── 디자인 토큰 (2026-09-01, textbooks-dashboard 차용) ─────────────────────
+   종이 톤 배경 + 서체 3단 체계(본문 sans · 수치/라벨 mono · 제목 serif).
+   새 컴포넌트는 이 변수를 쓸 것 — SCSS 변수($dem 등)는 빌드 시점, CSS 변수는
+   런타임(JS 차트가 getPropertyValue로 읽을 수 있다)이라 둘 다 유지한다. */
+:root {
+  --paper: #fcfcf9;        /* 본문 배경 — 순백이 아니라 종이 톤 */
+  --card: #ffffff;         /* 표·카드 — 배경과 한 단계 대비 */
+  --ink: #1a1a1a;
+  --muted: #6b7280;
+  --line: #e6e8eb;
+  --party-d: #{$dem};
+  --party-r: #{$rep};
+  --sans: "IBM Plex Sans KR", -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  --mono: "JetBrains Mono", "SF Mono", ui-monospace, monospace;
+  --serif: "Noto Serif KR", "Apple Myungjo", serif;
+}
+body { background: var(--paper); }
+/* 표·코드 블록은 카드 톤으로 살짝 띄운다 */
+.gt_table, table.table { background: var(--card); }
+
+/* 제목 = 세리프 디스플레이 (본문과 역할 분리 — 페이지 대제목에만, 절제) */
+h1, .title { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em; }
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+h2 {
+  border-bottom: 1px solid #e6e8eb;
+  padding-bottom: 0.3rem;
+  margin-top: 2.4rem;
+}
+table {
+  font-variant-numeric: tabular-nums;
+}
+blockquote {
+  border-left: 3px solid $primary;
+  background: #f7f8fa;
+  color: #3a3a3a;
+  padding: 0.6rem 1rem;
+  font-size: 0.96rem;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-family: var(--serif);
+}
+/* 상단 내비 — 반투명 + blur (textbooks-dashboard 차용). litera의 불투명 배경을 덮는다 */
+.navbar {
+  background-color: rgba(252, 252, 249, 0.9) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+/* "기준 시각" 같은 메타 텍스트 — 모노스페이스로 본문과 역할 분리 */
+.as-of {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-family: var(--mono);
+}
+/* 상황판 메타 줄(홈 상단)·타일 출처 줄도 같은 층위 */
+.situ-meta, .rt-src { font-family: var(--mono); font-size: .78rem; }
+.situ-meta .latest-link { font-family: var(--sans); }
+
+/* 핵심 결론 밴드 — 한 호의 가장 중요한 수치/문장 하나를 다크 배경에 크게.
+   textbooks-dashboard의 다크 섹션 차용(2026-09-01). 주간호·홈에서
+   ::: {.takeaway} ... ::: 로 쓴다. 남용 금지 — 페이지당 1개. */
+.takeaway {
+  background: #16181d;
+  color: #fbfbf8;
+  border-radius: 12px;
+  padding: 2rem 1.6rem;
+  margin: 1.6rem 0;
+  text-align: center;
+}
+.takeaway .tk-kicker {
+  display: block; font-family: var(--mono); font-size: .72rem; font-weight: 600;
+  letter-spacing: .14em; text-transform: uppercase; color: #9aa2b1; margin-bottom: .7rem;
+}
+.takeaway .tk-big {
+  display: block; font-family: var(--serif); font-weight: 700;
+  font-size: clamp(1.9rem, 4.5vw, 3.2rem); line-height: 1.25; letter-spacing: -0.02em;
+}
+.takeaway .tk-sub { display: block; margin-top: .8rem; font-size: .9rem; color: #c3c9d4; }
+.takeaway a { color: #aecbeb; }
+
+/* 모바일 표 가로 스크롤 보호 — 넓은 markdown 표를 감싸는 용도 */
+main .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+/* gt 표는 별도 처리가 필요 없다 — gt가 자기 컨테이너 div에
+   overflow-x:auto를 인라인으로 이미 넣는다(2026-09-05 실측).
+   ⚠️ min-width:max-content를 주지 말 것. tab_source_note는 colspan 한 칸에
+   들어가는 장문이라(등급표 370자) max-content가 "각주를 한 줄에 펼칠 폭"을
+   요구해 표가 수천 px로 늘어나고, 가운데 정렬된 제목이 화면 밖으로 밀린다.
+   2026-09-05에 실제로 그렇게 배포됐다가 되돌렸다. */
+
+/* 마크다운 표(issues/*의 프로즈 표)는 감싸는 스크롤 컨테이너가 없어, 칸을 넘으면
+   그대로 잘린다(2026-09-05 실측: 353px 표가 334px 칸에서 잘림 — 26건).
+   좁은 화면에서만 표 자체를 스크롤 박스로 만든다. 데스크톱은 손대지 않는다
+   — 감사 결과 데스크톱 122개 표는 전부 정상이었다. */
+@media (max-width: 767.98px) {
+  main table.table:not(.gt_table) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* 등급표 열 머리 — "노스캐롤라이나\nNC" 2줄 표기를 살린다 */
+main table.gt_table th.gt_col_heading { white-space: pre-line; text-align: center; vertical-align: bottom; }
+
+/* 한국 함의 강조 박스 — 사이트 차별점이므로 회색이 아닌 고정 색 배지 */
+.kr-box {
+  border: 1px solid #ffd8a8;
+  border-left: 4px solid #e8590c;
+  background: #fff9f0;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  margin: 0.8rem 0;
+  font-size: 0.92rem;
+}
+.kr-box::before {
+  content: "🇰🇷 한국 함의";
+  display: block;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #e8590c;
+  margin-bottom: 4px;
+}
+
+/* Korea Watch 유형 배지 */
+.kw-type {
+  font-size: 0.74rem; font-weight: 700; padding: 1px 8px; border-radius: 999px;
+  background: #f1f3f5; color: #495057;
+}
+
+/* 경합주 등급 분포 타일 (홈 상원 전망 요약) */
+.rating-tiles { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 10px 0 16px; }
+.rtile { border-radius: 10px; padding: 14px 8px; text-align: center; border: 1px solid #e6e8eb; }
+.rt-num { font-size: 1.8rem; font-weight: 800; line-height: 1; }
+.rt-lab { font-size: 0.8rem; font-weight: 700; margin-top: 5px; }
+.rt-states { margin-top: 8px; display: flex; flex-direction: column; gap: 4px; }
+.rt-st { display: flex; align-items: center; justify-content: center; gap: 4px; }
+.rt-st a { color: inherit; font-size: 0.78rem; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; word-break: keep-all; }
+.rt-st a:hover { opacity: 0.75; }
+.rt-hold { font-size: 0.6rem; font-weight: 800; padding: 0 4px; border-radius: 4px; line-height: 1.5; }
+.rt-hold-d { background: #1971c2; color: #fff; }
+.rt-hold-r { background: #c92a2a; color: #fff; }
+.rt-empty { font-size: 0.85rem; opacity: 0.55; }
+/* 현 보유 정당 요약 */
+.holder-note { font-size: 0.85rem; color: #495057; margin: 4px 0 16px; line-height: 1.7; }
+.hold-chip { font-size: 0.74rem; font-weight: 700; padding: 1px 7px; border-radius: 999px; }
+.hold-chip.hold-d { background: #dbeafe; color: #1e40af; }
+.hold-chip.hold-r { background: #fee2e2; color: #991b1b; }
+.rt-sd { background: #1971c2; color: #fff; border-color: #1971c2; }
+.rt-ld { background: #d0e3f7; color: #1e40af; border-color: #b6d4f0; }
+.rt-tu { background: #fff3bf; color: #92400e; border-color: #ffe8a3; }
+.rt-lr { background: #ffd9d9; color: #991b1b; border-color: #ffc9c9; }
+.rt-sr { background: #c92a2a; color: #fff; border-color: #c92a2a; }
+@media (max-width: 560px) {
+  .rating-tiles { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* 후보자 프로필 카드 — 민주(좌)·공화(우) 2단, 같은 항목을 같은 높이로(subgrid) */
+.cand-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* 행: 사진+소개 / 가족 / 학력 / 경력 / 펀드레이징 / 강점 / 약점 / 정책 / 한국함의 / 출처 */
+  grid-template-rows: repeat(10, auto);
+  gap: 18px; margin: 12px 0 8px;
+}
+.cand-card {
+  grid-row: 1 / -1;
+  display: grid; grid-template-rows: subgrid; grid-template-columns: 112px 1fr;
+  column-gap: 16px; row-gap: 7px;
+  border: 1px solid #e6e8eb; border-radius: 12px; padding: 16px 18px;
+  border-top: 5px solid #adb5bd; background: #fff;
+}
+.cand-D { grid-column: 1; border-top-color: #1971c2; }
+.cand-R { grid-column: 2; border-top-color: #c92a2a; }
+.cand-photo {
+  grid-column: 1; grid-row: 1;
+  width: 112px; height: 140px; object-fit: cover; border-radius: 8px;
+  background: #f1f3f5; align-self: start;
+}
+.cand-intro { grid-column: 2; grid-row: 1; align-self: center; min-width: 0; }
+.cand-body { min-width: 0; }
+.cand-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
+.cand-name { font-size: 1.18rem; font-weight: 700; }
+.cand-name em { font-style: normal; color: #868e96; font-weight: 500; font-size: 0.92rem; }
+.cand-badge { font-size: 0.74rem; font-weight: 700; padding: 2px 9px; border-radius: 999px; }
+.b-D { background: #dbeafe; color: #1e40af; }
+.b-R { background: #fee2e2; color: #991b1b; }
+.cand-sub { color: #495057; font-size: 0.9rem; margin: 4px 0 0; }
+/* 항목 행 — 카드 전체 폭, 두 카드 같은 행에 정렬 */
+.cand-fact { grid-column: 1 / -1; min-width: 0; font-size: 0.9rem; line-height: 1.55; align-self: start; }
+.cand-fact b { color: #1f3a5f; margin-right: 4px; }
+.cand-fact ul { margin: 3px 0 0; padding-left: 18px; }
+.cand-fact li { line-height: 1.5; }
+.cand-fact.cand-kr { background: #f8f9fa; border-radius: 6px; padding: 7px 10px; font-size: 0.88rem; }
+/* 가족~펀드레이징 묶음과 강점/약점 사이 구분선 (강점 행 위) */
+.cand-fact.cand-divide { border-top: 1px solid #e6e8eb; padding-top: 10px; margin-top: 3px; }
+/* 강점=초록 / 약점=빨강 라벨 (.cand-fact b 보다 우선) */
+.cand-fact b.t-str, .t-str { color: #2b8a3e; font-size: 0.86rem; }
+.cand-fact b.t-wk, .t-wk { color: #c92a2a; font-size: 0.86rem; }
+.cand-credit { grid-column: 1 / -1; font-size: 0.72rem; color: #adb5bd; align-self: end; margin-top: 2px; }
+.cand-credit .cand-src a { color: #adb5bd; text-decoration: none; }
+.cand-credit .cand-src a:hover { text-decoration: underline; }
+.cand-card .muted, .muted { color: #adb5bd; }
+/* 경선 미니카드 공통 */
+.cand-facts { list-style: none; padding: 0; margin: 0 0 8px; font-size: 0.9rem; }
+.cand-facts li { padding: 2px 0; line-height: 1.55; }
+.cand-facts b { color: #1f3a5f; margin-right: 4px; }
+.cand-line { font-size: 0.88rem; margin: 6px 0; }
+.cand-line b { color: #1f3a5f; margin-right: 4px; }
+/* 모바일: 1열로 쌓고 subgrid 해제 */
+@media (max-width: 700px) {
+  .cand-wrap { grid-template-columns: 1fr; grid-template-rows: none; }
+  .cand-card { grid-row: auto; grid-template-rows: none; }
+  .cand-D, .cand-R { grid-column: 1; }
+  .cand-ph { grid-row: auto; }
+}
+
+/* 후보 미정 플레이스홀더 카드 */
+.cand-ph { grid-row: 1 / -1; border-style: dashed; background: #fbfcfd; display: flex; align-items: center; gap: 16px; }
+.cand-ph-mark { font-size: 44px; opacity: .5; flex: 0 0 auto; }
+.cand-ph .cand-name { font-size: 1.05rem; }
+
+/* 경선 후보 가로 배치 (하단) */
+.cand-mini-wrap { display: flex; flex-wrap: wrap; gap: 16px; margin: 12px 0; }
+.cand-mini {
+  flex: 1 1 240px; min-width: 230px; max-width: 320px;
+  border: 1px solid #e6e8eb; border-radius: 12px; padding: 14px;
+  border-top: 4px solid #adb5bd; background: #fff;
+}
+.cand-mini.cand-D { border-top-color: #1971c2; }
+.cand-mini.cand-R { border-top-color: #c92a2a; }
+.cand-mini-photo { width: 96px; height: 120px; object-fit: cover; border-radius: 8px; background: #f1f3f5; display: block; margin-bottom: 8px; }
+.cand-mini-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; }
+.cand-mini .cand-name { font-size: 1.05rem; font-weight: 700; }
+.cand-mini .cand-en { color: #868e96; font-size: 0.82rem; margin: 1px 0 6px; }
+.cand-mini .cand-sub { font-size: 0.84rem; margin: 0 0 8px; }
+.cand-mini .cand-facts { font-size: 0.82rem; margin-bottom: 8px; }
+.cand-mini .cand-line { font-size: 0.82rem; margin: 5px 0; }
+
+/* ============================================================
+   읽기 계층 컴포넌트 — 30초 / 3분 / 15분 독해 경로
+   요약(Summary) · 근거 앞 안내(Look-for) · 유의(Caveat) · 한국 함의 태그
+   ============================================================ */
+
+/* 1분 요약 — 페이지·섹션 머리의 핵심 3~5줄 */
+.summary {
+  border: 1px solid #cfe0f3;
+  border-left: 4px solid $dem;
+  background: #f4f8fd;
+  border-radius: 8px;
+  padding: 0.75rem 1rem 0.45rem;
+  margin: 0.9rem 0 1.2rem;
+}
+.summary::before {
+  content: "⏱ 1분 요약";
+  display: block; font-weight: 700; font-size: 0.78rem;
+  color: $dem-fg; letter-spacing: 0.02em; margin-bottom: 6px;
+}
+.summary ul { margin: 0; padding-left: 1.15rem; }
+.summary li { margin: 3px 0; line-height: 1.55; }
+
+/* 표·차트 앞 "무엇을 볼까" 한 줄 안내 */
+.lookfor {
+  font-size: 0.86rem; color: #5a6672;
+  border-left: 3px solid #ced4da; padding: 1px 0 1px 10px;
+  margin: 0.2rem 0 0.6rem;
+}
+.lookfor::before { content: "👁 무엇을 볼까 — "; font-weight: 700; color: #495057; }
+
+/* 데이터 유의 묶음 — callout보다 가벼운 차분한 앰버 */
+.caveat {
+  border: 1px solid #f0e0c0; background: #fdf9f0; border-radius: 8px;
+  padding: 0.7rem 1rem 0.45rem; margin: 1rem 0; font-size: 0.9rem; color: #6b5b3e;
+}
+.caveat::before {
+  content: "⚠ 데이터 유의"; display: block; font-weight: 700;
+  font-size: 0.78rem; color: #b07d2b; margin-bottom: 5px;
+}
+.caveat ul { margin: 0; padding-left: 1.1rem; }
+.caveat li { margin: 3px 0; line-height: 1.5; }
+
+/* 한국 함의 태그 변형 — 라벨만 교체해 일관 스캔(배터리/안보/북한/통상/산업) */
+.kr-box.kr-battery::before { content: "🇰🇷 한국 함의 · 배터리"; }
+.kr-box.kr-defense::before { content: "🇰🇷 한국 함의 · 안보"; }
+.kr-box.kr-nk::before      { content: "🇰🇷 한국 함의 · 북한"; }
+.kr-box.kr-trade::before   { content: "🇰🇷 한국 함의 · 통상"; }
+.kr-box.kr-industry::before { content: "🇰🇷 한국 함의 · 산업"; }
+
+/* ============================================================
+   홈 컨트롤 패널 — 30초 상황판 (조용한 분석 브리핑 스타일)
+   ============================================================ */
+
+/* 상황판 메타바 — 기준 시각 + 최신 브리핑 링크 */
+.situ-meta {
+  display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: baseline;
+  margin: 6px 0 2px; font-size: 0.85rem; color: #6b7280;
+}
+.situ-meta .latest-link { font-weight: 700; }
+
+/* KPI 카드 4장 — 큰 숫자 + 짧은 라벨 + 해석 한 줄 */
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 12px 0 10px; }
+.kpi { border: 1px solid #e6e8eb; border-radius: 8px; padding: 13px 15px; background: #fff; }
+.kpi-num { font-size: 1.95rem; font-weight: 800; line-height: 1.05; }
+.kpi-lab { font-size: 0.82rem; font-weight: 700; color: #343a40; margin-top: 4px; }
+.kpi-sub { font-size: 0.72rem; color: #adb5bd; margin-top: 2px; }
+.kpi-interp { font-size: 0.74rem; color: #5a6672; line-height: 1.4; margin-top: 7px; padding-top: 6px; border-top: 1px solid #f1f3f5; }
+.kpi-d .kpi-num { color: $dem-fg; }
+.kpi-r .kpi-num { color: $rep-fg; }
+@media (max-width: 680px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+
+/* "이번 주" 변화 — 3 카드 (제목·한 문장·링크) */
+.ccards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 8px 0 4px; }
+.ccard { border: 1px solid #e6e8eb; border-radius: 8px; padding: 12px 14px; background: #fff; }
+.ccard.acc-d { border-top: 3px solid $dem; }
+.ccard.acc-r { border-top: 3px solid $rep; }
+.ccard .cc-title { font-weight: 700; font-size: 0.95rem; margin: 0 0 4px; }
+.ccard .cc-sum { font-size: 0.86rem; color: #3a3a3a; line-height: 1.5; margin: 0 0 7px; }
+.ccard .cc-link { font-size: 0.8rem; }
+@media (max-width: 760px) { .ccards { grid-template-columns: 1fr; } }
+
+/* "한국 함의" — 3 테마 컴팩트 카드 */
+.kwatch { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 8px 0 4px; }
+.kw-item { border: 1px solid #ffe3c2; border-left: 3px solid #e8590c; border-radius: 8px; padding: 11px 13px; background: #fff9f0; }
+.kw-item .kw-theme { font-size: 0.72rem; font-weight: 700; color: #e8590c; margin-bottom: 4px; }
+.kw-item .kw-body { font-size: 0.85rem; line-height: 1.5; color: #3a3a3a; }
+.kw-item .kw-body a { font-size: 0.78rem; }
+@media (max-width: 760px) { .kwatch { grid-template-columns: 1fr; } }
+
+/* 전국 환경 — 미니 통계 칩 (풀 테이블 대체) */
+.mini-sum { display: flex; flex-wrap: wrap; gap: 10px; margin: 6px 0 8px; }
+.mini-stat { border: 1px solid #e6e8eb; border-radius: 8px; padding: 9px 14px; background: #fff; min-width: 120px; }
+.mini-stat .ms-num { font-size: 1.15rem; font-weight: 800; }
+.mini-stat .ms-d { color: $dem-fg; }
+.mini-stat .ms-r { color: $rep-fg; }
+.mini-stat .ms-lab { font-size: 0.73rem; color: #6b7280; margin-top: 2px; }
+
+/* ============================================================
+   주간 브리핑 카드 — 레이스별 스캔용(현 상태·이번 주·왜 중요·한국·다음)
+   ============================================================ */
+.bcards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 12px 0 8px; }
+.bcard {
+  border: 1px solid #e6e8eb; border-radius: 12px; padding: 14px 16px;
+  background: #fff; border-top: 4px solid #adb5bd;
+}
+.bcard.def-d { border-top-color: $dem; }
+.bcard.def-r { border-top-color: $rep; }
+.bcard > p:first-child { font-weight: 700; font-size: 1.02rem; margin: 0 0 8px; }
+.bcard ul { margin: 0; padding-left: 0; list-style: none; }
+.bcard li { font-size: 0.87rem; line-height: 1.5; padding: 2px 0; }
+.bcard li b { color: #1f3a5f; }
+.bcard .bc-kr { background: #fff9f0; border-radius: 6px; padding: 4px 9px; margin: 5px 0 2px; font-size: 0.86rem; }
+.bcard .bc-next { font-size: 0.84rem; color: #495057; border-top: 1px solid #f1f3f5; padding-top: 6px; margin-top: 6px; }
+.bcard .bc-kr p, .bcard .bc-next p { margin: 0; }
+@media (max-width: 720px) { .bcards { grid-template-columns: 1fr; } }
+
+/* ============================================================
+   용어/개념 박스 — 재획정 등 해설 페이지 (Pandoc 정의목록)
+   ============================================================ */
+.concept {
+  border: 1px solid #d7e3f0; background: #f6f9fc; border-radius: 8px;
+  padding: 12px 16px 9px; margin: 12px 0;
+}
+.concept::before {
+  content: "📘 용어"; display: block; font-weight: 700;
+  font-size: 0.78rem; color: $primary; margin-bottom: 4px;
+}
+.concept dl { margin: 0; }
+.concept dt { font-weight: 700; font-size: 0.9rem; color: $primary; margin-top: 7px; }
+.concept dd { margin: 1px 0 0; font-size: 0.87rem; line-height: 1.5; color: #3a3a3a; }
+
+/* 재획정 부호 규약 안내 — R 이동(빨강)·D 이동(파랑) 셀 */
+.shift-r { color: $rep-fg; font-weight: 700; }
+.shift-d { color: $dem-fg; font-weight: 700; }
+
+/* Cook 하원 등급 가로 막대 (색은 270towin 원본 팔레트, 헬퍼 인라인) */
+.cook-bar-wrap { margin: 10px 0 18px; }
+.cook-legend {
+  display: flex; flex-wrap: wrap; gap: 6px 14px;
+  margin: 6px 0 4px; font-size: 0.82rem; color: #3a3a3a;
+}
+.cook-leg { display: inline-flex; align-items: center; white-space: nowrap; }
+.cook-leg i {
+  width: 12px; height: 12px; border-radius: 2px;
+  display: inline-block; margin-right: 5px; flex: 0 0 auto;
+}
+.cook-leg b { margin-left: 4px; font-variant-numeric: tabular-nums; }
+.cook-src { font-size: 0.76rem; color: #6c757d; margin: 2px 0 0; }
+
+/* 타일 격자 지도 (상원·주지사) */
+.tilemap { max-width: 760px; margin: .6rem 0 .3rem; }
+.tilemap svg text { pointer-events: none; }
+.tilemap g:hover rect { stroke: #111827; stroke-width: 2.5; }
+.tilemap-legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .72rem; color: #6b7280; margin: 2px 0 6px; }
+.tilemap-legend .tm-key { display: inline-flex; align-items: center; gap: 4px; }
+.tilemap-legend i { width: 13px; height: 13px; border-radius: 3px; display: inline-block; }
+.tilemap-cap { font-size: .76rem; color: #6b7280; line-height: 1.55; margin-top: 4px; }
+
+/* 등급 타일 — 기관 분기 표시·출처 */
+.rt-div { color: #b45309; font-size: .72em; margin-left: 2px; }
+.rt-src { font-size: .74rem; color: #6b7280; margin-top: 6px; line-height: 1.5; }
+
+/* 예측시장(Kalshi) 상원 다수 가격 — 모델 전망과 나란히 */
+.mkt-control {
+  border: 1px solid #e3e0d6; border-left: 4px solid #1d4a70; border-radius: 6px;
+  padding: 12px 14px; margin: .8rem 0 1.1rem; background: #fcfbf7;
+}
+.mkt-row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.mkt-lab { font-size: .92rem; }
+.mkt-val { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.5rem; }
+.mkt-val.mkt-d { color: #1d4a70; }
+.mkt-bar { height: 9px; border-radius: 5px; background: #e5e7eb; margin: 7px 0 9px; overflow: hidden; }
+.mkt-bar i { display: block; height: 100%; background: #2166ac; }
+.mkt-sub { border-top: 1px dotted #ddd9cc; padding-top: 7px; color: #4b5563; font-size: .86rem; }
+.mkt-sub .mkt-val { font-size: 1.05rem; font-weight: 600; color: #6b7280; }
+.mkt-note { font-size: .76rem; color: #6b7280; line-height: 1.6; margin: 8px 0 0; }
+.mkt-flag { color: #b45309; font-size: .72rem; border: 1px solid #e7c98f; border-radius: 3px; padding: 0 4px; margin-left: 5px; font-weight: 600; }
+.mkt-src { color: #9ca3af; font-size: .74rem; font-weight: 400; }
+
+
+/* ── 주별 레이스 카드 (State Focus 상단) — 2026-08-30 신설 ────────────────
+   종전 세로 표를 대체한다. 카드는 '한눈에', 상세는 각 절로 링크한다. */
+.rcard { border: 1px solid #e5e0d3; border-radius: 10px; padding: 14px 16px 10px; margin: .2rem 0 1.1rem;
+  background: #fffdf8; }
+.rcard-hd { font-weight: 700; font-size: 1.02rem; letter-spacing: -.01em; }
+.rcard-mu { color: #6b7280; font-weight: 400; font-size: .82rem; }
+.rcard-bd { display: flex; flex-wrap: wrap; gap: 6px; margin: 9px 0 4px; }
+.bd { font-size: .74rem; font-weight: 700; padding: 3px 9px; border-radius: 99px;
+  border: 1px solid #e5e0d3; background: #fff; white-space: nowrap; }
+.bd-as { font-weight: 400; opacity: .62; margin-left: 3px; }
+.bd-def { background: #f3f4f6; color: #374151; }
+.bd-d { background: #dbeafe; color: #1e3a8a; border-color: #bfdbfe; }
+.bd-r { background: #fee2e2; color: #7f1d1d; border-color: #fecaca; }
+.bd-t { background: #f1f2f4; color: #374151; }
+.bd-mkt { color: #4b5563; }
+.rcard-tt { font-size: .8rem; font-weight: 700; color: #374151; margin: 12px 0 2px; }
+.rcard-lk { font-size: .76rem; color: #6b7280; margin: 6px 0 2px; }
+
+/* 조사 마진 추이 — 각 점에 조사기관명을 얹는다(상세 수치는 §5 표). */
+.pt-svg { width: 100%; height: auto; max-height: 380px; display: block; overflow: visible; }
+.pt-zero { stroke: #cbd5e1; stroke-width: 1; stroke-dasharray: 3 3; }
+.pt-zlab { fill: #9ca3af; font-size: 10px; text-anchor: end; }
+.pt-line { fill: none; stroke: #94a3b8; stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
+.pt-dot { fill: #475569; }
+.pt-dot.pt-pri { fill: #b45309; stroke: #fffdf8; stroke-width: 1.5; }
+.pt-part { fill: #fffdf8; stroke: #475569; stroke-width: 1.6; }
+.pt-last { fill: #2166ac; stroke: #fffdf8; stroke-width: 2; }
+/* 라벨이 선·점 위에 겹쳐도 읽히도록 배경색 테두리를 두른다(2026-09-22) */
+.pt-lab { fill: #374151; font-size: 11px; font-weight: 600;
+  paint-order: stroke; stroke: #fffdf8; stroke-width: 3px; stroke-linejoin: round; }
+.pt-zlab { paint-order: stroke; stroke: #fffdf8; stroke-width: 3px; }
+.pt-lab-m { fill: #6b7280; font-weight: 700; }
+.pt-ax { fill: #9ca3af; font-size: 10px; }
+.pt-thin { font-size: .78rem; color: #6b7280; font-style: italic; margin: 2px 0 0; }
+.pt-empty { font-size: .82rem; color: #6b7280; margin: 6px 0; }
+.pt-sub { color: #6b7280; font-weight: 400; }
+
+
+/* 서체 역할 분리 후속(2026-09-01) — 수치·기준일이 붙는 자리들을 모노로 통일 */
+.bd-as, .rcard-mu, .rcard-lk { font-family: var(--mono); }
+.rcard-lk a { font-family: var(--sans); }
+.pt-lab, .pt-lab-m, .pt-ax, .pt-zlab { font-family: var(--mono); }
+
+/* 일일 브리핑 로그 — State Focus·전망 대시보드 (2026-09-17) */
+.daily-entry {
+  border: 1px solid #e3e6ea; border-left: 4px solid #6c757d;
+  background: #fbfbfc; border-radius: 8px;
+  padding: 0.7rem 1rem 0.5rem; margin: 0.8rem 0 1rem;
+}
+.daily-entry .daily-date {
+  font-weight: 700; font-size: 0.82rem; color: #495057;
+  letter-spacing: 0.02em; margin-bottom: 6px;
+}
+.daily-entry .daily-date::before { content: "📅 "; }
+.daily-entry ul { padding-left: 1.15rem; }
+.daily-entry li { margin: 4px 0; line-height: 1.6; }
+.daily-entry .callout { margin: 0.6rem 0; }
+
+/* 주별 일일 장부 블록 — State Focus 탭(주 개요·최신 여론조사·펀드레이징) (2026-09-25) */
+.ledger-hd { font-weight: 700; font-size: 0.9rem; margin: 1rem 0 0.3rem; color: #374151; }
+.ledger ul { padding-left: 1.1rem; margin: 0; }
+.ledger li { margin: 4px 0; line-height: 1.55; font-size: 0.92rem; }
+.ledger-d { font-family: var(--mono); font-weight: 700; color: #2166ac; margin-right: 4px; }
+.ledger-ft { font-size: 0.74rem; margin: 4px 0 0; }
+.today {
+  border: 1px solid #d9e2ec; border-left: 4px solid #2166ac; background: #f7f9fc;
+  border-radius: 8px; padding: 0.6rem 1rem 0.4rem; margin: 0.8rem 0 1rem;
+}
+.today::before { content: "📌 오늘의 판세"; display: block; font-weight: 700; font-size: 0.78rem; color: #2166ac; margin-bottom: 4px; }
+.today ul { margin: 0; padding-left: 1.1rem; }
+.today li { margin: 3px 0; line-height: 1.55; font-size: 0.92rem; }
+
+.ledger-st { display:inline-block; font-size:.74rem; padding:0 .35em; margin-right:.25em; border-radius:3px; background:#e9ecef; color:#495057; vertical-align:middle; }
+
+/* 40년 선거 결과 띠 그림 (state_history_svg) */
+.hist-svg { width: 100%; max-height: 260px; display: block; margin: .4rem 0 .2rem; }
+.hist-grid { stroke: #e5e7eb; stroke-width: 1; }
+.hist-ax, .hist-row, .hist-nm { font-family: var(--mono); fill: #374151; }
+.hist-ax { font-size: 10px; fill: #6b7280; }
+.hist-row { font-size: 11px; font-weight: 600; }
+.hist-nm { font-size: 8.5px; fill: #4b5563; }
+.hist-cell { stroke: #fffdf8; stroke-width: 1; }
+.hist-cell.hist-sp { stroke: #111827; stroke-dasharray: 2 2; }
+.hist-ft { font-size: .76rem; margin-bottom: .6rem; }
+
+/* 홈 「주간 브리핑 아카이브」 목록 — 글자 줄이고 날짜 칸 폭 고정(2026-10-03 사용자 요청) */
+.quarto-listing-default .quarto-post { font-size: .88rem; gap: .75rem; }
+.quarto-listing-default .quarto-post .listing-title { font-size: .98rem; margin-bottom: .15rem; }
+.quarto-listing-default .quarto-post .listing-description { font-size: .8rem; line-height: 1.45; color: #4b5563; }
+.quarto-listing-default .quarto-post .listing-description p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin: 0; }
+.quarto-listing-default .quarto-post { margin-bottom: .9rem; }
+.quarto-listing-default .quarto-post .listing-date { font-size: .78rem; }
+.quarto-listing-default .quarto-post .metadata { flex: 0 0 6.5rem; max-width: 6.5rem; }
+.quarto-listing-default .quarto-post .body { flex: 1 1 auto; min-width: 0; }
+
+/* 무소속 후보 카드(NE Osborn) — 2026-10-05 */
+.cand-card.cand-I { grid-column: 1; border-top-color: #6b21a8; }
+.cand-mini.cand-I { border-top-color: #6b21a8; }
+.cand-badge.b-I { background: #6b21a8; color: #fff; }
+.rt-hold-i { background: #6b21a8; }

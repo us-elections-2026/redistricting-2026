@@ -1,0 +1,189 @@
+{
+ "state": "TN",
+ "name": "테네시",
+ "checked": "2026-10-10",
+ "in_use_2026": true,
+ "status_summary": "연방대법원 Louisiana v. Callais 판결(4/29) 직후 리 주지사가 특별회기를 소집했고, 주의회가 5/7 멤피스를 3개 구로 쪼갠 새 지도를 통과시켜 같은 날 서명됐다. 연방 3인 재판부가 7월 가처분을 기각해 8/6 예비선거부터 새 지도가 쓰였고, 10/1 최종 판결로 소송(인종차별 희석 주장)을 기각했다. 9개 구 전부가 트럼프 +20 이상인 9-0 공화 지도다.",
+ "timeline": [
+  {
+   "date": "2026-04-29",
+   "event": "연방대법원 Louisiana v. Callais 판결(투표권법 2조 약화)",
+   "source_url": "https://en.wikipedia.org/wiki/2026_Tennessee_redistricting"
+  },
+  {
+   "date": "2026-04-30",
+   "event": "트럼프, 리 주지사가 지도 '교정'을 약속했다고 발표",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Tennessee_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2026-05-05",
+   "event": "재획정 특별회기 개회",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Tennessee_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2026-05-07",
+   "event": "주의회 새 지도 통과·리 주지사 서명. 중간 재획정 금지 조항 폐지, 후보 등록 기한 5/15로 연장. 같은 날 NAACP 테네시 지부 소송 제기",
+   "source_url": "https://ballotpedia.org/Redistricting_in_Tennessee_ahead_of_the_2026_elections"
+  },
+  {
+   "date": "2026-05",
+   "event": "스티브 코언(TN-09) 재출마 포기 발표",
+   "source_url": "https://news.ballotpedia.org/2026/05/19/rep-steve-cohen-becomes-the-57th-u-s-representative-to-announce-he-wont-seek-re-election-in-2026/"
+  },
+  {
+   "date": "2026-07-23",
+   "event": "연방 3인 재판부, 가처분 기각 — 2026 선거에 새 지도 사용 허용(보도일 7/24 '목요일' 결정)",
+   "source_url": "https://newschannel9.com/news/local/federal-judges-let-tennessees-redrawn-congressional-map-stay-in-place-for-2026-elections-memphis-steve-cohen-voting-rights-act-redistricting-federal-court"
+  },
+  {
+   "date": "2026-08-06",
+   "event": "새 지도로 예비선거: TN-09 테일러(R)·피어슨(D), TN-05 해처가 현직 오글스 꺾음",
+   "source_url": "https://keyt.com/?p=1460019"
+  },
+  {
+   "date": "2026-10-01",
+   "event": "연방 3인 재판부 최종 판결로 소송 기각(인종 동기 입증 실패, '정치적 동기로 설명 가능')",
+   "source_url": "https://www.yahoo.com/news/politics/articles/federal-court-upholds-tn-gop-100711044.html"
+  }
+ ],
+ "seats_total": 9,
+ "seats_2024_result": {
+  "D": 1,
+  "R": 8,
+  "source_url": "https://ballotpedia.org/Redistricting_in_Tennessee_ahead_of_the_2026_elections"
+ },
+ "expected_seats_new_map": {
+  "D": 0,
+  "R": 9,
+  "basis": "Inside Elections 분석: 새 경계에서 9개 구 모두 2024 트럼프 +20 이상",
+  "source_url": "https://rollcall.com/2026/05/07/tennessee-passes-new-map-that-erases-states-lone-majority-black-district/"
+ },
+ "net_effect_d": -1,
+ "net_effect_source_url": "https://news.ballotpedia.org/2026/05/11/new-congressional-maps-in-florida-tennessee-aim-to-shift-five-more-districts-to-republicans-ahead-of-2026-midterms/",
+ "mechanism": "흑인 다수·민주 아성인 멤피스(셸비카운티)를 TN-05·08·09 세 구로 쪼갠 cracking이다. TN-09는 멤피스에서 미시시피 경계를 따라 동쪽으로 수백 마일 뻗다 내슈빌 교외로 올라가고, TN-05는 내슈빌 지역을 떼고 멤피스까지 늘어났다. TN-08은 멤피스 동부 교외를 맡는다.",
+ "litigation": "NAACP 테네시 지부·ACLU 측 원고 소송(인종차별적 표 희석)에서 연방 3인 재판부가 7월 가처분 기각, 10/1 최종 판결로 기각('정치적 동기가 지도의 효과를 설명'). 항소 여부는 미확인. 코언 의원도 소송 계획을 밝힌 바 있음.",
+ "maps": {
+  "old_map_url": "https://en.wikipedia.org/wiki/2026_Tennessee_redistricting",
+  "new_map_url": "https://ballotpedia.org/Redistricting_in_Tennessee_ahead_of_the_2026_elections",
+  "new_map_shapefile_url": null,
+  "plan_id": "HB 7003 (2026 특별회기, Wikipedia 표기 — 미교차확인)"
+ },
+ "districts": [
+  {
+   "district": "TN-09",
+   "impact": "R방향",
+   "incumbent": "Steve Cohen",
+   "incumbent_party": "D",
+   "incumbent_2026": "은퇴",
+   "nominees_2026": {
+    "D": "Justin J. Pearson",
+    "R": "Brent Taylor"
+   },
+   "old_pres_margin_2024": 42.66,
+   "new_pres_margin_2024": -21.15,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Tennessee_redistricting",
+   "geography_change": "멤피스 전역 구에서 멤피스 일부만 남기고 미시시피 경계를 따라 동쪽으로 수백 마일 뻗어 내슈빌 교외 방향으로 올라감.",
+   "rating_now": "Cook Solid R (2026-05-08), Sabato Safe R (2026-05-07), DDHQ Likely R (2026-09-08) — Wikipedia 집계",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee",
+   "notes": "마진은 Wikipedia(DRA 링크) 소수점 값, Inside Elections(Roll Call 보도)의 해리스 +43 → 트럼프 +21과 일치. 테네시안은 TN-05·09를 이번 주에서 가장 경합적인 두 구로 평가. 해리스 전 부통령이 피어슨 지지(8/31)."
+  },
+  {
+   "district": "TN-05",
+   "impact": "R방향",
+   "incumbent": "Andy Ogles",
+   "incumbent_party": "R",
+   "incumbent_2026": "낙선(예비선거)",
+   "nominees_2026": {
+    "D": "Chaz Molder",
+    "R": "Charlie Hatcher"
+   },
+   "old_pres_margin_2024": -17.9,
+   "new_pres_margin_2024": -23.08,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Tennessee_redistricting",
+   "geography_change": "내슈빌 지역을 떼어내고 멤피스까지 서쪽으로 늘어남(Roll Call). Wikipedia는 데이비슨 남부·윌슨·윌리엄슨 일부·모리·루이스·마셜 카운티 포함으로 기술.",
+   "rating_now": "Cook Solid R (2026-05-08), DDHQ Safe R (2026-09-08) — Wikipedia 집계",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee",
+   "notes": "Inside Elections 기준 신경계 트럼프 +23(Roll Call)과 일치. 현직 오글스는 8/6 예비선거에서 해처(약 53%)에게 패배, 트럼프는 해처로 지지 전환. 검색 요약상 Cook은 Likely R/PVI R+10이라는 정보도 있어 등급 불일치(원문 미확인)."
+  },
+  {
+   "district": "TN-08",
+   "impact": "D방향",
+   "incumbent": "David Kustoff",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Heidi Kuhn",
+    "R": "David Kustoff"
+   },
+   "old_pres_margin_2024": -41.63,
+   "new_pres_margin_2024": -20.14,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Tennessee_redistricting",
+   "geography_change": "농촌 서테네시에 바틀릿·레이크랜드·저먼타운·콜리어빌 등 멤피스 동부 교외를 더함.",
+   "rating_now": "Cook Solid R (2025-02-06), DDHQ Safe R (2026-07-14) — Wikipedia 집계",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee",
+   "notes": "여전히 안전 공화구이나 마진은 약 21p 축소."
+  },
+  {
+   "district": "TN-04",
+   "impact": "D방향",
+   "incumbent": "Scott DesJarlais",
+   "incumbent_party": "R",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Victoria Broderick",
+    "R": "Scott DesJarlais"
+   },
+   "old_pres_margin_2024": -43.58,
+   "new_pres_margin_2024": -23.93,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Tennessee_redistricting",
+   "geography_change": "미들테네시 남부(머프리즈버러·린치버그 포함). 구체적 이동 지역은 미확인.",
+   "rating_now": "Cook Solid R (2025-02-06), DDHQ Safe R (2026-07-14) — Wikipedia 집계",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee",
+   "notes": "마진 수치는 Wikipedia(DRA) 단독 출처."
+  },
+  {
+   "district": "TN-06",
+   "impact": "D방향",
+   "incumbent": "John Rose",
+   "incumbent_party": "R",
+   "incumbent_2026": "다른 직 출마(주지사)",
+   "nominees_2026": {
+    "D": "Mike Croley",
+    "R": "Johnny Garrett"
+   },
+   "old_pres_margin_2024": -35.16,
+   "new_pres_margin_2024": -26.51,
+   "margin_source_url": "https://en.wikipedia.org/wiki/2026_Tennessee_redistricting",
+   "geography_change": "내슈빌 동부 교외(헨더슨빌·갤러틴)에서 컴벌랜드 고원(쿡빌·크로스빌)까지. 구체적 이동 지역은 미확인.",
+   "rating_now": "Cook Solid R (2025-02-06), DDHQ Safe R (2026-07-14) — Wikipedia 집계",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee",
+   "notes": "마진 수치는 Wikipedia(DRA) 단독 출처. 로즈는 주지사 공화 예비선거 출마(블랙번이 후보 선출)."
+  }
+ ],
+ "changes_vs_baseline": [
+  "기준선 '사용 (소송 계류)' — 10/1 연방 3인 재판부 최종 판결로 소송 기각. 항소 여부는 미확인이나 2026 사용은 확정",
+  "현직 코언(TN-09) 은퇴, 오글스(TN-05) 예비선거 패배"
+ ],
+ "sources": [
+  "https://ballotpedia.org/Redistricting_in_Tennessee_ahead_of_the_2026_elections",
+  "https://en.wikipedia.org/wiki/2026_Tennessee_redistricting",
+  "https://rollcall.com/2026/05/07/tennessee-passes-new-map-that-erases-states-lone-majority-black-district/",
+  "https://newschannel9.com/news/local/federal-judges-let-tennessees-redrawn-congressional-map-stay-in-place-for-2026-elections-memphis-steve-cohen-voting-rights-act-redistricting-federal-court",
+  "https://www.yahoo.com/news/politics/articles/federal-court-upholds-tn-gop-100711044.html",
+  "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee",
+  "https://keyt.com/?p=1460019",
+  "https://tennesseelookout.com/2026/05/07/naacp-tennessee-files-lawsuit-challenging-redrawn-us-house-district-map/",
+  "https://news.ballotpedia.org/2026/05/19/rep-steve-cohen-becomes-the-57th-u-s-representative-to-announce-he-wont-seek-re-election-in-2026/",
+  "https://news.ballotpedia.org/2026/05/11/new-congressional-maps-in-florida-tennessee-aim-to-shift-five-more-districts-to-republicans-ahead-of-2026-midterms/"
+ ],
+ "unverified": [
+  "TN-04·06·08 신·구 마진은 Wikipedia(DRA 지도 링크) 단독 출처 — 다른 출처 교차확인 못함",
+  "가처분 기각 정확한 날짜(보도일 7/24, '목요일' 결정 → 7/23로 추정)",
+  "10/1 판결에 대한 항소 여부",
+  "공식 지도·shapefile 주소(테네시 국무장관실 공지) 및 법안 번호 공식 확인",
+  "Cook TN-05 등급(Solid R vs Likely R 정보 불일치)"
+ ],
+ "trend_districts": [
+  "TN-09"
+ ]
+}

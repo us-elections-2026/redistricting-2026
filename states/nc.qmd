@@ -1,0 +1,104 @@
+---
+title: "노스캐롤라이나 (NC)"
+subtitle: "지도 변화와 영향 지역구"
+---
+<!-- scripts/build.py 생성 파일 — 직접 수정 금지 -->
+
+<p class="as-of">조사 기준 2026-10-10 · Cook 등급 스냅샷 2026-09-25 · FEC 2026-10-10 · 일일 브리핑 2026-10-09까지</p>
+
+::: {.lead}
+공화당 주의회가 2025년 10월(상원 10/21, 하원 10/22) 상원법안 249로 NC-01(돈 데이비스)과 NC-03(그렉 머피) 두 구만 고친 새 지도를 통과시켰다(주지사 거부권 없음). 연방 3인 재판부가 11/26 가처분을 기각했고, 원고들이 2026년 1월 소송을 '재소 불가(with prejudice)'로 취하해 2026 선거에 새 지도가 쓰인다.
+:::
+
+<div class="kpis">
+<div class="kpi"><div class="k">의석</div><div class="v">14</div><div class="s"></div></div>
+<div class="kpi"><div class="k">2024 결과</div><div class="v">D 4 · R 10</div><div class="s">ballotpedia.org</div></div>
+<div class="kpi"><div class="k">신 지도 기대치</div><div class="v">D 3 · R 11</div><div class="s">2024 대선 재집계 기준</div></div>
+<div class="kpi"><div class="k">순효과(D)</div><div class="v">-1</div><div class="s">news.ballotpedia.org</div></div>
+</div>
+
+<p class="note">신 지도 기대치 근거: Ballotpedia: 새 지도로 10R-4D에서 11R-3D로 바뀔 수 있음(NC-01 공화 전환 목표) <a href="https://news.ballotpedia.org/2025/10/24/north-carolina-the-third-state-to-redraw-congressional-districts-ahead-of-the-2026-elections/" target="_blank" rel="noopener">출처</a></p>
+
+## 지도 비교 {#maps}
+
+<div class="mappair" data-st="nc" data-base="../"><div><h4>구 지도 (2024 선거)</h4><div class="map map-old"></div></div><div><h4>신 지도 (2026 선거)</h4><div class="map map-new"></div></div></div>
+<script src="../assets/maps.js"></script>
+
+<p class="figlegend">색 = 2024 대선 마진(<span class="md">파랑=민주</span>·<span class="mr">빨강=공화</span>, 진할수록 큼). 회색 = 마진 미수집. 검은 테두리 = 추세 추적 대상 구. 두 지도는 함께 움직인다. 구 지도 경계: Census 2024 cartographic boundary(119대 의회 선거구). 신 지도 경계: <a href="https://services5.arcgis.com/gRcZqepTaRC6tVZL/arcgis/rest/services/NCGA_Congress_2025/FeatureServer/0" target="_blank" rel="noopener">NC General Assembly — S.L. 2025-95</a>. 공식 신 지도 문서: <a href="https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections" target="_blank" rel="noopener">Senate Bill 249 (2025)</a></p>
+
+## 어떻게 그렸나 {#mechanism}
+
+NC-01과 NC-03 사이에서 약 50만 명을 맞바꿨다. 공화 성향 해안 카운티(카터렛·크레이븐·데어·하이드·팜리코 등)를 NC-01에 붙이고, 흑인·민주 성향 내륙 카운티(그린·르누아·웨인·윌슨)를 NC-03으로 보내 NC-01의 민주 표를 NC-03에 흡수(packing)시켰다.
+
+## 영향 지역구 {#districts}
+
+<div class="figwrap"><svg class="dumbbell" viewBox="0 0 640 56" role="img" aria-label="2024 대선 마진 신·구 비교"><line x1="92.0" y1="20" x2="92.0" y2="50" class="grid"/><text x="92.0" y="16" class="tick">D+40</text><line x1="157.5" y1="20" x2="157.5" y2="50" class="grid"/><text x="157.5" y="16" class="tick">D+30</text><line x1="223.0" y1="20" x2="223.0" y2="50" class="grid"/><text x="223.0" y="16" class="tick">D+20</text><line x1="288.5" y1="20" x2="288.5" y2="50" class="grid"/><text x="288.5" y="16" class="tick">D+10</text><line x1="354.0" y1="20" x2="354.0" y2="50" class="axis0"/><text x="354.0" y="16" class="tick">0</text><line x1="419.5" y1="20" x2="419.5" y2="50" class="grid"/><text x="419.5" y="16" class="tick">R+10</text><line x1="485.0" y1="20" x2="485.0" y2="50" class="grid"/><text x="485.0" y="16" class="tick">R+20</text><line x1="550.5" y1="20" x2="550.5" y2="50" class="grid"/><text x="550.5" y="16" class="tick">R+30</text><line x1="616.0" y1="20" x2="616.0" y2="50" class="grid"/><text x="616.0" y="16" class="tick">R+40</text><a href="#nc-01"><text x="84" y="40.0" class="lab">NC-01</text></a><line x1="373.6" y1="36.0" x2="426.0" y2="36.0" class="bar tor"/><circle cx="373.6" cy="36.0" r="4" class="old"><title>NC-01 구 지도 -3.0</title></circle><circle cx="426.0" cy="36.0" r="5" class="new r"><title>NC-01 신 지도 -11.0</title></circle></svg><p class="figlegend"><span class="dot old"></span> 구 지도 &nbsp; <span class="dot new"></span> 신 지도 (2024 대선 표를 각 경계로 다시 집계한 마진, 왼쪽=민주 우위)</p></div>
+
+| 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
+|-------|-----------|----------------|------:|------:|---------|--------|
+| [NC-01](#nc-01) ★ | Don Davis (D) | 재출마 | <span class="mr">R+3</span> | <span class="mr">R+11</span> | <span class="mr">R 쪽 8.0p</span> | <span class="rt rt-lean_r">Lean R</span> |
+| [NC-03](#nc-03) ★ | Greg Murphy (R) | 재출마 | <span class="na">미확인</span> | <span class="mr">R+14</span> | — | <span class="rt rt-solid_r">Solid R</span> |
+
+<p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
+
+## 지역구별 상세 {#detail}
+
+### NC-01 — R방향 {#nc-01}
+
+<p class="dmeta">2024 대선 <span class="mr">R+3</span> → <span class="mr">R+11</span> <a href="https://nsjonline.com/?p=103058" target="_blank" rel="noopener">nsjonline.com</a> · <a href="../trends.html#nc-01">추세 보기 →</a></p>
+
+- **경계 변화** 그린·르누아·웨인·윌슨 카운티를 NC-03으로 내주고 카터렛·크레이븐·데어·하이드·팜리코 등 공화 성향 해안 카운티를 받음. 데이비스의 자택(스노힐, 그린카운티)은 NC-03에 속하게 되어 NC-01로 이사 의사 표명.
+- **현역** Don Davis (D) — 재출마
+- **2026 후보** 민주 Don Davis · 공화 Laurie Buckhout
+- **등급** Cook Toss Up (2026-10-09), Sabato Toss-up (2026-07-30), Inside Elections Tilt R (2026-09-17) — Wikipedia 집계 <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina" target="_blank" rel="noopener">en.wikipedia.org</a>
+- **메모** 벅하웃은 2024년 데이비스에게 2%p 미만 차로 진 후보로 리턴매치. 신경계 마진은 출처마다 트럼프 +11(North State Journal)~+12(AP 계열 보도)로 다름. CBS 분석 기준 해리스 득표율 48%→44%. Cook은 2025-12 Lean R로 옮긴 뒤 현재 Toss Up.
+
+### NC-03 — D방향 {#nc-03}
+
+<p class="dmeta">2024 대선 <span class="na">미확인</span> → <span class="mr">R+14</span> <a href="https://www.rockymounttelegram.com/news/state/democrats-gear-up-to-challenge-murphy-for-reshaped-3rd-district/article_6aa0d531-d458-4e22-a2f7-65b79c51e184.html" target="_blank" rel="noopener">rockymounttelegram.com</a> · <a href="../trends.html#nc-03">추세 보기 →</a></p>
+
+- **경계 변화** 동부 해안 지역을 NC-01에 넘기고 그린·르누아·웨인·윌슨 카운티를 받음.
+- **현역** Greg Murphy (R) — 재출마
+- **2026 후보** 민주 Raymond Smith Jr. · 공화 Greg Murphy
+- **등급** Cook Solid R (2025-10-22), Sabato Likely R (2026-09-29) — Wikipedia 집계 <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina" target="_blank" rel="noopener">en.wikipedia.org</a>
+- **메모** CBS 분석 기준 해리스 득표율 39%→43%. 구경계 트럼프 마진은 검색 요약에서 '22점'으로 보였으나 원문을 확인하지 못해 null로 둠.
+
+## 경과 {#timeline}
+
+- **2025-10-13** 공화 지도부, 새 연방하원 지도 표결 계획 발표 <a href="https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2025-10-21** 주상원 통과(26-20) <a href="https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2025-10-22** 주하원 통과(66-48)로 법률 확정(주지사 서명·거부권 대상 아님) <a href="https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections" target="_blank" rel="noopener">출처</a>
+- **2025-11-26** 연방 3인 재판부, 가처분 신청 기각 — 2026 선거에 새 지도 사용 허용 <a href="https://nsjonline.com/?p=103637" target="_blank" rel="noopener">출처</a>
+- **2026-01** Williams v. Hall·NAACP v. Berger 원고들이 재소 불가 조건으로 소송 취하 <a href="https://nsjonline.com/?p=103637" target="_blank" rel="noopener">출처</a>
+- **2026-03-03** 예비선거: NC-01 공화 후보 로리 벅하웃 선출(39.5%) <a href="https://news.ballotpedia.org/?p=46238" target="_blank" rel="noopener">출처</a>
+
+## 소송 {#litigation}
+
+2026 사용 확정. 연방 3인 재판부가 2025-11-26 가처분을 기각(인종차별 의도 입증 부족, 중간 재획정 인구편차 주장도 배척)했고, 원고들이 2026년 1월 재소 불가 조건으로 소송을 취하해 계류 중인 소송 없음.
+
+::: {.callout-note collapse="true" title="6월 기준선 대비 바뀐 점"}
+- 기준선 NC-01 신경계 마진 -12.0(Cook) — North State Journal은 트럼프 +11(-11.0), 일부 보도는 +12. 구경계는 트럼프 +3
+- 연방 소송 2026년 1월 재소 불가 조건 취하 → 법적 분쟁 종료(기준선 '연방법원 유지 2025-11-26'과 합치)
+- NC-01 등급이 Cook Lean R(2025-12) → Toss Up(2026-10-09)으로 이동(Wikipedia 집계, Cook 원문 미열람)
+:::
+
+::: {.callout-warning collapse="true" title="확인하지 못한 항목"}
+- NC-03 구경계 2024 대선 정확한 마진(원문 미확인)
+- NC-01 신경계 마진 소수점 값(출처는 반올림된 11 또는 12)
+- Cook 최신 등급 원문(cookpolitical.com 접근 차단, Wikipedia·NC Newsline 검색 요약으로만 확인)
+- 공식 shapefile 주소(ncleg.gov)
+:::
+
+## 출처 {#sources}
+
+- <a href="https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections" target="_blank" rel="noopener">https://ballotpedia.org/Redistricting_in_North_Carolina_ahead_of_the_2026_elections</a>
+- <a href="https://news.ballotpedia.org/2025/10/24/north-carolina-the-third-state-to-redraw-congressional-districts-ahead-of-the-2026-elections/" target="_blank" rel="noopener">https://news.ballotpedia.org/2025/10/24/north-carolina-the-third-state-to-redraw-congressional-districts-ahead-of-the-2026-elections/</a>
+- <a href="https://nsjonline.com/?p=103058" target="_blank" rel="noopener">https://nsjonline.com/?p=103058</a>
+- <a href="https://nsjonline.com/?p=103637" target="_blank" rel="noopener">https://nsjonline.com/?p=103637</a>
+- <a href="https://www.rockymounttelegram.com/news/state/democrats-gear-up-to-challenge-murphy-for-reshaped-3rd-district/article_6aa0d531-d458-4e22-a2f7-65b79c51e184.html" target="_blank" rel="noopener">https://www.rockymounttelegram.com/news/state/democrats-gear-up-to-challenge-murphy-for-reshaped-3rd-district/article_6aa0d531-d458-4e22-a2f7-65b79c51e184.html</a>
+- <a href="https://www.yahoo.com/news/articles/n-c-republicans-redrew-gop-120204436.html" target="_blank" rel="noopener">https://www.yahoo.com/news/articles/n-c-republicans-redrew-gop-120204436.html</a>
+- <a href="https://news.ballotpedia.org/2026/02/11/asa-buck-r-laurie-buckhout-r-robert-hanig-r-eric-rouse-r-and-ashley-nicole-russell-r-are-running-in-the-republican-primary-for-north-carolinas-1st-congressional-district-on-march-3-20/" target="_blank" rel="noopener">https://news.ballotpedia.org/2026/02/11/asa-buck-r-laurie-buckhout-r-robert-hanig-r-eric-rouse-r-and-ashley-nicole-russell-r-are-running-in-the-republican-primary-for-north-carolinas-1st-congressional-district-on-march-3-20/</a>
+- <a href="https://news.ballotpedia.org/?p=46238" target="_blank" rel="noopener">https://news.ballotpedia.org/?p=46238</a>
+- <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina</a>
+- <a href="https://www.nbcnews.com/politics/2026-election/federal-court-allows-north-carolina-use-new-republican-drawn-map-2026-rcna246156" target="_blank" rel="noopener">https://www.nbcnews.com/politics/2026-election/federal-court-allows-north-carolina-use-new-republican-drawn-map-2026-rcna246156</a>
+- <a href="https://ncnewsline.com/briefs/two-north-carolina-us-house-races-are-now-toss-ups-top-forecaster-says/" target="_blank" rel="noopener">https://ncnewsline.com/briefs/two-north-carolina-us-house-races-are-now-toss-ups-top-forecaster-says/</a>

@@ -1,0 +1,122 @@
+---
+title: "유타 (UT)"
+subtitle: "지도 변화와 영향 지역구"
+---
+<!-- scripts/build.py 생성 파일 — 직접 수정 금지 -->
+
+<p class="as-of">조사 기준 2026-10-10 · Cook 등급 스냅샷 2026-09-25 · FEC 2026-10-10 · 일일 브리핑 2026-10-09까지</p>
+
+::: {.lead}
+유타 제3지방법원 디아나 깁슨 판사가 2025-11-10 주의회 지도가 주민발의 4호(Prop 4)의 기준을 어겼다며 원고(유타 여성유권자연맹 등) 제출안 'Map 1'을 부과했다. 주대법원(2026-02)과 연방 3인 재판부(2026-02-23)가 모두 지도 변경 요청을 기각해 2026년 선거에 이 지도가 쓰인다. 솔트레이크카운티 대부분을 묶은 민주 우세 1구가 새로 생겼다.
+:::
+
+<div class="kpis">
+<div class="kpi"><div class="k">의석</div><div class="v">4</div><div class="s"></div></div>
+<div class="kpi"><div class="k">2024 결과</div><div class="v">D 0 · R 4</div><div class="s">insideelections.com</div></div>
+<div class="kpi"><div class="k">신 지도 기대치</div><div class="v">D 1 · R 3</div><div class="s">2024 대선 재집계 기준</div></div>
+<div class="kpi"><div class="k">순효과(D)</div><div class="v">+1</div><div class="s">insideelections.com</div></div>
+</div>
+
+<p class="note">신 지도 기대치 근거: 신 경계 2024 대선 기준 해리스 승리구는 1구(+24) 하나. 2~4구는 Inside Elections Baseline R+38·R+47·R+42 <a href="https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/" target="_blank" rel="noopener">출처</a></p>
+
+## 지도 비교 {#maps}
+
+<div class="mappair" data-st="ut" data-base="../"><div><h4>구 지도 (2024 선거)</h4><div class="map map-old"></div></div><div><h4>신 지도 (2026 선거)</h4><div class="map map-new"></div></div></div>
+<script src="../assets/maps.js"></script>
+
+<p class="figlegend">색 = 2024 대선 마진(<span class="md">파랑=민주</span>·<span class="mr">빨강=공화</span>, 진할수록 큼). 회색 = 마진 미수집. 검은 테두리 = 추세 추적 대상 구. 두 지도는 함께 움직인다. 구 지도 경계: Census 2024 cartographic boundary(119대 의회 선거구). 신 지도 경계: <a href="https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/political_us_congress_districts_2026_to_2032/FeatureServer/0" target="_blank" rel="noopener">Utah UGRC — 2026–2032 연방하원 선거구</a>.</p>
+
+## 어떻게 그렸나 {#mechanism}
+
+솔트레이크카운티를 4개 구로 쪼개 모두 공화 우세로 만든 2021년 지도(효율성 격차 R+28)를 대체해, 솔트레이크시티·웨스트밸리·밀크리크 등 카운티 대부분을 1구 하나로 묶었다(효율성 격차 R+6). 나머지 북부(2구), 동·남부(3구), 서부·남부 솔트레이크(4구)는 공화 안전구.
+
+## 영향 지역구 {#districts}
+
+
+| 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
+|-------|-----------|----------------|------:|------:|---------|--------|
+| [UT-01](#ut-01) ★ | — (—) | 미확인 | <span class="na">미확인</span> | <span class="md">D+24</span> | — | <span class="rt rt-solid_d">Solid D</span> |
+| [UT-02](#ut-02) | Blake Moore (R) | 다른 구 출마(구 UT-01→신 UT-02) | <span class="na">미확인</span> | <span class="na">미확인</span> | — | <span class="rt rt-solid_r">Solid R</span> |
+| [UT-03](#ut-03) | Celeste Maloy (R) | 다른 구 출마(구 UT-02→신 UT-03) | <span class="na">미확인</span> | <span class="na">미확인</span> | — | <span class="rt rt-solid_r">Solid R</span> |
+| [UT-04](#ut-04) | Burgess Owens (R) | 은퇴 | <span class="na">미확인</span> | <span class="na">미확인</span> | — | <span class="rt rt-solid_r">Solid R</span> |
+
+<p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
+
+## 지역구별 상세 {#detail}
+
+### UT-01 — 신설 {#ut-01}
+
+<p class="dmeta">2024 대선 <span class="na">미확인</span> → <span class="md">D+24</span> <a href="https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/" target="_blank" rel="noopener">insideelections.com</a> · <a href="../trends.html#ut-01">추세 보기 →</a></p>
+
+- **경계 변화** 솔트레이크카운티 대부분(솔트레이크시티·웨스트밸리·밀크리크 등)을 하나의 구로 묶음. 현역 없는 사실상 신설 민주 우세구.
+- **현역** — (—) — 미확인
+- **2026 후보** 민주 Ben McAdams · 공화 Riley Owen
+- **등급** Inside Elections Solid D(2025-11-11). Cook Solid D·Sabato Safe D(민주 탈환, 2025-11-11, 위키백과 기재) <a href="https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/" target="_blank" rel="noopener">insideelections.com</a>
+- **메모** 구 1구 현역 Blake Moore(R)는 신 2구로 이동. McAdams(전 4구 하원의원·전 솔트레이크카운티장)가 6/23 민주 예비선거에서 Blouin·Farrell·Mohamed를 꺾음. Inside Elections Baseline D+14. 공화 후보 Riley Owen은 검색 요약과 위키백과 기재.
+
+### UT-02 — 소폭 {#ut-02}
+
+<p class="dmeta">2024 대선 <span class="na">미확인</span> → <span class="na">미확인</span> </p>
+
+- **경계 변화** 웨버·데이비스 중심 북부 유타. 2024 투표자의 95%가 구 1구 출신(사실상 구 1구 후신).
+- **현역** Blake Moore (R) — 다른 구 출마(구 UT-01→신 UT-02)
+- **2026 후보** 민주 Peter Crosby · 공화 Blake Moore
+- **등급** Inside Elections Solid R(2025-11-11) <a href="https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/" target="_blank" rel="noopener">insideelections.com</a>
+- **메모** Baseline R+38. 위키백과는 트럼프 +29라 적었으나 인용 출처(Inside Elections)에 해당 수치가 없어 채택하지 않음. 민주 후보는 위키백과 기재.
+
+### UT-03 — 소폭 {#ut-03}
+
+<p class="dmeta">2024 대선 <span class="na">미확인</span> → <span class="na">미확인</span> </p>
+
+- **경계 변화** 동부 유타에 남서부(시더시티·세인트조지)를 결합. 투표자 76%가 구 3구, 21%가 구 2구 출신.
+- **현역** Celeste Maloy (R) — 다른 구 출마(구 UT-02→신 UT-03)
+- **2026 후보** 민주 Kent Udell · 공화 Celeste Maloy
+- **등급** Inside Elections Solid R(2025-11-11) <a href="https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/" target="_blank" rel="noopener">insideelections.com</a>
+- **메모** Baseline R+47. Kennedy(구 3구)는 4구로 옮겨 현역 대결 회피. 위키백과의 트럼프 +41은 인용 출처에서 확인 안 돼 미채택. 후보는 위키백과 기재.
+
+### UT-04 — 소폭 {#ut-04}
+
+<p class="dmeta">2024 대선 <span class="na">미확인</span> → <span class="na">미확인</span> </p>
+
+- **경계 변화** 서부 농촌 카운티와 남부 솔트레이크·북부 유타카운티. 투표자 53%가 구 2구, 44%가 구 4구 출신.
+- **현역** Burgess Owens (R) — 은퇴
+- **2026 후보** 민주 Jonny Larsen · 공화 Mike Kennedy
+- **등급** Inside Elections Solid R(2025-11-11) <a href="https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/" target="_blank" rel="noopener">insideelections.com</a>
+- **메모** Baseline R+42. Owens 2026-03 불출마 발표, 구 3구 현역 Mike Kennedy가 출마. 위키백과의 트럼프 +32는 출처 확인 안 돼 미채택.
+
+## 경과 {#timeline}
+
+- **2025-08-25** 지방법원, 2021년 지도 무효 판단 후 30일 내 재작성 명령 <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Utah" target="_blank" rel="noopener">출처</a>
+- **2025-10-11** 주의회 새 지도 통과(공화 근소 우세 경합구 2곳 구성) <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Utah" target="_blank" rel="noopener">출처</a>
+- **2025-11-10** 깁슨 판사, 주의회안 배척하고 원고안 Map 1 부과 <a href="https://news.ballotpedia.org/2026/04/24/nate-blouin-d-ben-mcadams-d-and-four-other-candidates-are-running-in-the-democratic-primary-for-utahs-1st-congressional-district-on-june-23-2026/" target="_blank" rel="noopener">출처</a>
+- **2026-02-20** 유타 주대법원, 주의회 항소 기각(제기 시한 경과) <a href="https://www.kuer.org/politics-government/2026-02-20/utah-supreme-court-redistricting-new-utah-map" target="_blank" rel="noopener">출처</a>
+- **2026-02-23** 연방 3인 재판부, Owens·Maloy 의원 등의 지도 교체 요청 기각(Purcell 원칙) <a href="https://www.deseret.com/politics/2026/02/23/utah-federal-court-denies-gop-request-on-state-maps/" target="_blank" rel="noopener">출처</a>
+- **2026-03-28** Prop 4 폐지 주민발의, 서명 철회로 11월 투표 부의 실패 <a href="https://news.ballotpedia.org/2026/03/28/utah-redistricting-initiative-to-repeal-proposition-4-will-not-be-on-the-2026-ballot-after-enough-voters-withdraw-their-signatures/" target="_blank" rel="noopener">출처</a>
+- **2026-06-23** 예비선거. 1구 민주 Ben McAdams 승리 <a href="https://news.ballotpedia.org/2026/06/24/ben-mcadams-d-defeated-nate-blouin-d-michael-farrell-d-and-liban-mohamed-d-in-the-democratic-primary-for-utahs-1st-congressional-district/" target="_blank" rel="noopener">출처</a>
+
+## 소송 {#litigation}
+
+주대법원(2026-02-20)과 연방 3인 재판부(2026-02-23)가 지도 변경 요청 기각. Owens·Maloy 의원 등이 낸 연방 소송 항소가 계류 중이라는 보도가 있으나 2026년 선거에는 영향 없음. Prop 4 폐지 주민발의는 부의 실패.
+
+::: {.callout-note collapse="true" title="6월 기준선 대비 바뀐 점"}
+- 기준선과 일치(법원 부과 지도, net +1). 보충: 주대법원·연방법원 모두 2월에 변경 요청 기각, Prop 4 폐지안 부의 실패, Owens 은퇴, Moore·Maloy·Kennedy 지역구 이동.
+:::
+
+::: {.callout-warning collapse="true" title="확인하지 못한 항목"}
+- 구 지도(2021) 각 구의 2024 대선 마진
+- 신 UT-02·03·04의 2024 대선 마진(위키백과 수치는 인용 출처와 불일치해 미채택)
+- Cook/Sabato 등급 원문(위키백과 기재값만 확인)
+- 공식 shapefile 주소
+- Owens·Maloy 등 연방 항소의 최신 상태
+:::
+
+## 출처 {#sources}
+
+- <a href="https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/" target="_blank" rel="noopener">https://insideelections.com/a-detailed-analysis-of-utahs-new-congressional-map/</a>
+- <a href="https://news.ballotpedia.org/2026/04/24/nate-blouin-d-ben-mcadams-d-and-four-other-candidates-are-running-in-the-democratic-primary-for-utahs-1st-congressional-district-on-june-23-2026/" target="_blank" rel="noopener">https://news.ballotpedia.org/2026/04/24/nate-blouin-d-ben-mcadams-d-and-four-other-candidates-are-running-in-the-democratic-primary-for-utahs-1st-congressional-district-on-june-23-2026/</a>
+- <a href="https://news.ballotpedia.org/2026/06/24/ben-mcadams-d-defeated-nate-blouin-d-michael-farrell-d-and-liban-mohamed-d-in-the-democratic-primary-for-utahs-1st-congressional-district/" target="_blank" rel="noopener">https://news.ballotpedia.org/2026/06/24/ben-mcadams-d-defeated-nate-blouin-d-michael-farrell-d-and-liban-mohamed-d-in-the-democratic-primary-for-utahs-1st-congressional-district/</a>
+- <a href="https://www.deseret.com/politics/2026/02/23/utah-federal-court-denies-gop-request-on-state-maps/" target="_blank" rel="noopener">https://www.deseret.com/politics/2026/02/23/utah-federal-court-denies-gop-request-on-state-maps/</a>
+- <a href="https://www.kuer.org/politics-government/2026-02-20/utah-supreme-court-redistricting-new-utah-map" target="_blank" rel="noopener">https://www.kuer.org/politics-government/2026-02-20/utah-supreme-court-redistricting-new-utah-map</a>
+- <a href="https://www.ksl.com/article/51460049/heres-who-is-running-for-each-of-utahs-4-congressional-seats" target="_blank" rel="noopener">https://www.ksl.com/article/51460049/heres-who-is-running-for-each-of-utahs-4-congressional-seats</a>
+- <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Utah" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Utah</a>
+- <a href="https://news.ballotpedia.org/2026/03/28/utah-redistricting-initiative-to-repeal-proposition-4-will-not-be-on-the-2026-ballot-after-enough-voters-withdraw-their-signatures/" target="_blank" rel="noopener">https://news.ballotpedia.org/2026/03/28/utah-redistricting-initiative-to-repeal-proposition-4-will-not-be-on-the-2026-ballot-after-enough-voters-withdraw-their-signatures/</a>

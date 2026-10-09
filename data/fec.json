@@ -1,0 +1,2554 @@
+{
+ "as_of": "2026-10-10",
+ "source_label": "FEC (api.open.fec.gov) — 2026 사이클 후보 누적 모금·보유 현금, 단위 $M",
+ "districts": {
+  "AL-02": [
+   {
+    "name": "FIGURES, SHOMARI C.",
+    "party": "DEM",
+    "receipts": 1.36,
+    "cash_on_hand": 0.66,
+    "coverage_end": "2026-07-22"
+   },
+   {
+    "name": "MARQUES, RHETT",
+    "party": "REP",
+    "receipts": 1.32,
+    "cash_on_hand": 0.19,
+    "coverage_end": "2026-07-22"
+   },
+   {
+    "name": "MCKEE, JOSHUA LOGAN",
+    "party": "REP",
+    "receipts": 0.52,
+    "cash_on_hand": -0.0,
+    "coverage_end": "2026-07-22"
+   },
+   {
+    "name": "HARRIS, HAMPTON",
+    "party": "REP",
+    "receipts": 0.25,
+    "cash_on_hand": 0.16,
+    "coverage_end": "2026-07-22"
+   },
+   {
+    "name": "MATTHEWS, DAVID",
+    "party": "REP",
+    "receipts": 0.05,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-08-31"
+   },
+   {
+    "name": "RICHARDSON, JAMES",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-22"
+   }
+  ],
+  "CA-01": [
+   {
+    "name": "MCGUIRE, MIKE",
+    "party": "DEM",
+    "receipts": 1.83,
+    "cash_on_hand": 0.15,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "GALLAGHER, JAMES",
+    "party": "REP",
+    "receipts": 1.49,
+    "cash_on_hand": 0.33,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "DENNEY, AUDREY",
+    "party": "DEM",
+    "receipts": 0.91,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "LAMALFA, DOUG",
+    "party": "REP",
+    "receipts": 0.77,
+    "cash_on_hand": 0.72,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "SALEGUI, JAMES",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "WILSON, KYLE",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-05-05"
+   }
+  ],
+  "CA-03": [
+   {
+    "name": "BERA, AMERISH",
+    "party": "DEM",
+    "receipts": 1.25,
+    "cash_on_hand": 1.83,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "HALL, HEIDI",
+    "party": "DEM",
+    "receipts": 0.59,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "TUCKER, ROBB",
+    "party": "REP",
+    "receipts": 0.26,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BENNETT, CHRISTOPHER JERMAN",
+    "party": "DEM",
+    "receipts": 0.22,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BISH, CHRISTINE S",
+    "party": "REP",
+    "receipts": 0.14,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CERVANTES, LYNDON",
+    "party": "DEM",
+    "receipts": 0.06,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-05-13"
+   }
+  ],
+  "CA-04": [
+   {
+    "name": "JONES, ERIC",
+    "party": "DEM",
+    "receipts": 8.38,
+    "cash_on_hand": 0.66,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "THOMPSON, MIKE MR.",
+    "party": "DEM",
+    "receipts": 4.2,
+    "cash_on_hand": 1.08,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "RIEHLE, RAYMOND",
+    "party": "REP",
+    "receipts": 0.11,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MACKENZIE, LAURIE JOHN",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "GHUSAR, MANDY",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-20"
+   },
+   {
+    "name": "BROWN, SHARON",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-25"
+   },
+   {
+    "name": "MERRELL, TREVOR",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": -0.0,
+    "coverage_end": "2026-03-31"
+   },
+   {
+    "name": "TYLER, JOHN WESLEY",
+    "party": "IND",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-16"
+   }
+  ],
+  "CA-06": [
+   {
+    "name": "KILEY, KEVIN",
+    "party": "OTH",
+    "receipts": 2.99,
+    "cash_on_hand": 2.12,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "PAN, RICHARD DR.",
+    "party": "DEM",
+    "receipts": 1.1,
+    "cash_on_hand": 0.36,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "HO, THIEN",
+    "party": "DEM",
+    "receipts": 0.91,
+    "cash_on_hand": 0.04,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BABB TOMLINSON, LAUREN",
+    "party": "DEM",
+    "receipts": 0.57,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "GUERRERO, MARTHA",
+    "party": "DEM",
+    "receipts": 0.2,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-24"
+   },
+   {
+    "name": "VANDENBERG, TYLER ISAAC",
+    "party": "DEM",
+    "receipts": 0.12,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "STANSFIELD, MICHAEL",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   }
+  ],
+  "CA-07": [
+   {
+    "name": "MATSUI, DORIS",
+    "party": "DEM",
+    "receipts": 3.19,
+    "cash_on_hand": 0.47,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "VANG, MAI",
+    "party": "DEM",
+    "receipts": 1.09,
+    "cash_on_hand": 0.11,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MORIN, ROBERT",
+    "party": "DEM",
+    "receipts": 0.03,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "LEE, ERICA",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MING, KATHRYN S",
+    "party": "REP",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-01-28"
+   }
+  ],
+  "CA-09": [
+   {
+    "name": "HARDER, JOSH",
+    "party": "DEM",
+    "receipts": 4.08,
+    "cash_on_hand": 4.74,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MCBRIDE, JOHN",
+    "party": "REP",
+    "receipts": 0.05,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "SHOEMAKER, JAMES H",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-08"
+   },
+   {
+    "name": "SINGH, PARMINDER",
+    "party": "REP",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "CA-13": [
+   {
+    "name": "GRAY, ADAM C.",
+    "party": "DEM",
+    "receipts": 4.19,
+    "cash_on_hand": 2.07,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "KRUTTIVENTI, VIN",
+    "party": "REP",
+    "receipts": 3.69,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "LINCOLN, KEVIN J II",
+    "party": "REP",
+    "receipts": 2.24,
+    "cash_on_hand": 0.84,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "LOPEZ, JAVIER B",
+    "party": "REP",
+    "receipts": 0.15,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "CA-14": [
+   {
+    "name": "ISRANI, RAKHI",
+    "party": "DEM",
+    "receipts": 2.4,
+    "cash_on_hand": 0.05,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "HERNANDEZ, MELISSA",
+    "party": "DEM",
+    "receipts": 1.99,
+    "cash_on_hand": 0.08,
+    "coverage_end": "2026-09-07"
+   },
+   {
+    "name": "WAHAB, AISHA",
+    "party": "DEM",
+    "receipts": 0.87,
+    "cash_on_hand": 0.23,
+    "coverage_end": "2026-09-07"
+   },
+   {
+    "name": "HUANG, WENDY FIONA MS.",
+    "party": "REP",
+    "receipts": 0.04,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "RIDENOUR, SHERIENE",
+    "party": "DEM",
+    "receipts": 0.04,
+    "cash_on_hand": 0.04,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "ORTEGA, MATT",
+    "party": "DEM",
+    "receipts": 0.04,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "ELAM, CARIN",
+    "party": "DEM",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "QADIR, ABRAR",
+    "party": "DEM",
+    "receipts": 0.03,
+    "cash_on_hand": -0.02,
+    "coverage_end": "2026-04-15"
+   }
+  ],
+  "CA-21": [
+   {
+    "name": "COSTA, JIM",
+    "party": "DEM",
+    "receipts": 1.34,
+    "cash_on_hand": 0.94,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "RIOS, LORENZO",
+    "party": "REP",
+    "receipts": 0.43,
+    "cash_on_hand": 0.06,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "KIRKLAND, KYLE",
+    "party": "REP",
+    "receipts": 0.34,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "KRUSE, LANCE ALVIN",
+    "party": "NNE",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   },
+   {
+    "name": "GARCIA, ERIC",
+    "party": "DEM",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "CA-22": [
+   {
+    "name": "VALADAO, DAVID",
+    "party": "REP",
+    "receipts": 4.93,
+    "cash_on_hand": 3.37,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "VILLEGAS, RANDY",
+    "party": "DEM",
+    "receipts": 2.65,
+    "cash_on_hand": 0.57,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BAINS, JASMEET",
+    "party": "DEM",
+    "receipts": 1.58,
+    "cash_on_hand": 0.09,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "SALAS, RUDY",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.09,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "CA-25": [
+   {
+    "name": "RUIZ, RAUL DR.",
+    "party": "DEM",
+    "receipts": 2.09,
+    "cash_on_hand": 2.56,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MALES, JOE",
+    "party": "REP",
+    "receipts": 0.94,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "TRUMAN, CECI",
+    "party": "REP",
+    "receipts": 0.33,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "CA-27": [
+   {
+    "name": "WHITESIDES, GEORGE",
+    "party": "DEM",
+    "receipts": 3.96,
+    "cash_on_hand": 2.55,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "GIBBS, JASON",
+    "party": "REP",
+    "receipts": 0.38,
+    "cash_on_hand": 0.2,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "NEIDHART, DAVID",
+    "party": "REP",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "NORWOOD, CALEB GABRIEL",
+    "party": "DEM",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   }
+  ],
+  "CA-31": [
+   {
+    "name": "CISNEROS, GILBERT",
+    "party": "DEM",
+    "receipts": 0.71,
+    "cash_on_hand": 0.26,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CHING, ERIC J",
+    "party": "REP",
+    "receipts": 0.1,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-09-30"
+   }
+  ],
+  "CA-38": [
+   {
+    "name": "SOLIS, HILDA",
+    "party": "DEM",
+    "receipts": 1.05,
+    "cash_on_hand": 0.15,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "SANCHEZ, MONICA DR.",
+    "party": "DEM",
+    "receipts": 0.19,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "ADAMS-FALCONER, THOMAS MICHAEL JR.",
+    "party": "DEM",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-12-31"
+   }
+  ],
+  "CA-40": [
+   {
+    "name": "KIM, YOUNG",
+    "party": "REP",
+    "receipts": 8.84,
+    "cash_on_hand": 1.68,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CALVERT, KEN",
+    "party": "REP",
+    "receipts": 6.14,
+    "cash_on_hand": 1.5,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "VARET, ESTHER KIM",
+    "party": "DEM",
+    "receipts": 2.94,
+    "cash_on_hand": 0.25,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "GAGNIER, CHRISTINA",
+    "party": "DEM",
+    "receipts": 0.61,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "RAMIREZ, LISA D",
+    "party": "DEM",
+    "receipts": 0.52,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-21"
+   },
+   {
+    "name": "LINH, NINA",
+    "party": "IND",
+    "receipts": 0.44,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "KERR, JOSEPH",
+    "party": "DEM",
+    "receipts": 0.28,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MEADE, PERRY",
+    "party": "DEM",
+    "receipts": 0.28,
+    "cash_on_hand": 0.05,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "TATE, TIFFANIE DR.",
+    "party": "DEM",
+    "receipts": 0.07,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   },
+   {
+    "name": "KEISSIEH, CLAUDE MANUEL",
+    "party": "DEM",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-02"
+   },
+   {
+    "name": "SWIFT, PAULA WILLIAMS DR.",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-12-15"
+   },
+   {
+    "name": "AHMED, CHRISTIAN TYLER",
+    "party": "IND",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-06-03"
+   }
+  ],
+  "CA-41": [
+   {
+    "name": "SANCHEZ, LINDA",
+    "party": "DEM",
+    "receipts": 1.6,
+    "cash_on_hand": 0.42,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "DE LA TORRE, HECTOR",
+    "party": "DEM",
+    "receipts": 0.62,
+    "cash_on_hand": 0.05,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "ALEMAN, KATHERINE",
+    "party": "DEM",
+    "receipts": 0.2,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-01-31"
+   },
+   {
+    "name": "MYERS, TIM",
+    "party": "DEM",
+    "receipts": 0.18,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-07-15"
+   },
+   {
+    "name": "WILLIAMS, SHONIQUE",
+    "party": "DEM",
+    "receipts": 0.07,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "BYORS, JASON",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-12-31"
+   },
+   {
+    "name": "CLEMMONS, MITCHELL",
+    "party": "REP",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CLEMMONS, MITCHELL LEE",
+    "party": "REP",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "CA-42": [
+   {
+    "name": "GARCIA, ROBERT",
+    "party": "DEM",
+    "receipts": 2.62,
+    "cash_on_hand": 1.38,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BURLEY, BRIAN J MR.",
+    "party": "REP",
+    "receipts": 0.23,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BLOM, NOAH",
+    "party": "REP",
+    "receipts": 0.16,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-02"
+   }
+  ],
+  "CA-45": [
+   {
+    "name": "TRAN, DEREK",
+    "party": "DEM",
+    "receipts": 4.98,
+    "cash_on_hand": 3.26,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "STEEL, MICHELLE",
+    "party": "REP",
+    "receipts": 1.25,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-10-09"
+   },
+   {
+    "name": "KY-PHONG VO, THOMAS",
+    "party": "REP",
+    "receipts": 0.76,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-16"
+   },
+   {
+    "name": "VO, CHUONG",
+    "party": "REP",
+    "receipts": 0.5,
+    "cash_on_hand": 0.07,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "NGUYEN, CHI CHARLIE",
+    "party": "REP",
+    "receipts": 0.49,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-10"
+   },
+   {
+    "name": "PHAN WEST, AMY",
+    "party": "REP",
+    "receipts": 0.06,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "LEONARD, MARK ANDREW",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "CA-47": [
+   {
+    "name": "MIN, DAVE",
+    "party": "DEM",
+    "receipts": 3.38,
+    "cash_on_hand": 1.89,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "LE ROUX, JENNY RAE",
+    "party": "REP",
+    "receipts": 0.38,
+    "cash_on_hand": 0.13,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "TROUTMAN, ERIC J",
+    "party": "IND",
+    "receipts": 0.27,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MAXSENTI, MICHAEL",
+    "party": "REP",
+    "receipts": 0.25,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "GONZALES, CHRISTOPHER J",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MIRANDA, HUNTER GARCIA",
+    "party": "DEM",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-02"
+   },
+   {
+    "name": "REID, DERRICK MICHAEL",
+    "party": "LIB",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BROUGH, BILL",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "CA-48": [
+   {
+    "name": "RIKER, BRANDON",
+    "party": "DEM",
+    "receipts": 2.27,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "DESMOND, JIM",
+    "party": "REP",
+    "receipts": 2.26,
+    "cash_on_hand": 1.23,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "VON WILPERT, MARNI",
+    "party": "DEM",
+    "receipts": 2.17,
+    "cash_on_hand": 0.83,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CHAVEZ, ABEL",
+    "party": "DEM",
+    "receipts": 0.47,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "DIXIT, ANUJ",
+    "party": "DEM",
+    "receipts": 0.47,
+    "cash_on_hand": 0.17,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "PORTER, FERGUSON",
+    "party": "DEM",
+    "receipts": 0.06,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2025-09-30"
+   },
+   {
+    "name": "IANNARINO, MARC",
+    "party": "DEM",
+    "receipts": 0.05,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-05-21"
+   },
+   {
+    "name": "CONTRERAS, CORINNA",
+    "party": "DEM",
+    "receipts": 0.04,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MORRISON, CURTIS",
+    "party": "DEM",
+    "receipts": 0.04,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-02-23"
+   },
+   {
+    "name": "TILL, SUZANNE MARIE DR.",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-12-04"
+   },
+   {
+    "name": "CAMPA-NAJJAR, AMMAR",
+    "party": "DEM",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-02-18"
+   },
+   {
+    "name": "SHANAHAN, WHITNEY",
+    "party": "DEM",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "CA-49": [
+   {
+    "name": "LEVIN, MIKE",
+    "party": "DEM",
+    "receipts": 3.16,
+    "cash_on_hand": 1.42,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "KURDIAN, ARMEN",
+    "party": "REP",
+    "receipts": 0.06,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "ARELLANO, JULIAN",
+    "party": "DEM",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-12-31"
+   }
+  ],
+  "FL-07": [
+   {
+    "name": "DALTON, BALE",
+    "party": "DEM",
+    "receipts": 1.38,
+    "cash_on_hand": 0.48,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "MILLS, CORY",
+    "party": "REP",
+    "receipts": 0.88,
+    "cash_on_hand": 0.07,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "KINTER, MARIALANA",
+    "party": "DEM",
+    "receipts": 0.57,
+    "cash_on_hand": 0.06,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "GRAYSON, ALAN MARK",
+    "party": "DEM",
+    "receipts": 0.39,
+    "cash_on_hand": 0.13,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "ELIJAH, RYAN",
+    "party": "REP",
+    "receipts": 0.36,
+    "cash_on_hand": 0.19,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "JOHNSON, MICHAEL",
+    "party": "REP",
+    "receipts": 0.06,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "ADAMS, JENNIFER",
+    "party": "DEM",
+    "receipts": 0.04,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2025-06-30"
+   },
+   {
+    "name": "ULRICH, SARAH",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "DENNISON, CHRISTOPHER ALLEN",
+    "party": "LIB",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "FL-09": [
+   {
+    "name": "CHALIFOUX, THOMAS E. COLONEL JR.",
+    "party": "REP",
+    "receipts": 3.16,
+    "cash_on_hand": 0.07,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "SOTO, DARREN",
+    "party": "DEM",
+    "receipts": 2.16,
+    "cash_on_hand": 1.19,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "GREEN, DAN",
+    "party": "REP",
+    "receipts": 1.3,
+    "cash_on_hand": 0.36,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "MARTINEZ, JORGE",
+    "party": "REP",
+    "receipts": 0.85,
+    "cash_on_hand": 0.29,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "BUTLER, BENJAMIN BEN",
+    "party": "REP",
+    "receipts": 0.39,
+    "cash_on_hand": 0.11,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "RANCE, HOWARD STEVEN",
+    "party": "REP",
+    "receipts": 0.16,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-18"
+   },
+   {
+    "name": "STORY, JUSTIN",
+    "party": "REP",
+    "receipts": 0.09,
+    "cash_on_hand": 0.04,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "MALAVET, JORGE ANTONIO",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CARTER, GREGORY MARCUS MR",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-08-25"
+   }
+  ],
+  "FL-13": [
+   {
+    "name": "PAULINA LUNA, ANNA",
+    "party": "REP",
+    "receipts": 3.23,
+    "cash_on_hand": 1.47,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "GRAY, LEELA J",
+    "party": "DEM",
+    "receipts": 1.22,
+    "cash_on_hand": 0.68,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "FORD, EARLE",
+    "party": "DEM",
+    "receipts": 0.57,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-03-31"
+   },
+   {
+    "name": "ROBINSON, TIMOTHY BRANDT MR",
+    "party": "DEM",
+    "receipts": 0.11,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "D'ARRIGO, TONY C",
+    "party": "IND",
+    "receipts": 0.03,
+    "cash_on_hand": 0.03,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "PAROS, REGINALD",
+    "party": "DEM",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-12-31"
+   },
+   {
+    "name": "LICCIONE, JOHN WILLIAM",
+    "party": "DEM",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "KEMP, KARLA",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "FAY, JOHN T",
+    "party": "DEM",
+    "receipts": 0.0,
+    "cash_on_hand": -0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "FL-14": [
+   {
+    "name": "STEELE, KEVIN",
+    "party": "REP",
+    "receipts": 2.59,
+    "cash_on_hand": 0.48,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "CASTOR, KATHY",
+    "party": "DEM",
+    "receipts": 2.34,
+    "cash_on_hand": 1.74,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "BELTRAN, MIKE",
+    "party": "REP",
+    "receipts": 2.13,
+    "cash_on_hand": 1.95,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "ROCHFORD, ROBERT ANTHONY ROCKY CAPT",
+    "party": "REP",
+    "receipts": 0.27,
+    "cash_on_hand": 0.1,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "VALENTI, BEA",
+    "party": "REP",
+    "receipts": 0.24,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "PETERS, JOHN",
+    "party": "REP",
+    "receipts": 0.2,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "WELDON, DANIEL",
+    "party": "REP",
+    "receipts": 0.12,
+    "cash_on_hand": 0.03,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "TEK, ERGIN AKA BATMAN",
+    "party": "REP",
+    "receipts": 0.04,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "WILLIAMS, SHAY",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-11"
+   },
+   {
+    "name": "MARCEL, MICHAEL",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "LEGGE, ALYSHA ALY",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "LAMBERT, BRIAN KEITH",
+    "party": "LIB",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "WICK, JOHN CHARLES",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-05-19"
+   },
+   {
+    "name": "SORIANO, GAVRIEL ELIYAHU",
+    "party": "REP",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   }
+  ],
+  "FL-22": [
+   {
+    "name": "CARBONARA, MICHAEL",
+    "party": "REP",
+    "receipts": 4.76,
+    "cash_on_hand": 0.04,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "KEISER, BELINDA",
+    "party": "REP",
+    "receipts": 3.8,
+    "cash_on_hand": 0.7,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "ASKAR, CASEY",
+    "party": "REP",
+    "receipts": 2.59,
+    "cash_on_hand": 1.07,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "WERTHEIM, HERBERT DR. OD",
+    "party": "REP",
+    "receipts": 2.5,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "DANDIYA, PIA",
+    "party": "DEM",
+    "receipts": 2.28,
+    "cash_on_hand": 1.3,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "FRANZESE, DANIEL JOHN",
+    "party": "REP",
+    "receipts": 1.49,
+    "cash_on_hand": 0.47,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "MEDVEDEVA, ANNA",
+    "party": "REP",
+    "receipts": 0.28,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BURCK, DAVID",
+    "party": "REP",
+    "receipts": 0.26,
+    "cash_on_hand": 0.07,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "HASDORFF, TERRI",
+    "party": "REP",
+    "receipts": 0.05,
+    "cash_on_hand": 0.03,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "PARNAS, LEV",
+    "party": "IND",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "EARLEY, KAYSIA",
+    "party": "DEM",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "THOMPSON, MICHAEL",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "BAXTER, SARA",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "ANDERSON, JILLIAN",
+    "party": "REP",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "SRADO, ANTONIO",
+    "party": "REP",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   }
+  ],
+  "FL-23": [
+   {
+    "name": "FRANKEL, LOIS J.",
+    "party": "DEM",
+    "receipts": 2.28,
+    "cash_on_hand": 1.21,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "DOYLE, VICTORIA JANE BOKER",
+    "party": "DEM",
+    "receipts": 0.48,
+    "cash_on_hand": 0.04,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "ADEIMY, DEBORAH",
+    "party": "REP",
+    "receipts": 0.16,
+    "cash_on_hand": 0.03,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "GURFEIN, JARED",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BRANDA, PAOLA",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "DORCE, SENDRA",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CEREZO SWAFFAR, DARLENE",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-07-22"
+   }
+  ],
+  "FL-25": [
+   {
+    "name": "MOSKOWITZ, JARED",
+    "party": "DEM",
+    "receipts": 3.0,
+    "cash_on_hand": 1.88,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "SINGER, SCOTT M.",
+    "party": "REP",
+    "receipts": 2.27,
+    "cash_on_hand": 0.49,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "FRANZESE, DANIEL JOHN",
+    "party": "REP",
+    "receipts": 1.49,
+    "cash_on_hand": 0.47,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "MORAITIS, GEORGE R",
+    "party": "REP",
+    "receipts": 0.93,
+    "cash_on_hand": 0.27,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "HARRISON, RAVEN",
+    "party": "REP",
+    "receipts": 0.8,
+    "cash_on_hand": 0.08,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "LARKIN, OLIVER ADAMS",
+    "party": "DEM",
+    "receipts": 0.69,
+    "cash_on_hand": 0.17,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "KAUFMAN, JOE",
+    "party": "REP",
+    "receipts": 0.63,
+    "cash_on_hand": 0.53,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "JASSENOFF, PETER",
+    "party": "LIB",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "VILLATORO, CLAUDIA",
+    "party": "REP",
+    "receipts": 0.0,
+    "cash_on_hand": -0.0,
+    "coverage_end": "2026-06-22"
+   }
+  ],
+  "FL-27": [
+   {
+    "name": "SALAZAR, MARIA ELVIRA",
+    "party": "REP",
+    "receipts": 2.0,
+    "cash_on_hand": 2.26,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "PEGUERO, ROBIN",
+    "party": "DEM",
+    "receipts": 1.06,
+    "cash_on_hand": 0.14,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "LAMONDIN, RICHARD",
+    "party": "DEM",
+    "receipts": 0.74,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-25"
+   },
+   {
+    "name": "RODRIGUEZ, ELIOTT",
+    "party": "DEM",
+    "receipts": 0.66,
+    "cash_on_hand": 0.33,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "ARIAS, VINCENT MICHAEL",
+    "party": "REP",
+    "receipts": 0.18,
+    "cash_on_hand": 0.07,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "DAVEY, MICHAEL",
+    "party": "DEM",
+    "receipts": 0.05,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "FORNINO, ALEXANDER",
+    "party": "DEM",
+    "receipts": 0.03,
+    "cash_on_hand": -0.0,
+    "coverage_end": "2026-03-31"
+   }
+  ],
+  "LA-06": [
+   {
+    "name": "MIGUEZ, BLAKE",
+    "party": "REP",
+    "receipts": 6.61,
+    "cash_on_hand": 2.03,
+    "coverage_end": "2026-07-18"
+   },
+   {
+    "name": "FIELDS, CLEO",
+    "party": "DEM",
+    "receipts": 0.83,
+    "cash_on_hand": 0.44,
+    "coverage_end": "2026-07-18"
+   },
+   {
+    "name": "EDMONDS, RICK",
+    "party": "REP",
+    "receipts": 0.51,
+    "cash_on_hand": 0.31,
+    "coverage_end": "2026-07-18"
+   },
+   {
+    "name": "APPEANING, ANJANITA MONIQUE",
+    "party": "REP",
+    "receipts": 0.1,
+    "cash_on_hand": 0.04,
+    "coverage_end": "2026-07-18"
+   },
+   {
+    "name": "MEBRUER, MICHAEL EDWARD",
+    "party": "REP",
+    "receipts": 0.07,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "GARCIA, LINDSAY",
+    "party": "DEM",
+    "receipts": 0.07,
+    "cash_on_hand": 0.04,
+    "coverage_end": "2026-07-18"
+   },
+   {
+    "name": "DAVIS, LARRY MR. III",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": -0.0,
+    "coverage_end": "2026-07-18"
+   }
+  ],
+  "NC-01": [
+   {
+    "name": "DAVIS, DON",
+    "party": "DEM",
+    "receipts": 4.29,
+    "cash_on_hand": 3.57,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BUCKHOUT, LAURIE",
+    "party": "REP",
+    "receipts": 3.79,
+    "cash_on_hand": 1.83,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "ROBERSON, SANDY",
+    "party": "REP",
+    "receipts": 3.54,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "HANIG, BOBBY",
+    "party": "REP",
+    "receipts": 0.36,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "BUCK, ASA BRYANT III",
+    "party": "REP",
+    "receipts": 0.34,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-15"
+   },
+   {
+    "name": "RUSSELL, ASHLEY NICOLE",
+    "party": "REP",
+    "receipts": 0.22,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   }
+  ],
+  "NC-03": [
+   {
+    "name": "MURPHY, GREGORY FRANCIS DR.",
+    "party": "REP",
+    "receipts": 2.36,
+    "cash_on_hand": 2.7,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "JASLOW, ALLISON",
+    "party": "DEM",
+    "receipts": 0.27,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   },
+   {
+    "name": "SMITH, RAYMOND EDWARD DR. JR.",
+    "party": "DEM",
+    "receipts": 0.22,
+    "cash_on_hand": 0.07,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "SCHULTE, CHRIS",
+    "party": "DEM",
+    "receipts": 0.05,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "AYERS, AUSTIN JAY",
+    "party": "REP",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-04-14"
+   }
+  ],
+  "NC-11": [
+   {
+    "name": "AGER, JAMIE",
+    "party": "DEM",
+    "receipts": 3.05,
+    "cash_on_hand": 2.18,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "EDWARDS, CHUCK",
+    "party": "REP",
+    "receipts": 0.94,
+    "cash_on_hand": 0.49,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "HUDSPETH, RICHARD DR.",
+    "party": "DEM",
+    "receipts": 0.22,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-05"
+   },
+   {
+    "name": "DAVIS, MORRIS D. COL.",
+    "party": "DEM",
+    "receipts": 0.11,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-09-30"
+   },
+   {
+    "name": "HARJES, CHRISTOPHER JOHN",
+    "party": "DEM",
+    "receipts": 0.07,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-01-21"
+   },
+   {
+    "name": "SMITH, ADAM R.",
+    "party": "REP",
+    "receipts": 0.07,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   },
+   {
+    "name": "LAWRENCE, JACOB",
+    "party": "DEM",
+    "receipts": 0.04,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-01-31"
+   },
+   {
+    "name": "BRIARWOOD, ZELDA",
+    "party": "DEM",
+    "receipts": 0.04,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   },
+   {
+    "name": "WHIPPLE, LEE",
+    "party": "DEM",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-03"
+   }
+  ],
+  "OH-01": [
+   {
+    "name": "LANDSMAN, GREG",
+    "party": "DEM",
+    "receipts": 4.63,
+    "cash_on_hand": 3.61,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CONROY, ERIC",
+    "party": "REP",
+    "receipts": 1.51,
+    "cash_on_hand": 0.47,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "ERBECK, STEVEN",
+    "party": "REP",
+    "receipts": 0.83,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "ADAMS, HOLLY",
+    "party": "REP",
+    "receipts": 0.41,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-22"
+   },
+   {
+    "name": "OGLESBY-HENRY, ROSEMARY",
+    "party": "REP",
+    "receipts": 0.04,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-04-15"
+   },
+   {
+    "name": "LYNCH, DAMON IV",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-04-22"
+   },
+   {
+    "name": "HANCOCK, JOHN DAVID JR",
+    "party": "LIB",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   }
+  ],
+  "OH-07": [
+   {
+    "name": "MILLER, MAX",
+    "party": "REP",
+    "receipts": 2.14,
+    "cash_on_hand": 1.38,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "POINDEXTER, BRIAN",
+    "party": "DEM",
+    "receipts": 0.6,
+    "cash_on_hand": 0.31,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "FITZGERALD, EDWARD O'DONNELL",
+    "party": "DEM",
+    "receipts": 0.28,
+    "cash_on_hand": -0.08,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "EISNER, MICHAEL",
+    "party": "DEM",
+    "receipts": 0.07,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "SCHULZ, SCOTT",
+    "party": "DEM",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-08"
+   },
+   {
+    "name": "SCHULZ, JONAH",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-10-28"
+   },
+   {
+    "name": "RODRIGUEZ-CARBONE, LAURA D",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "OH-09": [
+   {
+    "name": "KAPTUR, MARCY HON. M.C.",
+    "party": "DEM",
+    "receipts": 4.3,
+    "cash_on_hand": 3.49,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MERRIN, DEREK",
+    "party": "REP",
+    "receipts": 1.51,
+    "cash_on_hand": 0.53,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "WILLIAMS, JOSH",
+    "party": "REP",
+    "receipts": 0.96,
+    "cash_on_hand": 0.03,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "NADEEM, ALEA",
+    "party": "REP",
+    "receipts": 0.75,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "SHEAHAN, MADISON",
+    "party": "REP",
+    "receipts": 0.27,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "KINSEL, WAYNE CHARLES",
+    "party": "REP",
+    "receipts": 0.09,
+    "cash_on_hand": 0.03,
+    "coverage_end": "2025-09-30"
+   },
+   {
+    "name": "CAMPBELL, ANTHONY BRUCE",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-04-15"
+   }
+  ],
+  "OH-10": [
+   {
+    "name": "TURNER, MICHAEL R REP.",
+    "party": "REP",
+    "receipts": 0.89,
+    "cash_on_hand": 0.56,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "KNICKERBOCKER, KRISTINA",
+    "party": "DEM",
+    "receipts": 0.36,
+    "cash_on_hand": 0.13,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "POMBO, TONY",
+    "party": "DEM",
+    "receipts": 0.16,
+    "cash_on_hand": 0.07,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BECKETT, JANICE",
+    "party": "DEM",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "KINNER, JAN",
+    "party": "DEM",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-05-13"
+   }
+  ],
+  "OH-13": [
+   {
+    "name": "SYKES, EMILIA",
+    "party": "DEM",
+    "receipts": 3.14,
+    "cash_on_hand": 1.9,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "COLEMAN, CAREY",
+    "party": "REP",
+    "receipts": 0.13,
+    "cash_on_hand": 0.08,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "DIXIT, SANDEEP S MR",
+    "party": "IND",
+    "receipts": 0.08,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "KEVIN, SIEMBIDA",
+    "party": "REP",
+    "receipts": 0.05,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "PATEL, NIRANJAN NEIL MR",
+    "party": "REP",
+    "receipts": 0.05,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "BRIEM, MARGARET ELIZABETH",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-16"
+   }
+  ],
+  "OH-15": [
+   {
+    "name": "CAREY, MIKE",
+    "party": "REP",
+    "receipts": 3.3,
+    "cash_on_hand": 2.06,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MILLER, ADAM CLAY",
+    "party": "DEM",
+    "receipts": 0.91,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "LEONARD, DON RALPH",
+    "party": "DEM",
+    "receipts": 0.61,
+    "cash_on_hand": 0.25,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "TN-09": [
+   {
+    "name": "PEARSON, JUSTIN J.",
+    "party": "DEM",
+    "receipts": 2.34,
+    "cash_on_hand": 0.84,
+    "coverage_end": "2026-07-17"
+   },
+   {
+    "name": "TAYLOR, BRENT",
+    "party": "REP",
+    "receipts": 1.55,
+    "cash_on_hand": 0.42,
+    "coverage_end": "2026-07-17"
+   },
+   {
+    "name": "COHEN, STEVE I MR.",
+    "party": "DEM",
+    "receipts": 0.78,
+    "cash_on_hand": 1.84,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "WARNER, WILLIAM TODD",
+    "party": "REP",
+    "receipts": 0.69,
+    "cash_on_hand": -0.24,
+    "coverage_end": "2026-07-17"
+   },
+   {
+    "name": "THOMPSON, JEREMY",
+    "party": "REP",
+    "receipts": 0.23,
+    "cash_on_hand": 0.04,
+    "coverage_end": "2026-07-17"
+   },
+   {
+    "name": "TORINO, JAMES PHD",
+    "party": "DEM",
+    "receipts": 0.13,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "LAMAR, LONDON",
+    "party": "DEM",
+    "receipts": 0.08,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-07-17"
+   },
+   {
+    "name": "BERGMANN, CHARLOTTE",
+    "party": "REP",
+    "receipts": 0.07,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-07-17"
+   }
+  ],
+  "TX-09": [
+   {
+    "name": "MEALER, ALEXANDRA",
+    "party": "REP",
+    "receipts": 2.08,
+    "cash_on_hand": 0.36,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "VIRTS, TERRY",
+    "party": "DEM",
+    "receipts": 0.67,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CAIN, BRISCOE ROWELL III",
+    "party": "REP",
+    "receipts": 0.62,
+    "cash_on_hand": 0.03,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MIMS, DAN",
+    "party": "REP",
+    "receipts": 0.43,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "STOCKMAN, STEVE",
+    "party": "REP",
+    "receipts": 0.25,
+    "cash_on_hand": 0.04,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "IVEY, R. TODD DR.",
+    "party": "DEM",
+    "receipts": 0.19,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BLANCO, JAIMY",
+    "party": "REP",
+    "receipts": 0.12,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "SARMIENTO, CRYSTAL",
+    "party": "REP",
+    "receipts": 0.08,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BUFORD, JAMES",
+    "party": "DEM",
+    "receipts": 0.07,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-04-01"
+   },
+   {
+    "name": "GUTIERREZ, LETICIA",
+    "party": "DEM",
+    "receipts": 0.06,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "STOVALL, DWAYNE BRADLEY",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-04-14"
+   },
+   {
+    "name": "MORALES, ROY",
+    "party": "IND",
+    "receipts": 0.01,
+    "cash_on_hand": -0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "THAIN, TERRY LEE MR",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-12-31"
+   },
+   {
+    "name": "FILLER, PETER",
+    "party": "DEM",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-05"
+   }
+  ],
+  "TX-15": [
+   {
+    "name": "DE LA CRUZ, MONICA",
+    "party": "REP",
+    "receipts": 5.27,
+    "cash_on_hand": 2.46,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "PULIDO, BOBBY",
+    "party": "DEM",
+    "receipts": 2.96,
+    "cash_on_hand": 1.16,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CUELLAR, ADA",
+    "party": "DEM",
+    "receipts": 1.26,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   }
+  ],
+  "TX-23": [
+   {
+    "name": "HERRERA, BRANDON",
+    "party": "REP",
+    "receipts": 1.94,
+    "cash_on_hand": 0.31,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "STOUT, KATY PADILLA",
+    "party": "DEM",
+    "receipts": 0.48,
+    "cash_on_hand": 0.17,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "RUBIO, SUSAN STOREY",
+    "party": "REP",
+    "receipts": 0.42,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-10-24"
+   },
+   {
+    "name": "LIMON, SANTOS M.",
+    "party": "DEM",
+    "receipts": 0.36,
+    "cash_on_hand": 0.35,
+    "coverage_end": "2025-06-30"
+   },
+   {
+    "name": "ENCK, GRETEL MARYSDATTER",
+    "party": "DEM",
+    "receipts": 0.1,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   },
+   {
+    "name": "CANSECO, FRANCISCO 'QUICO' RAUL",
+    "party": "REP",
+    "receipts": 0.08,
+    "cash_on_hand": 0.2,
+    "coverage_end": "2025-12-31"
+   },
+   {
+    "name": "WILLIAMS, VERONICA",
+    "party": "IND",
+    "receipts": 0.01,
+    "cash_on_hand": -0.0,
+    "coverage_end": "2026-09-30"
+   }
+  ],
+  "TX-28": [
+   {
+    "name": "CUELLAR, HENRY R.",
+    "party": "DEM",
+    "receipts": 2.23,
+    "cash_on_hand": 1.13,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "TIJERINA, TANO",
+    "party": "REP",
+    "receipts": 1.4,
+    "cash_on_hand": 0.77,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "VILLARREAL, RICARDO",
+    "party": "DEM",
+    "receipts": 0.07,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "ESPARZA, JUAN",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-08-13"
+   }
+  ],
+  "TX-32": [
+   {
+    "name": "BINKLEY, RYAN",
+    "party": "REP",
+    "receipts": 3.22,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-09-02"
+   },
+   {
+    "name": "BONDAR, PAUL",
+    "party": "REP",
+    "receipts": 3.2,
+    "cash_on_hand": 0.18,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "YARBROUGH, JACE",
+    "party": "REP",
+    "receipts": 0.87,
+    "cash_on_hand": 0.13,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "VAZIRI, ABTEEN",
+    "party": "REP",
+    "receipts": 0.12,
+    "cash_on_hand": -0.04,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "DAY, DARRELL",
+    "party": "REP",
+    "receipts": 0.12,
+    "cash_on_hand": 0.09,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BARRIOS, DAN F.",
+    "party": "DEM",
+    "receipts": 0.1,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "HESLOP, GORDON",
+    "party": "REP",
+    "receipts": 0.07,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-07-15"
+   },
+   {
+    "name": "CORNWALLIS, ALEX",
+    "party": "DEM",
+    "receipts": 0.06,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-03-29"
+   },
+   {
+    "name": "MONTANEZ, MONTY",
+    "party": "REP",
+    "receipts": 0.05,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-29"
+   },
+   {
+    "name": "NIEHAUS, ERIC",
+    "party": "REP",
+    "receipts": 0.04,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-12-31"
+   },
+   {
+    "name": "CARRASCO, AIMEE",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "SHAITO, ZAIN",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-10-21"
+   }
+  ],
+  "TX-34": [
+   {
+    "name": "GONZALEZ, VICENTE",
+    "party": "DEM",
+    "receipts": 3.77,
+    "cash_on_hand": 2.53,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "FLORES, ERIC",
+    "party": "REP",
+    "receipts": 2.87,
+    "cash_on_hand": 0.69,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "FLORES, MAYRA NOHEMI",
+    "party": "REP",
+    "receipts": 1.41,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MANDEL, CHARLES",
+    "party": "REP",
+    "receipts": 1.0,
+    "cash_on_hand": 0.05,
+    "coverage_end": "2026-07-15"
+   },
+   {
+    "name": "ROSAS, ETIENNE PH.D.",
+    "party": "DEM",
+    "receipts": 0.17,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-03-31"
+   },
+   {
+    "name": "ALLEN, KEITH",
+    "party": "REP",
+    "receipts": 0.16,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-03-31"
+   },
+   {
+    "name": "BUENTELLO, LUIS F",
+    "party": "REP",
+    "receipts": 0.05,
+    "cash_on_hand": -0.0,
+    "coverage_end": "2026-09-30"
+   },
+   {
+    "name": "HINOJOSA, ALFREDO JR.",
+    "party": "REP",
+    "receipts": 0.04,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-01-31"
+   },
+   {
+    "name": "MORALES, MARIO ALBERTO",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-09-30"
+   },
+   {
+    "name": "NAGY, JAY",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-02-04"
+   },
+   {
+    "name": "GARZA, MAURO EVERETT MR.",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "KUNKLE, GREGORY SCOTT JR.",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-12-31"
+   }
+  ],
+  "TX-35": [
+   {
+    "name": "DE LA CRUZ, CARLOS JR.",
+    "party": "REP",
+    "receipts": 1.05,
+    "cash_on_hand": 0.27,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "GARCIA, JOHNNY",
+    "party": "DEM",
+    "receipts": 0.93,
+    "cash_on_hand": 0.32,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "LUJAN, JOHN",
+    "party": "REP",
+    "receipts": 0.76,
+    "cash_on_hand": 0.03,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "FURMAN, JAY COMMANDER",
+    "party": "REP",
+    "receipts": 0.46,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "CORTEZ, JOSHUA",
+    "party": "REP",
+    "receipts": 0.27,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "KRAUSE, RYAN P",
+    "party": "REP",
+    "receipts": 0.24,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "LIRA, JOHN",
+    "party": "DEM",
+    "receipts": 0.14,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MASTERSON-MOYES, WHITNEY",
+    "party": "DEM",
+    "receipts": 0.06,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "GALINDO, MAUREEN",
+    "party": "DEM",
+    "receipts": 0.04,
+    "cash_on_hand": 0.02,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "WRIGHT, STEVEN WILLIAM",
+    "party": "REP",
+    "receipts": 0.03,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-04-15"
+   },
+   {
+    "name": "ADAMS, RANDAL HASKEL",
+    "party": "REP",
+    "receipts": 0.02,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-07-08"
+   },
+   {
+    "name": "HICKS-CALLAWAY, VANESSA F.",
+    "party": "REP",
+    "receipts": 0.01,
+    "cash_on_hand": -0.0,
+    "coverage_end": "2026-04-15"
+   }
+  ],
+  "UT-01": [
+   {
+    "name": "MCADAMS, BEN",
+    "party": "DEM",
+    "receipts": 2.26,
+    "cash_on_hand": 0.3,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "BLOUIN, NATE",
+    "party": "DEM",
+    "receipts": 0.7,
+    "cash_on_hand": 0.04,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "MOHAMED, LIBAN",
+    "party": "DEM",
+    "receipts": 0.35,
+    "cash_on_hand": 0.08,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "FARRELL, MICHAEL",
+    "party": "DEM",
+    "receipts": 0.31,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "OWEN, RILEY MONTGOMERY",
+    "party": "REP",
+    "receipts": 0.13,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "RIEBE, KATHLEEN",
+    "party": "DEM",
+    "receipts": 0.13,
+    "cash_on_hand": 0.01,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "KITCHEN, DEREK",
+    "party": "DEM",
+    "receipts": 0.06,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-04-09"
+   },
+   {
+    "name": "LOPEZ CHAVEZ, EVA",
+    "party": "DEM",
+    "receipts": 0.05,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2026-06-30"
+   },
+   {
+    "name": "TOMKINS, ANTHONY",
+    "party": "DEM",
+    "receipts": 0.0,
+    "cash_on_hand": 0.0,
+    "coverage_end": "2025-09-30"
+   }
+  ]
+ }
+}

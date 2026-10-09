@@ -1,0 +1,112 @@
+---
+title: "오하이오 (OH)"
+subtitle: "지도 변화와 영향 지역구"
+---
+<!-- scripts/build.py 생성 파일 — 직접 수정 금지 -->
+
+<p class="as-of">조사 기준 2026-10-10 · Cook 등급 스냅샷 2026-09-25 · FEC 2026-10-10 · 일일 브리핑 2026-10-09까지</p>
+
+::: {.lead}
+주헌법상 2022 지도가 두 번의 선거에만 유효해 재획정이 의무였다. 주의회가 시한 안에 지도를 내지 못해 오하이오 재획정위원회가 2025-10-31 양당 합의안을 만장일치로 통과시켰다. 확인된 소송은 없으며 2026 선거부터 쓰인다. OH-1·OH-9가 공화 쪽으로 기울고 OH-13은 소폭 민주 쪽으로 바뀌었다.
+:::
+
+<div class="kpis">
+<div class="kpi"><div class="k">의석</div><div class="v">15</div><div class="s"></div></div>
+<div class="kpi"><div class="k">2024 결과</div><div class="v">D 5 · R 10</div><div class="s">statenews.org</div></div>
+<div class="kpi"><div class="k">신 지도 기대치</div><div class="v">D 3 · R 12</div><div class="s">2024 대선 재집계 기준</div></div>
+<div class="kpi"><div class="k">순효과(D)</div><div class="v">-2</div><div class="s">en.wikipedia.org</div></div>
+</div>
+
+<p class="note">신 지도 기대치 근거: 2024 대선 기준 트럼프 승리구 12(구 지도 11), 해리스 승리구 3(OH-3·11·13). 구 지도 집계(해리스 4·트럼프 11)는 mcimaps, 신 지도 OH-1(트럼프+3)·OH-9(트럼프+11) 전환은 위키·Inside Elections. 언론은 &#x27;12-3 공화 우위&#x27;로 보도. <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio" target="_blank" rel="noopener">출처</a></p>
+
+## 지도 비교 {#maps}
+
+<div class="mappair" data-st="oh" data-base="../"><div><h4>구 지도 (2024 선거)</h4><div class="map map-old"></div></div><div><h4>신 지도 (2026 선거)</h4><div class="map map-new"></div></div></div>
+<script src="../assets/maps.js"></script>
+
+<p class="figlegend">색 = 2024 대선 마진(<span class="md">파랑=민주</span>·<span class="mr">빨강=공화</span>, 진할수록 큼). 회색 = 마진 미수집. 검은 테두리 = 추세 추적 대상 구. 두 지도는 함께 움직인다. 구 지도 경계: Census 2024 cartographic boundary(119대 의회 선거구). 신 지도 경계: <a href="https://maps.ohio.gov/arcgis/rest/services/Hosted/Districts_2025_11_03_SHP/FeatureServer/0" target="_blank" rel="noopener">Ohio OGRIP — 2026–2032 연방하원 선거구</a>. 공식 신 지도 문서: <a href="https://redistricting.ohio.gov/maps" target="_blank" rel="noopener">신 지도</a></p>
+
+## 어떻게 그렸나 {#mechanism}
+
+신시내티(OH-1)에 워런·클린턴 카운티와 해밀턴 서부 공화 지역을 붙이고, 톨레도(OH-9)에 보수 내륙 카운티를 붙여 두 민주 현역구를 트럼프 승리구로 바꿨다. 대신 민주당 요구로 애크런(OH-13)에 켄트를 넣고 스타크 공화 지역을 빼 민주 쪽으로 다소 강화했다. 공화 원안(13-2)보다 덜 공격적인 타협안이다.
+
+## 영향 지역구 {#districts}
+
+<div class="figwrap"><svg class="dumbbell" viewBox="0 0 640 96" role="img" aria-label="2024 대선 마진 신·구 비교"><line x1="92.0" y1="20" x2="92.0" y2="90" class="grid"/><text x="92.0" y="16" class="tick">D+40</text><line x1="157.5" y1="20" x2="157.5" y2="90" class="grid"/><text x="157.5" y="16" class="tick">D+30</text><line x1="223.0" y1="20" x2="223.0" y2="90" class="grid"/><text x="223.0" y="16" class="tick">D+20</text><line x1="288.5" y1="20" x2="288.5" y2="90" class="grid"/><text x="288.5" y="16" class="tick">D+10</text><line x1="354.0" y1="20" x2="354.0" y2="90" class="axis0"/><text x="354.0" y="16" class="tick">0</text><line x1="419.5" y1="20" x2="419.5" y2="90" class="grid"/><text x="419.5" y="16" class="tick">R+10</text><line x1="485.0" y1="20" x2="485.0" y2="90" class="grid"/><text x="485.0" y="16" class="tick">R+20</text><line x1="550.5" y1="20" x2="550.5" y2="90" class="grid"/><text x="550.5" y="16" class="tick">R+30</text><line x1="616.0" y1="20" x2="616.0" y2="90" class="grid"/><text x="616.0" y="16" class="tick">R+40</text><a href="#oh-01"><text x="84" y="40.0" class="lab">OH-01</text></a><line x1="308.1" y1="36.0" x2="373.6" y2="36.0" class="bar tor"/><circle cx="308.1" cy="36.0" r="4" class="old"><title>OH-01 구 지도 +7.0</title></circle><circle cx="373.6" cy="36.0" r="5" class="new r"><title>OH-01 신 지도 -3.0</title></circle><a href="#oh-09"><text x="84" y="60.0" class="lab">OH-09</text></a><line x1="397.9" y1="56.0" x2="423.4" y2="56.0" class="bar tor"/><circle cx="397.9" cy="56.0" r="4" class="old"><title>OH-09 구 지도 -6.7</title></circle><circle cx="423.4" cy="56.0" r="5" class="new r"><title>OH-09 신 지도 -10.6</title></circle><a href="#oh-13"><text x="84" y="80.0" class="lab">OH-13</text></a><line x1="353.3" y1="76.0" x2="334.4" y2="76.0" class="bar tod"/><circle cx="353.3" cy="76.0" r="4" class="old"><title>OH-13 구 지도 +0.1</title></circle><circle cx="334.4" cy="76.0" r="5" class="new d"><title>OH-13 신 지도 +3.0</title></circle></svg><p class="figlegend"><span class="dot old"></span> 구 지도 &nbsp; <span class="dot new"></span> 신 지도 (2024 대선 표를 각 경계로 다시 집계한 마진, 왼쪽=민주 우위)</p></div>
+
+| 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
+|-------|-----------|----------------|------:|------:|---------|--------|
+| [OH-01](#oh-01) ★ | Greg Landsman (D) | 재출마 | <span class="md">D+7</span> | <span class="mr">R+3</span> | <span class="mr">R 쪽 10.0p</span> | <span class="rt rt-lean_d">Lean D</span> |
+| [OH-09](#oh-09) ★ | Marcy Kaptur (D) | 재출마 | <span class="mr">R+6.7</span> | <span class="mr">R+10.6</span> | <span class="mr">R 쪽 3.9p</span> | <span class="rt rt-tossup">Toss-up</span> |
+| [OH-13](#oh-13) ★ | Emilia Sykes (D) | 재출마 | <span class="md">D+0.1</span> | <span class="md">D+3</span> | <span class="md">D 쪽 2.9p</span> | <span class="rt rt-likely_d">Likely D</span> |
+
+<p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
+
+## 지역구별 상세 {#detail}
+
+### OH-01 — R방향 {#oh-01}
+
+<p class="dmeta">2024 대선 <span class="md">D+7</span> → <span class="mr">R+3</span> <a href="https://insideelections.com/a-detailed-analysis-of-ohios-new-congressional-map/" target="_blank" rel="noopener">insideelections.com</a> · <a href="../trends.html#oh-01">추세 보기 →</a></p>
+
+- **경계 변화** 신시내티 북부 민주 교외를 떼고 해밀턴 카운티 서부 공화 지역, 워런 카운티 전체, 클린턴 카운티를 편입(Baseline D+3→R+5).
+- **현역** Greg Landsman (D) — 재출마
+- **2026 후보** 민주 Greg Landsman · 공화 Eric Conroy
+- **등급** Cook: Lean D (2026-04-07) / Sabato: Lean D (2026-03-26) / Inside Elections: Tilt D (2026-06-12) <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio" target="_blank" rel="noopener">en.wikipedia.org</a>
+- **메모** 신 마진 트럼프 +3은 Inside Elections. 구 마진 +7.0은 위키 반올림 득표율(해리스 53-46)에서 계산한 근사값(추정)이며 검색 요약상 타 보도는 약 6~6.5p. 등급은 위키 예측표에서 읽음. 5-05 예비선거 Landsman 67.9%, Conroy 71.88%(News From the States).
+
+### OH-09 — R방향 {#oh-09}
+
+<p class="dmeta">2024 대선 <span class="mr">R+6.7</span> → <span class="mr">R+10.6</span> <a href="https://mcimaps.substack.com/p/issue-297-ohios-new-congressional" target="_blank" rel="noopener">mcimaps.substack.com</a> · <a href="../trends.html#oh-09">추세 보기 →</a></p>
+
+- **경계 변화** 톨레도와 이리호 해안부 일부를 분리하고 보수 성향 내륙 농촌 카운티를 편입(Inside Elections: '보수 내륙 카운티 몇 곳 추가'; Baseline R+3→R+8).
+- **현역** Marcy Kaptur (D) — 재출마
+- **2026 후보** 민주 Marcy Kaptur · 공화 Derek Merrin
+- **등급** Cook: Toss-up (2026-01-15) / Sabato: Leans R→Toss-up (2026-05-06) / Inside Elections: Tilt R (2025-10-31) <a href="https://sabatoscrystalball.substack.com/p/house-rating-changes-17-shifts-in" target="_blank" rel="noopener">sabatoscrystalball.substack.com</a>
+- **메모** 2024 재대결 상대 Merrin이 5-05 공화 예비선거 승리. Sabato는 트럼프 마진을 약 6.5→10.5p로 기술(동일 경향). 최장수 여성 하원의원.
+
+### OH-13 — D방향 {#oh-13}
+
+<p class="dmeta">2024 대선 <span class="md">D+0.1</span> → <span class="md">D+3</span> <a href="https://en.wikipedia.org/wiki/Ohio%27s_13th_congressional_district" target="_blank" rel="noopener">en.wikipedia.org</a> · <a href="../trends.html#oh-13">추세 보기 →</a></p>
+
+- **경계 변화** 공화 성향 스타크 카운티 일부를 떼고 민주 성향 켄트(포티지 카운티)를 편입, 서밋 카운티 전체 유지(Baseline D+2→D+4).
+- **현역** Emilia Sykes (D) — 재출마
+- **2026 후보** 민주 Emilia Sykes · 공화 Carey Coleman
+- **등급** Cook: Likely D (2026-04-07) / Sabato: Likely D (2026-03-26) / Inside Elections: Solid D (2026-03-12) <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio" target="_blank" rel="noopener">en.wikipedia.org</a>
+- **메모** 민주당이 위원회 합의 대가로 지킨 구. 마진은 위키 반올림 득표율(구 49.6-49.5, 신 51-48)로 계산한 근사값(추정). mcimaps는 해리스 우위를 구 경계 약 200표, 신 경계 1만2천 표 이상으로 기술. 2024 공화 후보 Kevin Coughlin은 새 지도 발표 후 출마 포기.
+
+## 경과 {#timeline}
+
+- **2025-09** 주의회 위원회가 시한 안에 지도를 내지 못함(민주 8-7안은 공화가 거부) <a href="https://www.statenews.org/government-politics/2025-12-24/2025-year-in-review-ohio-gets-another-new-congressional-map" target="_blank" rel="noopener">출처</a>
+- **2025-10-29** 공화 측, 비공개 협상으로 만든 지도 공개 <a href="https://www.statenews.org/government-politics/2025-12-24/2025-year-in-review-ohio-gets-another-new-congressional-map" target="_blank" rel="noopener">출처</a>
+- **2025-10-31** 오하이오 재획정위원회 7인 만장일치 통과(Statehouse News는 10-30로 기재) <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio" target="_blank" rel="noopener">출처</a>
+- **2026-05-05** 새 지도로 예비선거: OH-1 Conroy, OH-9 Merrin, OH-13 Coleman 공화 후보 확정 <a href="https://www.newsfromthestates.com/article/derek-merrin-eric-conroy-and-carey-coleman-win-ohio-gop-congressional-primary-races" target="_blank" rel="noopener">출처</a>
+
+## 소송 {#litigation}
+
+없음(Statehouse News 2025-12 '제기된 법적 도전 없음'). 위원회 양당 합의로 통과돼 주민투표 대상도 아님.
+
+::: {.callout-note collapse="true" title="6월 기준선 대비 바뀐 점"}
+- 통과일: 기준선 '2025-10' 위원회 통과와 일치(10-31). Statehouse News는 10-30으로 기재.
+- 유효 기간: 기준선 '2032까지'. Statehouse News는 '2031년까지', 일부 보도는 '2030 선거까지'로 기술. 2030 선거까지 쓰인다는 뜻으로 보임(추정).
+:::
+
+::: {.callout-warning collapse="true" title="확인하지 못한 항목"}
+- OH-1 구 마진, OH-13 신·구 마진은 위키 반올림 득표율에서 계산한 근사값. 소수점 정밀값(DRA 등) 미확인.
+- 공식 계획 ID·shapefile 주소 미확인(redistricting.ohio.gov 접속 실패).
+- Ohio Capital Journal 원문(403)은 검색 요약만 확인: 위원회 자료 기준 OH-9 공화 54.5%, OH-1 공화 약 54%, OH-13 민주 52%(복합 지수, 대선 아님).
+- OH-7(Max Miller, 현재 Cook·Sabato·IE 모두 Toss-up) 등 다른 구의 신·구 마진 미조사. Sabato가 5-06 OH-7을 Safe R→Likely R로 바꿨으나 지도 변화 때문인지 미확인.
+- Cook 최신 등급은 위키 예측표 경유(원문 유료).
+:::
+
+## 출처 {#sources}
+
+- <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio</a>
+- <a href="https://mcimaps.substack.com/p/issue-297-ohios-new-congressional" target="_blank" rel="noopener">https://mcimaps.substack.com/p/issue-297-ohios-new-congressional</a>
+- <a href="https://insideelections.com/a-detailed-analysis-of-ohios-new-congressional-map/" target="_blank" rel="noopener">https://insideelections.com/a-detailed-analysis-of-ohios-new-congressional-map/</a>
+- <a href="https://sabatoscrystalball.substack.com/p/house-rating-changes-17-shifts-in" target="_blank" rel="noopener">https://sabatoscrystalball.substack.com/p/house-rating-changes-17-shifts-in</a>
+- <a href="https://www.newsfromthestates.com/article/derek-merrin-eric-conroy-and-carey-coleman-win-ohio-gop-congressional-primary-races" target="_blank" rel="noopener">https://www.newsfromthestates.com/article/derek-merrin-eric-conroy-and-carey-coleman-win-ohio-gop-congressional-primary-races</a>
+- <a href="https://www.statenews.org/government-politics/2025-12-24/2025-year-in-review-ohio-gets-another-new-congressional-map" target="_blank" rel="noopener">https://www.statenews.org/government-politics/2025-12-24/2025-year-in-review-ohio-gets-another-new-congressional-map</a>
+- <a href="https://en.wikipedia.org/wiki/Ohio%27s_1st_congressional_district" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Ohio%27s_1st_congressional_district</a>
+- <a href="https://en.wikipedia.org/wiki/Ohio%27s_9th_congressional_district" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Ohio%27s_9th_congressional_district</a>
+- <a href="https://en.wikipedia.org/wiki/Ohio%27s_13th_congressional_district" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Ohio%27s_13th_congressional_district</a>
+- <a href="https://ohiocapitaljournal.com/2025/10/31/ohio-redistricting-commission-unanimously-passes-congressional-map-further-gop-advantage/" target="_blank" rel="noopener">https://ohiocapitaljournal.com/2025/10/31/ohio-redistricting-commission-unanimously-passes-congressional-map-further-gop-advantage/</a>

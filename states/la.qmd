@@ -1,0 +1,101 @@
+---
+title: "루이지애나 (LA)"
+subtitle: "지도 변화와 영향 지역구"
+---
+<!-- scripts/build.py 생성 파일 — 직접 수정 금지 -->
+
+<p class="as-of">조사 기준 2026-10-10 · Cook 등급 스냅샷 2026-09-25 · FEC 2026-10-10 · 일일 브리핑 2026-10-09까지</p>
+
+::: {.lead}
+연방대법원 Louisiana v. Callais 판결(2026-04-29)로 흑인 다수 2개 구를 둔 2024년 지도가 위헌 판정되자, 주의회가 SB 121(2026 정기회기 Act 2)을 5월 28~29일 통과시켰고 랜드리 주지사가 5월 29일 서명했다. 흑인 다수구는 뉴올리언스–배턴루지의 LA-02 하나만 남고 필즈 의원의 LA-06은 공화 우세구로 바뀌었다. 하원 예비선거는 11월 3일 정글 프라이머리(필요 시 12월 결선)로 연기돼 새 지도로 치러진다.
+:::
+
+<div class="kpis">
+<div class="kpi"><div class="k">의석</div><div class="v">6</div><div class="s"></div></div>
+<div class="kpi"><div class="k">2024 결과</div><div class="v">D 2 · R 4</div><div class="s">rollcall.com</div></div>
+<div class="kpi"><div class="k">신 지도 기대치</div><div class="v">D 1 · R 5</div><div class="s">2024 대선 재집계 기준</div></div>
+<div class="kpi"><div class="k">순효과(D)</div><div class="v">-1</div><div class="s">rollcall.com</div></div>
+</div>
+
+<p class="note">신 지도 기대치 근거: 보도 서술(공화 안전구 5 + 뉴올리언스 기반 민주 우세구 1). 구별 2024 대선 집계로 직접 센 값 아님 <a href="https://www.jurist.org/news/2026/06/louisiana-approves-new-congressional-map-dismantling-majority-black-district/" target="_blank" rel="noopener">출처</a></p>
+
+## 지도 비교 {#maps}
+
+<div class="mappair" data-st="la" data-base="../"><div><h4>구 지도 (2024 선거)</h4><div class="map map-old"></div></div><div><h4>신 지도 (2026 선거)</h4><div class="map map-new"></div></div></div>
+<script src="../assets/maps.js"></script>
+
+<p class="figlegend">색 = 2024 대선 마진(<span class="md">파랑=민주</span>·<span class="mr">빨강=공화</span>, 진할수록 큼). 회색 = 마진 미수집. 검은 테두리 = 추세 추적 대상 구. 두 지도는 함께 움직인다. 구 지도 경계: Census 2024 cartographic boundary(119대 의회 선거구). 신 지도 경계: <a href="https://redist.legis.la.gov/2026_Files/Act2Congress/Shapefile/Shapefile%20-%20Act_2_(2026_RS).zip" target="_blank" rel="noopener">Louisiana Legislature — Act 2 (2026 RS)</a>. 공식 신 지도 문서: <a href="https://redistricting.lls.edu/state/louisiana/" target="_blank" rel="noopener">SB 121 (2026 Regular Session Act 2)</a></p>
+
+## 어떻게 그렸나 {#mechanism}
+
+필즈 의원의 LA-06(배턴루지–슈리브포트를 잇던 흑인 다수구)을 해체하고, 배턴루지 일부를 카터 의원의 LA-02(뉴올리언스 기반)에 붙여 흑인·민주 표를 한 구에 몰았다(packing). 새 LA-06은 어센션·리빙스턴·이스트배턴루지 패리시 중심의 백인 다수 지역으로 재편됐다. 전반적으로 2022년 선거 때의 5-1 구성과 유사하다.
+
+## 영향 지역구 {#districts}
+
+<div class="figwrap"><svg class="dumbbell" viewBox="0 0 640 56" role="img" aria-label="2024 대선 마진 신·구 비교"><line x1="92.0" y1="20" x2="92.0" y2="50" class="grid"/><text x="92.0" y="16" class="tick">D+40</text><line x1="157.5" y1="20" x2="157.5" y2="50" class="grid"/><text x="157.5" y="16" class="tick">D+30</text><line x1="223.0" y1="20" x2="223.0" y2="50" class="grid"/><text x="223.0" y="16" class="tick">D+20</text><line x1="288.5" y1="20" x2="288.5" y2="50" class="grid"/><text x="288.5" y="16" class="tick">D+10</text><line x1="354.0" y1="20" x2="354.0" y2="50" class="axis0"/><text x="354.0" y="16" class="tick">0</text><line x1="419.5" y1="20" x2="419.5" y2="50" class="grid"/><text x="419.5" y="16" class="tick">R+10</text><line x1="485.0" y1="20" x2="485.0" y2="50" class="grid"/><text x="485.0" y="16" class="tick">R+20</text><line x1="550.5" y1="20" x2="550.5" y2="50" class="grid"/><text x="550.5" y="16" class="tick">R+30</text><line x1="616.0" y1="20" x2="616.0" y2="50" class="grid"/><text x="616.0" y="16" class="tick">R+40</text><a href="#la-06"><text x="84" y="40.0" class="lab">LA-06</text></a><line x1="255.8" y1="36.0" x2="563.6" y2="36.0" class="bar tor"/><circle cx="255.8" cy="36.0" r="4" class="old"><title>LA-06 구 지도 +15.0</title></circle><circle cx="563.6" cy="36.0" r="5" class="new r"><title>LA-06 신 지도 -32.0</title></circle></svg><p class="figlegend"><span class="dot old"></span> 구 지도 &nbsp; <span class="dot new"></span> 신 지도 (2024 대선 표를 각 경계로 다시 집계한 마진, 왼쪽=민주 우위)</p></div>
+
+| 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
+|-------|-----------|----------------|------:|------:|---------|--------|
+| [LA-02](#la-02) | Troy Carter (D) | 재출마 | <span class="na">미확인</span> | <span class="na">미확인</span> | — | <span class="rt rt-solid_d">Solid D</span> |
+| [LA-06](#la-06) ★ | Cleo Fields (D) | 은퇴 | <span class="md">D+15</span> | <span class="mr">R+32</span> | <span class="mr">R 쪽 47.0p</span> | <span class="rt rt-solid_r">Solid R</span> |
+
+<p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
+
+## 지역구별 상세 {#detail}
+
+### LA-02 — 소폭 {#la-02}
+
+<p class="dmeta">2024 대선 <span class="na">미확인</span> → <span class="na">미확인</span> </p>
+
+- **경계 변화** 뉴올리언스 기반을 유지하면서 배턴루지 일부를 편입, 주 내 유일한 흑인 다수구로 남음.
+- **현역** Troy Carter (D) — 재출마
+- **2026 후보** 민주 미확인 · 공화 미확인
+- **등급** Safe/Solid D (위키백과 기재, 날짜 미확인) <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Louisiana" target="_blank" rel="noopener">en.wikipedia.org</a>
+- **메모** 정글 프라이머리 방식이라 정당별 후보(nominee) 개념이 없음. 카터 재출마는 위키백과 기재(교차확인 미흡).
+
+### LA-06 — R방향 {#la-06}
+
+<p class="dmeta">2024 대선 <span class="md">D+15</span> → <span class="mr">R+32</span> <a href="https://rollcall.com/2026/07/21/louisianas-cleo-fields-forgoes-reelection-after-redistricting-eliminated-his-seat/" target="_blank" rel="noopener">rollcall.com</a> · <a href="../trends.html#la-06">추세 보기 →</a></p>
+
+- **경계 변화** 배턴루지–슈리브포트를 잇던 흑인 다수구를 해체하고, 어센션·리빙스턴·이스트배턴루지 패리시 중심의 백인 다수 지역으로 재편.
+- **현역** Cleo Fields (D) — 은퇴
+- **2026 후보** 민주 미확인 · 공화 미확인
+- **등급** Cook·Inside Elections Solid R(공화 탈환), Sabato·DDHQ Safe R(공화 탈환) — 위키백과 기재, 날짜 미확인 <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Louisiana" target="_blank" rel="noopener">en.wikipedia.org</a>
+- **메모** 마진은 Roll Call 보도 기준(구 경계 해리스 +15, 신 경계 트럼프 +32). 필즈는 'LA-06이든 다른 어느 구든' 재출마하지 않고 주상원 14구 보궐에 출마. 11/3 정글 프라이머리 공화 측 Blake Miguez·Rick Edmonds, 민주 측 Chauna Banks 등(위키백과, 교차확인 안 됨). 등록 공화당원이 민주당원보다 약 5만 명 많음(Louisiana First Standard).
+
+## 경과 {#timeline}
+
+- **2026-04-29** 연방대법원 Louisiana v. Callais 판결, 2024년 지도(흑인 다수 2개 구) 위헌 <a href="https://redistricting.lls.edu/state/louisiana/" target="_blank" rel="noopener">출처</a>
+- **2026-05-28** 주하원 SB 121 통과(66-36) <a href="https://redistrictingonline.org/2026/05/29/louisiana-enacts-new-congressional-map-into-law-eliminating-one-majority-black-district/" target="_blank" rel="noopener">출처</a>
+- **2026-05-29** 주상원 최종 통과(28-10) 및 랜드리 주지사 서명 <a href="https://redistricting.lls.edu/state/louisiana/" target="_blank" rel="noopener">출처</a>
+- **2026-06-17** 서부지구 연방 3인 재판부, 새 지도 심리 개시(슈리브포트) <a href="https://www.ksla.com/2026/06/02/federal-court-sets-june-hearing-louisianas-new-congressional-map/" target="_blank" rel="noopener">출처</a>
+- **2026-07-21** 클리오 필즈(D) 하원 재선 불출마, 주상원 14구 보궐 출마 발표 <a href="https://www.wwno.org/2026-07-21/congressman-fields-not-seeking-re-election-but-will-run-for-previously-held-state-senate-seat" target="_blank" rel="noopener">출처</a>
+- **2026-11-03** 하원 정글 프라이머리(과반 미달 시 12월 결선) <a href="https://rollcall.com/2026/05/29/louisiana-new-house-map-gop-pickup-opportunity/" target="_blank" rel="noopener">출처</a>
+
+## 소송 {#litigation}
+
+Callais 원고(백인 유권자)가 서부지구 연방법원에 SB 121도 인종을 구조적으로 제거하지 못했다는 서면을 제출했고, 3인 재판부가 2026-06-17 심리를 열었다. 민권단체(ACLU·흑인의원모임 등)는 2022년 구성(VRA 위반 가능성 판단을 받았던 지도)과 흡사하다고 반대했다. 일라이어스 로펌은 예비선거 연기에 이의를 제기했다. 6월 심리 이후 판결 결과는 확인하지 못했으나, 지도는 11월 선거에 사용될 예정이다.
+
+::: {.callout-note collapse="true" title="6월 기준선 대비 바뀐 점"}
+- 기준선과 일치(2026-05-29 서명, net -1). 추가 사항: 필즈 의원 7/21 불출마 선언, 하원 예비선거가 11/3 정글 프라이머리로 바뀜. JURIST는 서명일을 'Friday, June 1'로 적었으나 LLS·Roll Call 기준 5/29로 기재.
+:::
+
+::: {.callout-warning collapse="true" title="확인하지 못한 항목"}
+- LA-02의 구·신 경계 2024 대선 마진
+- LA-01·03·04·05의 신 경계 마진(안전구로 보고 생략)
+- 6/17 연방 3인 재판부 심리 이후 판결 결과
+- 공식 shapefile 주소
+- Cook/Sabato 등급의 정확한 날짜(Cook 사이트 403)
+:::
+
+## 출처 {#sources}
+
+- <a href="https://rollcall.com/2026/05/29/louisiana-new-house-map-gop-pickup-opportunity/" target="_blank" rel="noopener">https://rollcall.com/2026/05/29/louisiana-new-house-map-gop-pickup-opportunity/</a>
+- <a href="https://rollcall.com/2026/07/21/louisianas-cleo-fields-forgoes-reelection-after-redistricting-eliminated-his-seat/" target="_blank" rel="noopener">https://rollcall.com/2026/07/21/louisianas-cleo-fields-forgoes-reelection-after-redistricting-eliminated-his-seat/</a>
+- <a href="https://redistricting.lls.edu/state/louisiana/" target="_blank" rel="noopener">https://redistricting.lls.edu/state/louisiana/</a>
+- <a href="https://www.jurist.org/news/2026/06/louisiana-approves-new-congressional-map-dismantling-majority-black-district/" target="_blank" rel="noopener">https://www.jurist.org/news/2026/06/louisiana-approves-new-congressional-map-dismantling-majority-black-district/</a>
+- <a href="https://redistrictingonline.org/2026/05/29/louisiana-enacts-new-congressional-map-into-law-eliminating-one-majority-black-district/" target="_blank" rel="noopener">https://redistrictingonline.org/2026/05/29/louisiana-enacts-new-congressional-map-into-law-eliminating-one-majority-black-district/</a>
+- <a href="https://louisianafirststandard.substack.com/p/say-hello-to-louisianas-new-2026" target="_blank" rel="noopener">https://louisianafirststandard.substack.com/p/say-hello-to-louisianas-new-2026</a>
+- <a href="https://www.ksla.com/2026/06/02/federal-court-sets-june-hearing-louisianas-new-congressional-map/" target="_blank" rel="noopener">https://www.ksla.com/2026/06/02/federal-court-sets-june-hearing-louisianas-new-congressional-map/</a>
+- <a href="https://www.wwno.org/2026-07-21/congressman-fields-not-seeking-re-election-but-will-run-for-previously-held-state-senate-seat" target="_blank" rel="noopener">https://www.wwno.org/2026-07-21/congressman-fields-not-seeking-re-election-but-will-run-for-previously-held-state-senate-seat</a>
+- <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Louisiana" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Louisiana</a>

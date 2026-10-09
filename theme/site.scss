@@ -1,0 +1,49 @@
+/*-- scss:defaults --*/
+/*-- scss:rules --*/
+.lead { font-size: 1.05rem; border-left: 3px solid $primary; padding: .2rem 0 .2rem 1rem; margin: 1rem 0 1.4rem; }
+.note, .figlegend { color: var(--muted); font-size: .85rem; }
+.na { color: var(--muted); font-size: .9em; }
+.md, .pd { color: $dem; font-weight: 600; }
+.mr, .pr { color: $rep; font-weight: 600; }
+.dt { font-family: var(--mono); font-size: .78rem; color: var(--muted); margin-left: .15rem; }
+.dmeta { font-size: .92rem; margin-top: -.3rem; }
+.warn { color: #b45309; cursor: help; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: .7rem; margin: 1rem 0; }
+.kpi { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: .7rem .9rem; }
+.kpi .k { font-size: .78rem; color: var(--muted); }
+.kpi .v { font-family: var(--mono); font-size: 1.25rem; white-space: nowrap; font-weight: 600; line-height: 1.3; }
+.kpi .s { font-size: .74rem; color: var(--muted); }
+/* 등급 배지 */
+.rt { display: inline-block; font-size: .74rem; padding: .05rem .4rem; border-radius: 4px; white-space: nowrap; background: #f1f3f5; color: #495057; }
+.rt-solid_d { background: $dem; color: #fff; } .rt-likely_d { background: #74a9e0; color: #fff; } .rt-lean_d { background: $dem-bg; color: $dem-fg; }
+.rt-solid_r { background: $rep; color: #fff; } .rt-likely_r { background: #e07a7a; color: #fff; } .rt-lean_r { background: $rep-bg; color: $rep-fg; }
+.rt-tossup { background: $tossup-bg; color: $tossup-fg; }
+/* 유형 배지 */
+.ty { display: inline-block; font-size: .7rem; padding: 0 .35rem; border-radius: 3px; border: 1px solid var(--line); color: #495057; margin-right: .2rem; }
+.ty-poll { border-color: #7950f2; color: #5f3dc4; } .ty-rating { border-color: #f08c00; color: #a35f00; }
+.ty-money { border-color: #2b8a3e; color: #2b8a3e; } .ty-map { border-color: #495057; }
+/* 표 */
+.tblwrap { overflow-x: auto; }
+table.matrix { border-collapse: collapse; font-size: .85rem; width: 100%; }
+table.matrix th, table.matrix td { padding: .25rem .4rem; border-bottom: 1px solid var(--line); text-align: left; }
+table.matrix tr.grp td { background: #f7f8fa; font-weight: 700; padding-top: .6rem; }
+/* 덤벨 */
+.figwrap { overflow-x: auto; margin: .6rem 0 1rem; }
+svg.dumbbell { width: 100%; max-width: 680px; min-width: 520px; font-family: var(--mono); }
+svg.dumbbell .grid { stroke: #eceef1; } svg.dumbbell .axis0 { stroke: #adb5bd; }
+svg.dumbbell .tick { font-size: 10px; fill: #868e96; text-anchor: middle; }
+svg.dumbbell .lab { font-size: 11px; fill: #343a40; text-anchor: end; }
+svg.dumbbell .bar { stroke-width: 3; } svg.dumbbell .bar.tod { stroke: #a5c8ee; } svg.dumbbell .bar.tor { stroke: #f0a8a8; }
+svg.dumbbell .old { fill: #fff; stroke: #868e96; stroke-width: 1.5; }
+svg.dumbbell .new.d { fill: $dem; } svg.dumbbell .new.r { fill: $rep; }
+.dot { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; vertical-align: middle; }
+.dot.old { border: 1.5px solid #868e96; background: #fff; } .dot.new { background: #495057; }
+/* 지도 */
+.mappair { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+.mappair h4 { font-size: .9rem; margin: 0 0 .3rem; }
+.mappair .map { height: 420px; border: 1px solid var(--line); border-radius: 6px; }
+.nomap { padding: 2rem 1rem; color: var(--muted); text-align: center; }
+@media (max-width: 760px) { .mappair { grid-template-columns: 1fr; } .mappair .map { height: 340px; } }
+
+table .md, table .mr { white-space: nowrap; }
+.muted, .muted span { color: var(--muted) !important; font-weight: 400; font-size: .92em; }

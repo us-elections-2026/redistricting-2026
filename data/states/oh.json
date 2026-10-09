@@ -1,0 +1,138 @@
+{
+ "state": "OH",
+ "name": "오하이오",
+ "checked": "2026-10-10",
+ "in_use_2026": true,
+ "status_summary": "주헌법상 2022 지도가 두 번의 선거에만 유효해 재획정이 의무였다. 주의회가 시한 안에 지도를 내지 못해 오하이오 재획정위원회가 2025-10-31 양당 합의안을 만장일치로 통과시켰다. 확인된 소송은 없으며 2026 선거부터 쓰인다. OH-1·OH-9가 공화 쪽으로 기울고 OH-13은 소폭 민주 쪽으로 바뀌었다.",
+ "timeline": [
+  {
+   "date": "2025-09",
+   "event": "주의회 위원회가 시한 안에 지도를 내지 못함(민주 8-7안은 공화가 거부)",
+   "source_url": "https://www.statenews.org/government-politics/2025-12-24/2025-year-in-review-ohio-gets-another-new-congressional-map"
+  },
+  {
+   "date": "2025-10-29",
+   "event": "공화 측, 비공개 협상으로 만든 지도 공개",
+   "source_url": "https://www.statenews.org/government-politics/2025-12-24/2025-year-in-review-ohio-gets-another-new-congressional-map"
+  },
+  {
+   "date": "2025-10-31",
+   "event": "오하이오 재획정위원회 7인 만장일치 통과(Statehouse News는 10-30로 기재)",
+   "source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio"
+  },
+  {
+   "date": "2026-05-05",
+   "event": "새 지도로 예비선거: OH-1 Conroy, OH-9 Merrin, OH-13 Coleman 공화 후보 확정",
+   "source_url": "https://www.newsfromthestates.com/article/derek-merrin-eric-conroy-and-carey-coleman-win-ohio-gop-congressional-primary-races"
+  }
+ ],
+ "seats_total": 15,
+ "seats_2024_result": {
+  "D": 5,
+  "R": 10,
+  "source_url": "https://www.statenews.org/government-politics/2025-12-24/2025-year-in-review-ohio-gets-another-new-congressional-map"
+ },
+ "expected_seats_new_map": {
+  "D": 3,
+  "R": 12,
+  "basis": "2024 대선 기준 트럼프 승리구 12(구 지도 11), 해리스 승리구 3(OH-3·11·13). 구 지도 집계(해리스 4·트럼프 11)는 mcimaps, 신 지도 OH-1(트럼프+3)·OH-9(트럼프+11) 전환은 위키·Inside Elections. 언론은 '12-3 공화 우위'로 보도.",
+  "source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio"
+ },
+ "net_effect_d": -2,
+ "net_effect_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio",
+ "mechanism": "신시내티(OH-1)에 워런·클린턴 카운티와 해밀턴 서부 공화 지역을 붙이고, 톨레도(OH-9)에 보수 내륙 카운티를 붙여 두 민주 현역구를 트럼프 승리구로 바꿨다. 대신 민주당 요구로 애크런(OH-13)에 켄트를 넣고 스타크 공화 지역을 빼 민주 쪽으로 다소 강화했다. 공화 원안(13-2)보다 덜 공격적인 타협안이다.",
+ "litigation": "없음(Statehouse News 2025-12 '제기된 법적 도전 없음'). 위원회 양당 합의로 통과돼 주민투표 대상도 아님.",
+ "maps": {
+  "old_map_url": "https://en.wikipedia.org/wiki/Ohio%27s_congressional_districts",
+  "new_map_url": "https://redistricting.ohio.gov/maps",
+  "new_map_shapefile_url": null,
+  "plan_id": null
+ },
+ "districts": [
+  {
+   "district": "OH-09",
+   "impact": "R방향",
+   "incumbent": "Marcy Kaptur",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Marcy Kaptur",
+    "R": "Derek Merrin"
+   },
+   "old_pres_margin_2024": -6.7,
+   "new_pres_margin_2024": -10.6,
+   "margin_source_url": "https://mcimaps.substack.com/p/issue-297-ohios-new-congressional",
+   "geography_change": "톨레도와 이리호 해안부 일부를 분리하고 보수 성향 내륙 농촌 카운티를 편입(Inside Elections: '보수 내륙 카운티 몇 곳 추가'; Baseline R+3→R+8).",
+   "rating_now": "Cook: Toss-up (2026-01-15) / Sabato: Leans R→Toss-up (2026-05-06) / Inside Elections: Tilt R (2025-10-31)",
+   "rating_source_url": "https://sabatoscrystalball.substack.com/p/house-rating-changes-17-shifts-in",
+   "notes": "2024 재대결 상대 Merrin이 5-05 공화 예비선거 승리. Sabato는 트럼프 마진을 약 6.5→10.5p로 기술(동일 경향). 최장수 여성 하원의원."
+  },
+  {
+   "district": "OH-01",
+   "impact": "R방향",
+   "incumbent": "Greg Landsman",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Greg Landsman",
+    "R": "Eric Conroy"
+   },
+   "old_pres_margin_2024": 7.0,
+   "new_pres_margin_2024": -3.0,
+   "margin_source_url": "https://insideelections.com/a-detailed-analysis-of-ohios-new-congressional-map/",
+   "geography_change": "신시내티 북부 민주 교외를 떼고 해밀턴 카운티 서부 공화 지역, 워런 카운티 전체, 클린턴 카운티를 편입(Baseline D+3→R+5).",
+   "rating_now": "Cook: Lean D (2026-04-07) / Sabato: Lean D (2026-03-26) / Inside Elections: Tilt D (2026-06-12)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio",
+   "notes": "신 마진 트럼프 +3은 Inside Elections. 구 마진 +7.0은 위키 반올림 득표율(해리스 53-46)에서 계산한 근사값(추정)이며 검색 요약상 타 보도는 약 6~6.5p. 등급은 위키 예측표에서 읽음. 5-05 예비선거 Landsman 67.9%, Conroy 71.88%(News From the States)."
+  },
+  {
+   "district": "OH-13",
+   "impact": "D방향",
+   "incumbent": "Emilia Sykes",
+   "incumbent_party": "D",
+   "incumbent_2026": "재출마",
+   "nominees_2026": {
+    "D": "Emilia Sykes",
+    "R": "Carey Coleman"
+   },
+   "old_pres_margin_2024": 0.1,
+   "new_pres_margin_2024": 3.0,
+   "margin_source_url": "https://en.wikipedia.org/wiki/Ohio%27s_13th_congressional_district",
+   "geography_change": "공화 성향 스타크 카운티 일부를 떼고 민주 성향 켄트(포티지 카운티)를 편입, 서밋 카운티 전체 유지(Baseline D+2→D+4).",
+   "rating_now": "Cook: Likely D (2026-04-07) / Sabato: Likely D (2026-03-26) / Inside Elections: Solid D (2026-03-12)",
+   "rating_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio",
+   "notes": "민주당이 위원회 합의 대가로 지킨 구. 마진은 위키 반올림 득표율(구 49.6-49.5, 신 51-48)로 계산한 근사값(추정). mcimaps는 해리스 우위를 구 경계 약 200표, 신 경계 1만2천 표 이상으로 기술. 2024 공화 후보 Kevin Coughlin은 새 지도 발표 후 출마 포기."
+  }
+ ],
+ "changes_vs_baseline": [
+  "통과일: 기준선 '2025-10' 위원회 통과와 일치(10-31). Statehouse News는 10-30으로 기재.",
+  "유효 기간: 기준선 '2032까지'. Statehouse News는 '2031년까지', 일부 보도는 '2030 선거까지'로 기술. 2030 선거까지 쓰인다는 뜻으로 보임(추정)."
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio",
+  "https://mcimaps.substack.com/p/issue-297-ohios-new-congressional",
+  "https://insideelections.com/a-detailed-analysis-of-ohios-new-congressional-map/",
+  "https://sabatoscrystalball.substack.com/p/house-rating-changes-17-shifts-in",
+  "https://www.newsfromthestates.com/article/derek-merrin-eric-conroy-and-carey-coleman-win-ohio-gop-congressional-primary-races",
+  "https://www.statenews.org/government-politics/2025-12-24/2025-year-in-review-ohio-gets-another-new-congressional-map",
+  "https://en.wikipedia.org/wiki/Ohio%27s_1st_congressional_district",
+  "https://en.wikipedia.org/wiki/Ohio%27s_9th_congressional_district",
+  "https://en.wikipedia.org/wiki/Ohio%27s_13th_congressional_district",
+  "https://ohiocapitaljournal.com/2025/10/31/ohio-redistricting-commission-unanimously-passes-congressional-map-further-gop-advantage/"
+ ],
+ "unverified": [
+  "OH-1 구 마진, OH-13 신·구 마진은 위키 반올림 득표율에서 계산한 근사값. 소수점 정밀값(DRA 등) 미확인.",
+  "공식 계획 ID·shapefile 주소 미확인(redistricting.ohio.gov 접속 실패).",
+  "Ohio Capital Journal 원문(403)은 검색 요약만 확인: 위원회 자료 기준 OH-9 공화 54.5%, OH-1 공화 약 54%, OH-13 민주 52%(복합 지수, 대선 아님).",
+  "OH-7(Max Miller, 현재 Cook·Sabato·IE 모두 Toss-up) 등 다른 구의 신·구 마진 미조사. Sabato가 5-06 OH-7을 Safe R→Likely R로 바꿨으나 지도 변화 때문인지 미확인.",
+  "Cook 최신 등급은 위키 예측표 경유(원문 유료)."
+ ],
+ "trend_districts": [
+  "OH-01",
+  "OH-07",
+  "OH-09",
+  "OH-10",
+  "OH-13",
+  "OH-15"
+ ]
+}
