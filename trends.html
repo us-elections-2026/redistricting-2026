@@ -1,0 +1,3500 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>지역구 추세 – 2026 재획정 상세 트래커</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-cf3ecfbdbd1a1e8e8344317aba2464cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "일치 없음",
+    "search-matching-documents-text": "일치된 문서",
+    "search-copy-link-title": "검색 링크 복사",
+    "search-hide-matches-text": "추가 검색 결과 숨기기",
+    "search-more-match-text": "추가 검색결과",
+    "search-more-matches-text": "추가 검색결과",
+    "search-clear-button-title": "제거",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "취소",
+    "search-submit-button-title": "검색",
+    "search-label": "검색"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&amp;family=JetBrains+Mono:wght@400;600&amp;family=Noto+Serif+KR:wght@600;700&amp;display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">2026 재획정 상세 트래커</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="검색"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="탐색 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">개요</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">주별 분석</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
+        <li>
+    <a class="dropdown-item" href="./states/tx.html">
+ <span class="dropdown-text">텍사스 (TX)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./states/ca.html">
+ <span class="dropdown-text">캘리포니아 (CA)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./states/fl.html">
+ <span class="dropdown-text">플로리다 (FL)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./states/oh.html">
+ <span class="dropdown-text">오하이오 (OH)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./states/nc.html">
+ <span class="dropdown-text">노스캐롤라이나 (NC)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./states/tn.html">
+ <span class="dropdown-text">테네시 (TN)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./states/la.html">
+ <span class="dropdown-text">루이지애나 (LA)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./states/al.html">
+ <span class="dropdown-text">앨라배마 (AL)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./states/ut.html">
+ <span class="dropdown-text">유타 (UT)</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="./trends.html" aria-current="page"> 
+<span class="menu-text">지역구 추세</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./methodology.html"> 
+<span class="menu-text">출처·방법</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://us-elections-2026.github.io/"> 
+<span class="menu-text">← 본 사이트(중간선거 브리핑)</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">목차</h2>
+   
+  <ul>
+  <li><a href="#cook" id="toc-cook" class="nav-link active" data-scroll-target="#cook">Cook 등급 이력</a></li>
+  <li><a href="#districts" id="toc-districts" class="nav-link" data-scroll-target="#districts">지역구별 추세</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">지역구 추세</h1>
+<p class="subtitle lead">재획정 9개 주 영향 지역구의 등급·자금·현지 동향</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- scripts/build.py 생성 파일 — 직접 수정 금지 -->
+<p class="as-of">
+조사 기준 2026-10-10 · Cook 등급 스냅샷 2026-09-25 · FEC 2026-10-10 · 일일 브리핑 2026-10-09까지
+</p>
+<div class="lead">
+<p>재획정 9개 주에서 <strong>당파 성향이 뒤집혔거나 경합권(신 지도 마진 ±15p 이내)으로 3p 이상 움직인 구</strong>, <strong>Cook 등급이 Solid가 아닌 구</strong>, <strong>일일 브리핑에 세 번 이상 나온 구</strong>를 추적한다. 지역구 단위 조사는 드물어 정보가 비어 있는 구가 많다 — 빈칸은 자료가 없다는 뜻이다.</p>
+</div>
+<section id="cook" class="level2">
+<h2 class="anchored" data-anchor-id="cook">Cook 등급 이력</h2>
+<div class="tblwrap">
+<table class="matrix">
+<thead>
+<tr>
+<th>
+구
+</th>
+<th>
+신 지도 마진
+</th>
+<th>
+07/16
+</th>
+<th>
+08/13
+</th>
+<th>
+08/25
+</th>
+<th>
+09/11
+</th>
+<th>
+09/25
+</th>
+<th>
+이동
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="grp">
+<td colspan="8">
+<a href="states/tx.html">텍사스</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#tx-09">TX-09</a>
+</td>
+<td>
+<span class="mr">R+19.9</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲1</span>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#tx-15">TX-15</a>
+</td>
+<td>
+<span class="na">미확인</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲1</span>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#tx-23">TX-23</a>
+</td>
+<td>
+<span class="na">미확인</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#tx-28">TX-28</a>
+</td>
+<td>
+<span class="mr">R+10.4</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#tx-32">TX-32</a>
+</td>
+<td>
+<span class="mr">R+17.7</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#tx-34">TX-34</a>
+</td>
+<td>
+<span class="mr">R+10.1</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#tx-35">TX-35</a>
+</td>
+<td>
+<span class="mr">R+10.4</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲1</span>
+</td>
+</tr>
+<tr class="grp">
+<td colspan="8">
+<a href="states/ca.html">캘리포니아</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-01">CA-01</a>
+</td>
+<td>
+<span class="md">D+12.2</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-03">CA-03</a>
+</td>
+<td>
+<span class="md">D+10.2</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-04">CA-04</a>
+</td>
+<td>
+<span class="md">D+14.5</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-06">CA-06</a>
+</td>
+<td>
+<span class="md">D+8.4</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-07">CA-07</a>
+</td>
+<td>
+<span class="md">D+12.9</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-09">CA-09</a>
+</td>
+<td>
+<span class="md">D+11.5</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-13">CA-13</a>
+</td>
+<td>
+<span class="md">D+0.5</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-14">CA-14</a>
+</td>
+<td>
+<span class="na">미확인</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-21">CA-21</a>
+</td>
+<td>
+<span class="md">D+6.1</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-22">CA-22</a>
+</td>
+<td>
+<span class="mr">R+1.8</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-25">CA-25</a>
+</td>
+<td>
+<span class="md">D+5.8</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-27">CA-27</a>
+</td>
+<td>
+<span class="md">D+9.6</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-31">CA-31</a>
+</td>
+<td>
+<span class="md">D+12.3</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-38">CA-38</a>
+</td>
+<td>
+<span class="md">D+12.3</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-40">CA-40</a>
+</td>
+<td>
+<span class="mr">R+12.2</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-41">CA-41</a>
+</td>
+<td>
+<span class="md">D+14.3</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-42">CA-42</a>
+</td>
+<td>
+<span class="md">D+13.1</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-45">CA-45</a>
+</td>
+<td>
+<span class="md">D+3.9</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-47">CA-47</a>
+</td>
+<td>
+<span class="md">D+10.1</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-48">CA-48</a>
+</td>
+<td>
+<span class="md">D+3.1</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ca-49">CA-49</a>
+</td>
+<td>
+<span class="md">D+12.1</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr class="grp">
+<td colspan="8">
+<a href="states/fl.html">플로리다</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#fl-07">FL-07</a>
+</td>
+<td>
+<span class="na">미확인</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#fl-09">FL-09</a>
+</td>
+<td>
+<span class="mr">R+17.7</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#fl-13">FL-13</a>
+</td>
+<td>
+<span class="na">미확인</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲1</span>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#fl-14">FL-14</a>
+</td>
+<td>
+<span class="mr">R+10.5</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲1</span>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#fl-22">FL-22</a>
+</td>
+<td>
+<span class="mr">R+10.5</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲1</span>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#fl-23">FL-23</a>
+</td>
+<td>
+<span class="md">D+13.8</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#fl-25">FL-25</a>
+</td>
+<td>
+<span class="mr">R+9.1</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#fl-27">FL-27</a>
+</td>
+<td>
+<span class="na">미확인</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲1</span>
+</td>
+</tr>
+<tr class="grp">
+<td colspan="8">
+<a href="states/oh.html">오하이오</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#oh-01">OH-01</a>
+</td>
+<td>
+<span class="mr">R+3</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+<span class="rt rt-lean_d">Lean D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#oh-07">OH-07</a>
+</td>
+<td>
+<span class="na">미확인</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲2</span>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#oh-09">OH-09</a>
+</td>
+<td>
+<span class="mr">R+10.6</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#oh-10">OH-10</a>
+</td>
+<td>
+<span class="na">미확인</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲1</span>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#oh-13">OH-13</a>
+</td>
+<td>
+<span class="md">D+3</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+<span class="rt rt-likely_d">Likely D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#oh-15">OH-15</a>
+</td>
+<td>
+<span class="na">미확인</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲1</span>
+</td>
+</tr>
+<tr class="grp">
+<td colspan="8">
+<a href="states/nc.html">노스캐롤라이나</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#nc-01">NC-01</a>
+</td>
+<td>
+<span class="mr">R+11</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#nc-03">NC-03</a>
+</td>
+<td>
+<span class="mr">R+14</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+<a href="#nc-11">NC-11</a>
+</td>
+<td>
+<span class="na">미확인</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-lean_r">Lean R</span>
+</td>
+<td>
+<span class="rt rt-tossup">Toss-up</span>
+</td>
+<td>
+<span class="md">민주 쪽 ▲1</span>
+</td>
+</tr>
+<tr class="grp">
+<td colspan="8">
+<a href="states/tn.html">테네시</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#tn-09">TN-09</a>
+</td>
+<td>
+<span class="mr">R+21.1</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr class="grp">
+<td colspan="8">
+<a href="states/la.html">루이지애나</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#la-06">LA-06</a>
+</td>
+<td>
+<span class="mr">R+32</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+<span class="rt rt-solid_r">Solid R</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr class="grp">
+<td colspan="8">
+<a href="states/al.html">앨라배마</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#al-02">AL-02</a>
+</td>
+<td>
+<span class="mr">R+15</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+<span class="rt rt-likely_r">Likely R</span>
+</td>
+<td>
+—
+</td>
+</tr>
+<tr class="grp">
+<td colspan="8">
+<a href="states/ut.html">유타</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#ut-01">UT-01</a>
+</td>
+<td>
+<span class="md">D+24</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+<span class="rt rt-solid_d">Solid D</span>
+</td>
+<td>
+—
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="note">
+Cook Political Report — 270toWin 재게시판을 사이트 us-elections-2026이 자동 취득한 스냅샷(git 이력). 이동 칸은 첫 스냅샷 대비 마지막 스냅샷의 단계 수.
+</p>
+</section>
+<section id="districts" class="level2">
+<h2 class="anchored" data-anchor-id="districts">지역구별 추세</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">텍사스</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">캘리포니아</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">플로리다</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">오하이오</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">노스캐롤라이나</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">테네시</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">루이지애나</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false" href="">앨라배마</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-9-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-9" role="tab" aria-controls="tabset-1-9" aria-selected="false" href="">유타</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="tx-09" class="level4">
+<h4 class="anchored" data-anchor-id="tx-09">TX-09</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+44.0</span> → <span class="mr">R+19.9</span> · 민주 Leticia Gutierrez 대 공화 Alex Mealer · <a href="states/tx.html#tx-09">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_r">Solid R</span><span class="dt">07-16</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-13</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-25</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-11</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pr">Mealer, Alexandra</span> 2.08 (현금 0.36, ~06-30) <span class="muted">· 기타 <span class="pd">Virts, Terry</span> 0.67 (현금 0.00, ~06-30) · <span class="pr">Cain, Briscoe Rowell Iii</span> 0.62 (현금 0.03, ~06-30) · <span class="pr">Mims, Dan</span> 0.43 (현금 0.00, ~06-30) · <span class="pr">Stockman, Steve</span> 0.25 (현금 0.04, ~06-30) · <span class="pd">Ivey, R. Todd Dr.</span> 0.19 (현금 0.00, ~06-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 3건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 3건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">09-26</span> <span class="ty ty-rating">등급</span> 쿡 9/25 TX-09 Solid R에서 Likely R</li>
+<li><span class="dt">09-22</span> <span class="ty ty-money">자금</span> No Going Back PAC이 TX-09(트럼프+20)에 소액 우편·방송 집행</li>
+<li><span class="dt">09-18</span> <span class="ty ty-rating">등급</span> IE 9/17 TX-09 Safe R에서 Likely R</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="tx-15" class="level4">
+<h4 class="anchored" data-anchor-id="tx-15">TX-15</h4>
+<p class="dmeta">
+지도 변화가 작아 주별 표에는 없는 구(경합 또는 브리핑 빈출로 추적)
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-lean_r">Lean R</span><span class="dt">07-16</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">08-13</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">08-25</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">09-11</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pr">De La Cruz, Monica</span> 5.27 (현금 2.46, ~06-30) · <span class="pd">Pulido, Bobby</span> 2.96 (현금 1.16, ~06-30) · <span class="pd">Cuellar, Ada</span> 1.26 (현금 0.00, ~06-30)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 50건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 50건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-10</span> <span class="ty ty-rating">등급</span> TX-15·NC-11·FL-22 신규 토스업 편입, 첫 독립 조사 대기</li>
+<li><span class="dt">10-09</span> <span class="ty ty-rating">등급</span> DDHQ 10/8 토스업 9석에 TX-15, TX-35, NC-01, NC-11, OH-07 포함</li>
+<li><span class="dt">10-07</span> <span class="ty ty-poll">여론조사</span> CBS/YouGov 트래커(9/30~10/2): 히스패닉 공화 지지가 2024 트럼프 수준 미달 — TX-15·TX-34·CA-22 시사점 (지역구 수치 없음)</li>
+<li><span class="dt">10-05</span> <span class="ty ty-rating">등급</span> DDHQ 10/2 토스업 8석에 TX-15, NC-11, NC-01, OH-07 포함</li>
+<li><span class="dt">09-28</span> <span class="ty ty-event">동향</span> 풀리도가 3월 델라크루즈의 킨세아녜라 공연 비판을 유세 전략으로 활용, 약 75건 행사 소화</li>
+<li><span class="dt">09-27</span> <span class="ty ty-rating">등급</span> 쿡 9/25 TX-15·NC-11 Lean R에서 토스업 이동 (원문 표현 '보인다')</li>
+<li><span class="dt">09-27</span> <span class="ty ty-rating">등급</span> 쿡 TX-15 개별 하위 페이지는 조회 시점에 여전히 Lean R로 표시 (캐시 지연 추정) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">09-26</span> <span class="ty ty-rating">등급</span> 쿡 9/25 TX-15 Lean R에서 토스업으로 이동</li>
+<li><span class="dt">09-26</span> <span class="ty ty-rating">등급</span> 쿡의 TX-15 토스업 이동 근거: 델라크루즈 결집 문제, 풀리도 초당적 호소력, 지역구 60% 신규 획정, 관세·이민 단속 반발</li>
+<li><span class="dt">09-26</span> <span class="ty ty-event">동향</span> 텍사스트리뷴: 풀리도(테하노 음악가, 낀세아녜라 75회 이상 출연)가 델라크루즈 비판을 시그니처 전술로 받아침</li>
+<li><span class="dt">09-25</span> <span class="ty ty-rating">등급</span> TX-15는 DDHQ 토스업 7석에 미포함, 쿡 Lean R과 일치</li>
+<li><span class="dt">09-23</span> <span class="ty ty-rating">등급</span> TX-15 조사는 풀리도 우세이나 DDHQ Lean R 62%가 쿡 편</li>
+<li><span class="dt">09-22</span> <span class="ty ty-rating">등급</span> DDHQ가 TX-15를 Lean R 62%로 평가 (쿡과 동일)</li>
+<li><span class="dt">09-22</span> <span class="ty ty-map">지도·소송</span> 펀치볼: TX-15가 양당 유의미 예약이 걸린 트럼프+10 이상 16개 의석 중 하나</li>
+<li><span class="dt">09-22</span> <span class="ty ty-map">지도·소송</span> TX-15 신지역구의 약 80%가 델라크루즈에게 새로운 유권자</li>
+<li><span class="dt">09-21</span> <span class="ty ty-rating">등급</span> TX-15 쿡만 Lean R 유지</li>
+<li><span class="dt">09-20</span> <span class="ty ty-money">자금</span> HMP가 델라크루즈(TX-15) 상대 네거티브 광고 집행 (Townhall 보도, 보수 매체 출처)</li>
+<li><span class="dt">09-20</span> <span class="ty ty-poll">여론조사</span> TX-15 WelcomePAC 5/18~25 풀리도 48-46; 풀리도 인지도 73%, 델라크루즈 재선 자격 인정 36%</li>
+<li><span class="dt">09-20</span> <span class="ty ty-map">지도·소송</span> TX-15 신지도 트럼프 +17.8 (Downballot 추정 58.5-40.7) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">09-20</span> <span class="ty ty-rating">등급</span> TX-15가 쿡 등급 이동 가능성 1순위, NC-11 2순위</li>
+<li><span class="dt">09-19</span> <span class="ty ty-money">자금</span> NPR 애드임팩트 분석: TX-15(트럼프 +약 18)가 트럼프계 PAC 지출 대상 두 자릿수 지역구로 적시</li>
+<li><span class="dt">09-19</span> <span class="ty ty-rating">등급</span> TX-15 Cook만 Lean R 유지</li>
+<li><span class="dt">09-18</span> <span class="ty ty-event">동향</span> 뉴리퍼블릭: MAGA Inc.&nbsp;지출 지도에서 TX-15(트럼프 +17)를 대규모 증원 필요 지역구로 지목</li>
+<li><span class="dt">09-18</span> <span class="ty ty-rating">등급</span> 쿡 분석가 워서먼이 TX-15 포함 두 자릿수 트럼프 지역구 경합화를 인정; 쿡 등급은 Lean R 유지</li>
+<li><span class="dt">09-18</span> <span class="ty ty-rating">등급</span> 쿡 TX-15 Lean R 확인 (Likely R 주장은 오류)</li>
+<li><span class="dt">09-17</span> <span class="ty ty-event">동향</span> 검색 요약이 TX-15를 Cook Likely R로 단정 — 미해소 불일치, 본 파일은 Lean R 유지</li>
+<li><span class="dt">09-16</span> <span class="ty ty-event">동향</span> No Going Back 확인 표적 지역구에 TX-15 없음</li>
+<li><span class="dt">09-14</span> <span class="ty ty-poll">여론조사</span> TX-15 조사 3건: HMP 풀리도 51-45, WelcomePAC 48-46, TSU 50-45 (앞 두 건은 민주 후원)</li>
+<li><span class="dt">09-14</span> <span class="ty ty-rating">등급</span> 사바토 7/30 TX-15 Likely R에서 Lean R</li>
+<li><span class="dt">09-14</span> <span class="ty ty-rating">등급</span> 쿡 9/11에도 TX-15 Lean R 유지</li>
+<li><span class="dt">09-13</span> <span class="ty ty-rating">등급</span> TX-15는 사바토 토스업·IE Tilt R, Cook만 Lean R 유지</li>
+<li><span class="dt">09-13</span> <span class="ty ty-event">동향</span> 델라크루즈(TX-15) 공화 전당대회 연설, 동생 카를로스(TX-35 후보)도 연설</li>
+<li><span class="dt">09-11</span> <span class="ty ty-poll">여론조사</span> 쿡/TelevisaUnivision 양당 공동 조사 TX-15·28·34 히스패닉 오버샘플 414명 하원 투표의향 D 53 / R 39</li>
+<li><span class="dt">09-06</span> <span class="ty ty-rating">등급</span> 인사이드일렉션스 9/3 TX-15 Lean에서 Tilt Republican</li>
+<li><span class="dt">09-06</span> <span class="ty ty-poll">여론조사</span> TX-15 Prediction Edge 시장 풀리도 약 52%, D+5.0</li>
+<li><span class="dt">09-03</span> <span class="ty ty-candidate">후보</span> TX-15 풀리도(D)가 3월 예선 68% 승리, TSU 조사 풀리도 50-45</li>
+<li><span class="dt">08-30</span> <span class="ty ty-poll">여론조사</span> TX-15 TSU 독립 조사(8/18~22, LV 700) Pulido(D) 50-45 De La Cruz(R)</li>
+<li><span class="dt">08-29</span> <span class="ty ty-poll">여론조사</span> TX-15 HMP(민주 당파) 조사에서 풀리도 50-45, 51-45로 데라크루즈 앞섬 <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">08-28</span> <span class="ty ty-rating">등급</span> 인사이드일렉션스 8/26 TX-15 Lean R에서 Tilt R</li>
+<li><span class="dt">08-28</span> <span class="ty ty-rating">등급</span> 사바토 8/26 TX-15 Lean R에서 토스업, TX-15는 트럼프+18, 풀리도(D) 대 데라크루즈</li>
+<li><span class="dt">08-26</span> <span class="ty ty-map">지도·소송</span> 연방대법원 확정 판결로 TX-15 Lean R은 2025년 라인에서 치러짐</li>
+<li><span class="dt">08-25</span> <span class="ty ty-map">지도·소송</span> 쿡의 TX-15 Lean R 등급은 2025년 지도 기준</li>
+<li><span class="dt">08-18</span> <span class="ty ty-rating">등급</span> 2차 집계상 Cook 8/13 배치에 TX-15 Likely R에서 Lean R 포함(미확인) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">08-16</span> <span class="ty ty-rating">등급</span> 8/13 스냅샷에서 TX-15(데라크루즈) Cook Lean R, 이동 시점 미확인 <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">08-14</span> <span class="ty ty-money">자금</span> 등급 하향 직후의 TX-15도 AAN 광고 커버리지에 포함</li>
+<li><span class="dt">08-09</span> <span class="ty ty-rating">등급</span> Cook 7/16 TX-15 Likely R에서 Lean R로 이동, 트럼프 +18 지역구에서 델라크루즈 대 풀리도</li>
+<li><span class="dt">08-01</span> <span class="ty ty-rating">등급</span> Sabato 7/30: TX-15 Likely R에서 Lean R로 이동</li>
+<li><span class="dt">07-18</span> <span class="ty ty-rating">등급</span> Cook 7/16: TX-15(De La Cruz) Likely R에서 Lean R로 이동</li>
+<li><span class="dt">06-19</span> <span class="ty ty-rating">등급</span> Inside Elections 6/11: TX-15 Likely→Lean R</li>
+<li><span class="dt">06-15</span> <span class="ty ty-rating">등급</span> Inside Elections 6/11 묶음 중 TX-15 Lean R(단일 출처 확정은 미수집) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="tx-23" class="level4">
+<h4 class="anchored" data-anchor-id="tx-23">TX-23</h4>
+<p class="dmeta">
+지도 변화가 작아 주별 표에는 없는 구(경합 또는 브리핑 빈출로 추적)
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_r">Likely R</span><span class="dt">07-16</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-13</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-25</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-11</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pr">Herrera, Brandon</span> 1.94 (현금 0.31, ~06-30) · <span class="pd">Stout, Katy Padilla</span> 0.48 (현금 0.17, ~06-30) · <span class="pr">Rubio, Susan Storey</span> 0.42 (현금 0.00, ~10-24) · <span class="pd">Limon, Santos M.</span> 0.36 (현금 0.35, ~06-30) · <span class="pd">Enck, Gretel Marysdatter</span> 0.10 (현금 0.00, ~03-31)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 4건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 4건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">09-22</span> <span class="ty ty-candidate">후보</span> TX-23 곤잘레스 4월 사퇴, 본선에서 충원</li>
+<li><span class="dt">09-21</span> <span class="ty ty-candidate">후보</span> TX-23 곤잘레스 4월 사임, 특별선거 없이 본선에서 충원</li>
+<li><span class="dt">08-25</span> <span class="ty ty-rating">등급</span> 쿡 등급: TX-34 Toss Up, TX-15 Lean R, TX-23·TX-35 Likely R</li>
+<li><span class="dt">07-05</span> <span class="ty ty-candidate">후보</span> TX-23 보궐 일정 미정, Abbott가 11/3 본선거와 통합 가능성</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="tx-28" class="level4">
+<h4 class="anchored" data-anchor-id="tx-28">TX-28</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+7.3</span> → <span class="mr">R+10.4</span> · 민주 Henry Cuellar 대 공화 Tano Tijerina · <a href="states/tx.html#tx-28">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-lean_d">Lean D</span><span class="dt">07-16</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">08-13</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">08-25</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">09-11</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Cuellar, Henry R.</span> 2.23 (현금 1.13, ~06-30) · <span class="pr">Tijerina, Tano</span> 1.40 (현금 0.77, ~06-30)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 7건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 7건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">09-23</span> <span class="ty ty-money">자금</span> DCCC 공동 광고 TX-28 쿠엘라 방어</li>
+<li><span class="dt">09-11</span> <span class="ty ty-poll">여론조사</span> 쿡/TelevisaUnivision 조사 TX-15·28·34 히스패닉 하위표본 D+14</li>
+<li><span class="dt">09-11</span> <span class="ty ty-poll">여론조사</span> TSU 8/18~22 조사 TX-28 쿠엘라 45-34 티헤리나</li>
+<li><span class="dt">09-08</span> <span class="ty ty-money">자금</span> NRCC 조정지출 광고가 TX-28(쿠에야르)을 공세 대상으로 지목, 위원회 최우선 과제</li>
+<li><span class="dt">09-03</span> <span class="ty ty-event">동향</span> 반사회주의 결의안 호명투표 289에서 쿠에야르(TX-28, Lean D) 찬성</li>
+<li><span class="dt">08-30</span> <span class="ty ty-poll">여론조사</span> 같은 TSU 조사에서 TX-28 Cuellar(D) 45-34</li>
+<li><span class="dt">08-28</span> <span class="ty ty-rating">등급</span> 사바토 8/26 TX-28(쿠엘라·D)을 Leans D로</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="tx-32" class="level4">
+<h4 class="anchored" data-anchor-id="tx-32">TX-32</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+23.6</span> → <span class="mr">R+17.7</span> · 민주 Dan Barrios 대 공화 Jace Yarbrough · <a href="states/tx.html#tx-32">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_r">Solid R</span><span class="dt">07-16</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-13</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-25</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-11</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pr">Yarbrough, Jace</span> 0.87 (현금 0.13, ~06-30) · <span class="pd">Barrios, Dan F.</span> 0.10 (현금 0.01, ~06-30) <span class="muted">· 기타 <span class="pr">Binkley, Ryan</span> 3.22 (현금 0.00, ~09-02) · <span class="pr">Bondar, Paul</span> 3.20 (현금 0.18, ~06-30) · <span class="pr">Vaziri, Abteen</span> 0.12 (현금 -0.04, ~06-30) · <span class="pr">Day, Darrell</span> 0.12 (현금 0.09, ~06-30)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="tx-34" class="level4">
+<h4 class="anchored" data-anchor-id="tx-34">TX-34</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+4.4</span> → <span class="mr">R+10.1</span> · 민주 Vicente Gonzalez 대 공화 Eric Flores · <a href="states/tx.html#tx-34">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-tossup">Toss-up</span><span class="dt">07-16</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-13</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-25</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-11</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-25</span></li>
+<li><strong>3사 등급(최신 2026-10-03)</strong> Cook <span class="rt rt-tossup">Toss Up</span> · Sabato <span class="rt rt-lean_d">Leans D (9/10↑)</span> <span class="dt">(조합이 바뀐 판본: 06-14, 09-13)</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Gonzalez, Vicente</span> 3.77 (현금 2.53, ~06-30) · <span class="pr">Flores, Eric</span> 2.87 (현금 0.69, ~06-30) · <span class="pr">Flores, Mayra Nohemi</span> 1.41 (현금 0.00, ~06-30) <span class="muted">· 기타 <span class="pr">Mandel, Charles</span> 1.00 (현금 0.05, ~07-15) · <span class="pd">Rosas, Etienne Ph.D.</span> 0.17 (현금 0.02, ~03-31) · <span class="pr">Allen, Keith</span> 0.16 (현금 0.00, ~03-31)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 36건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 36건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-10</span> <span class="ty ty-rating">등급</span> TX-34 Cook 토스업 대 사바토 Lean D 괴리 잔존 (Cook 10/9 조정에서도 TX-34 미이동)</li>
+<li><span class="dt">09-29</span> <span class="ty ty-rating">등급</span> TX-34 사바토 Lean D, 쿡 토스업 괴리 유지</li>
+<li><span class="dt">09-28</span> <span class="ty ty-rating">등급</span> TX-34 사바토 Lean D 이동에도 쿡은 미추종</li>
+<li><span class="dt">09-26</span> <span class="ty ty-rating">등급</span> 쿡 9/25 재조정에서도 TX-34는 토스업 유지 (사바토 9/10부터 Lean D)</li>
+<li><span class="dt">09-24</span> <span class="ty ty-poll">여론조사</span> 가장 최근 공개 지역구 수치는 8월 TSU TX-15/TX-34 조사</li>
+<li><span class="dt">09-23</span> <span class="ty ty-money">자금</span> DCCC 공동 광고 TX-34 곤잘레스 방어</li>
+<li><span class="dt">09-22</span> <span class="ty ty-rating">등급</span> DDHQ TX-34 Lean D 65%</li>
+<li><span class="dt">09-20</span> <span class="ty ty-rating">등급</span> TX-34 쿡 추종 시 토스업 21에서 20으로 감소</li>
+<li><span class="dt">09-19</span> <span class="ty ty-rating">등급</span> TX-34 사바토 Lean D 대 Cook 토스업 괴리 지속</li>
+<li><span class="dt">09-18</span> <span class="ty ty-rating">등급</span> TX-34 3사 괴리: 쿡 토스업, 사바토 Lean D, IE 토스업</li>
+<li><span class="dt">09-16</span> <span class="ty ty-rating">등급</span> 쿡 TX-34 미추종 재확인</li>
+<li><span class="dt">09-15</span> <span class="ty ty-poll">여론조사</span> 히스패닉 배틀그라운드 조사: 텍사스 3개 지역구 중 2곳에서 20포인트 민주 방향 이동 (17개 지역구 합산 조사)</li>
+<li><span class="dt">09-14</span> <span class="ty ty-rating">등급</span> 쿡은 TX-34 토스업 유지</li>
+<li><span class="dt">09-13</span> <span class="ty ty-rating">등급</span> 사바토가 9/10 TX-34를 토스업에서 Lean D로 이동 (AL-02, MO-02, MO-05 동시 조정)</li>
+<li><span class="dt">09-13</span> <span class="ty ty-poll">여론조사</span> TSU 8/18~22 조사 곤잘레스 45 대 울리히 42</li>
+<li><span class="dt">09-13</span> <span class="ty ty-money">자금</span> DCCC 첫 공조 TV 예약 24.8만 달러, 3건 중 최대</li>
+<li><span class="dt">09-13</span> <span class="ty ty-map">지도·소송</span> 재획정(트럼프+10) TX-34에서 Cook 토스업 대 사바토 Lean D 격차</li>
+<li><span class="dt">09-11</span> <span class="ty ty-poll">여론조사</span> 쿡/TelevisaUnivision 조사 TX-15·28·34 히스패닉 하위표본 D+14</li>
+<li><span class="dt">09-11</span> <span class="ty ty-rating">등급</span> 쿡 현행 페이지에서 TX-34는 Toss Up</li>
+<li><span class="dt">09-10</span> <span class="ty ty-money">자금</span> AdImpact 기준 DCCC 조정지출 TX-34 24만 8,000달러가 총액의 73%</li>
+<li><span class="dt">09-10</span> <span class="ty ty-poll">여론조사</span> TX-34 신지도 트럼프+10, 유일한 독립 조사는 TSU 8/18~22 곤잘레스 45-42</li>
+<li><span class="dt">09-08</span> <span class="ty ty-money">자금</span> DCCC 첫 조정지출 중 TX-34 곤잘레스 24만 8,000달러, 위원회 최대 단일 예약</li>
+<li><span class="dt">09-03</span> <span class="ty ty-event">동향</span> 반사회주의 결의안 호명투표 289에서 곤잘레스(TX-34) 찬성</li>
+<li><span class="dt">08-30</span> <span class="ty ty-poll">여론조사</span> 같은 TSU 조사에서 TX-34 Gonzalez(D) 45-42 Flores(R), 오차범위 내</li>
+<li><span class="dt">08-28</span> <span class="ty ty-rating">등급</span> 사바토 8/26 TX-34(곤잘레스·D)를 토스업으로</li>
+<li><span class="dt">08-26</span> <span class="ty ty-map">지도·소송</span> 연방대법원 2026년 4월 확정 판결로 TX-34 토스업은 2025년 라인에서 치러짐</li>
+<li><span class="dt">08-25</span> <span class="ty ty-map">지도·소송</span> 쿡의 TX-34 토스업 등급은 2025년 지도 기준, 2025년 11월 법원 판결은 낡은 기사</li>
+<li><span class="dt">08-18</span> <span class="ty ty-money">자금</span> AAN 2,200만 달러/41개 지역구 집행에 TX-34(곤잘레스) 포함 확인</li>
+<li><span class="dt">08-16</span> <span class="ty ty-rating">등급</span> Cook 토스업 구성 중 민주 보유 4석에 TX-34 포함</li>
+<li><span class="dt">08-14</span> <span class="ty ty-money">자금</span> AAN 광고 Tier-1 커버리지에 TX-34(민주 보유) 포함</li>
+<li><span class="dt">07-11</span> <span class="ty ty-event">동향</span> Cook 7/10 분석: 라티노 유권자 '귀환' 전제가 불안정, TX-34 핵심 변수</li>
+<li><span class="dt">07-05</span> <span class="ty ty-map">지도·소송</span> Newsweek: 민주 현직 토스업 3곳이 재획정으로 더 보수화</li>
+<li><span class="dt">07-04</span> <span class="ty ty-rating">등급</span> Cook 6/18: TX-34 토스업(민주 보유)</li>
+<li><span class="dt">06-27</span> <span class="ty ty-map">지도·소송</span> 주간 목록이 재획정 후 경계/등급 재점검 필요로 표시한 지역구</li>
+<li><span class="dt">06-16</span> <span class="ty ty-money">자금</span> Flores 약 $1.2M 모금, 현역 Gonzalez 약 $1.1M(잠정) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">06-15</span> <span class="ty ty-candidate">후보</span> 공화 Eric Flores 3/3 예선 승리, 현역 Gonzalez(D) 방어, 트럼프가 전 카운티 승리</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="tx-35" class="level4">
+<h4 class="anchored" data-anchor-id="tx-35">TX-35</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+33.5</span> → <span class="mr">R+10.4</span> · 민주 Johnny Garcia 대 공화 Carlos De La Cruz · <a href="states/tx.html#tx-35">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_r">Likely R</span><span class="dt">07-16</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-13</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-25</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-11</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Garcia, Johnny</span> 0.93 (현금 0.32, ~06-30) <span class="muted">· 기타 <span class="pr">De La Cruz, Carlos Jr.</span> 1.05 (현금 0.27, ~06-30) · <span class="pr">Lujan, John</span> 0.76 (현금 0.03, ~06-30) · <span class="pr">Furman, Jay Commander</span> 0.46 (현금 0.00, ~06-30) · <span class="pr">Cortez, Joshua</span> 0.27 (현금 0.00, ~06-30) · <span class="pr">Krause, Ryan P</span> 0.24 (현금 0.00, ~06-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 10건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 10건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-09</span> <span class="ty ty-rating">등급</span> DDHQ 10/8 토스업 9석에 TX-35 포함</li>
+<li><span class="dt">10-08</span> <span class="ty ty-rating">등급</span> DDHQ 10/7 토스업 9석에 TX-35 재편입 (TX-35는 3회 연속 스탬프에서 들락날락, 모형 노이즈)</li>
+<li><span class="dt">10-07</span> <span class="ty ty-rating">등급</span> DDHQ 10/6 TX-35 토스업 목록에서 이탈 (하루짜리 변동)</li>
+<li><span class="dt">10-06</span> <span class="ty ty-rating">등급</span> DDHQ 10/5 토스업 목록에 TX-35 추가 (Cook은 Lean R, 모델 단독 신호)</li>
+<li><span class="dt">10-06</span> <span class="ty ty-poll">여론조사</span> TX-35 공화 1%p 우세 조사 보도(Prediction Hunt 9/3), 미검증</li>
+<li><span class="dt">09-26</span> <span class="ty ty-rating">등급</span> 쿡 9/25 TX-35 Likely R에서 Lean R (FL-27, FL-13 포함)</li>
+<li><span class="dt">09-18</span> <span class="ty ty-map">지도·소송</span> TX-35 재획정 의석(트럼프 +10 설계)이 값비싼 난전으로 진화, MAGA Inc.&nbsp;방어 대상</li>
+<li><span class="dt">09-13</span> <span class="ty ty-rating">등급</span> IE 9/10 TX-35 Likely R에서 Lean R로 이동</li>
+<li><span class="dt">09-06</span> <span class="ty ty-rating">등급</span> 인사이드일렉션스 9/3 TX-35 Likely에서 Lean Republican</li>
+<li><span class="dt">08-25</span> <span class="ty ty-rating">등급</span> 쿡 등급: TX-23·TX-35 Likely R</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<section id="ca-01" class="level4">
+<h4 class="anchored" data-anchor-id="ca-01">CA-01</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+25</span> → <span class="md">D+12.2</span> · 민주 Mike McGuire 대 공화 James Gallagher · <a href="states/ca.html#ca-01">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Mcguire, Mike</span> 1.83 (현금 0.15, ~06-30) · <span class="pr">Gallagher, James</span> 1.49 (현금 0.33, ~06-30) <span class="muted">· 기타 <span class="pd">Denney, Audrey</span> 0.91 (현금 0.00, ~09-30) · <span class="pr">Lamalfa, Doug</span> 0.77 (현금 0.72, ~06-30)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-03" class="level4">
+<h4 class="anchored" data-anchor-id="ca-03">CA-03</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+3.8</span> → <span class="md">D+10.2</span> · 민주 Ami Bera 대 공화 Robb Tucker · <a href="states/ca.html#ca-03">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Bera, Amerish</span> 1.25 (현금 1.83, ~06-30) · <span class="pr">Tucker, Robb</span> 0.26 (현금 0.02, ~06-30) <span class="muted">· 기타 <span class="pd">Hall, Heidi</span> 0.59 (현금 0.01, ~06-30) · <span class="pd">Bennett, Christopher Jerman</span> 0.22 (현금 0.02, ~06-30) · <span class="pr">Bish, Christine S</span> 0.14 (현금 0.00, ~06-30)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-04" class="level4">
+<h4 class="anchored" data-anchor-id="ca-04">CA-04</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+31.2</span> → <span class="md">D+14.5</span> · 민주 Mike Thompson / Eric Jones (D vs D) 대 공화 미확인 · <a href="states/ca.html#ca-04">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Jones, Eric</span> 8.38 (현금 0.66, ~06-30) <span class="muted">· 기타 <span class="pd">Thompson, Mike Mr.</span> 4.20 (현금 1.08, ~06-30) · <span class="pr">Riehle, Raymond</span> 0.11 (현금 0.00, ~06-30)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-06" class="level4">
+<h4 class="anchored" data-anchor-id="ca-06">CA-06</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+13.9</span> → <span class="md">D+8.4</span> · 민주 Richard Pan 대 공화 미확인 · <a href="states/ca.html#ca-06">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="po">Kiley, Kevin</span> 2.99 (현금 2.12, ~06-30) · <span class="pd">Pan, Richard Dr.</span> 1.10 (현금 0.36, ~06-30) <span class="muted">· 기타 <span class="pd">Ho, Thien</span> 0.91 (현금 0.04, ~06-30) · <span class="pd">Babb Tomlinson, Lauren</span> 0.57 (현금 0.01, ~06-30) · <span class="pd">Guerrero, Martha</span> 0.20 (현금 0.00, ~07-24) · <span class="pd">Vandenberg, Tyler Isaac</span> 0.12 (현금 0.00, ~06-30)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-07" class="level4">
+<h4 class="anchored" data-anchor-id="ca-07">CA-07</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+29.7</span> → <span class="md">D+12.9</span> · 민주 Doris Matsui / Mai Vang (D vs D) 대 공화 미확인 · <a href="states/ca.html#ca-07">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Vang, Mai</span> 1.09 (현금 0.11, ~06-30) <span class="muted">· 기타 <span class="pd">Matsui, Doris</span> 3.19 (현금 0.47, ~06-30)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-09" class="level4">
+<h4 class="anchored" data-anchor-id="ca-09">CA-09</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+1.8</span> → <span class="md">D+11.5</span> · 민주 Josh Harder 대 공화 John McBride · <a href="states/ca.html#ca-09">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Harder, Josh</span> 4.08 (현금 4.74, ~06-30)</li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-13" class="level4">
+<h4 class="anchored" data-anchor-id="ca-13">CA-13</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+5.4</span> → <span class="md">D+0.5</span> · 민주 Adam Gray 대 공화 Kevin Lincoln · <a href="states/ca.html#ca-13">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-lean_d">Lean D</span><span class="dt">07-16</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">08-13</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">08-25</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">09-11</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">09-25</span></li>
+<li><strong>3사 등급(최신 2026-10-03)</strong> Cook <span class="rt rt-lean_d">Leans D</span> · Sabato <span class="rt rt-lean_d">Leans D</span> <span class="dt">(조합이 바뀐 판본: 06-14)</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Gray, Adam C.</span> 4.19 (현금 2.07, ~06-30) · <span class="pr">Lincoln, Kevin J Ii</span> 2.24 (현금 0.84, ~06-30) <span class="muted">· 기타 <span class="pr">Kruttiventi, Vin</span> 3.69 (현금 0.01, ~06-30) · <span class="pr">Lopez, Javier B</span> 0.15 (현금 0.00, ~06-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 2건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 2건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">07-04</span> <span class="ty ty-rating">등급</span> Cook 6/18: CA-13 Lean D</li>
+<li><span class="dt">06-27</span> <span class="ty ty-map">지도·소송</span> 주간 목록이 재획정 후 경계/등급 재점검 필요로 표시한 지역구</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="ca-14" class="level4">
+<h4 class="anchored" data-anchor-id="ca-14">CA-14</h4>
+<p class="dmeta">
+지도 변화가 작아 주별 표에는 없는 구(경합 또는 브리핑 빈출로 추적)
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pd">Israni, Rakhi</span> 2.40 (현금 0.05, ~06-30) · <span class="pd">Hernandez, Melissa</span> 1.99 (현금 0.08, ~09-07) · <span class="pd">Wahab, Aisha</span> 0.87 (현금 0.23, ~09-07)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 8건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 8건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">08-22</span> <span class="ty ty-event">동향</span> CA-14 결선 와합 51,610표(53.09%) 대 에르난데스 45,598표(46.91%), 에르난데스 승복·11월 리매치 예고</li>
+<li><span class="dt">08-21</span> <span class="ty ty-event">동향</span> CA-14 와합 우세 33,399-32,043, 9월 25일 확정 예정</li>
+<li><span class="dt">08-20</span> <span class="ty ty-candidate">후보</span> CA-14 보궐 결선 민주 대 민주 약 2%p 차</li>
+<li><span class="dt">08-16</span> <span class="ty ty-candidate">후보</span> CA-14 특별선거 결선 와합 대 에르난데스(스왈웰 잔여 임기)</li>
+<li><span class="dt">08-14</span> <span class="ty ty-candidate">후보</span> 8/18 CA-14 특별선거 결선(스왈웰 공석)</li>
+<li><span class="dt">06-27</span> <span class="ty ty-candidate">후보</span> CA-14 6/16 특별선거 과반자 없어 8/18 Wahab(~34%) 대 Hernandez(~16%) 결선, Safe D</li>
+<li><span class="dt">06-21</span> <span class="ty ty-candidate">후보</span> Swalwell 사임으로 6/16 특별예선, 과반자 없어 8/18 Wahab(D) 대 Hernandez(D) 결선</li>
+<li><span class="dt">06-17</span> <span class="ty ty-candidate">후보</span> CA-14 특별예선 과반자 없어 8/18 결선, Wahab(D) 약 39%, Hernandez(D) 약 17%</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="ca-21" class="level4">
+<h4 class="anchored" data-anchor-id="ca-21">CA-21</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+3.8</span> → <span class="md">D+6.1</span> · 민주 Jim Costa 대 공화 Kyle Kirkland · <a href="states/ca.html#ca-21">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_d">Likely D</span><span class="dt">07-16</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">08-13</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">08-25</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">09-11</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Costa, Jim</span> 1.34 (현금 0.94, ~06-30) · <span class="pr">Kirkland, Kyle</span> 0.34 (현금 0.02, ~06-30) <span class="muted">· 기타 <span class="pr">Rios, Lorenzo</span> 0.43 (현금 0.06, ~06-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 1건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 1건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">08-28</span> <span class="ty ty-rating">등급</span> 인사이드일렉션스 8/26 CA-21 Likely D에서 Solid D</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="ca-22" class="level4">
+<h4 class="anchored" data-anchor-id="ca-22">CA-22</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+5.8</span> → <span class="mr">R+1.8</span> · 민주 Randy Villegas 대 공화 David Valadao · <a href="states/ca.html#ca-22">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-tossup">Toss-up</span><span class="dt">07-16</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-13</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-25</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-11</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pr">Valadao, David</span> 4.93 (현금 3.37, ~06-30) · <span class="pd">Villegas, Randy</span> 2.65 (현금 0.57, ~06-30) <span class="muted">· 기타 <span class="pd">Bains, Jasmeet</span> 1.58 (현금 0.09, ~06-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 14건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 14건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-09</span> <span class="ty ty-rating">등급</span> IE 10/1 CA-22 Tilt R에서 토스업 (이월)</li>
+<li><span class="dt">10-08</span> <span class="ty ty-rating">등급</span> IE 10/1 CA-22 Tilt R에서 토스업 (270toWin 변경 로그 경유)</li>
+<li><span class="dt">10-08</span> <span class="ty ty-poll">여론조사</span> CA-22 6/2 top-two에서 D 59.3 대 40.7</li>
+<li><span class="dt">09-08</span> <span class="ty ty-money">자금</span> NRCC 조정지출 광고에서 CA-22(발라다오 방어) 사용, 랜디 비예가스를 사회주의자 교수로 지칭</li>
+<li><span class="dt">08-14</span> <span class="ty ty-money">자금</span> AAN 41개 지역구 광고 Tier-1 커버리지에 CA-22(공화 보유) 포함</li>
+<li><span class="dt">07-23</span> <span class="ty ty-event">동향</span> Valadao가 메디케이드 삭감 포함 예산법 찬성표로 압박받고, Villegas가 사무실 앞 집회; 신선거구 트럼프+2 토스업</li>
+<li><span class="dt">07-22</span> <span class="ty ty-rating">등급</span> PollingSource가 CA-22를 Lean D로 표기하나 Cook/IE 변동은 아님</li>
+<li><span class="dt">07-20</span> <span class="ty ty-money">자금</span> 2분기 모금: Villegas(D) $897K가 Valadao(R) $777K 추월(Newsweek FEC 집계)</li>
+<li><span class="dt">07-18</span> <span class="ty ty-rating">등급</span> Sabato가 CA-22를 토스업에서 Leans Democratic으로 이동(Cook은 토스업 유지)</li>
+<li><span class="dt">07-18</span> <span class="ty ty-candidate">후보</span> 6/2 top-two 예비선거에서 민주 합산 59.3% 대 Valadao 40.7%</li>
+<li><span class="dt">07-11</span> <span class="ty ty-event">동향</span> Cook 7/10 분석: 라티노 표심 불확실성이 CA-22(Valadao) 변수, Villegas가 민주 후보</li>
+<li><span class="dt">07-04</span> <span class="ty ty-candidate">후보</span> CA-22 민주 예선에서 Randy Villegas가 Jasmeet Bains 제압, 진보 후보 승리 사례</li>
+<li><span class="dt">07-04</span> <span class="ty ty-rating">등급</span> Cook 6/18: CA-22(Valadao·R) 토스업</li>
+<li><span class="dt">06-14</span> <span class="ty ty-map">지도·소송</span> Prop 50으로 트럼프 승차 +6에서 +2로 축소, Valadao 6/2 예선 약 44% 선두</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="ca-25" class="level4">
+<h4 class="anchored" data-anchor-id="ca-25">CA-25</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+2.5</span> → <span class="md">D+5.8</span> · 민주 Raul Ruiz 대 공화 Joe Males · <a href="states/ca.html#ca-25">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Ruiz, Raul Dr.</span> 2.09 (현금 2.56, ~06-30) · <span class="pr">Males, Joe</span> 0.94 (현금 0.01, ~06-30) <span class="muted">· 기타 <span class="pr">Truman, Ceci</span> 0.33 (현금 0.00, ~06-30)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-27" class="level4">
+<h4 class="anchored" data-anchor-id="ca-27">CA-27</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+3.9</span> → <span class="md">D+9.6</span> · 민주 George Whitesides 대 공화 Jason Gibbs · <a href="states/ca.html#ca-27">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Whitesides, George</span> 3.96 (현금 2.55, ~06-30) · <span class="pr">Gibbs, Jason</span> 0.38 (현금 0.20, ~06-30)</li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-31" class="level4">
+<h4 class="anchored" data-anchor-id="ca-31">CA-31</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+16.9</span> → <span class="md">D+12.3</span> · 민주 Gil Cisneros 대 공화 Eric Ching · <a href="states/ca.html#ca-31">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Cisneros, Gilbert</span> 0.71 (현금 0.26, ~06-30) · <span class="pr">Ching, Eric J</span> 0.10 (현금 0.01, ~09-30)</li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-38" class="level4">
+<h4 class="anchored" data-anchor-id="ca-38">CA-38</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+16.1</span> → <span class="md">D+12.3</span> · 민주 Hilda Solis 대 공화 Pedro Casas · <a href="states/ca.html#ca-38">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Solis, Hilda</span> 1.05 (현금 0.15, ~06-30) <span class="muted">· 기타 <span class="pd">Sanchez, Monica Dr.</span> 0.19 (현금 0.00, ~06-30)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-40" class="level4">
+<h4 class="anchored" data-anchor-id="ca-40">CA-40</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+2.3</span> → <span class="mr">R+12.2</span> · 민주 미확인 대 공화 Young Kim / Ken Calvert (R vs R) · <a href="states/ca.html#ca-40">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_r">Solid R</span><span class="dt">07-16</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-13</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-25</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-11</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pr">Calvert, Ken</span> 6.14 (현금 1.50, ~06-30) <span class="muted">· 기타 <span class="pr">Kim, Young</span> 8.84 (현금 1.68, ~06-30) · <span class="pd">Varet, Esther Kim</span> 2.94 (현금 0.25, ~06-30) · <span class="pd">Gagnier, Christina</span> 0.61 (현금 0.02, ~06-30) · <span class="pd">Ramirez, Lisa D</span> 0.52 (현금 0.00, ~06-21) · <span class="pi">Linh, Nina</span> 0.44 (현금 0.00, ~06-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 15건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 15건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">09-22</span> <span class="ty ty-rating">등급</span> DDHQ 9/21 CA-40 Safe R &gt;99%</li>
+<li><span class="dt">09-22</span> <span class="ty ty-money">자금</span> CA-40 도전자 김 바렛(D) 1분기 모금 100만 달러 초과 (자기자금 38.2만)</li>
+<li><span class="dt">09-17</span> <span class="ty ty-candidate">후보</span> CA-40 Prop 50 지도 하 공화 대 공화(영 김 대 캘버트) 본선</li>
+<li><span class="dt">09-16</span> <span class="ty ty-map">지도·소송</span> 주민발의 50호 지도에서 CA-40이 영 김·캘버트 지역구를 합침</li>
+<li><span class="dt">09-16</span> <span class="ty ty-candidate">후보</span> CA-40 11월 본선 공화 대 공화(김 대 캘버트), 민주 후보 없음</li>
+<li><span class="dt">09-16</span> <span class="ty ty-candidate">후보</span> CA-40 top-two 탈락자 에스더 김 바렛(D) 1분기 100만 달러 이상 모금</li>
+<li><span class="dt">09-14</span> <span class="ty ty-candidate">후보</span> CA-40 영 김 재선 출마</li>
+<li><span class="dt">09-13</span> <span class="ty ty-candidate">후보</span> CA-40 영 김 대 켄 캘버트 현역 대 현역</li>
+<li><span class="dt">08-23</span> <span class="ty ty-candidate">후보</span> CA-40은 Prop 50으로 캘버트·영 김 지역구가 병합, 둘 다 6/2 top-two 통과, 쿡 Solid R MERGED SEAT</li>
+<li><span class="dt">08-18</span> <span class="ty ty-candidate">후보</span> CA-40 본선은 켄 캘버트(R) 대 영 김(R), 민주 에스더 김 배럿은 16.6%로 탈락</li>
+<li><span class="dt">06-29</span> <span class="ty ty-candidate">후보</span> Young Kim 민주 타깃 유지, 민주 후보군 Kerr·Gagnier·Kim Varet·Swift, 토스업 아님</li>
+<li><span class="dt">06-19</span> <span class="ty ty-candidate">후보</span> 한국계 현역 Young Kim(R) 2026 본선 진출, CA-40은 토스업 바깥</li>
+<li><span class="dt">06-16</span> <span class="ty ty-money">자금</span> DCCC가 아시아계 유권자 표적 광고를 CA-40 포함 집행한 이력</li>
+<li><span class="dt">06-15</span> <span class="ty ty-poll">여론조사</span> Kim 캠프 조사는 Kim 우위, Tulchin 5/10 조사는 3자 박빙(양쪽 자체 조사)</li>
+<li><span class="dt">06-14</span> <span class="ty ty-candidate">후보</span> 6/2 top-two 예선에서 Kim·Calvert 공화 현역 둘 다 본선 진출, 민주 Kim-Varet 탈락</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="ca-41" class="level4">
+<h4 class="anchored" data-anchor-id="ca-41">CA-41</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+5.9</span> → <span class="md">D+14.3</span> · 민주 Linda Sánchez 대 공화 Mitch Clemmons · <a href="states/ca.html#ca-41">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pd">Sanchez, Linda</span> 1.60 (현금 0.42, ~06-30) · <span class="pd">De La Torre, Hector</span> 0.62 (현금 0.05, ~06-30) · <span class="pd">Aleman, Katherine</span> 0.20 (현금 0.00, ~01-31) · <span class="pd">Myers, Tim</span> 0.18 (현금 0.00, ~07-15)</li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-42" class="level4">
+<h4 class="anchored" data-anchor-id="ca-42">CA-42</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+32.4</span> → <span class="md">D+13.1</span> · 민주 Robert Garcia 대 공화 Brian Burley · <a href="states/ca.html#ca-42">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Garcia, Robert</span> 2.62 (현금 1.38, ~06-30) · <span class="pr">Burley, Brian J Mr.</span> 0.23 (현금 0.01, ~06-30) <span class="muted">· 기타 <span class="pr">Blom, Noah</span> 0.16 (현금 0.00, ~09-02)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-45" class="level4">
+<h4 class="anchored" data-anchor-id="ca-45">CA-45</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+1.5</span> → <span class="md">D+3.9</span> · 민주 Derek Tran 대 공화 Chuong Vo · <a href="states/ca.html#ca-45">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_d">Likely D</span><span class="dt">07-16</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">08-13</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">08-25</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">09-11</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">09-25</span></li>
+<li><strong>3사 등급(최신 2026-10-03)</strong> Cook <span class="rt rt-lean_d">Leans D</span> · Sabato <span class="rt rt-lean_d">Leans D</span> <span class="dt">(조합이 바뀐 판본: 06-14)</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Tran, Derek</span> 4.98 (현금 3.26, ~06-30) · <span class="pr">Vo, Chuong</span> 0.50 (현금 0.07, ~06-30) <span class="muted">· 기타 <span class="pr">Steel, Michelle</span> 1.25 (현금 0.00, ~10-09) · <span class="pr">Ky-Phong Vo, Thomas</span> 0.76 (현금 0.00, ~06-16) · <span class="pr">Nguyen, Chi Charlie</span> 0.49 (현금 0.00, ~07-10)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 12건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 12건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-08</span> <span class="ty ty-rating">등급</span> IE 10/1 CA-45 Lean D에서 Likely D</li>
+<li><span class="dt">10-01</span> <span class="ty ty-rating">등급</span> 사바토 9/29 CA-45 Lean D에서 Likely D</li>
+<li><span class="dt">09-14</span> <span class="ty ty-candidate">후보</span> CA-45 전 의원 스틸 8/12 주한대사 취임, 투표용지 제외</li>
+<li><span class="dt">08-28</span> <span class="ty ty-rating">등급</span> 인사이드일렉션스 8/26 CA-45 Tilt D에서 Lean D</li>
+<li><span class="dt">08-23</span> <span class="ty ty-rating">등급</span> CA-45 Lean D에서 Likely D 이동은 8/13 일괄 조정에 포함</li>
+<li><span class="dt">08-22</span> <span class="ty ty-rating">등급</span> 쿡 실시간 페이지상 CA-45는 Likely D, 주간 파일 7/5 개정 이력은 Lean D로 불일치</li>
+<li><span class="dt">08-18</span> <span class="ty ty-rating">등급</span> 2차 집계상 Cook 8/13 배치에 CA-45 Lean D에서 Likely D 포함(미확인) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">08-16</span> <span class="ty ty-rating">등급</span> 8/13 스냅샷에서 CA-45(트란) Cook Likely D, 이동 시점 미확인 <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">07-18</span> <span class="ty ty-rating">등급</span> Cook 7/16: CA-45 Lean D에서 Likely D로 이동</li>
+<li><span class="dt">07-04</span> <span class="ty ty-rating">등급</span> Cook 6/18: CA-45 Lean D</li>
+<li><span class="dt">06-29</span> <span class="ty ty-candidate">후보</span> Michelle Steel 주한대사 인준(55–39, 6/17), 하원 후보 아님</li>
+<li><span class="dt">06-27</span> <span class="ty ty-map">지도·소송</span> 주간 목록이 재획정 후 경계/등급 재점검 필요로 표시한 지역구</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="ca-47" class="level4">
+<h4 class="anchored" data-anchor-id="ca-47">CA-47</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+4.2</span> → <span class="md">D+10.1</span> · 민주 Dave Min 대 공화 Jenny Le Roux · <a href="states/ca.html#ca-47">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Min, Dave</span> 3.38 (현금 1.89, ~06-30) <span class="muted">· 기타 <span class="pr">Le Roux, Jenny Rae</span> 0.38 (현금 0.13, ~06-30) · <span class="pi">Troutman, Eric J</span> 0.27 (현금 0.00, ~06-30) · <span class="pr">Maxsenti, Michael</span> 0.25 (현금 0.00, ~06-30)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+<section id="ca-48" class="level4">
+<h4 class="anchored" data-anchor-id="ca-48">CA-48</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+15.3</span> → <span class="md">D+3.1</span> · 민주 Marni von Wilpert 대 공화 Jim Desmond · <a href="states/ca.html#ca-48">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-lean_d">Lean D</span><span class="dt">07-16</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">08-13</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">08-25</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">09-11</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pr">Desmond, Jim</span> 2.26 (현금 1.23, ~06-30) <span class="muted">· 기타 <span class="pd">Riker, Brandon</span> 2.27 (현금 0.02, ~06-30) · <span class="pd">Von Wilpert, Marni</span> 2.17 (현금 0.83, ~06-30) · <span class="pd">Chavez, Abel</span> 0.47 (현금 0.01, ~06-30) · <span class="pd">Dixit, Anuj</span> 0.47 (현금 0.17, ~06-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 3건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 3건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">08-24</span> <span class="ty ty-rating">등급</span> CA-48 쿡 Lean D 대 Smarter.Vote Toss-up(D 53%, +2.0) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">08-23</span> <span class="ty ty-rating">등급</span> Smarter.Vote 토스업에 CA-48 포함</li>
+<li><span class="dt">08-23</span> <span class="ty ty-rating">등급</span> 쿡 Lean D 열에 CA-48(공석, 아이사), Prop 50 재획정 지역구, Smarter.Vote는 토스업</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="ca-49" class="level4">
+<h4 class="anchored" data-anchor-id="ca-49">CA-49</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+7.8</span> → <span class="md">D+12.1</span> · 민주 Mike Levin 대 공화 Armen Kurdian · <a href="states/ca.html#ca-49">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Levin, Mike</span> 3.16 (현금 1.42, ~06-30)</li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<section id="fl-07" class="level4">
+<h4 class="anchored" data-anchor-id="fl-07">FL-07</h4>
+<p class="dmeta">
+지도 변화가 작아 주별 표에는 없는 구(경합 또는 브리핑 빈출로 추적)
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_r">Likely R</span><span class="dt">07-16</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-13</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-25</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-11</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pd">Dalton, Bale</span> 1.38 (현금 0.48, ~07-29) · <span class="pr">Mills, Cory</span> 0.88 (현금 0.07, ~07-29) · <span class="pd">Kinter, Marialana</span> 0.57 (현금 0.06, ~07-29) · <span class="pd">Grayson, Alan Mark</span> 0.39 (현금 0.13, ~07-29) · <span class="pr">Elijah, Ryan</span> 0.36 (현금 0.19, ~07-29)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 8건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 8건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">08-21</span> <span class="ty ty-rating">등급</span> 밀스 탈락에도 FL-07 Likely R 유지</li>
+<li><span class="dt">08-20</span> <span class="ty ty-candidate">후보</span> FL-07 공화 예선에서 일라이자가 밀스를 46.9-34.5로 제압</li>
+<li><span class="dt">08-18</span> <span class="ty ty-poll">여론조사</span> FL-07 공화 예선 Capital Strategic Partners(8/14-15) 일라이자 44-27 밀스</li>
+<li><span class="dt">08-16</span> <span class="ty ty-event">동향</span> Cook이 FL-07 밀스에 대해 다음 주 예선에서 살아남지 못할 수도 있다고 언급</li>
+<li><span class="dt">08-16</span> <span class="ty ty-rating">등급</span> Cook의 FL-07 현 등급은 Likely R</li>
+<li><span class="dt">08-15</span> <span class="ty ty-event">동향</span> FL-07 밀스가 우위지만 약체화, 신승 시 안전했던 공화 의석이 Tier-2 논의권에 진입</li>
+<li><span class="dt">08-14</span> <span class="ty ty-candidate">후보</span> 8/18 플로리다 예선(신 24-4 지도 첫 투표)에서 FL-07 밀스가 공화 도전자 3인과 대결</li>
+<li><span class="dt">08-12</span> <span class="ty ty-candidate">후보</span> Cook이 FL-07 코리 밀스의 다음 주 예선 생존이 불투명하다고 명시</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="fl-09" class="level4">
+<h4 class="anchored" data-anchor-id="fl-09">FL-09</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+3.5</span> → <span class="mr">R+17.7</span> · 민주 Darren Soto 대 공화 Dan Green · <a href="states/fl.html#fl-09">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_r">Likely R</span><span class="dt">07-16</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-13</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-25</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-11</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Soto, Darren</span> 2.16 (현금 1.19, ~07-29) · <span class="pr">Green, Dan</span> 1.30 (현금 0.36, ~07-29) <span class="muted">· 기타 <span class="pr">Chalifoux, Thomas E. Colonel Jr.</span> 3.16 (현금 0.07, ~09-30) · <span class="pr">Martinez, Jorge</span> 0.85 (현금 0.29, ~07-29) · <span class="pr">Butler, Benjamin Ben</span> 0.39 (현금 0.11, ~07-29) · <span class="pr">Rance, Howard Steven</span> 0.16 (현금 0.00, ~09-18)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 4건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 4건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-09</span> <span class="ty ty-rating">등급</span> 270toWin 합의 로그 10/2: FL-09 Likely R에서 Lean R</li>
+<li><span class="dt">09-22</span> <span class="ty ty-money">자금</span> No Going Back PAC이 FL-09(트럼프+18)에 소액 우편·방송 집행</li>
+<li><span class="dt">09-03</span> <span class="ty ty-event">동향</span> 반사회주의 결의안 호명투표 289에서 소토(FL-09, Likely R) 찬성</li>
+<li><span class="dt">06-29</span> <span class="ty ty-rating">등급</span> Cook 6/25: FL-09(Soto) Solid D→Likely R (신규 24-4 FL 지도 반영)</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="fl-13" class="level4">
+<h4 class="anchored" data-anchor-id="fl-13">FL-13</h4>
+<p class="dmeta">
+지도 변화가 작아 주별 표에는 없는 구(경합 또는 브리핑 빈출로 추적)
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_r">Likely R</span><span class="dt">07-16</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-13</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-25</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-11</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pr">Paulina Luna, Anna</span> 3.23 (현금 1.47, ~07-29) · <span class="pd">Gray, Leela J</span> 1.22 (현금 0.68, ~07-29) · <span class="pd">Ford, Earle</span> 0.57 (현금 0.02, ~03-31) · <span class="pd">Robinson, Timothy Brandt Mr</span> 0.11 (현금 0.01, ~07-29)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 6건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 6건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-09</span> <span class="ty ty-rating">등급</span> IE 10/1 FL-13 Likely에서 Lean R로 이동 (270toWin 'Lean D' 표기는 오기로 보임, 미확인) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">10-08</span> <span class="ty ty-rating">등급</span> IE 10/1 FL-13 민주 방향 이동 (정확한 등급 미확인) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">10-02</span> <span class="ty ty-rating">등급</span> 3사 합의 토스업 14석 보도(Almanac)에서 FL-13(루나)이 신규 경합권 진입</li>
+<li><span class="dt">09-26</span> <span class="ty ty-rating">등급</span> 쿡 9/25 FL-13(루나) Likely R에서 Lean R</li>
+<li><span class="dt">08-23</span> <span class="ty ty-candidate">후보</span> DCCC Red to Blue에 릴라 그레이(FL-13, 루나 상대) 추가</li>
+<li><span class="dt">08-23</span> <span class="ty ty-rating">등급</span> FL-13 릴라 그레이(육군 참전군인, 8/18 공천) 대 루나, 두 평가 모두 Likely R</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="fl-14" class="level4">
+<h4 class="anchored" data-anchor-id="fl-14">FL-14</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+7.6</span> → <span class="mr">R+10.5</span> · 민주 Kathy Castor 대 공화 Mike Beltran · <a href="states/fl.html#fl-14">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-lean_r">Lean R</span><span class="dt">07-16</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">08-13</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-25</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-11</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-25</span></li>
+<li><strong>3사 등급(최신 2026-10-03)</strong> Cook <span class="rt rt-tossup">Toss Up</span> · Sabato <span class="rt rt-tossup">Toss-up</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Castor, Kathy</span> 2.34 (현금 1.74, ~07-29) · <span class="pr">Beltran, Mike</span> 2.13 (현금 1.95, ~07-29) <span class="muted">· 기타 <span class="pr">Steele, Kevin</span> 2.59 (현금 0.48, ~07-29) · <span class="pr">Rochford, Robert Anthony Rocky Capt</span> 0.27 (현금 0.10, ~07-29) · <span class="pr">Valenti, Bea</span> 0.24 (현금 0.00, ~09-30) · <span class="pr">Peters, John</span> 0.20 (현금 0.00, ~09-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 17건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 17건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">09-23</span> <span class="ty ty-money">자금</span> DCCC 공동 광고 방어 대상: FL-14, NC-01, OH-09, TX-34, AL-02, TX-28 (800만 달러 26개 지역구)</li>
+<li><span class="dt">09-23</span> <span class="ty ty-rating">등급</span> 롤콜 9/22 IE 9/17 조정 해설: FL-14 토스업, NC-01 Tilt R, FL-27 Lean R, FL-16·TX-09 Likely R</li>
+<li><span class="dt">09-22</span> <span class="ty ty-rating">등급</span> DDHQ: FL-14 Lean D 62%, OH-09 Lean D 67%, TX-34 Lean D 65%</li>
+<li><span class="dt">09-21</span> <span class="ty ty-rating">등급</span> IE 9/17 조정 재확인: FL-14 토스업, NC-01 Tilt R, FL-27 Lean R, FL-16·TX-09 Likely R</li>
+<li><span class="dt">09-18</span> <span class="ty ty-rating">등급</span> FL-14 IE 9/17 Tilt R에서 토스업, 3개 기관 모두 토스업</li>
+<li><span class="dt">09-13</span> <span class="ty ty-rating">등급</span> IE(곤잘레스)가 FL-14를 Lean R에서 Tilt R로, 토스업 가능성 시사</li>
+<li><span class="dt">09-13</span> <span class="ty ty-map">지도·소송</span> FL-14 신지도 트럼프+11, 약 19%p 우향 이동</li>
+<li><span class="dt">09-13</span> <span class="ty ty-candidate">후보</span> FL-14 캐스터(D) 대 벨트란(R) 접전</li>
+<li><span class="dt">09-06</span> <span class="ty ty-rating">등급</span> 인사이드일렉션스 9/3 FL-14 Lean에서 Tilt Republican</li>
+<li><span class="dt">09-03</span> <span class="ty ty-event">동향</span> 반사회주의 결의안 호명투표 289에서 캐스터(FL-14) 찬성</li>
+<li><span class="dt">08-27</span> <span class="ty ty-rating">등급</span> Cook 8/25 FL-14를 Lean R에서 Toss Up으로 이동</li>
+<li><span class="dt">08-27</span> <span class="ty ty-map">지도·소송</span> FL-14는 캐스터 낙선 목표로 19포인트 우향 재획정(트럼프+11)</li>
+<li><span class="dt">08-20</span> <span class="ty ty-rating">등급</span> 사바토 토스업 열이 2차 집계상 21로 FL-14 추가 <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">08-20</span> <span class="ty ty-rating">등급</span> FL-14는 트럼프 +10, DDHQ 토스업 평가, 사바토는 토스업 열에 올림, 쿡은 아직</li>
+<li><span class="dt">08-18</span> <span class="ty ty-rating">등급</span> FL-14(캐스터·D)는 트럼프 +10 재획정, DDHQ는 토스업으로 평가</li>
+<li><span class="dt">08-01</span> <span class="ty ty-rating">등급</span> Sabato 7/30: FL-14 Lean R에서 Toss-up으로 이동</li>
+<li><span class="dt">06-29</span> <span class="ty ty-rating">등급</span> Cook 6/25: FL-14(Castor) Solid D→Lean R (신규 24-4 FL 지도 반영)</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="fl-22" class="level4">
+<h4 class="anchored" data-anchor-id="fl-22">FL-22</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+5.5</span> → <span class="mr">R+10.5</span> · 민주 Pia Dandiya 대 공화 Casey Askar · <a href="states/fl.html#fl-22">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-lean_r">Lean R</span><span class="dt">07-16</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">08-13</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">08-25</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">09-11</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pr">Askar, Casey</span> 2.59 (현금 1.07, ~07-29) · <span class="pd">Dandiya, Pia</span> 2.28 (현금 1.30, ~07-29) <span class="muted">· 기타 <span class="pr">Carbonara, Michael</span> 4.76 (현금 0.04, ~07-29) · <span class="pr">Keiser, Belinda</span> 3.80 (현금 0.70, ~07-29) · <span class="pr">Wertheim, Herbert Dr.&nbsp;Od</span> 2.50 (현금 0.00, ~06-30) · <span class="pr">Franzese, Daniel John</span> 1.49 (현금 0.47, ~07-29)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 11건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 11건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-10</span> <span class="ty ty-rating">등급</span> Cook은 FL-22를 민주 귀속으로 분류 (Cook 토스업 21석: 민주 6/공화 15)</li>
+<li><span class="dt">09-29</span> <span class="ty ty-candidate">후보</span> FL-22 대진: 캐시 아스카르(R, 해병대 출신 사업가) 대 피아 단디야(D, 8/18 예선)</li>
+<li><span class="dt">09-29</span> <span class="ty ty-map">지도·소송</span> 재획정 FL-22는 팜비치에서 걸프 연안까지, 트럼프 +11</li>
+<li><span class="dt">09-29</span> <span class="ty ty-poll">여론조사</span> FL-22 HMP(민주 성향)용 Impact Research 8/24~31: 단디야 46 아스카르 44, 정보 제공 후 49-44, 제너릭 46-46</li>
+<li><span class="dt">09-29</span> <span class="ty ty-poll">여론조사</span> FL-22 Tavern Research 8월 중순 50-50 동률</li>
+<li><span class="dt">09-29</span> <span class="ty ty-rating">등급</span> 쿡 FL-22 평가: 아스카르 유리한 매우 경쟁적 공석, 트럼프 +11, PVI R+4</li>
+<li><span class="dt">09-29</span> <span class="ty ty-money">자금</span> FL-22 단디야(D) 8월까지 200만 달러 이상 모금</li>
+<li><span class="dt">09-28</span> <span class="ty ty-candidate">후보</span> 밸럿피디아 FL-22 페이지는 구 지도 기준 프랭클 현역·D+4 PVI 그대로 (신지도 미반영 추정); 신 FL-22 후보군 미확인 <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">09-27</span> <span class="ty ty-candidate">후보</span> FL-22: 프랭클(D)이 신설 FL-23으로 선거운동 이동해 공석, 쿡 9/25 신규 토스업</li>
+<li><span class="dt">09-26</span> <span class="ty ty-rating">등급</span> 쿡 9/25 FL-22 Lean R에서 토스업 (신원 미확인, 번호 충돌 가능성) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">09-26</span> <span class="ty ty-map">지도·소송</span> FL-22 신원 불일치: 쿡 보도의 신규 경합 공화 보유구 vs 기존 자료의 프랭클 안전 민주구</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="fl-23" class="level4">
+<h4 class="anchored" data-anchor-id="fl-23">FL-23</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+1.9</span> → <span class="md">D+13.8</span> · 민주 Lois Frankel 대 공화 Deborah Adeimy · <a href="states/fl.html#fl-23">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Frankel, Lois J.</span> 2.28 (현금 1.21, ~07-29) · <span class="pr">Adeimy, Deborah</span> 0.16 (현금 0.03, ~07-29) <span class="muted">· 기타 <span class="pd">Doyle, Victoria Jane Boker</span> 0.48 (현금 0.04, ~07-29)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 1건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 1건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">08-14</span> <span class="ty ty-money">자금</span> AAN 광고 커버리지에서 모스코위츠 지역구는 Axios 표기상 FL-23</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="fl-25" class="level4">
+<h4 class="anchored" data-anchor-id="fl-25">FL-25</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+5.3</span> → <span class="mr">R+9.1</span> · 민주 Jared Moskowitz 대 공화 Scott Singer · <a href="states/fl.html#fl-25">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-tossup">Toss-up</span><span class="dt">07-16</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-13</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-25</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-11</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Moskowitz, Jared</span> 3.00 (현금 1.88, ~07-29) · <span class="pr">Singer, Scott M.</span> 2.27 (현금 0.49, ~07-29) <span class="muted">· 기타 <span class="pr">Franzese, Daniel John</span> 1.49 (현금 0.47, ~07-29) · <span class="pr">Moraitis, George R</span> 0.93 (현금 0.27, ~07-29) · <span class="pr">Harrison, Raven</span> 0.80 (현금 0.08, ~07-29) · <span class="pd">Larkin, Oliver Adams</span> 0.69 (현금 0.17, ~07-29)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 21건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 21건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">09-25</span> <span class="ty ty-rating">등급</span> DDHQ 9/23: FL-25 57%, OH-07 54% 토스업</li>
+<li><span class="dt">09-24</span> <span class="ty ty-rating">등급</span> DDHQ 9/22: FL-25 토스업 57%</li>
+<li><span class="dt">09-22</span> <span class="ty ty-rating">등급</span> DDHQ FL-25 토스업 56%, OH-07 토스업 54%</li>
+<li><span class="dt">09-22</span> <span class="ty ty-money">자금</span> FL-25·NC-01 포함 3개 지역구가 각각 3,000만 달러 이상 지출·예약; FL-25는 공화당 마이애미 매체권 1,900만 달러 궤도</li>
+<li><span class="dt">09-21</span> <span class="ty ty-poll">여론조사</span> FL-25 유일 공개조사: Beacon Insights 5월 모스코위츠 약 +10; 쿡 PVI R+3</li>
+<li><span class="dt">09-17</span> <span class="ty ty-money">자금</span> NYT: 트럼프 진영 하원 최대 지출 계획 경선 3곳에 FL-25 포함</li>
+<li><span class="dt">09-17</span> <span class="ty ty-event">동향</span> 모스코위츠(D) 9/16 홀로코스트 영상 광고, 9/8 학교안전 광고에 이은 본선 두 번째</li>
+<li><span class="dt">09-17</span> <span class="ty ty-candidate">후보</span> FL-25 공화 후보 스콧 싱어(전 보카러톤 시장), 새 25지구 유대계 유권자 약 25%</li>
+<li><span class="dt">09-17</span> <span class="ty ty-rating">등급</span> Cook이 재획정을 근거로 FL-25를 Solid D에서 토스업으로 이동</li>
+<li><span class="dt">09-17</span> <span class="ty ty-candidate">후보</span> 모스코위츠 8/18 예선에서 라킨을 63.5-36.5로 제압</li>
+<li><span class="dt">09-03</span> <span class="ty ty-event">동향</span> 반사회주의 결의안 호명투표 289에서 모스코위츠(FL-25) 반대</li>
+<li><span class="dt">08-21</span> <span class="ty ty-rating">등급</span> 모스코위츠 26%p 승리 후에도 FL-25 Toss-Up 유지</li>
+<li><span class="dt">08-20</span> <span class="ty ty-candidate">후보</span> FL-25 모스코위츠가 라킨을 약 63-37로 제압, 공화는 스콧 싱어 승리</li>
+<li><span class="dt">08-17</span> <span class="ty ty-money">자금</span> Think Big PAC이 FL-25 모스코위츠 지원 독립지출 30만 9,574달러 FEC 신고</li>
+<li><span class="dt">08-17</span> <span class="ty ty-poll">여론조사</span> FL-25 Beacon(7/31) 55.6-19.9 대 라킨 캠프 의뢰 CSP(8/5) 40-38</li>
+<li><span class="dt">08-17</span> <span class="ty ty-money">자금</span> FL-25 모스코위츠 지원: New Democrat Majority PAC 25만 달러, UDP 66만 달러 이상 기부</li>
+<li><span class="dt">08-16</span> <span class="ty ty-rating">등급</span> Cook 토스업 구성 중 민주 보유 4석에 FL-25 포함</li>
+<li><span class="dt">08-15</span> <span class="ty ty-poll">여론조사</span> FL-25 민주 예선 8/18, 모스코위츠 대 라킨 Beacon Insights(7/31) 55.6-19.9</li>
+<li><span class="dt">08-15</span> <span class="ty ty-poll">여론조사</span> 라킨 캠프가 박빙이라는 자체 조사를 공개했으나 스폰서 조사로 독립 조사 없음</li>
+<li><span class="dt">07-05</span> <span class="ty ty-map">지도·소송</span> Newsweek: 민주 현직 토스업 3곳이 재획정으로 더 보수화</li>
+<li><span class="dt">07-04</span> <span class="ty ty-rating">등급</span> Cook 6/18: FL-25(Moskowitz·D) 토스업, 일일 감시 목록에 없었음</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="fl-27" class="level4">
+<h4 class="anchored" data-anchor-id="fl-27">FL-27</h4>
+<p class="dmeta">
+지도 변화가 작아 주별 표에는 없는 구(경합 또는 브리핑 빈출로 추적)
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_r">Likely R</span><span class="dt">07-16</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-13</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-25</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-11</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pr">Salazar, Maria Elvira</span> 2.00 (현금 2.26, ~07-29) · <span class="pd">Peguero, Robin</span> 1.06 (현금 0.14, ~07-29) · <span class="pd">Lamondin, Richard</span> 0.74 (현금 0.00, ~06-25) · <span class="pd">Rodriguez, Eliott</span> 0.66 (현금 0.33, ~07-29) · <span class="pr">Arias, Vincent Michael</span> 0.18 (현금 0.07, ~07-29)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 4건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 4건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-21" class="callout-21-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">09-26</span> <span class="ty ty-rating">등급</span> 쿡 9/25 FL-27 Likely R에서 Lean R</li>
+<li><span class="dt">09-22</span> <span class="ty ty-money">자금</span> 공화당 마이애미 매체권 지출 일부를 FL-27 쪽으로 이동 가능</li>
+<li><span class="dt">09-18</span> <span class="ty ty-rating">등급</span> IE 9/17 FL-27 Likely R에서 Lean R; 살라자르가 트럼프 이민 단속 비판 광고</li>
+<li><span class="dt">06-15</span> <span class="ty ty-rating">등급</span> Cook 4/8: FL-27 Solid R→Likely R</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<section id="oh-01" class="level4">
+<h4 class="anchored" data-anchor-id="oh-01">OH-01</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+7</span> → <span class="mr">R+3</span> · 민주 Greg Landsman 대 공화 Eric Conroy · <a href="states/oh.html#oh-01">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-lean_d">Lean D</span><span class="dt">07-16</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">08-13</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">08-25</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">09-11</span> → <span class="rt rt-lean_d">Lean D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Landsman, Greg</span> 4.63 (현금 3.61, ~06-30) · <span class="pr">Conroy, Eric</span> 1.51 (현금 0.47, ~06-30) <span class="muted">· 기타 <span class="pr">Erbeck, Steven</span> 0.83 (현금 0.00, ~09-30) · <span class="pr">Adams, Holly</span> 0.41 (현금 0.00, ~06-22)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 3건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 3건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-22" class="callout-22-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">06-19</span> <span class="ty ty-rating">등급</span> Inside Elections 6/11: OH-01 Toss-up→Tilt D</li>
+<li><span class="dt">06-15</span> <span class="ty ty-rating">등급</span> Inside Elections 6/11 묶음 중 OH-01 Tilt D <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">06-15</span> <span class="ty ty-rating">등급</span> Cook 4/8: OH-01 Toss-up→Lean D</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="oh-07" class="level4">
+<h4 class="anchored" data-anchor-id="oh-07">OH-07</h4>
+<p class="dmeta">
+지도 변화가 작아 주별 표에는 없는 구(경합 또는 브리핑 빈출로 추적)
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_r">Likely R</span><span class="dt">07-16</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-13</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-25</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-11</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-25</span></li>
+<li><strong>3사 등급(최신 2026-10-03)</strong> Cook <span class="rt rt-tossup">Toss Up</span> · Sabato <span class="rt rt-lean_r">Leans R</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pr">Miller, Max</span> 2.14 (현금 1.38, ~06-30) · <span class="pd">Poindexter, Brian</span> 0.60 (현금 0.31, ~06-30) · <span class="pd">Fitzgerald, Edward O'Donnell</span> 0.28 (현금 -0.08, ~06-30)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 42건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 42건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-23" class="callout-23-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-09</span> <span class="ty ty-rating">등급</span> DDHQ 10/8 토스업에 OH-07 포함</li>
+<li><span class="dt">10-05</span> <span class="ty ty-rating">등급</span> DDHQ 10/2 토스업 8석에 OH-07 포함</li>
+<li><span class="dt">09-25</span> <span class="ty ty-rating">등급</span> DDHQ 9/23: OH-07 토스업 54%</li>
+<li><span class="dt">09-24</span> <span class="ty ty-rating">등급</span> DDHQ 9/22: FL-25 57%, OH-07 54% 토스업</li>
+<li><span class="dt">09-23</span> <span class="ty ty-money">자금</span> CLF가 클리블랜드 시장에서 OH-07 맥스 밀러 방어에 490만 달러 보고</li>
+<li><span class="dt">09-23</span> <span class="ty ty-money">자금</span> HMP가 앞서 OH-07 밀러 겨냥 오하이오 600만 달러 약속</li>
+<li><span class="dt">09-23</span> <span class="ty ty-event">동향</span> 하원 윤리위가 OH-07 밀러의 가정폭력·약물 사용 의혹 검토 중</li>
+<li><span class="dt">09-23</span> <span class="ty ty-rating">등급</span> DDHQ OH-07 토스업 54%</li>
+<li><span class="dt">09-22</span> <span class="ty ty-rating">등급</span> DDHQ OH-07 토스업 54%</li>
+<li><span class="dt">09-13</span> <span class="ty ty-poll">여론조사</span> OH-07 베드록 8/7~10 포인덱스터 43 대 밀러 35</li>
+<li><span class="dt">09-13</span> <span class="ty ty-poll">여론조사</span> OH-07 4건 평균 포인덱스터 47.0 / 밀러 38.3</li>
+<li><span class="dt">09-13</span> <span class="ty ty-money">자금</span> 밀러 100만 달러 자기 대여</li>
+<li><span class="dt">09-09</span> <span class="ty ty-money">자금</span> NRCC가 밀러 캠프와 공동으로 45만 달러 광고를 9/7부터 집행</li>
+<li><span class="dt">09-09</span> <span class="ty ty-event">동향</span> 윤리위 60일 시한 9/4 경과, 존슨 의장은 밀러 재선 지지·견책 표결 임박 부인</li>
+<li><span class="dt">09-08</span> <span class="ty ty-event">동향</span> 하원 공화 의총 의장 맥클레인이 "이름 뒤에 R이 붙은 사람은 누구든 지지" 발언, 밀러를 옹호</li>
+<li><span class="dt">09-08</span> <span class="ty ty-event">동향</span> 버니 모레노 상원의원이 밀러 사퇴를, 허스티드가 후보 사퇴를 요구</li>
+<li><span class="dt">09-07</span> <span class="ty ty-money">자금</span> HMP가 클리블랜드 예약을 약 600만 달러 증액해 약 700만 달러로, co/efficient 포인덱스터 +14</li>
+<li><span class="dt">09-04</span> <span class="ty ty-money">자금</span> 롤러(NY-17)가 밀러(OH-07) PAC에서 받은 1만 달러 반환 거부 보도, 시점 미확인 <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">08-21</span> <span class="ty ty-poll">여론조사</span> OH-07 Bedrock 8/10 조사(43-35)는 노조와 The Next 50 의뢰</li>
+<li><span class="dt">08-20</span> <span class="ty ty-poll">여론조사</span> PollingSource OH-07 평균 포인덱스터 47.0-38.3(+8.7), 밀러 100만 달러 자기대출</li>
+<li><span class="dt">08-20</span> <span class="ty ty-money">자금</span> OH-07 밀러 모금 214만 달러·보유 138만, 포인덱스터 모금 60.3만·보유 31.2만</li>
+<li><span class="dt">08-20</span> <span class="ty ty-money">자금</span> 밀러 100만 달러 자기대출, NRCC·CLF 자금 이탈 여부 관찰 필요</li>
+<li><span class="dt">08-17</span> <span class="ty ty-poll">여론조사</span> OH-07 Bedrock 8/7~10 포인덱스터 43-35, 노조 등 포인덱스터 지지 측 의뢰</li>
+<li><span class="dt">08-17</span> <span class="ty ty-poll">여론조사</span> co/efficient 추세: 7월 말 밀러 39-44에서 8/5~6 33-47, 밀러 비호감도 41%에서 57%</li>
+<li><span class="dt">08-16</span> <span class="ty ty-rating">등급</span> Cook이 8/10 OH-07(밀러)을 Likely R에서 Toss Up으로 이동, Cook 토스업 19석 확정</li>
+<li><span class="dt">08-16</span> <span class="ty ty-poll">여론조사</span> OH-07 co/efficient(R) 8/5-6 포인덱스터 47-33, Tavern(D) 8/4-5 54-46</li>
+<li><span class="dt">08-16</span> <span class="ty ty-money">자금</span> 트럼프 PAC 1차분 약 3,000만 달러가 MI·OH·NC 겨냥, OH-07 포함</li>
+<li><span class="dt">08-14</span> <span class="ty ty-poll">여론조사</span> OH-07 포인덱스터 우세 후원사 조사 2건 이후 독립 조사 부재</li>
+<li><span class="dt">08-13</span> <span class="ty ty-poll">여론조사</span> 포인덱스터 43 대 밀러 35, LV 866명, 8/7–10, 오차 ±3.7, 친민주 스폰서</li>
+<li><span class="dt">08-13</span> <span class="ty ty-money">자금</span> 밀러가 자기 캠페인에 100만 달러 대여, 민주당 자금이 집결 중</li>
+<li><span class="dt">08-12</span> <span class="ty ty-rating">등급</span> Cook이 8/10 OH-07을 Likely R에서 Toss-Up으로 이동, 토스업 18→19석</li>
+<li><span class="dt">08-12</span> <span class="ty ty-candidate">후보</span> DCCC가 포인덱스터를 Red to Blue 명단에 추가</li>
+<li><span class="dt">08-12</span> <span class="ty ty-poll">여론조사</span> co/efficient 조사 메모에서 포인덱스터 +14(직전 +5), 표본·조사일 미공개</li>
+<li><span class="dt">08-05</span> <span class="ty ty-candidate">후보</span> 밀러 사퇴 거부 지속, 8/5 오후 4시 전 사퇴해야 8/10까지 대체 후보 확정 가능</li>
+<li><span class="dt">08-05</span> <span class="ty ty-rating">등급</span> OH-07은 현재 Likely R, 밀러 잔류 확정 시 등급 하향 주시(Bloomberg 인용)</li>
+<li><span class="dt">08-04</span> <span class="ty ty-candidate">후보</span> 트럼프 측근들이 가정폭력 의혹을 이유로 밀러 사퇴 촉구를 트럼프에 요청(CNN), 밀러는 거부</li>
+<li><span class="dt">08-04</span> <span class="ty ty-event">동향</span> 후보 교체 시한 8/5, 제인 팀켄 대체 출마 거부</li>
+<li><span class="dt">08-04</span> <span class="ty ty-rating">등급</span> Cook은 OH-07을 Likely R로 유지, 밀러 잔류 시 등급 이동 예상</li>
+<li><span class="dt">08-01</span> <span class="ty ty-rating">등급</span> Sabato 7/30: OH-07 Likely R에서 Lean R로 이동</li>
+<li><span class="dt">06-19</span> <span class="ty ty-rating">등급</span> Cook 6/18: OH-07 Safe R→Likely R</li>
+<li><span class="dt">06-19</span> <span class="ty ty-rating">등급</span> Inside Elections 6/11: OH-07 Safe→Likely R</li>
+<li><span class="dt">06-15</span> <span class="ty ty-rating">등급</span> Inside Elections 6/11 묶음 중 OH-07 Likely R <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="oh-09" class="level4">
+<h4 class="anchored" data-anchor-id="oh-09">OH-09</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+6.7</span> → <span class="mr">R+10.6</span> · 민주 Marcy Kaptur 대 공화 Derek Merrin · <a href="states/oh.html#oh-09">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-tossup">Toss-up</span><span class="dt">07-16</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-13</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">08-25</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-11</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-25</span></li>
+<li><strong>3사 등급(최신 2026-10-03)</strong> Cook <span class="rt rt-tossup">Toss Up</span> · Sabato <span class="rt rt-tossup">Toss-up</span> <span class="dt">(조합이 바뀐 판본: 06-14)</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Kaptur, Marcy Hon.&nbsp;M.C.</span> 4.30 (현금 3.49, ~06-30) · <span class="pr">Merrin, Derek</span> 1.51 (현금 0.53, ~06-30) <span class="muted">· 기타 <span class="pr">Williams, Josh</span> 0.96 (현금 0.03, ~06-30) · <span class="pr">Nadeem, Alea</span> 0.75 (현금 0.00, ~09-30) · <span class="pr">Sheahan, Madison</span> 0.27 (현금 0.00, ~09-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 15건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 15건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-24" class="callout-24-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">09-23</span> <span class="ty ty-money">자금</span> DCCC 공동 광고 OH-09 캡터 방어</li>
+<li><span class="dt">09-22</span> <span class="ty ty-rating">등급</span> DDHQ OH-09 Lean D 67%</li>
+<li><span class="dt">09-08</span> <span class="ty ty-money">자금</span> NRCC 조정지출 광고가 OH-09(캡터)를 공세 대상으로 지목</li>
+<li><span class="dt">09-07</span> <span class="ty ty-event">동향</span> 캅투어 톨레도 뺑소니 사고 8/2, 8/9 퇴원, 본선 캡터-메린 리매치</li>
+<li><span class="dt">09-07</span> <span class="ty ty-map">지도·소송</span> 오하이오 재획정으로 OH-09는 약 트럼프+10, 트럼프계 PAC 3,000만 달러 표적</li>
+<li><span class="dt">09-03</span> <span class="ty ty-event">동향</span> 반사회주의 결의안 호명투표 289에서 캅투어(OH-09) 반대</li>
+<li><span class="dt">08-18</span> <span class="ty ty-money">자금</span> AAN 2,200만 달러/41개 지역구 집행에 OH-09(캅투어) 포함 확인</li>
+<li><span class="dt">08-18</span> <span class="ty ty-event">동향</span> 캅투어가 8/2 톨레도 뺑소니 사고 이후 8/11 정상 일정 복귀</li>
+<li><span class="dt">08-16</span> <span class="ty ty-money">자금</span> 트럼프 PAC 1차분 약 3,000만 달러 겨냥 지역구에 OH-09 포함</li>
+<li><span class="dt">08-16</span> <span class="ty ty-map">지도·소송</span> OH-09는 오하이오 재획정으로 노출된 민주 보유 토스업</li>
+<li><span class="dt">08-16</span> <span class="ty ty-rating">등급</span> Cook 토스업 구성 중 민주 보유 4석에 OH-09 포함</li>
+<li><span class="dt">08-14</span> <span class="ty ty-money">자금</span> AAN 광고 Tier-1 커버리지에 OH-09(민주 보유) 포함</li>
+<li><span class="dt">07-05</span> <span class="ty ty-map">지도·소송</span> Newsweek: 민주 현직 토스업 3곳이 재획정으로 더 보수화</li>
+<li><span class="dt">07-04</span> <span class="ty ty-rating">등급</span> Cook 6/18: OH-09 토스업(민주 보유)</li>
+<li><span class="dt">06-27</span> <span class="ty ty-map">지도·소송</span> 주간 목록이 재획정 후 경계/등급 재점검 필요로 표시한 지역구</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="oh-10" class="level4">
+<h4 class="anchored" data-anchor-id="oh-10">OH-10</h4>
+<p class="dmeta">
+지도 변화가 작아 주별 표에는 없는 구(경합 또는 브리핑 빈출로 추적)
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_r">Solid R</span><span class="dt">07-16</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-13</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-25</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-11</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pr">Turner, Michael R Rep.</span> 0.89 (현금 0.56, ~06-30) · <span class="pd">Knickerbocker, Kristina</span> 0.36 (현금 0.13, ~06-30) · <span class="pd">Pombo, Tony</span> 0.16 (현금 0.07, ~06-30)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 4건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 4건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-25" class="callout-25-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">09-22</span> <span class="ty ty-money">자금</span> Safety and Affordability PAC OH-10 지원 예약 (OH-15와 합산 약 360만 달러)</li>
+<li><span class="dt">09-21</span> <span class="ty ty-rating">등급</span> 사바토 9/16 OH-10 Safe R에서 Likely R</li>
+<li><span class="dt">09-18</span> <span class="ty ty-rating">등급</span> 사바토 9/16 OH-10을 Safe R에서 Likely R로 이동</li>
+<li><span class="dt">08-14</span> <span class="ty ty-rating">등급</span> Cook이 8/13 OH-10(터너)을 Solid R에서 Likely R로 하향</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="oh-13" class="level4">
+<h4 class="anchored" data-anchor-id="oh-13">OH-13</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+0.1</span> → <span class="md">D+3</span> · 민주 Emilia Sykes 대 공화 Carey Coleman · <a href="states/oh.html#oh-13">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_d">Likely D</span><span class="dt">07-16</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">08-13</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">08-25</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">09-11</span> → <span class="rt rt-likely_d">Likely D</span><span class="dt">09-25</span></li>
+<li><strong>3사 등급(최신 2026-10-03)</strong> Cook <span class="rt rt-lean_d">Leans D</span> · Sabato <span class="rt rt-likely_d">Likely D</span> <span class="dt">(조합이 바뀐 판본: 06-14)</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Sykes, Emilia</span> 3.14 (현금 1.90, ~06-30) · <span class="pr">Coleman, Carey</span> 0.13 (현금 0.08, ~06-30)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 3건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 3건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-26" class="callout-26-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">07-04</span> <span class="ty ty-rating">등급</span> Cook 6/18: OH-13 Likely D</li>
+<li><span class="dt">06-27</span> <span class="ty ty-map">지도·소송</span> 주간 목록이 재획정 후 경계/등급 재점검 필요로 표시한 지역구</li>
+<li><span class="dt">06-15</span> <span class="ty ty-rating">등급</span> Cook 4/8: OH-13 Lean D→Likely D</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="oh-15" class="level4">
+<h4 class="anchored" data-anchor-id="oh-15">OH-15</h4>
+<p class="dmeta">
+지도 변화가 작아 주별 표에는 없는 구(경합 또는 브리핑 빈출로 추적)
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_r">Solid R</span><span class="dt">07-16</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-13</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-25</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-11</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pr">Carey, Mike</span> 3.30 (현금 2.06, ~06-30) · <span class="pd">Miller, Adam Clay</span> 0.91 (현금 0.02, ~06-30) · <span class="pd">Leonard, Don Ralph</span> 0.61 (현금 0.25, ~06-30)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 4건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-27-contents" aria-controls="callout-27" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 4건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-27" class="callout-27-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-08</span> <span class="ty ty-rating">등급</span> IE 10/1 OH-15 Safe R에서 Likely R</li>
+<li><span class="dt">10-01</span> <span class="ty ty-rating">등급</span> 사바토 9/29 OH-15 Solid R에서 Likely R</li>
+<li><span class="dt">09-22</span> <span class="ty ty-money">자금</span> Safety and Affordability PAC이 OH-15·OH-10 지원에 약 360만 달러 예약</li>
+<li><span class="dt">08-14</span> <span class="ty ty-rating">등급</span> Cook이 8/13 OH-15(케리)를 Solid R에서 Likely R로 하향</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<section id="nc-01" class="level4">
+<h4 class="anchored" data-anchor-id="nc-01">NC-01</h4>
+<p class="dmeta">
+2024 대선 <span class="mr">R+3</span> → <span class="mr">R+11</span> · 민주 Don Davis 대 공화 Laurie Buckhout · <a href="states/nc.html#nc-01">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-lean_r">Lean R</span><span class="dt">07-16</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">08-13</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">08-25</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">09-11</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">09-25</span></li>
+<li><strong>3사 등급(최신 2026-10-03)</strong> Cook <span class="rt rt-lean_r">Leans R</span> · Sabato <span class="rt rt-tossup">Toss-up (7/30↑)</span> <span class="dt">(조합이 바뀐 판본: 06-14, 08-02)</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Davis, Don</span> 4.29 (현금 3.57, ~06-30) · <span class="pr">Buckhout, Laurie</span> 3.79 (현금 1.83, ~06-30) <span class="muted">· 기타 <span class="pr">Roberson, Sandy</span> 3.54 (현금 0.02, ~06-30) · <span class="pr">Hanig, Bobby</span> 0.36 (현금 0.00, ~09-30) · <span class="pr">Buck, Asa Bryant Iii</span> 0.34 (현금 0.00, ~07-15) · <span class="pr">Russell, Ashley Nicole</span> 0.22 (현금 0.00, ~09-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 25건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-28-contents" aria-controls="callout-28" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 25건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-28" class="callout-28-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-10</span> <span class="ty ty-rating">등급</span> Cook 10/9 NC-01 Lean R에서 토스업; 트럼프 +12.5로 재획정됐으나 데이비스(D) 현역</li>
+<li><span class="dt">10-10</span> <span class="ty ty-rating">등급</span> Cook 10/9 NC-01 포함 4석이 Lean R에서 토스업으로</li>
+<li><span class="dt">10-09</span> <span class="ty ty-rating">등급</span> DDHQ 10/8 토스업에 NC-01 포함</li>
+<li><span class="dt">10-05</span> <span class="ty ty-rating">등급</span> DDHQ 10/2 토스업 8석에 NC-01 포함</li>
+<li><span class="dt">09-30</span> <span class="ty ty-rating">등급</span> IE 조정(롤콜 9/22 해설): NC-01 Lean R에서 Tilt R, FL-16·TX-09 Solid R에서 Likely R, FL-14 Tilt R에서 토스업</li>
+<li><span class="dt">09-23</span> <span class="ty ty-money">자금</span> DCCC 공동 광고 NC-01 데이비스 방어</li>
+<li><span class="dt">09-22</span> <span class="ty ty-poll">여론조사</span> NC-01 HMP 조사(9월): 데이비스(D)가 버크아웃을 7포인트 앞섬</li>
+<li><span class="dt">09-22</span> <span class="ty ty-money">자금</span> NC-01 7/1~선거일 지출·예약 3,000만 달러 이상 (펀치볼/AdImpact)</li>
+<li><span class="dt">09-18</span> <span class="ty ty-rating">등급</span> IE 9/17 NC-01 Lean R에서 Tilt R로 이동</li>
+<li><span class="dt">09-06</span> <span class="ty ty-event">동향</span> NC 우편투표 용지 발송(9/4), NC-01 데이비스 Lean R</li>
+<li><span class="dt">09-03</span> <span class="ty ty-event">동향</span> 반사회주의 결의안 호명투표 289에서 데이비스(NC-01, Lean R) 찬성</li>
+<li><span class="dt">08-25</span> <span class="ty ty-event">동향</span> 존슨 의장이 휴회 중 NC-01 벅하우트 등 공세 지역구에서 유세</li>
+<li><span class="dt">08-25</span> <span class="ty ty-event">동향</span> 존슨이 NC-01에서 벅하우트와 직접 유세</li>
+<li><span class="dt">08-20</span> <span class="ty ty-rating">등급</span> 사바토 토스업 열 2차 집계상 NC-1(데이비스) 추가 <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">08-16</span> <span class="ty ty-money">자금</span> 트럼프 PAC 1차분 약 3,000만 달러 겨냥 지역구에 NC-01 포함</li>
+<li><span class="dt">08-15</span> <span class="ty ty-rating">등급</span> 사바토가 7/31 NC-01·NC-11을 Lean R에서 Toss-up으로 이동 <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">08-15</span> <span class="ty ty-rating">등급</span> 사바토 7/31 NC-01 Lean R에서 Toss-up, Cook은 12월 NC-01을 Likely R에서 Lean R로 조정</li>
+<li><span class="dt">08-09</span> <span class="ty ty-rating">등급</span> Sabato가 7/30 NC-01도 Lean R에서 Toss-up으로 이동</li>
+<li><span class="dt">08-01</span> <span class="ty ty-rating">등급</span> Sabato 7/30: NC-01 Lean R에서 Toss-up으로 이동</li>
+<li><span class="dt">08-01</span> <span class="ty ty-rating">등급</span> Cook은 7/5 NC-01을 Lean R로 내렸으나 Sabato는 Toss-up으로 올림</li>
+<li><span class="dt">07-04</span> <span class="ty ty-rating">등급</span> Cook 6/18: NC-01 Lean R로 이동</li>
+<li><span class="dt">06-27</span> <span class="ty ty-map">지도·소송</span> NC-01이 더 공화 성향으로 재획정됨</li>
+<li><span class="dt">06-27</span> <span class="ty ty-map">지도·소송</span> 주간 목록이 재획정 후 경계/등급 재점검 필요로 표시한 지역구</li>
+<li><span class="dt">06-16</span> <span class="ty ty-rating">등급</span> NC-01 Cook 기준 Lean R로 이탈, 토스업↔︎Lean R 경계 강등 표기</li>
+<li><span class="dt">06-15</span> <span class="ty ty-rating">등급</span> Davis 재지명, Cook 등급 Lean R로 이동</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="nc-03" class="level4">
+<h4 class="anchored" data-anchor-id="nc-03">NC-03</h4>
+<p class="dmeta">
+2024 대선 <span class="na">미확인</span> → <span class="mr">R+14</span> · 민주 Raymond Smith Jr.&nbsp;대 공화 Greg Murphy · <a href="states/nc.html#nc-03">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_r">Solid R</span><span class="dt">07-16</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-13</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-25</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-11</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pr">Murphy, Gregory Francis Dr.</span> 2.36 (현금 2.70, ~06-30) <span class="muted">· 기타 <span class="pd">Jaslow, Allison</span> 0.27 (현금 0.00, ~03-31) · <span class="pd">Smith, Raymond Edward Dr.&nbsp;Jr.</span> 0.22 (현금 0.07, ~06-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 1건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-29-contents" aria-controls="callout-29" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 1건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-29" class="callout-29-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-01</span> <span class="ty ty-rating">등급</span> 사바토 9/29 NC-03 Solid R에서 Likely R</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="nc-11" class="level4">
+<h4 class="anchored" data-anchor-id="nc-11">NC-11</h4>
+<p class="dmeta">
+지도 변화가 작아 주별 표에는 없는 구(경합 또는 브리핑 빈출로 추적)
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-lean_r">Lean R</span><span class="dt">07-16</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">08-13</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">08-25</span> → <span class="rt rt-lean_r">Lean R</span><span class="dt">09-11</span> → <span class="rt rt-tossup">Toss-up</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pd">Ager, Jamie</span> 3.05 (현금 2.18, ~06-30) · <span class="pr">Edwards, Chuck</span> 0.94 (현금 0.49, ~06-30) · <span class="pd">Hudspeth, Richard Dr.</span> 0.22 (현금 0.00, ~06-05) · <span class="pd">Davis, Morris D. Col.</span> 0.11 (현금 0.00, ~09-30)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 55건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-30-contents" aria-controls="callout-30" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 55건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-30" class="callout-30-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">10-09</span> <span class="ty ty-rating">등급</span> DDHQ 10/8 토스업에 NC-11 포함</li>
+<li><span class="dt">10-08</span> <span class="ty ty-rating">등급</span> DDHQ 10/7 토스업에 NC-11 포함</li>
+<li><span class="dt">10-05</span> <span class="ty ty-rating">등급</span> DDHQ 10/2 토스업 8석에 NC-11 포함</li>
+<li><span class="dt">10-05</span> <span class="ty ty-event">동향</span> NC-11 조기투표 10/15 개시</li>
+<li><span class="dt">09-26</span> <span class="ty ty-rating">등급</span> 쿡 9/25 NC-11 Lean R에서 토스업으로 이동</li>
+<li><span class="dt">09-26</span> <span class="ty ty-rating">등급</span> 쿡의 NC-11 토스업 이동 근거: 볼컴 듀크 에너지 후원 이력, 헬렌 연방 지원 부족 분노, 에이거 생활비 메시지</li>
+<li><span class="dt">09-25</span> <span class="ty ty-rating">등급</span> DDHQ 9/23: NC-01 토스업 52%, NC-11 토스업 57%</li>
+<li><span class="dt">09-24</span> <span class="ty ty-rating">등급</span> DDHQ 9/22: NC-01 토스업 52%, NC-11 토스업 57%, TX-15 Lean R 62%</li>
+<li><span class="dt">09-23</span> <span class="ty ty-rating">등급</span> NC-11 사바토 토스업, IE Tilt R, DDHQ 토스업, PPP 에이거 +3</li>
+<li><span class="dt">09-22</span> <span class="ty ty-poll">여론조사</span> NC-11 PPP(민주 성향) 9월: 일반 정당 질문 R+4이나 에이거가 볼컴을 3포인트 앞섬</li>
+<li><span class="dt">09-22</span> <span class="ty ty-event">동향</span> 트럼프 개스토니아 유세에서 헬레네 복구 예산 관련 발언 후 '농담'</li>
+<li><span class="dt">09-22</span> <span class="ty ty-rating">등급</span> DDHQ가 NC-11을 토스업(58%), NC-01을 토스업(52%)으로 평가; 쿡 Lean R와 배치</li>
+<li><span class="dt">09-21</span> <span class="ty ty-event">동향</span> NC-11 정규 본선, 부재자 투표용지 9/4 발송, 현장 조기투표 10/15~10/31</li>
+<li><span class="dt">09-19</span> <span class="ty ty-rating">등급</span> NC-11 Cook만 Lean R, IE Tilt R, 사바토 토스업</li>
+<li><span class="dt">09-18</span> <span class="ty ty-rating">등급</span> NC-11 IE 9/17 Lean R에서 Tilt R; 쿡만 Lean R</li>
+<li><span class="dt">09-18</span> <span class="ty ty-money">자금</span> NC-11 에이거 6월 말 현금 약 220만 달러</li>
+<li><span class="dt">09-17</span> <span class="ty ty-money">자금</span> NC-11 약 31만 달러 예약, Cook만 Lean R</li>
+<li><span class="dt">09-16</span> <span class="ty ty-money">자금</span> No Going Back PAC이 NC-11에 약 31만 달러 예약; 시비타스 R+5 평가</li>
+<li><span class="dt">09-16</span> <span class="ty ty-event">동향</span> 트럼프 9/16 개스토니아(NC) 방문 예정</li>
+<li><span class="dt">09-15</span> <span class="ty ty-candidate">후보</span> NC-11 볼컴(R) 8/10 지명, 8/17 트럼프 지지; 에이거(D) 8/18 첫 광고, 양측 광고 중</li>
+<li><span class="dt">09-14</span> <span class="ty ty-candidate">후보</span> NC-11 에드워즈 중단, 볼컴(R) 8/10 진입·트럼프 지지, 에이거(D) 첫 TV 광고</li>
+<li><span class="dt">09-14</span> <span class="ty ty-rating">등급</span> NC-11 쿡 Lean R, 사바토·IE 토스업</li>
+<li><span class="dt">09-13</span> <span class="ty ty-rating">등급</span> NC-11 사바토·IE 토스업, Cook Lean R</li>
+<li><span class="dt">09-07</span> <span class="ty ty-candidate">후보</span> NC-11 볼컴(R)이 8/10 지명, 모금은 0에서 시작, 사바토·IE Toss-up</li>
+<li><span class="dt">09-07</span> <span class="ty ty-money">자금</span> NC-11 에이거(D) 2분기 130만 달러 모금, 현금 약 220만 달러</li>
+<li><span class="dt">09-06</span> <span class="ty ty-event">동향</span> NC 우편투표 용지 발송(9/4), NC-11은 사바토·IE Toss-up, Cook Lean R</li>
+<li><span class="dt">09-05</span> <span class="ty ty-rating">등급</span> Cook은 NC-11을 OPEN Lean R로 두나 사바토·IE는 Toss-up, NC-11 Cook PVI R+5</li>
+<li><span class="dt">09-03</span> <span class="ty ty-money">자금</span> NC-11 에이거(D)는 직전 분기 말 현금 200만 달러 이상 보유, 공화 후보는 제니퍼 볼컴</li>
+<li><span class="dt">09-02</span> <span class="ty ty-event">동향</span> 하원이 은퇴 예정 에드워즈를 413-2로 견책, 볼컴(R)이 견책받은 공석을 승계, Cook은 Lean R 유지</li>
+<li><span class="dt">08-27</span> <span class="ty ty-rating">등급</span> Cook은 8/25에도 NC-11 이동하지 않음, 3개 기관 중 Cook만 아웃라이어</li>
+<li><span class="dt">08-22</span> <span class="ty ty-rating">등급</span> NC-11은 사바토·인사이드는 Toss-up, 쿡만 Lean R 유지</li>
+<li><span class="dt">08-17</span> <span class="ty ty-rating">등급</span> Cook 공개 등급표 Lean R 칸에 여전히 NC-11 Edwards 표기, 사바토·인사이드일렉션스는 Toss-up</li>
+<li><span class="dt">08-16</span> <span class="ty ty-money">자금</span> 트럼프 PAC 1차분 약 3,000만 달러 겨냥 지역구에 NC-11 포함</li>
+<li><span class="dt">08-15</span> <span class="ty ty-rating">등급</span> Cook은 NC-11을 토스업으로 옮기지 않았고, 사바토가 7/31 NC-11·NC-01을 Lean R에서 Toss-up으로 이동 <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+<li><span class="dt">08-15</span> <span class="ty ty-rating">등급</span> 사바토 7/31 NC-11 Lean R에서 Toss-up, Cook은 NC-11 Lean R 유지</li>
+<li><span class="dt">08-14</span> <span class="ty ty-candidate">후보</span> 제니퍼 볼컴(R)이 에드워즈 후임 공천 수락(8/10), 민주당 제이미 에이거와 대결</li>
+<li><span class="dt">08-12</span> <span class="ty ty-candidate">후보</span> 8/10 밤 집행위가 1차 투표로 볼컴을 공화 대체 후보로 선출, 민주 에이거와 대결</li>
+<li><span class="dt">08-12</span> <span class="ty ty-rating">등급</span> NC-11은 Cook Lean R 유지, Sabato는 Toss-up</li>
+<li><span class="dt">08-11</span> <span class="ty ty-candidate">후보</span> 볼컴이 직접 출마 선언, 홀 주하원의장이 공개 지지, 스미스·존슨은 불출마</li>
+<li><span class="dt">08-10</span> <span class="ty ty-candidate">후보</span> 모핏이 8/8 불출마 선언, 집행위는 낙점 후보 없이 개최</li>
+<li><span class="dt">08-10</span> <span class="ty ty-candidate">후보</span> 코빈 주상원의원도 후보직 고사</li>
+<li><span class="dt">08-09</span> <span class="ty ty-candidate">후보</span> 8/10 집행위 앞두고 모핏 출마 검토 확인, 볼컴은 모핏 지지; 등재 마감 8/20</li>
+<li><span class="dt">08-09</span> <span class="ty ty-rating">등급</span> Sabato가 7/30 NC-11을 Lean R에서 Toss-up으로 이동한 근거</li>
+<li><span class="dt">08-09</span> <span class="ty ty-money">자금</span> 에드워즈의 2분기 모금 15.5만 달러로 부진</li>
+<li><span class="dt">08-08</span> <span class="ty ty-candidate">후보</span> NC-11 대체 후보로 3월 예선 낙선자 스미스·레이건도 거론</li>
+<li><span class="dt">08-08</span> <span class="ty ty-rating">등급</span> Kalshi 시장 기반 등급이 8/6 NC-11 이동(분석기관 등급 아님)</li>
+<li><span class="dt">08-07</span> <span class="ty ty-candidate">후보</span> 8/10 공화 집행위가 대체 후보 선출, 모핏·볼컴·존슨 거론</li>
+<li><span class="dt">08-07</span> <span class="ty ty-rating">등급</span> NC-11은 트럼프 +10 지역구로 Sabato가 이미 토스업 분류</li>
+<li><span class="dt">08-06</span> <span class="ty ty-candidate">후보</span> 에드워즈(R)가 윤리위 견책 권고 이틀 만에 8/5 재선 포기</li>
+<li><span class="dt">08-06</span> <span class="ty ty-rating">등급</span> NC-11은 Cook Lean R, Sabato Toss-up 상태에서 현역 재선 포기</li>
+<li><span class="dt">08-06</span> <span class="ty ty-money">자금</span> 민주 제이미 에이거가 모금에서 에드워즈를 크게 앞섬(수치 없음)</li>
+<li><span class="dt">08-01</span> <span class="ty ty-rating">등급</span> Sabato 7/30: NC-11 Lean R에서 Toss-up으로 이동</li>
+<li><span class="dt">06-19</span> <span class="ty ty-rating">등급</span> Cook 6/18: NC-11 Likely R→Lean R</li>
+<li><span class="dt">06-19</span> <span class="ty ty-rating">등급</span> Inside Elections 6/11: NC-11 Likely→Lean R</li>
+<li><span class="dt">06-15</span> <span class="ty ty-rating">등급</span> Inside Elections 6/11 묶음 중 NC-11 Lean R(단일 출처 확정은 미수집) <span class="warn" title="원문에 미확인·2차 집계 단서">⚠</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
+<section id="tn-09" class="level4">
+<h4 class="anchored" data-anchor-id="tn-09">TN-09</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+42.7</span> → <span class="mr">R+21.1</span> · 민주 Justin J. Pearson 대 공화 Brent Taylor · <a href="states/tn.html#tn-09">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_r">Solid R</span><span class="dt">07-16</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-13</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-25</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-11</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Pearson, Justin J.</span> 2.34 (현금 0.84, ~07-17) · <span class="pr">Taylor, Brent</span> 1.55 (현금 0.42, ~07-17) <span class="muted">· 기타 <span class="pd">Cohen, Steve I Mr.</span> 0.78 (현금 1.84, ~06-30) · <span class="pr">Warner, William Todd</span> 0.69 (현금 -0.24, ~07-17) · <span class="pr">Thompson, Jeremy</span> 0.23 (현금 0.04, ~07-17) · <span class="pd">Torino, James Phd</span> 0.13 (현금 0.00, ~09-30)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 3건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-31-contents" aria-controls="callout-31" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 3건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-31" class="callout-31-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">08-08</span> <span class="ty ty-candidate">후보</span> 8/6 TN-09 예선에서 피어슨(D)과 테일러(R)가 공천 확보</li>
+<li><span class="dt">08-08</span> <span class="ty ty-map">지도·소송</span> 재획정으로 멤피스 흑인 다수 지역구 해체, 트럼프 ~60% 지역구로 변모, 코언 은퇴</li>
+<li><span class="dt">08-08</span> <span class="ty ty-candidate">후보</span> 테일러가 공화 예선을 약 20%p 차로 승리(Inside Elections)</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
+<section id="la-06" class="level4">
+<h4 class="anchored" data-anchor-id="la-06">LA-06</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+15</span> → <span class="mr">R+32</span> · <a href="states/la.html#la-06">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_r">Solid R</span><span class="dt">07-16</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-13</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">08-25</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-11</span> → <span class="rt rt-solid_r">Solid R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 미확인 — 예비선거 탈락자 포함 가능)</span> <span class="pr">Miguez, Blake</span> 6.61 (현금 2.03, ~07-18) · <span class="pd">Fields, Cleo</span> 0.83 (현금 0.44, ~07-18) · <span class="pr">Edmonds, Rick</span> 0.51 (현금 0.31, ~07-18) · <span class="pr">Appeaning, Anjanita Monique</span> 0.10 (현금 0.04, ~07-18)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 1건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-32-contents" aria-controls="callout-32" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 1건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-32" class="callout-32-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">07-05</span> <span class="ty ty-rating">등급</span> LA-06 Solid R, Callais 이후 남부 재획정 효과로 6/18 시트에 반영</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="tabset-1-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-8-tab">
+<section id="al-02" class="level4">
+<h4 class="anchored" data-anchor-id="al-02">AL-02</h4>
+<p class="dmeta">
+2024 대선 <span class="md">D+7</span> → <span class="mr">R+15</span> · 민주 Shomari Figures 대 공화 Rhett Marques · <a href="states/al.html#al-02">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-likely_r">Likely R</span><span class="dt">07-16</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-13</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">08-25</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-11</span> → <span class="rt rt-likely_r">Likely R</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Figures, Shomari C.</span> 1.36 (현금 0.66, ~07-22) · <span class="pr">Marques, Rhett</span> 1.32 (현금 0.19, ~07-22) <span class="muted">· 기타 <span class="pr">Mckee, Joshua Logan</span> 0.52 (현금 -0.00, ~07-22) · <span class="pr">Harris, Hampton</span> 0.25 (현금 0.16, ~07-22)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="현지 동향 일지 — 9건 (하원 일일 브리핑)">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-33-contents" aria-controls="callout-33" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">노트</span>현지 동향 일지 — 9건 (하원 일일 브리핑)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-33" class="callout-33-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="dt">09-23</span> <span class="ty ty-money">자금</span> DCCC 공동 광고 AL-02 피겨스 방어</li>
+<li><span class="dt">09-22</span> <span class="ty ty-money">자금</span> No Going Back PAC이 AL-02에 약 20만 달러 집행</li>
+<li><span class="dt">09-19</span> <span class="ty ty-money">자금</span> AL-02(피겨스·D, 트럼프 +14)가 NPR 애드임팩트 목록에 오름; Cook Likely R</li>
+<li><span class="dt">09-10</span> <span class="ty ty-money">자금</span> AdImpact 기준 AL-02 피겨스 5만 7,000달러, 재획정된 앨라배마 의석</li>
+<li><span class="dt">09-08</span> <span class="ty ty-money">자금</span> DCCC 조정지출 AL-02 피규어스 5만 7,000달러</li>
+<li><span class="dt">08-23</span> <span class="ty ty-rating">등급</span> Smarter.Vote 토스업에 AL-02·CA-48·CO-08 포함, 쿡 19석과 겹치는 것은 CO-08뿐</li>
+<li><span class="dt">08-14</span> <span class="ty ty-candidate">후보</span> 8/11 특별 예선으로 재획정 AL-02에서 마키스(R, 50%) 대 민주 현역 피겨스 대진 확정</li>
+<li><span class="dt">08-14</span> <span class="ty ty-candidate">후보</span> 재획정 AL-02에서 마키스가 약 50%로 공화 예선 승리(해리스 22%), 피겨스는 무경쟁 통과</li>
+<li><span class="dt">08-14</span> <span class="ty ty-map">지도·소송</span> AL-02는 공화당의 최상위 재획정 탈환 목표로 부상</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="tabset-1-9" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-9-tab">
+<section id="ut-01" class="level4">
+<h4 class="anchored" data-anchor-id="ut-01">UT-01</h4>
+<p class="dmeta">
+2024 대선 <span class="na">미확인</span> → <span class="md">D+24</span> · 민주 Ben McAdams 대 공화 Riley Owen · <a href="states/ut.html#ut-01">지도 변화 →</a>
+</p>
+<ul>
+<li><strong>Cook</strong> <span class="rt rt-solid_d">Solid D</span><span class="dt">07-16</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-13</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">08-25</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-11</span> → <span class="rt rt-solid_d">Solid D</span><span class="dt">09-25</span></li>
+<li><strong>FEC 누적 모금</strong> <span class="dt">(2026-10-10 취득, $M, 본선 후보 먼저)</span> <span class="pd">Mcadams, Ben</span> 2.26 (현금 0.30, ~06-30) · <span class="pr">Owen, Riley Montgomery</span> 0.13 (현금 0.01, ~06-30) <span class="muted">· 기타 <span class="pd">Blouin, Nate</span> 0.70 (현금 0.04, ~06-30) · <span class="pd">Mohamed, Liban</span> 0.35 (현금 0.08, ~06-30) · <span class="pd">Farrell, Michael</span> 0.31 (현금 0.01, ~06-30) · <span class="pd">Riebe, Kathleen</span> 0.13 (현금 0.01, ~06-30)</span></li>
+<li><strong>현지 동향 일지</strong> 브리핑 언급 없음</li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "복사완료!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "복사완료!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/us-elections-2026\.github\.io\/redistricting-2026");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>수치는 출처 링크가 달린 값만 싣습니다. 확인하지 못한 값은 ’미확인’으로 둡니다.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
