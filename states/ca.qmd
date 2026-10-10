@@ -36,33 +36,33 @@ subtitle: "지도 변화와 영향 지역구"
 
 | 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
 |-------|-----------|----------------|------:|------:|---------|--------|
-| [CA-01](#ca-01) ★ | Doug LaMalfa (2026-01 사망) → James Gallagher(보궐 당선) (R) | 재출마 (Gallagher, 신 CA-01) | <span class="mr">R+25</span> | <span class="md">D+12.2</span> | <span class="md">D 쪽 37.2p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-02](#ca-02) | Jared Huffman (D) | 재출마 | <span class="md">D+45.2</span> | <span class="md">D+24.6</span> | <span class="mr">R 쪽 20.6p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-03](#ca-03) ★ | Kevin Kiley (R(현 무소속)) | 다른 구 출마(CA-06, 무소속) | <span class="mr">R+3.8</span> | <span class="md">D+10.2</span> | <span class="md">D 쪽 14.0p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-04](#ca-04) ★ | Mike Thompson (D) | 재출마 | <span class="md">D+31.2</span> | <span class="md">D+14.5</span> | <span class="mr">R 쪽 16.7p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-06](#ca-06) ★ | Ami Bera (D) | 다른 구 출마(CA-03) | <span class="md">D+13.9</span> | <span class="md">D+8.4</span> | <span class="mr">R 쪽 5.5p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-07](#ca-07) ★ | Doris Matsui (D) | 재출마 | <span class="md">D+29.7</span> | <span class="md">D+12.9</span> | <span class="mr">R 쪽 16.8p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-08](#ca-08) | John Garamendi (D) | 재출마 | <span class="md">D+43.6</span> | <span class="md">D+33.9</span> | <span class="mr">R 쪽 9.7p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-09](#ca-09) ★ | Josh Harder (D) | 재출마 | <span class="mr">R+1.8</span> | <span class="md">D+11.5</span> | <span class="md">D 쪽 13.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-13](#ca-13) ★ | Adam Gray (D) | 재출마 | <span class="mr">R+5.4</span> | <span class="md">D+0.5</span> | <span class="md">D 쪽 5.9p</span> | <span class="rt rt-lean_d">Lean D</span> |
-| [CA-21](#ca-21) ★ | Jim Costa (D) | 재출마 | <span class="md">D+3.8</span> | <span class="md">D+6.1</span> | <span class="md">D 쪽 2.3p</span> | <span class="rt rt-likely_d">Likely D</span> |
-| [CA-22](#ca-22) ★ | David Valadao (R) | 재출마 | <span class="mr">R+5.8</span> | <span class="mr">R+1.8</span> | <span class="md">D 쪽 4.0p</span> | <span class="rt rt-tossup">Toss-up</span> |
-| [CA-25](#ca-25) ★ | Raul Ruiz (D) | 재출마 | <span class="md">D+2.5</span> | <span class="md">D+5.8</span> | <span class="md">D 쪽 3.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-27](#ca-27) ★ | George Whitesides (D) | 재출마 | <span class="md">D+3.9</span> | <span class="md">D+9.6</span> | <span class="md">D 쪽 5.7p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-31](#ca-31) ★ | Gil Cisneros (D) | 재출마 | <span class="md">D+16.9</span> | <span class="md">D+12.3</span> | <span class="mr">R 쪽 4.6p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-32](#ca-32) | Brad Sherman (D) | 재출마 | <span class="md">D+31.3</span> | <span class="md">D+25</span> | <span class="mr">R 쪽 6.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-35](#ca-35) | Norma Torres (D) | 재출마 | <span class="md">D+10.3</span> | <span class="md">D+7.8</span> | <span class="mr">R 쪽 2.5p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-38](#ca-38) ★ | Linda Sánchez (D) | 다른 구 출마(CA-41) | <span class="md">D+16.1</span> | <span class="md">D+12.3</span> | <span class="mr">R 쪽 3.8p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-40](#ca-40) ★ | Young Kim (R) | 재출마 (Ken Calvert와 현역 간 대결) | <span class="mr">R+2.3</span> | <span class="mr">R+12.2</span> | <span class="mr">R 쪽 9.9p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [CA-41](#ca-41) ★ | Ken Calvert (R) | 다른 구 출마(CA-40) | <span class="mr">R+5.9</span> | <span class="md">D+14.3</span> | <span class="md">D 쪽 20.2p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-42](#ca-42) ★ | Robert Garcia (D) | 재출마 | <span class="md">D+32.4</span> | <span class="md">D+13.1</span> | <span class="mr">R 쪽 19.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-45](#ca-45) ★ | Derek Tran (D) | 재출마 | <span class="md">D+1.5</span> | <span class="md">D+3.9</span> | <span class="md">D 쪽 2.4p</span> | <span class="rt rt-likely_d">Likely D</span> |
-| [CA-47](#ca-47) ★ | Dave Min (D) | 재출마 | <span class="md">D+4.2</span> | <span class="md">D+10.1</span> | <span class="md">D 쪽 5.9p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-48](#ca-48) ★ | Darrell Issa (R) | 은퇴 (2026-03-06 발표) | <span class="mr">R+15.3</span> | <span class="md">D+3.1</span> | <span class="md">D 쪽 18.4p</span> | <span class="rt rt-lean_d">Lean D</span> |
-| [CA-49](#ca-49) ★ | Mike Levin (D) | 재출마 | <span class="md">D+7.8</span> | <span class="md">D+12.1</span> | <span class="md">D 쪽 4.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-50](#ca-50) | Scott Peters (D) | 재출마 | <span class="md">D+29.6</span> | <span class="md">D+18.3</span> | <span class="mr">R 쪽 11.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-51](#ca-51) | Sara Jacobs (D) | 재출마 | <span class="md">D+23.5</span> | <span class="md">D+18.4</span> | <span class="mr">R 쪽 5.1p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [CA-52](#ca-52) | Juan Vargas (D) | 재출마 | <span class="md">D+21.2</span> | <span class="md">D+17.6</span> | <span class="mr">R 쪽 3.6p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-01">CA-01</a> ★</span> | Doug LaMalfa (2026-01 사망) → James Gallagher(보궐 당선) (R) | 재출마 (Gallagher, 신 CA-01) | <span class="mr">R+25</span> | <span class="md">D+12.2</span> | <span class="md">D 쪽 37.2p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-02">CA-02</a></span> | Jared Huffman (D) | 재출마 | <span class="md">D+45.2</span> | <span class="md">D+24.6</span> | <span class="mr">R 쪽 20.6p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-03">CA-03</a> ★</span> | Kevin Kiley (R(현 무소속)) | 다른 구 출마(CA-06, 무소속) | <span class="mr">R+3.8</span> | <span class="md">D+10.2</span> | <span class="md">D 쪽 14.0p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-04">CA-04</a> ★</span> | Mike Thompson (D) | 재출마 | <span class="md">D+31.2</span> | <span class="md">D+14.5</span> | <span class="mr">R 쪽 16.7p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-06">CA-06</a> ★</span> | Ami Bera (D) | 다른 구 출마(CA-03) | <span class="md">D+13.9</span> | <span class="md">D+8.4</span> | <span class="mr">R 쪽 5.5p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-07">CA-07</a> ★</span> | Doris Matsui (D) | 재출마 | <span class="md">D+29.7</span> | <span class="md">D+12.9</span> | <span class="mr">R 쪽 16.8p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-08">CA-08</a></span> | John Garamendi (D) | 재출마 | <span class="md">D+43.6</span> | <span class="md">D+33.9</span> | <span class="mr">R 쪽 9.7p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-09">CA-09</a> ★</span> | Josh Harder (D) | 재출마 | <span class="mr">R+1.8</span> | <span class="md">D+11.5</span> | <span class="md">D 쪽 13.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-13">CA-13</a> ★</span> | Adam Gray (D) | 재출마 | <span class="mr">R+5.4</span> | <span class="md">D+0.5</span> | <span class="md">D 쪽 5.9p</span> | <span class="rt rt-lean_d">Lean D</span> |
+| <span class="nw"><a href="#ca-21">CA-21</a> ★</span> | Jim Costa (D) | 재출마 | <span class="md">D+3.8</span> | <span class="md">D+6.1</span> | <span class="md">D 쪽 2.3p</span> | <span class="rt rt-likely_d">Likely D</span> |
+| <span class="nw"><a href="#ca-22">CA-22</a> ★</span> | David Valadao (R) | 재출마 | <span class="mr">R+5.8</span> | <span class="mr">R+1.8</span> | <span class="md">D 쪽 4.0p</span> | <span class="rt rt-tossup">Toss-up</span> |
+| <span class="nw"><a href="#ca-25">CA-25</a> ★</span> | Raul Ruiz (D) | 재출마 | <span class="md">D+2.5</span> | <span class="md">D+5.8</span> | <span class="md">D 쪽 3.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-27">CA-27</a> ★</span> | George Whitesides (D) | 재출마 | <span class="md">D+3.9</span> | <span class="md">D+9.6</span> | <span class="md">D 쪽 5.7p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-31">CA-31</a> ★</span> | Gil Cisneros (D) | 재출마 | <span class="md">D+16.9</span> | <span class="md">D+12.3</span> | <span class="mr">R 쪽 4.6p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-32">CA-32</a></span> | Brad Sherman (D) | 재출마 | <span class="md">D+31.3</span> | <span class="md">D+25</span> | <span class="mr">R 쪽 6.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-35">CA-35</a></span> | Norma Torres (D) | 재출마 | <span class="md">D+10.3</span> | <span class="md">D+7.8</span> | <span class="mr">R 쪽 2.5p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-38">CA-38</a> ★</span> | Linda Sánchez (D) | 다른 구 출마(CA-41) | <span class="md">D+16.1</span> | <span class="md">D+12.3</span> | <span class="mr">R 쪽 3.8p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-40">CA-40</a> ★</span> | Young Kim (R) | 재출마 (Ken Calvert와 현역 간 대결) | <span class="mr">R+2.3</span> | <span class="mr">R+12.2</span> | <span class="mr">R 쪽 9.9p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#ca-41">CA-41</a> ★</span> | Ken Calvert (R) | 다른 구 출마(CA-40) | <span class="mr">R+5.9</span> | <span class="md">D+14.3</span> | <span class="md">D 쪽 20.2p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-42">CA-42</a> ★</span> | Robert Garcia (D) | 재출마 | <span class="md">D+32.4</span> | <span class="md">D+13.1</span> | <span class="mr">R 쪽 19.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-45">CA-45</a> ★</span> | Derek Tran (D) | 재출마 | <span class="md">D+1.5</span> | <span class="md">D+3.9</span> | <span class="md">D 쪽 2.4p</span> | <span class="rt rt-likely_d">Likely D</span> |
+| <span class="nw"><a href="#ca-47">CA-47</a> ★</span> | Dave Min (D) | 재출마 | <span class="md">D+4.2</span> | <span class="md">D+10.1</span> | <span class="md">D 쪽 5.9p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-48">CA-48</a> ★</span> | Darrell Issa (R) | 은퇴 (2026-03-06 발표) | <span class="mr">R+15.3</span> | <span class="md">D+3.1</span> | <span class="md">D 쪽 18.4p</span> | <span class="rt rt-lean_d">Lean D</span> |
+| <span class="nw"><a href="#ca-49">CA-49</a> ★</span> | Mike Levin (D) | 재출마 | <span class="md">D+7.8</span> | <span class="md">D+12.1</span> | <span class="md">D 쪽 4.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-50">CA-50</a></span> | Scott Peters (D) | 재출마 | <span class="md">D+29.6</span> | <span class="md">D+18.3</span> | <span class="mr">R 쪽 11.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-51">CA-51</a></span> | Sara Jacobs (D) | 재출마 | <span class="md">D+23.5</span> | <span class="md">D+18.4</span> | <span class="mr">R 쪽 5.1p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#ca-52">CA-52</a></span> | Juan Vargas (D) | 재출마 | <span class="md">D+21.2</span> | <span class="md">D+17.6</span> | <span class="mr">R 쪽 3.6p</span> | <span class="rt rt-solid_d">Solid D</span> |
 
 <p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
 

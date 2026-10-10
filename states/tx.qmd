@@ -36,26 +36,26 @@ subtitle: "지도 변화와 영향 지역구"
 
 | 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
 |-------|-----------|----------------|------:|------:|---------|--------|
-| [TX-03](#tx-03) | Keith Self (R) | 재출마 | <span class="mr">R+20.0</span> | <span class="mr">R+23.3</span> | <span class="mr">R 쪽 3.4p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-04](#tx-04) | Pat Fallon (R) | 재출마 | <span class="mr">R+32.5</span> | <span class="mr">R+24.6</span> | <span class="md">D 쪽 7.8p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-05](#tx-05) | Lance Gooden (R) | 재출마 | <span class="mr">R+27.0</span> | <span class="mr">R+21.6</span> | <span class="md">D 쪽 5.5p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-06](#tx-06) | Jake Ellzey (R) | 재출마 | <span class="mr">R+28.4</span> | <span class="mr">R+22.9</span> | <span class="md">D 쪽 5.6p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-08](#tx-08) | Morgan Luttrell (R) | 은퇴 | <span class="mr">R+33.9</span> | <span class="mr">R+27.6</span> | <span class="md">D 쪽 6.2p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-09](#tx-09) ★ | Al Green (D) | 다른 구 출마(TX-18) → 민주 결선에서 Menefee에 패배 | <span class="md">D+44.0</span> | <span class="mr">R+19.9</span> | <span class="mr">R 쪽 63.9p</span> | <span class="rt rt-likely_r">Likely R</span> |
-| [TX-11](#tx-11) | August Pfluger (R) | 재출마 | <span class="mr">R+45.4</span> | <span class="mr">R+34.3</span> | <span class="md">D 쪽 11.1p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-14](#tx-14) | Randy Weber (R) | 재출마 | <span class="mr">R+34.0</span> | <span class="mr">R+24.3</span> | <span class="md">D 쪽 9.8p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-17](#tx-17) | Pete Sessions (R) | 재출마 | <span class="mr">R+29.2</span> | <span class="mr">R+21.6</span> | <span class="md">D 쪽 7.6p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-18](#tx-18) | Christian Menefee (D) | 재출마(동족대결 승리) | <span class="md">D+39.8</span> | <span class="md">D+54.9</span> | <span class="md">D 쪽 15.1p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [TX-20](#tx-20) | Joaquin Castro (D) | 재출마 | <span class="md">D+21.2</span> | <span class="md">D+28.4</span> | <span class="md">D 쪽 7.2p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [TX-25](#tx-25) | Roger Williams (R) | 재출마 | <span class="mr">R+36.3</span> | <span class="mr">R+24.1</span> | <span class="md">D 쪽 12.2p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-27](#tx-27) | Michael Cloud (R) | 재출마 | <span class="mr">R+29.6</span> | <span class="mr">R+21.2</span> | <span class="md">D 쪽 8.5p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-28](#tx-28) ★ | Henry Cuellar (D) | 재출마 | <span class="mr">R+7.3</span> | <span class="mr">R+10.4</span> | <span class="mr">R 쪽 3.1p</span> | <span class="rt rt-lean_d">Lean D</span> |
-| [TX-29](#tx-29) | Sylvia Garcia (D) | 재출마 | <span class="md">D+20.4</span> | <span class="md">D+30.4</span> | <span class="md">D 쪽 10.0p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [TX-32](#tx-32) ★ | Julie Johnson (D) | 다른 구 출마(TX-33) → 민주 결선에서 Colin Allre… | <span class="md">D+23.6</span> | <span class="mr">R+17.7</span> | <span class="mr">R 쪽 41.3p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-34](#tx-34) ★ | Vicente Gonzalez (D) | 재출마 | <span class="mr">R+4.4</span> | <span class="mr">R+10.1</span> | <span class="mr">R 쪽 5.7p</span> | <span class="rt rt-tossup">Toss-up</span> |
-| [TX-35](#tx-35) ★ | Greg Casar (D) | 다른 구 출마(TX-37) | <span class="md">D+33.5</span> | <span class="mr">R+10.4</span> | <span class="mr">R 쪽 43.9p</span> | <span class="rt rt-lean_r">Lean R</span> |
-| [TX-36](#tx-36) | Brian Babin (R) | 재출마 | <span class="mr">R+36.8</span> | <span class="mr">R+24.9</span> | <span class="md">D 쪽 11.8p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TX-37](#tx-37) | Lloyd Doggett (D) | 은퇴 | <span class="md">D+49</span> | <span class="md">D+56.2</span> | <span class="md">D 쪽 7.2p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#tx-03">TX-03</a></span> | Keith Self (R) | 재출마 | <span class="mr">R+20.0</span> | <span class="mr">R+23.3</span> | <span class="mr">R 쪽 3.4p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-04">TX-04</a></span> | Pat Fallon (R) | 재출마 | <span class="mr">R+32.5</span> | <span class="mr">R+24.6</span> | <span class="md">D 쪽 7.8p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-05">TX-05</a></span> | Lance Gooden (R) | 재출마 | <span class="mr">R+27.0</span> | <span class="mr">R+21.6</span> | <span class="md">D 쪽 5.5p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-06">TX-06</a></span> | Jake Ellzey (R) | 재출마 | <span class="mr">R+28.4</span> | <span class="mr">R+22.9</span> | <span class="md">D 쪽 5.6p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-08">TX-08</a></span> | Morgan Luttrell (R) | 은퇴 | <span class="mr">R+33.9</span> | <span class="mr">R+27.6</span> | <span class="md">D 쪽 6.2p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-09">TX-09</a> ★</span> | Al Green (D) | 다른 구 출마(TX-18) → 민주 결선에서 Menefee에 패배 | <span class="md">D+44.0</span> | <span class="mr">R+19.9</span> | <span class="mr">R 쪽 63.9p</span> | <span class="rt rt-likely_r">Likely R</span> |
+| <span class="nw"><a href="#tx-11">TX-11</a></span> | August Pfluger (R) | 재출마 | <span class="mr">R+45.4</span> | <span class="mr">R+34.3</span> | <span class="md">D 쪽 11.1p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-14">TX-14</a></span> | Randy Weber (R) | 재출마 | <span class="mr">R+34.0</span> | <span class="mr">R+24.3</span> | <span class="md">D 쪽 9.8p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-17">TX-17</a></span> | Pete Sessions (R) | 재출마 | <span class="mr">R+29.2</span> | <span class="mr">R+21.6</span> | <span class="md">D 쪽 7.6p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-18">TX-18</a></span> | Christian Menefee (D) | 재출마(동족대결 승리) | <span class="md">D+39.8</span> | <span class="md">D+54.9</span> | <span class="md">D 쪽 15.1p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#tx-20">TX-20</a></span> | Joaquin Castro (D) | 재출마 | <span class="md">D+21.2</span> | <span class="md">D+28.4</span> | <span class="md">D 쪽 7.2p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#tx-25">TX-25</a></span> | Roger Williams (R) | 재출마 | <span class="mr">R+36.3</span> | <span class="mr">R+24.1</span> | <span class="md">D 쪽 12.2p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-27">TX-27</a></span> | Michael Cloud (R) | 재출마 | <span class="mr">R+29.6</span> | <span class="mr">R+21.2</span> | <span class="md">D 쪽 8.5p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-28">TX-28</a> ★</span> | Henry Cuellar (D) | 재출마 | <span class="mr">R+7.3</span> | <span class="mr">R+10.4</span> | <span class="mr">R 쪽 3.1p</span> | <span class="rt rt-lean_d">Lean D</span> |
+| <span class="nw"><a href="#tx-29">TX-29</a></span> | Sylvia Garcia (D) | 재출마 | <span class="md">D+20.4</span> | <span class="md">D+30.4</span> | <span class="md">D 쪽 10.0p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#tx-32">TX-32</a> ★</span> | Julie Johnson (D) | 다른 구 출마(TX-33) → 민주 결선에서 Colin Allre… | <span class="md">D+23.6</span> | <span class="mr">R+17.7</span> | <span class="mr">R 쪽 41.3p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-34">TX-34</a> ★</span> | Vicente Gonzalez (D) | 재출마 | <span class="mr">R+4.4</span> | <span class="mr">R+10.1</span> | <span class="mr">R 쪽 5.7p</span> | <span class="rt rt-tossup">Toss-up</span> |
+| <span class="nw"><a href="#tx-35">TX-35</a> ★</span> | Greg Casar (D) | 다른 구 출마(TX-37) | <span class="md">D+33.5</span> | <span class="mr">R+10.4</span> | <span class="mr">R 쪽 43.9p</span> | <span class="rt rt-lean_r">Lean R</span> |
+| <span class="nw"><a href="#tx-36">TX-36</a></span> | Brian Babin (R) | 재출마 | <span class="mr">R+36.8</span> | <span class="mr">R+24.9</span> | <span class="md">D 쪽 11.8p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tx-37">TX-37</a></span> | Lloyd Doggett (D) | 은퇴 | <span class="md">D+49</span> | <span class="md">D+56.2</span> | <span class="md">D 쪽 7.2p</span> | <span class="rt rt-solid_d">Solid D</span> |
 
 <p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
 

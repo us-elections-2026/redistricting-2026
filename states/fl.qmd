@@ -36,19 +36,19 @@ subtitle: "지도 변화와 영향 지역구"
 
 | 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
 |-------|-----------|----------------|------:|------:|---------|--------|
-| [FL-08](#fl-08) | Mike Haridopolos (R) | 재출마 | <span class="mr">R+22.2</span> | <span class="mr">R+16.1</span> | <span class="md">D 쪽 6.1p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [FL-09](#fl-09) ★ | Darren Soto (D) | 재출마 | <span class="md">D+3.5</span> | <span class="mr">R+17.7</span> | <span class="mr">R 쪽 21.2p</span> | <span class="rt rt-likely_r">Likely R</span> |
-| [FL-10](#fl-10) | Maxwell Frost (D) | 재출마 | <span class="md">D+22.6</span> | <span class="md">D+23.9</span> | <span class="md">D 쪽 1.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [FL-12](#fl-12) | Gus Bilirakis (R) | 재출마 | <span class="mr">R+34.5</span> | <span class="mr">R+15.3</span> | <span class="md">D 쪽 19.1p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [FL-14](#fl-14) ★ | Kathy Castor (D) | 재출마 | <span class="md">D+7.6</span> | <span class="mr">R+10.5</span> | <span class="mr">R 쪽 18.1p</span> | <span class="rt rt-tossup">Toss-up</span> |
-| [FL-15](#fl-15) | Laurel Lee (R) | 재출마 | <span class="mr">R+11.2</span> | <span class="mr">R+19.8</span> | <span class="mr">R 쪽 8.6p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [FL-18](#fl-18) | Scott Franklin (R) | 재출마 | <span class="mr">R+29.3</span> | <span class="mr">R+16.9</span> | <span class="md">D 쪽 12.4p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [FL-20](#fl-20) | 공석(Sheila Cherfilus-McCormick 사임) (D) | 미확인 | <span class="md">D+39.5</span> | <span class="md">D+37.1</span> | <span class="mr">R 쪽 2.4p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [FL-22](#fl-22) ★ | Lois Frankel (D) | 다른 구 출마(FL-23) | <span class="md">D+5.5</span> | <span class="mr">R+10.5</span> | <span class="mr">R 쪽 16.0p</span> | <span class="rt rt-tossup">Toss-up</span> |
-| [FL-23](#fl-23) ★ | Jared Moskowitz (D) | 다른 구 출마(FL-25) | <span class="md">D+1.9</span> | <span class="md">D+13.8</span> | <span class="md">D 쪽 11.9p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [FL-24](#fl-24) | Frederica Wilson (D) | 은퇴 | <span class="md">D+29.9</span> | <span class="md">D+38.6</span> | <span class="md">D 쪽 8.7p</span> | <span class="rt rt-solid_d">Solid D</span> |
-| [FL-25](#fl-25) ★ | Debbie Wasserman Schultz (D) | 다른 구 출마(FL-20) | <span class="md">D+5.3</span> | <span class="mr">R+9.1</span> | <span class="mr">R 쪽 14.4p</span> | <span class="rt rt-tossup">Toss-up</span> |
-| [FL-26](#fl-26) | Mario Díaz-Balart (R) | 재출마 | <span class="mr">R+34.9</span> | <span class="mr">R+18.3</span> | <span class="md">D 쪽 16.5p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#fl-08">FL-08</a></span> | Mike Haridopolos (R) | 재출마 | <span class="mr">R+22.2</span> | <span class="mr">R+16.1</span> | <span class="md">D 쪽 6.1p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#fl-09">FL-09</a> ★</span> | Darren Soto (D) | 재출마 | <span class="md">D+3.5</span> | <span class="mr">R+17.7</span> | <span class="mr">R 쪽 21.2p</span> | <span class="rt rt-likely_r">Likely R</span> |
+| <span class="nw"><a href="#fl-10">FL-10</a></span> | Maxwell Frost (D) | 재출마 | <span class="md">D+22.6</span> | <span class="md">D+23.9</span> | <span class="md">D 쪽 1.3p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#fl-12">FL-12</a></span> | Gus Bilirakis (R) | 재출마 | <span class="mr">R+34.5</span> | <span class="mr">R+15.3</span> | <span class="md">D 쪽 19.1p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#fl-14">FL-14</a> ★</span> | Kathy Castor (D) | 재출마 | <span class="md">D+7.6</span> | <span class="mr">R+10.5</span> | <span class="mr">R 쪽 18.1p</span> | <span class="rt rt-tossup">Toss-up</span> |
+| <span class="nw"><a href="#fl-15">FL-15</a></span> | Laurel Lee (R) | 재출마 | <span class="mr">R+11.2</span> | <span class="mr">R+19.8</span> | <span class="mr">R 쪽 8.6p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#fl-18">FL-18</a></span> | Scott Franklin (R) | 재출마 | <span class="mr">R+29.3</span> | <span class="mr">R+16.9</span> | <span class="md">D 쪽 12.4p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#fl-20">FL-20</a></span> | 공석(Sheila Cherfilus-McCormick 사임) (D) | 미확인 | <span class="md">D+39.5</span> | <span class="md">D+37.1</span> | <span class="mr">R 쪽 2.4p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#fl-22">FL-22</a> ★</span> | Lois Frankel (D) | 다른 구 출마(FL-23) | <span class="md">D+5.5</span> | <span class="mr">R+10.5</span> | <span class="mr">R 쪽 16.0p</span> | <span class="rt rt-tossup">Toss-up</span> |
+| <span class="nw"><a href="#fl-23">FL-23</a> ★</span> | Jared Moskowitz (D) | 다른 구 출마(FL-25) | <span class="md">D+1.9</span> | <span class="md">D+13.8</span> | <span class="md">D 쪽 11.9p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#fl-24">FL-24</a></span> | Frederica Wilson (D) | 은퇴 | <span class="md">D+29.9</span> | <span class="md">D+38.6</span> | <span class="md">D 쪽 8.7p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#fl-25">FL-25</a> ★</span> | Debbie Wasserman Schultz (D) | 다른 구 출마(FL-20) | <span class="md">D+5.3</span> | <span class="mr">R+9.1</span> | <span class="mr">R 쪽 14.4p</span> | <span class="rt rt-tossup">Toss-up</span> |
+| <span class="nw"><a href="#fl-26">FL-26</a></span> | Mario Díaz-Balart (R) | 재출마 | <span class="mr">R+34.9</span> | <span class="mr">R+18.3</span> | <span class="md">D 쪽 16.5p</span> | <span class="rt rt-solid_r">Solid R</span> |
 
 <p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
 

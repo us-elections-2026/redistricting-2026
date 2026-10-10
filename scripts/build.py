@@ -258,7 +258,7 @@ def build_state(st):
     p.append("| 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (" + COOK["dates"][-1][5:] + ") |\n|-------|-----------|----------------|------:|------:|---------|--------|")
     for d in sorted(ds, key=lambda d: int(d["district"].split("-")[1])):
         cd = d["district"]
-        name = f'[{cd}](#{cd.lower()})' + (" ★" if cd in trend else "")
+        name = f'<span class="nw"><a href="#{cd.lower()}">{cd}</a>' + (" ★" if cd in trend else "") + "</span>"
         p.append(f'| {name} | {cell(d.get("incumbent"))} ({cell(d.get("incumbent_party"))}) | {cell(short(d.get("incumbent_2026"), 36))} | '
                  f'{mfmt(d.get("old_pres_margin_2024"))} | {mfmt(d.get("new_pres_margin_2024"))} | '
                  f'{delta(d.get("old_pres_margin_2024"), d.get("new_pres_margin_2024"))} | {badge(cook_now(cd))} |')

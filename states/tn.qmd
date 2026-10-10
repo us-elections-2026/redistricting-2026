@@ -36,11 +36,11 @@ subtitle: "지도 변화와 영향 지역구"
 
 | 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
 |-------|-----------|----------------|------:|------:|---------|--------|
-| [TN-04](#tn-04) | Scott DesJarlais (R) | 재출마 | <span class="mr">R+43.6</span> | <span class="mr">R+23.9</span> | <span class="md">D 쪽 19.6p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TN-05](#tn-05) | Andy Ogles (R) | 낙선(예비선거) | <span class="mr">R+17.9</span> | <span class="mr">R+23.1</span> | <span class="mr">R 쪽 5.2p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TN-06](#tn-06) | John Rose (R) | 다른 직 출마(주지사) | <span class="mr">R+35.2</span> | <span class="mr">R+26.5</span> | <span class="md">D 쪽 8.6p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TN-08](#tn-08) | David Kustoff (R) | 재출마 | <span class="mr">R+41.6</span> | <span class="mr">R+20.1</span> | <span class="md">D 쪽 21.5p</span> | <span class="rt rt-solid_r">Solid R</span> |
-| [TN-09](#tn-09) ★ | Steve Cohen (D) | 은퇴 | <span class="md">D+42.7</span> | <span class="mr">R+21.1</span> | <span class="mr">R 쪽 63.8p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tn-04">TN-04</a></span> | Scott DesJarlais (R) | 재출마 | <span class="mr">R+43.6</span> | <span class="mr">R+23.9</span> | <span class="md">D 쪽 19.6p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tn-05">TN-05</a></span> | Andy Ogles (R) | 낙선(예비선거) | <span class="mr">R+17.9</span> | <span class="mr">R+23.1</span> | <span class="mr">R 쪽 5.2p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tn-06">TN-06</a></span> | John Rose (R) | 다른 직 출마(주지사) | <span class="mr">R+35.2</span> | <span class="mr">R+26.5</span> | <span class="md">D 쪽 8.6p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tn-08">TN-08</a></span> | David Kustoff (R) | 재출마 | <span class="mr">R+41.6</span> | <span class="mr">R+20.1</span> | <span class="md">D 쪽 21.5p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#tn-09">TN-09</a> ★</span> | Steve Cohen (D) | 은퇴 | <span class="md">D+42.7</span> | <span class="mr">R+21.1</span> | <span class="mr">R 쪽 63.8p</span> | <span class="rt rt-solid_r">Solid R</span> |
 
 <p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
 

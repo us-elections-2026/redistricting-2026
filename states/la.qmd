@@ -36,8 +36,8 @@ subtitle: "지도 변화와 영향 지역구"
 
 | 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
 |-------|-----------|----------------|------:|------:|---------|--------|
-| [LA-02](#la-02) | Troy Carter (D) | 재출마 | <span class="na">미확인</span> | <span class="na">미확인</span> | — | <span class="rt rt-solid_d">Solid D</span> |
-| [LA-06](#la-06) ★ | Cleo Fields (D) | 은퇴 | <span class="md">D+15</span> | <span class="mr">R+32</span> | <span class="mr">R 쪽 47.0p</span> | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#la-02">LA-02</a></span> | Troy Carter (D) | 재출마 | <span class="na">미확인</span> | <span class="na">미확인</span> | — | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#la-06">LA-06</a> ★</span> | Cleo Fields (D) | 은퇴 | <span class="md">D+15</span> | <span class="mr">R+32</span> | <span class="mr">R 쪽 47.0p</span> | <span class="rt rt-solid_r">Solid R</span> |
 
 <p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
 

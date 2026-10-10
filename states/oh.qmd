@@ -36,9 +36,9 @@ subtitle: "지도 변화와 영향 지역구"
 
 | 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
 |-------|-----------|----------------|------:|------:|---------|--------|
-| [OH-01](#oh-01) ★ | Greg Landsman (D) | 재출마 | <span class="md">D+7</span> | <span class="mr">R+3</span> | <span class="mr">R 쪽 10.0p</span> | <span class="rt rt-lean_d">Lean D</span> |
-| [OH-09](#oh-09) ★ | Marcy Kaptur (D) | 재출마 | <span class="mr">R+6.7</span> | <span class="mr">R+10.6</span> | <span class="mr">R 쪽 3.9p</span> | <span class="rt rt-tossup">Toss-up</span> |
-| [OH-13](#oh-13) ★ | Emilia Sykes (D) | 재출마 | <span class="md">D+0.1</span> | <span class="md">D+3</span> | <span class="md">D 쪽 2.9p</span> | <span class="rt rt-likely_d">Likely D</span> |
+| <span class="nw"><a href="#oh-01">OH-01</a> ★</span> | Greg Landsman (D) | 재출마 | <span class="md">D+7</span> | <span class="mr">R+3</span> | <span class="mr">R 쪽 10.0p</span> | <span class="rt rt-lean_d">Lean D</span> |
+| <span class="nw"><a href="#oh-09">OH-09</a> ★</span> | Marcy Kaptur (D) | 재출마 | <span class="mr">R+6.7</span> | <span class="mr">R+10.6</span> | <span class="mr">R 쪽 3.9p</span> | <span class="rt rt-tossup">Toss-up</span> |
+| <span class="nw"><a href="#oh-13">OH-13</a> ★</span> | Emilia Sykes (D) | 재출마 | <span class="md">D+0.1</span> | <span class="md">D+3</span> | <span class="md">D 쪽 2.9p</span> | <span class="rt rt-likely_d">Likely D</span> |
 
 <p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
 

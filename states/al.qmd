@@ -36,9 +36,9 @@ Callais 판결 뒤 아이비 주지사가 특별회기를 소집해 기존 금�
 
 | 구 | 현역 | 현역 2026 | 구 지도 | 신 지도 | 변화 | Cook (09-25) |
 |-------|-----------|----------------|------:|------:|---------|--------|
-| [AL-01](#al-01) | Barry Moore (R) | 다른 선거 출마(연방상원) | <span class="na">미확인</span> | <span class="na">미확인</span> | — | <span class="rt rt-solid_r">Solid R</span> |
-| [AL-02](#al-02) ★ | Shomari Figures (D) | 재출마 | <span class="md">D+7</span> | <span class="mr">R+15</span> | <span class="mr">R 쪽 22.0p</span> | <span class="rt rt-likely_r">Likely R</span> |
-| [AL-07](#al-07) | Terri Sewell (D) | 재출마 | <span class="md">D+23</span> | <span class="md">D+17</span> | <span class="mr">R 쪽 6.0p</span> | <span class="rt rt-solid_d">Solid D</span> |
+| <span class="nw"><a href="#al-01">AL-01</a></span> | Barry Moore (R) | 다른 선거 출마(연방상원) | <span class="na">미확인</span> | <span class="na">미확인</span> | — | <span class="rt rt-solid_r">Solid R</span> |
+| <span class="nw"><a href="#al-02">AL-02</a> ★</span> | Shomari Figures (D) | 재출마 | <span class="md">D+7</span> | <span class="mr">R+15</span> | <span class="mr">R 쪽 22.0p</span> | <span class="rt rt-likely_r">Likely R</span> |
+| <span class="nw"><a href="#al-07">AL-07</a></span> | Terri Sewell (D) | 재출마 | <span class="md">D+23</span> | <span class="md">D+17</span> | <span class="mr">R 쪽 6.0p</span> | <span class="rt rt-solid_d">Solid D</span> |
 
 <p class="note">마진 = 2024 대선 표를 구·신 경계로 각각 다시 집계한 해리스–트럼프 차이(선거를 다시 한 값이 아님). ★ = [지역구 추세](../trends.qmd) 추적 대상. Cook 등급은 270toWin 재게시판 자동 취득 스냅샷.</p>
 
